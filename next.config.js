@@ -7,11 +7,12 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/blog',
+/*  basePath: '/blog',
   assetPrefix: '/blog/',
   publicRuntimeConfig: {
     basePath: "/blog",
-  },
+  },*/
+ 
 };
 
 module.exports = nextConfig;

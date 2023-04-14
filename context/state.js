@@ -4,6 +4,7 @@ import posts from "../.json/posts.json";
 const SearchContext = createContext();
 
 export const JsonContext = ({ children }) => {
+
   const state = {
     posts,
   };

@@ -1,13 +1,13 @@
 {
   "site": {
-    "title": "Geeky Nextjs",
+    "title": "Free Network Monitor Blog",
     "base_url": "/",
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_white": "/images/logo-light.png",
+    "logo": "/img/logo.png",
+    "logo_white": "/img/logo.png",
     "logo_width": "150",
     "logo_height": "39",
-    "logo_text": "Geeky"
+    "logo_text": "Free Network Monitor Logo"
   },
   "settings": {
     "theme_switcher": true,
@@ -18,18 +18,18 @@
   },
   "params": {
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amt, conse adip iscing. donec iaculis tempasus laoreet. Libero ullam rgscper.",
-    "copyright": "Designed and Developed By [Statichunt](https://statichunt.com/)"
+    "footer_content": "Free Network Monitor Blog Footer.",
+    "copyright": "Designed and Developed By [Mahadeva](https://www.mahadeva.co.uk/)"
   },
   "metadata": {
-    "meta_author": "Statichunt",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "Geeky Nextjs Personal Blog Template"
+    "meta_author": "Mahadeva",
+    "meta_image": "/img/logo.png",
+    "meta_description": "Free Network Monitor Blog"
   },
   "widgets": {
     "about": {
       "enable": true,
-      "content": "Lorem ipsum dolor sit amet, conse tfctetur adipiscing elit. Vel in in donec iaculis tempasus odio nunc laoreet . Libero ullam rgscorper."
+      "content": "Free Network Monitor Blog About."
     },
     "featured_posts": {
       "enable": true,
@@ -43,7 +43,7 @@
     "newsletter": {
       "enable": true,
       "title": "Newsletter",
-      "content": "Join thousands of Tiny Salt subscribers and get our best recipes delivered each week!",
+      "content": "Join thousands of Free Network Monitor subscribers and get our best articles delivered each week!",
       "privacy_policy_page": "#",
       "malichipm_url": ""
     }
