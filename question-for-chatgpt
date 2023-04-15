@@ -1,19 +1,19 @@
-convert this list into a json array. Each row of the array has fields content, date and categories. The content is taken from the given list.The date is in universal storable format. The categories field is a an array with one string value. the string value can choose with category you think content is in. choose from these categories (Quantum Computing
+convert this list into a json array. Each row of the array has fields content, date and categories. The content is taken from the given list.The date is in universal storable format. Choose dates randomly from the past two weeks. The categories field is  an array with string values. the string values can you choose which category the content belongs to from these categories. The first category being the strongest match.
+(Quantum Computing
 Network Security
-Website Performance
+Website
 Network Monitoring
 Cybersecurity
-Best Practices
-SEO ):
+Best Practices):
 
 
 The Intersection of Quantum Readiness and Network Security: Ensuring Your Business is Prepared for the Future 
- 5 Key Metrics for Monitoring Your Network's Performance and Security 
+ 10 Key Metrics for Monitoring Your Network's Performance and Security 
  Why Website Performance is Crucial for User Experience
  The Role of Quantum Computing in Cybersecurity: Opportunities and Challenges 
  The Importance of Network Monitoring for Early Detection and Prevention of Cyber Attacks 
  Quantum Computing: A Game Changer for Network Security? 
- 5 Best Practices for Maintaining Network Security and Quantum Readiness 
+ 10 Best Practices for Maintaining Network Security and Quantum Readiness 
  Improving Website Performance: Tips and Tricks for Faster Load Times and Better User Experience 
 How Network Monitoring Can Help Improve Website Performance 
  Quantum Readiness in the Age of Cyber Warfare: What Businesses Need to Know 
