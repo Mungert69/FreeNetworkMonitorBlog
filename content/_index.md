@@ -1,8 +1,8 @@
 ---
 banner:
   title: Welcome **!**
-  title_small: "to John Bravo's Blog"
-  content: Are Developer and recently started your own business Already made website to ensure presence wants to develop.
+  title_small: "to Free Network Monitor Blog"
+  content: Update to date information on Network monitoring, website security and the Quantum revolution.
   image: /images/banner-author.png
   button:
     label: Know About Me
