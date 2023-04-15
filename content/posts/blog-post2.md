@@ -1,5 +1,5 @@
 ---
-title: 
+title: blog-post2
 date: 2023-04-15T17:31:39.258497
 image: 
 categories: ["Test"]

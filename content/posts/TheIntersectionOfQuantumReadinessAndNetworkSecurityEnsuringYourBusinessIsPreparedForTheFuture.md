@@ -6,16 +6,29 @@ categories: ["Quantum Computing", "Network Security"]
 featured: false
 draft: false
 ---
-As the world becomes increasingly digital and interconnected, businesses are facing new and complex challenges related to both quantum readiness and network security. Quantum computing technology has the potential to revolutionize the way we process and transmit data, but it also poses a serious threat to the security of traditional encryption methods that are currently in use.
+Quantum computing has been the buzzword of the tech industry for a few years now, and it's not difficult to see why. Quantum computers have the potential to solve problems that would take traditional computers thousands or even millions of years to solve. However, this potential comes with some challenges, particularly when it comes to network security.
 
-To stay ahead of these challenges, businesses need to focus on preparing for the future by implementing strong network security measures and ensuring quantum readiness. Here are some key steps to consider:
+The power of quantum computing lies in its ability to process data in parallel rather than sequentially like classical computers do. This means that quantum computers can quickly crack some of the encryption codes that are currently used by businesses and governments around the world.
 
-1. Implement strong network security measures: Businesses need to prioritize network security by adopting strong encryption standards, regularly updating software and hardware, and establishing strict security protocols for employees. Robust firewalls, intrusion detection and prevention systems, and strong authentication mechanisms are also essential for protecting against cyber threats.
+To understand how this works, let's first look at how encryption works on classical computers. Encryption is essentially a mathematical algorithm that scrambles data so that it cannot be read by anyone other than those who have the key to decrypt it. The current standard for encryption is called RSA, which stands for Rivest-Shamir-Adleman after its creators.
 
-2. Adopt quantum-resistant encryption methods: As quantum computing technology continues to advance, businesses need to start preparing for the possibility of quantum attacks on their data. This means adopting new encryption methods that are resistant to quantum attacks, such as lattice-based and code-based cryptography.
+RSA uses large prime numbers as part of its encryption process. It relies on the fact that factoring large numbers into their prime factors takes an impractical amount of time with current technology but can be done relatively easily with quantum computing due to its ability to perform calculations in parallel.
 
-3. Invest in quantum technology research and development: Businesses should stay up-to-date with the latest developments in quantum technology and invest in research and development to explore potential applications and security implications. This will help them stay ahead of the curve and be better prepared for future challenges.
+This means that if someone were able to build a working quantum computer before our current cryptographic methods get updated accordingly (re-factored) then all encrypted information transmitted using RSA could potentially be at risk within minutes/hours depending upon the number/size of keys involved along with complexity/thoroughness levels during any factorization attempts..
 
-4. Develop a comprehensive quantum readiness plan: Businesses need to develop a comprehensive quantum readiness plan that includes regular risk assessments, training for employees, and contingency plans for potential quantum attacks. This plan should also include strategies for upgrading encryption methods and other security measures as needed.
+So what does this all mean for network security? Businesses and organizations need not panic immediately about having their institutions' information compromised through cryptography however they should begin preparing now for ways they will secure their networks against future threats from hackers equipped with these kinds of powerful tools coming over time.
+ 
+Despite being regarded as experimental today there is already talk among credible experts within computer science circles about practically applying post-quantum (newer encryption techniques that are resistant to quantum attacks) cryptography even alongside traditional forms of encryption for maximum security.
 
-In conclusion, the intersection of quantum readiness and network security is a critical issue for businesses today. By adopting strong network security measures, adopting quantum-resistant encryption methods, investing in quantum technology research and development, and developing a comprehensive quantum readiness plan, businesses can ensure they are prepared for the future and able to protect their data from emerging threats.
+
+However, the best approach is a complete strategy targeting every aspect of network security from physical infrastructure - such as servers and client devices using various hardware and software solutions with high level cyber-security measures in place- to human resources by training employees on how they can remain safe when accessing sensitive data.
+
+One promising area is post-quantum cryptography which involves new algorithms designed specifically to resist quantum computing based threats. These algorithms use different mathematical concepts rather than relying solely on prime numbers. However it also cost more than typical classical cryptography.
+
+
+It's imperative that businesses start preparing for the future now by implementing strong security measures across their networks. This includes protecting against all possible types of cyberattacks, including those involving quantum computers.
+
+One especially worthy investment may be "Quantum Key Distribution" or QKD systems which enable secure key generation and sharing between trusted parties regardless of distance constraints involved;  often considering this offline protocol as "unhackable."
+
+
+In conclusion, while we cannot predict exactly when fully functional Quantum Computers will become available we know that their effect would be catastrophic if not adequately prepared beforehand due to the massive speed-up these machines provide in analyzing enormous amounts of data/cryptographic keys simultaneously compared with classical computers. Businesses should start taking steps towards ensuring their cybersecurity strategies can withstand any potential weaknesses brought about by future technological advancements like Quantum Computing before it arrives so your business remains ahead of emerging risks today!
