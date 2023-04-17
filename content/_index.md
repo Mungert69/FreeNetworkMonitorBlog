@@ -6,7 +6,7 @@ banner:
   image: /img/logo.svg
   button:
     label: Free Network Monitor
-    link: ../
+    link: "https://freenetworkmonitor.click"
     rel: ""
 
 featured_posts:
@@ -16,7 +16,7 @@ featured_posts:
 promotion:
   enable: false
   image: /img/monitor-screen.gif
-  link: "../"
+  link: "https://freenetworkmonitor.click"
 
 recent_posts:
   title: Recent Posts
