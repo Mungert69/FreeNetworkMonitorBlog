@@ -1,16 +1,12 @@
 {
   "main": [
     {
+      "name": "Main Site",
+      "url": "../"
+    },
+    {
       "name": "Home",
       "url": "/"
-    },
-    {
-      "name": "About",
-      "url": "/about"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
     },
     {
       "name": "Contact",
@@ -32,10 +28,6 @@
     {
       "name": "Home",
       "url": "/"
-    },
-    {
-      "name": "About",
-      "url": "/about"
     },
     {
       "name": "Contact",

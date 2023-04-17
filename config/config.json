@@ -5,8 +5,8 @@
     "favicon": "/images/favicon.png",
     "logo": "/img/logo.png",
     "logo_white": "/img/logo.png",
-    "logo_width": "150",
-    "logo_height": "39",
+    "logo_width": "41",
+    "logo_height": "27",
     "logo_text": "Free Network Monitor Logo"
   },
   "settings": {
@@ -18,7 +18,7 @@
   },
   "params": {
     "tag_manager_id": "",
-    "footer_content": "Free Network Monitor Blog Footer.",
+    "footer_content": "Free Network Monitor Blog.",
     "copyright": "Designed and Developed By [Mahadeva](https://www.mahadeva.co.uk/)"
   },
   "metadata": {
@@ -29,7 +29,7 @@
   "widgets": {
     "about": {
       "enable": true,
-      "content": "Free Network Monitor Blog About."
+      "content": "Don't forget to check out our social media channels for even more tech updates and insights! Follow us on Twitter, LinkedIn, and Githit for exclusive content and behind-the-scenes looks at our products. Don't miss out on the conversation - connect with us today!"
     },
     "featured_posts": {
       "enable": true,

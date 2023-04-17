@@ -2,11 +2,11 @@
 banner:
   title: Welcome **!**
   title_small: "to Free Network Monitor Blog"
-  content: Update to date information on Network monitoring, website security and the Quantum revolution.
-  image: /images/banner-author.png
+  content: Welcome to our tech blog! Stay ahead of the curve with the latest insights in cybersecurity, network monitoring, website development, and more. Our experts bring you exciting tips, tricks, and trends, empowering you in today's digital landscape.
+  image: /img/logo.svg
   button:
-    label: Know About Me
-    link: /about
+    label: Free Network Monitor
+    link: ../
     rel: ""
 
 featured_posts:
@@ -14,9 +14,9 @@ featured_posts:
   title: Featured Posts
 
 promotion:
-  enable: true
-  image: /images/promotion.png
-  link: "#"
+  enable: false
+  image: /img/monitor-screen.gif
+  link: "../"
 
 recent_posts:
   title: Recent Posts

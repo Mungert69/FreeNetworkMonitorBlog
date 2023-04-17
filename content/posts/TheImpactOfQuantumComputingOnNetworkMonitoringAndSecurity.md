@@ -3,7 +3,7 @@ title: The Impact Of Quantum Computing On Network Monitoring And Security
 date: 2023-04-14T04:39:22
 image: /blogpics/NetworkMonitoring/circuit-board-1709188_1920.png
 categories: ["Quantum Computing", "Network Monitoring", "Network Security"]
-featured: false
+featured: true
 draft: false
 ---
 Quantum computing has been a topic of discussion in the tech industry for quite some time. The idea behind quantum computers is that they use qubits instead of traditional bits, allowing them to perform calculations at an exponential rate. While quantum computing is still in its infancy, many experts predict that it will revolutionize industries across the board, including network monitoring and security.
