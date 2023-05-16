@@ -3,7 +3,7 @@ title: The Role Of Quantum Computing In Cybersecurity Opportunities And Challeng
 date: 2023-04-08T08:45:55
 image: /blogpics/Cybersecurity/code-1076536_1920.jpg
 categories: ["Quantum Computing", "Cybersecurity"]
-featured: false
+featured: true
 draft: false
 ---
 In recent years, there has been a growing interest in the role of quantum computing in cybersecurity. This emerging technology promises to revolutionize the field of encryption and make it even more secure than ever before. While there are many opportunities associated with quantum computing for cybersecurity, there are also significant challenges that must be addressed.

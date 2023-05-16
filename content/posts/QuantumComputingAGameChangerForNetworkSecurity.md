@@ -3,7 +3,7 @@ title: Quantum Computing A Game Changer For Network Security
 date: 2023-04-10T06:27:08
 image: /blogpics/QuantumComputing/blockchain-3537389_1920.jpg
 categories: ["Quantum Computing", "Network Security"]
-featured: false
+featured: true
 draft: false
 ---
 Quantum computing is a relatively new field that has been gaining popularity over the past few years. The technology promises to revolutionize many aspects of modern life, including network security. However, before we dive into how quantum computing can improve network security, let's first understand what it is.
