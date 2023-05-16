@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Set the root directory where the folders are located
+root_directory="./blogpics"
+
+# Find all folders within the root directory
+find "$root_directory" -type d | while read -r folder; do
+
+  # Find all image files within each folder
+  find "$folder" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) | while read -r image; do
+
+    # Get the filename and extension
+    filename=$(basename "$image")
+    extension="${filename##*.}"
+
+    # Set the output filename with resized suffix
+    output_filename="${filename%.*}.${extension}"
+
+    # Resize the image using ImageMagick
+    convert "$image" -resize x300 "$folder/$output_filename"
+
+    echo "Resized: $folder/$filename -> $folder/$output_filename"
+  done
+done
+
