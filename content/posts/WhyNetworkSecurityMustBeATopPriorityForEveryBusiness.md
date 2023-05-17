@@ -3,7 +3,7 @@ title: Why Network Security Must Be A Top Priority For Every Business
 date: 2023-04-12T12:17:01
 image: /blogpics/NetworkSecurity/keyboard-5017973_1920.jpg
 categories: ["Network Security"]
-featured: false
+featured: true
 draft: false
 ---
 Network security has always been crucial for businesses of all sizes, but in today's digital age, it is more important than ever. With hackers constantly seeking new ways to exploit vulnerabilities online and cybercrime on the rise worldwide, organizations that fail to prioritize network security are putting their sensitive data at risk.

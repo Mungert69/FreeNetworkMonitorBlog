@@ -3,7 +3,7 @@ title: Boosting Website Performance The Importance Of Optimizing Images And Vide
 date: 2023-04-09T07:05:49
 image: /blogpics/Website/internet-3484137_1920.jpg
 categories: ["Website"]
-featured: false
+featured: true
 draft: false
 ---
 In today's fast-paced digital world, website speed and performance are crucial factors for businesses looking to attract and retain customers online. With the ever-increasing demand for high-quality visuals, websites are becoming more image and video-heavy than ever before, which can impact their loading time significantly.

@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "NODE_OPTIONS='--inspect' node lib/jsonGenerator.js && next dev",
     "build": "node lib/jsonGenerator.js && next build",
-    "export": "next build && next export",
+    "export": "node lib/jsonGenerator.js && next build && next export",
     "lint": "next lint",
     "start": "next start"
   },

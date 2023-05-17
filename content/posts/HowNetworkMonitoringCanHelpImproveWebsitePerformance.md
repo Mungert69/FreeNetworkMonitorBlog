@@ -3,7 +3,7 @@ title: How Network Monitoring Can Help Improve Website Performance
 date: 2023-04-08T14:56:07
 image: /blogpics/NetworkMonitoring/artificial-intelligence-3382507_1920.jpg
 categories: ["Network Monitoring", "Website"]
-featured: true
+featured: false
 draft: false
 ---
 At the heart of every great website is high-quality content and a seamless user experience. But even the best-designed website can suffer from poor performance, slowing down load times, and frustrating users. That's where network monitoring comes in.
