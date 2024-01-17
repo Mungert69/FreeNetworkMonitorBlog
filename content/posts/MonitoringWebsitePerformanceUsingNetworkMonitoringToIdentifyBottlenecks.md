@@ -1,7 +1,7 @@
 ---
 title: Monitoring Website Performance Using Network Monitoring To Identify Bottlenecks
 date: 2023-06-30T00:00:02.548337
-image: 
+image: /blogpics/Website/artificial-intelligence-4389372_640.jpg
 categories: ["Website", "Network Monitoring"]
 featured: false
 draft: false

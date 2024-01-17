@@ -1,7 +1,7 @@
 ---
 title: Alerting And Notification Strategies For Website Monitoring Staying Informed 24 7
 date: 2023-07-02T00:00:01.108155
-image: 
+image: /blogpics/Website/binary-1536651_640.jpg
 categories: ["Website", "Network Monitoring"]
 featured: false
 draft: false

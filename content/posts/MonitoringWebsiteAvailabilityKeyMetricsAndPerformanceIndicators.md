@@ -1,7 +1,7 @@
 ---
 title: Monitoring Website Availability Key Metrics And Performance Indicators
 date: 2023-07-07T00:00:02.311293
-image: 
+image: /blogpics/Website/job-5382501_640.jpg
 categories: ["Website", "Network Monitoring"]
 featured: false
 draft: false

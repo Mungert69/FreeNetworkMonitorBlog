@@ -1,7 +1,7 @@
 ---
 title: Network Monitoring For Content Delivery Ensuring Website Availability Across Geographies
 date: 2023-07-06T00:00:04.364526
-image: 
+image: /blogpics/Website/website-1624028_640.png
 categories: ["Website", "Network Monitoring"]
 featured: false
 draft: false

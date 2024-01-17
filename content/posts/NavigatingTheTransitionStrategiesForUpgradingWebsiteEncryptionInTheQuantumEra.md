@@ -1,7 +1,7 @@
 ---
 title: Navigating The Transition Strategies For Upgrading Website Encryption In The Quantum Era
 date: 2023-06-21T00:00:00.599784
-image: 
+image: /blogpics/Website/office-594132_640.jpg
 categories: ["Website", "Best Practices"]
 featured: false
 draft: false

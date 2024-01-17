@@ -1,7 +1,7 @@
 ---
 title: Scaling Website Infrastructure How Network Monitoring Helps Manage Increased Traffic
 date: 2023-07-03T00:00:01.666155
-image: 
+image: /blogpics/Website/binary-1327493_640.jpg
 categories: ["Website", "Network Monitoring"]
 featured: false
 draft: false

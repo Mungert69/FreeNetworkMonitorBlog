@@ -1,7 +1,7 @@
 ---
 title: Monitoring Website DNS Resolution Ensuring Smooth Domain Access
 date: 2023-07-08T00:00:03.883371
-image: 
+image: /blogpics/Website/social-media-1795578_640.jpg
 categories: ["Website", "Network Monitoring"]
 featured: false
 draft: false
