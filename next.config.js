@@ -9,9 +9,7 @@ const nextConfig = {
   },
   basePath: process.env.NODE_ENV === 'production' ? '/blog' : '',
   assetPrefix: process.env.NODE_ENV === 'production' ? '/blog/' : '',
- experimental: {
-    appDir: true,
-  }, 
+ 
 };
 
 module.exports = nextConfig;

@@ -15,8 +15,10 @@
     "axios": "^1.6.8",
     "axios-retry": "^4.1.0",
     "disqus-react": "^1.1.5",
+    "fs": "^0.0.1-security",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
+    "import": "^0.0.6",
     "isomorphic-unfetch": "^4.0.2",
     "marked": "^12.0.1",
     "next": "14.1.4",
@@ -31,14 +33,14 @@
     "react-promise-tracker": "^2.1.1",
     "react-syntax-highlighter": "^15.5.0",
     "rehype-slug": "^6.0.0",
-    "remark-gfm": "^4.0.0"
+    "remark-gfm": "^3.0.1"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.12",
     "autoprefixer": "^10.4.19",
-    "date-fns": "^3.6.0",
-    "date-fns-tz": "^2.0.1",
+    "date-fns": "^2.29.3",
+    "date-fns-tz": "^1.3.8",
     "eslint": "^8.57.0",
     "eslint-config-next": "14.1.4",
     "jshint": "^2.13.6",
@@ -52,4 +54,3 @@
     "tailwindcss": "^3.4.3"
   }
 }
-
