@@ -1,7 +1,7 @@
 ---
 title: Automating Nmap Scans With AI A Step-By-Step Guide
 date: 2025-04-03T17:30:00
-image: 
+image: /blogpics/apipicgen/MasteringNetworkMonitoringWithAIEnsuringOptimalPerformance-UIKPG9OWG7.jpg
 categories: ["Cybersecurity", "AI"]
 featured: false
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: How Quantum Readiness Checks Can Save Your Network Today
 date: 2025-04-01T17:30:00
-image: 
+image: /blogpics/apipicgen/NetworkBehaviorAnalysisIdentifyingThreatsThroughPatterns-4KZY01IUYS.jpg
 categories: ["Quantum Computing", "Cybersecurity"]
 featured: false
 draft: false
