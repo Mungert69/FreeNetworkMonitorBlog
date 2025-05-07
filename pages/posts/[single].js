@@ -15,6 +15,7 @@ const Article = ({
   posts,
 }) => {
   const { frontmatter, content } = post;
+  const canonicalUrl = `${config.site.base_url}/blog/posts/${slug}`;
 
   return (
     <PostSingle
@@ -22,6 +23,7 @@ const Article = ({
       content={content}
       mdxContent={mdxContent}
       slug={slug}
+      canonical={canonicalUrl}
       allCategories={allCategories}
       relatedPosts={relatedPosts}
       posts={posts}

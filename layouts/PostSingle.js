@@ -19,6 +19,7 @@ const PostSingle = ({
   content,
   mdxContent,
   slug,
+  canonical,
   posts,
   allCategories,
   relatedPosts,
@@ -29,7 +30,7 @@ const PostSingle = ({
   const { theme } = useTheme();
 
   return (
-    <Base title={title} description={description}>
+    <Base title={title} description={description} canonical={canonical}>
       <section className="section single-blog mt-6">
         <div className="container">
           <div className="row">
