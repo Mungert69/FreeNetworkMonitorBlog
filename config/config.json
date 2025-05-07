@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Free Network Monitor Blog",
-    "base_url": "/",
+    "base_url": "https://readyforquantum.com/blog",
     "favicon": "/images/logo-square.jpg",
     "logo": "/img/logo.png",
     "logo_white": "/img/logo.png",

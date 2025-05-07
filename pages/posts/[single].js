@@ -3,6 +3,7 @@ import PostSingle from "@layouts/PostSingle";
 import { getSinglePage } from "@lib/contentParser";
 import { getTaxonomy } from "@lib/taxonomyParser";
 import parseMDX from "@lib/utils/mdxParser";
+const { base_url } = config.site;
 const { blog_folder } = config.settings;
 
 // post single layout
@@ -15,7 +16,7 @@ const Article = ({
   posts,
 }) => {
   const { frontmatter, content } = post;
-  const canonicalUrl = `${config.site.base_url}/blog/posts/${slug}`;
+  const canonical = `${base_url}/posts/${slug}`;
 
   return (
     <PostSingle
@@ -23,7 +24,7 @@ const Article = ({
       content={content}
       mdxContent={mdxContent}
       slug={slug}
-      canonical={canonicalUrl}
+      canonical={canonical}
       allCategories={allCategories}
       relatedPosts={relatedPosts}
       posts={posts}
