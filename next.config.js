@@ -3,13 +3,10 @@
  */
 
 const nextConfig = {
-  output: 'export',
   images: {
-    unoptimized: false,
+    unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/blog' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/blog/' : '',
- 
+  output: 'export',
 };
 
 module.exports = nextConfig;

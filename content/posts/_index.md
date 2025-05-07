@@ -6,7 +6,7 @@ banner:
   image: /img/logo.svg
   button:
     label: Free Network Monitor
-    link: "https://readyforquantum.com
+    link: "https://readyforquantum.com"
     rel: ""
 
 featured_posts:

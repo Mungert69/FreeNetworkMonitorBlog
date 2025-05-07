@@ -5,7 +5,7 @@ import { getListPage, getSinglePage } from "@lib/contentParser";
 import { markdownify } from "@lib/utils/textConverter";
 import Post from "@partials/Post";
 const { blog_folder, summary_length } = config.settings;
-
+const { base_url } = config.site;
 // blog pagination
 const BlogPagination = ({ postIndex, posts, currentPage, pagination }) => {
   const indexOfLastPost = currentPage * pagination;
@@ -14,9 +14,9 @@ const BlogPagination = ({ postIndex, posts, currentPage, pagination }) => {
   const { frontmatter } = postIndex;
   const { title } = frontmatter;
   const totalPages = Math.ceil(posts.length / pagination);
-
+  const canonical = `${base_url}/${currentPage > 1 ? `/${currentPage}` : '/testing'}`;
   return (
-    <Base title={title}>
+    <Base title={title}   canonical={canonical}>
       <section className="section">
         <div className="container">
           {markdownify(title, "h1", "h2 mb-8 text-center")}

@@ -1,0 +1,7 @@
+services:
+  using-volumes:
+    image: mungert/networkmonitorblog:0.9.0
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+
