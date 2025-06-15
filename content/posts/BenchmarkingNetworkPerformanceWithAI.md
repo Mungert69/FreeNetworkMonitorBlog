@@ -6,7 +6,7 @@ categories: ["Performance", "AI"]
 featured: false
 draft: false
 ---
-When working to ensure your network is robust and responsive, establishing and tracking performance baselines is an essential first step. In this blog, I’ll walk you through how a user leverages the Quantum Ready Monitor Assistant to benchmark network performance using AI. You’ll see how easy it is to set up hosts, capture baseline metrics, and monitor for performance drifts—all via conversational AI and built-in monitoring tools.
+When working to ensure your network is robust and responsive, establishing and tracking performance baselines is an essential first step. In this blog, I’ll walk you through how a user leverages the Quantum Network Monitor Assistant to benchmark network performance using AI. You’ll see how easy it is to set up hosts, capture baseline metrics, and monitor for performance drifts—all via conversational AI and built-in monitoring tools.
 
 Let's follow a user as they seek to benchmark the latency and responsiveness of two key network assets: their main company website and an internal server.
 
@@ -116,9 +116,9 @@ The edit_host function lets you update endpoint types (switch from http to https
 
 ---
 
-In summary, the Quantum Ready Monitor Assistant lets you conversationally:
+In summary, the Quantum Network Monitor Assistant lets you conversationally:
 - Add hosts for performance benchmarking
 - Retrieve live and historical metrics for baselining
 - Adjust or prune your monitored endpoints as your network grows
 
-Ready to benchmark your own infrastructure? Start tracking with the Quantum Ready Monitor Assistant today, and let AI watch your baselines for you!
+Ready to benchmark your own infrastructure? Start tracking with the Quantum Network Monitor Assistant today, and let AI watch your baselines for you!

@@ -6,7 +6,7 @@ categories: ["Nmap", "AI"]
 featured: false
 draft: false
 ---
-Curious about harnessing the power of custom Nmap scripts—without having to write a single line of code? With the Quantum Ready Monitor Assistant, you can create advanced network scans simply by describing your goals in natural language. Here’s how you can collaborate with the assistant to tailor-make Nmap scans for your unique needs.
+Curious about harnessing the power of custom Nmap scripts—without having to write a single line of code? With the Quantum Network Monitor Assistant, you can create advanced network scans simply by describing your goals in natural language. Here’s how you can collaborate with the assistant to tailor-make Nmap scans for your unique needs.
 
 ---
 
@@ -72,6 +72,6 @@ At any time, you can further refine the scan: add more ports, run specific vulne
 
 ---
 
-To sum up, Quantum Ready Monitor Assistant empowers you to run highly customized Nmap scans just by explaining what you want checked. The assistant bridges the gap between natural language and technical scripting, making advanced network scanning accessible to everyone.
+To sum up, Quantum Network Monitor Assistant empowers you to run highly customized Nmap scans just by explaining what you want checked. The assistant bridges the gap between natural language and technical scripting, making advanced network scanning accessible to everyone.
 
 Try it for yourself: Describe your scanning challenge to the assistant, and let it tailor an Nmap solution for you—no scripting knowledge needed!

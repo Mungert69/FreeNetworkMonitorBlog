@@ -6,9 +6,9 @@ categories: ["AI", "UX"]
 featured: false
 draft: false
 ---
-In today’s networked world, troubleshooting can be a daunting task, especially when complex dashboards and countless configuration screens overwhelm even seasoned admins. With the advent of the Quantum Ready Monitor Assistant, things have changed. Let’s walk through how AI-powered, natural language interaction transforms the troubleshooting experience — a journey that starts not with a command line, but with a conversation.
+In today’s networked world, troubleshooting can be a daunting task, especially when complex dashboards and countless configuration screens overwhelm even seasoned admins. With the advent of the Quantum Network Monitor Assistant, things have changed. Let’s walk through how AI-powered, natural language interaction transforms the troubleshooting experience — a journey that starts not with a command line, but with a conversation.
 
-Imagine Alex, a network admin, is facing sporadic outages on their web application. Instead of sifting through logs or clicking endlessly through a dashboard, Alex decides to leverage the Quantum Ready Monitor Assistant.
+Imagine Alex, a network admin, is facing sporadic outages on their web application. Instead of sifting through logs or clicking endlessly through a dashboard, Alex decides to leverage the Quantum Network Monitor Assistant.
 
 User: “Check if any of my servers are offline.”
 
@@ -98,4 +98,4 @@ Throughout each step, what makes the experience new is the Assistant’s ability
 
 The psychology here is profound: admins offload the burden of translation from natural thought to technical command. They remain in control, focusing on “what” they want to know, while the Assistant seamlessly handles the “how.” This reduces cognitive load, calms frustration, and leaves admins feeling empowered.
 
-Interested in an admin experience shaped by your own words? Try the Quantum Ready Monitor Assistant — and discover how troubleshooting feels when the conversation starts with you.
+Interested in an admin experience shaped by your own words? Try the Quantum Network Monitor Assistant — and discover how troubleshooting feels when the conversation starts with you.

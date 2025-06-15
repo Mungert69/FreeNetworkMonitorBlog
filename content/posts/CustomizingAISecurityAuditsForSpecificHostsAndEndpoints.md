@@ -6,11 +6,11 @@ categories: ["Custom Security Solutions"]
 featured: false
 draft: false
 ---
-When it comes to network security, customizing your security audits based on specific hosts and endpoint configurations is essential. The Quantum Ready Monitor Assistant enables you to tailor scans and assessments efficiently. In this post, we’ll walk you through how to do just that, ensuring that you can maximize the effectiveness of your security assessments.
+When it comes to network security, customizing your security audits based on specific hosts and endpoint configurations is essential. The Quantum Network Monitor Assistant enables you to tailor scans and assessments efficiently. In this post, we’ll walk you through how to do just that, ensuring that you can maximize the effectiveness of your security assessments.
 
 ### Understanding Your Hosts and Endpoints
 
-First, let’s clarify what we mean by hosts and endpoints. A host refers to any device that is part of your network, while endpoints are specific services or applications running on those devices. With the Quantum Ready Monitor Assistant, you can conduct targeted security audits based on various attributes like host types, endpoint types, and agent locations.
+First, let’s clarify what we mean by hosts and endpoints. A host refers to any device that is part of your network, while endpoints are specific services or applications running on those devices. With the Quantum Network Monitor Assistant, you can conduct targeted security audits based on various attributes like host types, endpoint types, and agent locations.
 
 ### Step 1: Adding a New Host for Monitoring
 
@@ -93,6 +93,6 @@ Let’s say you have another host that’s an email server, and you need to cond
 
 ### Conclusion
 
-Customizing your AI security audits is critical for securing various types of hosts and endpoint configurations effectively. The Quantum Ready Monitor Assistant makes it simple to add hosts, tailor scans based on endpoint types, and select appropriate agent locations for your security assessments. 
+Customizing your AI security audits is critical for securing various types of hosts and endpoint configurations effectively. The Quantum Network Monitor Assistant makes it simple to add hosts, tailor scans based on endpoint types, and select appropriate agent locations for your security assessments. 
 
-Now that you've seen how to customize your security audits, you can confidently take control of your network's security. Try out the Quantum Ready Monitor Assistant today and make your network more resilient against threats!
+Now that you've seen how to customize your security audits, you can confidently take control of your network's security. Try out the Quantum Network Monitor Assistant today and make your network more resilient against threats!

@@ -6,7 +6,7 @@ categories: ["Quantum Security", "AI"]
 featured: false
 draft: false
 ---
-Is your organization prepared for the quantum future? As quantum computing advances, traditional encryption methods are increasingly at risk. With the Quantum Ready Monitor Assistant, you can easily evaluate your network’s readiness for these emerging threats. Let’s walk through a real-world example showing how the AI assistant automates quantum readiness checks in a few simple steps.
+Is your organization prepared for the quantum future? As quantum computing advances, traditional encryption methods are increasingly at risk. With the Quantum Network Monitor Assistant, you can easily evaluate your network’s readiness for these emerging threats. Let’s walk through a real-world example showing how the AI assistant automates quantum readiness checks in a few simple steps.
 
 Step 1: Describe Your Quantum Security Concerns
 
@@ -84,6 +84,6 @@ Example function call for another host:
 
 Conclusion
 
-With the Quantum Ready Monitor Assistant, assessing your network’s defense against quantum threats is fast, hands-free, and continuously updatable as new cryptographic standards emerge. The assistant walks you through every step: picking targets, running deep quantum scans, interpreting the results, and giving actionable recommendations.
+With the Quantum Network Monitor Assistant, assessing your network’s defense against quantum threats is fast, hands-free, and continuously updatable as new cryptographic standards emerge. The assistant walks you through every step: picking targets, running deep quantum scans, interpreting the results, and giving actionable recommendations.
 
-Ready to future-proof your organization? Start your quantum readiness checks with the Quantum Ready Monitor Assistant today—no expertise required!
+Ready to future-proof your organization? Start your quantum readiness checks with the Quantum Network Monitor Assistant today—no expertise required!
