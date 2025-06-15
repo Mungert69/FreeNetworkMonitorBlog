@@ -21,6 +21,8 @@ Absolutely! We'll start by discovering and listing all active hosts within your 
 Step 2: Listing Agents and Selecting a Location
 
 To proceed, I’ll check for available monitoring agents (these agents can scan the local network and report topology information):
+```json
+
 
 {
   "name": "get_agents",
@@ -28,6 +30,7 @@ To proceed, I’ll check for available monitoring agents (these agents can scan 
     "detail_response": true
   }
 }
+```
 
 The assistant will parse the returned list of agents. It identifies, for example, that you have a local agent installed and ready in “HQ - New York”.
 
@@ -41,6 +44,8 @@ Let’s scan the entire 192.168.100.0/24 subnet.
 
 Assistant:  
 Understood. I’ll start the topology discovery using your selected agent.
+```json
+
 
 {
   "name": "call_security_expert",
@@ -49,6 +54,7 @@ Understood. I’ll start the topology discovery using your selected agent.
     "agent_location": "HQ - New York"
   }
 }
+```
 
 The assistant coordinates the scan, gathering and analyzing data on connected devices, their roles, and relationships. Once the results are in:
 
@@ -71,6 +77,8 @@ Let’s get both a downloadable diagram and a written report.
 Step 5: Documentation and Ongoing Monitoring
 
 The assistant packages up an up-to-date document and the visual map.
+```json
+
 
 {
   "name": "get_host_list",
@@ -79,6 +87,7 @@ The assistant packages up an up-to-date document and the visual map.
     "agent_location": "HQ - New York"
   }
 }
+```
 
 Assistant:  
 Here’s your full network documentation, including:

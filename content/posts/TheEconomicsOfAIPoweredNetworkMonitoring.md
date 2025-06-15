@@ -29,6 +29,8 @@ User: “Monitor my site acme-corp.com with both HTTP and SMTP checks.”
 Assistant: “I’ll add those for you—this will automate checks for web and email server availability, reducing manual workload significantly.”
 
 Add Host for HTTP and SMTP Monitoring:
+```json
+
 
 {
   "name": "functions.add_host",
@@ -39,6 +41,9 @@ Add Host for HTTP and SMTP Monitoring:
     "email": "alex@acme-corp.com"
   }
 }
+```
+```json
+
 
 {
   "name": "functions.add_host",
@@ -49,6 +54,7 @@ Add Host for HTTP and SMTP Monitoring:
     "email": "alex@acme-corp.com"
   }
 }
+```
 
 The add_host function sets up automated, continual checks for the specified services—much faster than configuring and executing these checks manually.
 
@@ -61,6 +67,8 @@ User: “How can I see how many checks have failed, and what would happen if som
 Assistant: “Let me show you current monitoring data. If downtime or issues are detected, you’ll receive direct alerts—preventing the need for constant vigilance.”
 
 Retrieve Current Monitoring Data:
+```json
+
 
 {
   "name": "functions.get_host_data",
@@ -70,6 +78,7 @@ Retrieve Current Monitoring Data:
     "address": "acme-corp.com"
   }
 }
+```
 
 The get_host_data function allows Alex to view up-to-the-minute status info. Automated alerting means he’s immediately notified of problems—no more manual log reviews or 24/7 watch rotations.
 

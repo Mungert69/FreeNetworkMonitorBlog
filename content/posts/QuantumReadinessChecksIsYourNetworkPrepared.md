@@ -29,6 +29,8 @@ Step 3: Initiate a Quantum Readiness Test
 The assistant now prepares to initiate a quantum vulnerability scan using the built-in expert. This step leverages the call_quantum_expert function and specifies the target along with the necessary quantum algorithm checks.
 
 Here’s how the assistant handles it:
+```json
+
 
 {
   "name": "call_quantum_expert",
@@ -37,6 +39,7 @@ Here’s how the assistant handles it:
     "agent_location": ""
   }
 }
+```
 
 The call_quantum_expert function instructs the specialized quantum security engine to assess your HTTPS service at securecorp.com, focusing on common weak points such as TLS ciphers, and to look for modern, post-quantum cryptographic protections.
 
@@ -67,6 +70,8 @@ Assistant:
 Absolutely! For each new host or service, just provide the address and (optionally) the port. I’ll repeat the quantum readiness scan for every point you specify.
 
 Example function call for another host:
+```json
+
 
 {
   "name": "call_quantum_expert",
@@ -75,6 +80,7 @@ Example function call for another host:
     "agent_location": ""
   }
 }
+```
 
 Conclusion
 

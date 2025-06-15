@@ -18,12 +18,15 @@ First, I’ll display your list of monitored hosts and their configurations to c
 
 Function Call:
 ```json
+```json
+
 {
   "name": "functions.get_host_list",
   "arguments": {
     "detail_response": true
   }
 }
+```
 ```
 After fetching this information, the assistant reviews each host’s configuration. If any are missing AI-driven alert options or have overly sensitive thresholds, the assistant recommends tuning or upgrades.
 
@@ -35,6 +38,8 @@ Assistant: Absolutely. I’ll update its configuration now, strengthening machin
 
 Function Call:
 ```json
+```json
+
 {
   "name": "functions.edit_host",
   "arguments": {
@@ -44,6 +49,7 @@ Function Call:
     "timeout": 60000 // Increase timeout (ms) to ignore very short disruptions
   }
 }
+```
 ```
 (The assistant confirms and applies machine learning-driven filtering settings that suppress short outages and suspicious but uncorrelated failures.)
 
@@ -57,6 +63,8 @@ Assistant: Definitely! Let’s fetch the monitoring data, showing which events t
 
 Function Call:
 ```json
+```json
+
 {
   "name": "functions.get_host_data",
   "arguments": {
@@ -66,6 +74,7 @@ Function Call:
     "date_end": "2025-05-27T00:00:00"
   }
 }
+```
 ```
 The assistant presents a breakdown: critical alerts that reached you, and lists of events the AI dismissed as routine fluctuations.
 

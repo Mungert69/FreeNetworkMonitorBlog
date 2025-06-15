@@ -13,6 +13,8 @@ To begin, you need to select an agent location for executing our assessments. Le
 **User**: Can you show me the available agents to choose from?
 
 ```json
+```json
+
 {"name":"get_agents","parameters":{"detail_response":false}}
 ```
 
@@ -25,6 +27,8 @@ Now that we know which agents are available, let’s proceed with our first task
 **User**: Please use OpenSSL to check the certificate for the domain example.com.
 
 ```json
+```json
+
 {"name":"call_security_expert","parameters":{"message":"Perform an SSL/TLS configuration check for the domain example.com. Validate the SSL certificate and check for any vulnerabilities.","agent_location":"Agent XYZ"}}
 ```
 
@@ -37,6 +41,8 @@ Next, we’ll perform a more comprehensive security assessment using Nmap. This 
 **User**: Now, let’s do a vulnerability scan using Nmap on the same domain.
 
 ```json
+```json
+
 {"name":"call_security_expert","parameters":{"message":"Conduct a vulnerability scan for the domain example.com on port 443 using Nmap. Identify any potential security weaknesses.","agent_location":"Agent XYZ"}}
 ```
 
@@ -49,6 +55,8 @@ For our final step, let’s utilize Metasploit to check for any known exploits a
 **User**: Can we see if there are any Metasploit exploits that could be run against example.com?
 
 ```json
+```json
+
 {"name":"call_penetration_expert","parameters":{"message":"Search the Metasploit database for any available exploits related to SSL/TLS vulnerabilities for the domain example.com.","agent_location":"Agent XYZ"}}
 ```
 

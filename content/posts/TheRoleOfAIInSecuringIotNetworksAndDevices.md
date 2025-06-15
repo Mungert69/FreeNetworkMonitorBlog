@@ -19,6 +19,7 @@ In the age of IoT, securing networks and devices has never been more critical. W
   "detail_response": true
 }
 ```
+```
 
 **Assistant:** Based on this request, I will call the `get_host_list` function to retrieve a detailed list of the hosts you are currently monitoring. 
 
@@ -63,6 +64,7 @@ Could you provide that information?
   "agent_location": "HomeAgent"
 }
 ```
+```
 
 **Assistant:** I’ll call the `add_host` function now to set up monitoring for your new device.
 
@@ -90,6 +92,7 @@ Could you provide that information?
   "page_number": 1,
   "agent_location": ""
 }
+```
 ```
 
 **Assistant:** I’ll retrieve the latest data to analyze any potential alerts concerning the IoT devices.
@@ -123,6 +126,7 @@ Given this information, would you like me to take any security measures to addre
   "message": "Please perform a vulnerability scan on Device C, IP 192.168.1.30, to check for unauthorized access attempts and overall security integrity.",
   "agent_location": "HomeAgent"
 }
+```
 ```
 
 **Assistant:** I’ll call the `call_security_expert` function now to send the assessment request.

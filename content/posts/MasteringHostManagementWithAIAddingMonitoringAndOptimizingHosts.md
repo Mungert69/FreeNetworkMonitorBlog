@@ -34,6 +34,7 @@ First, let’s start by adding a new host to be monitored. This step is essentia
   "agent_location": "LocalAgent"
 }
 ```
+```
 **Assistant Response:** "Host example.com has been successfully added for HTTP monitoring."
 
 ### Editing Host Configuration
@@ -56,6 +57,7 @@ Once you have hosts added to your monitoring system, you may need to make adjust
   "id": 1, // or the correct ID for example.com
   "timeout": 30000
 }
+```
 ```
 **Assistant Response:** "The timeout for example.com has been updated to 30 seconds."
 
@@ -89,6 +91,7 @@ To assess the performance of your hosts, retrieving monitoring data is vital. Th
   "page_number": 1,
   "agent_location": "LocalAgent"
 }
+```
 ```
 **Assistant Response:** "Here is the latest data for example.com: Response time: 120ms, Status: Active."
 

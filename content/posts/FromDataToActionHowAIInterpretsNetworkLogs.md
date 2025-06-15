@@ -24,6 +24,8 @@ Great, I’ll fetch a detailed report for your monitored hosts so we have a broa
 
 Function Call:
 ```json
+```json
+
 {
   "name": "functions.get_host_data",
   "arguments": {
@@ -31,6 +33,7 @@ Function Call:
     "dataset_id": 0
   }
 }
+```
 ```
 We used get_host_data with detail_response set to true, allowing us to view comprehensive stats—like response times, alert statuses, agent locations, and more.
 
@@ -68,6 +71,8 @@ Excellent idea! I’ll enable advanced monitoring for latency and set a custom a
 
 Function Call:
 ```json
+```json
+
 {
   "name": "functions.edit_host",
   "arguments": {
@@ -77,6 +82,7 @@ Function Call:
     "enabled": true
   }
 }
+```
 ```
 Here, we’ve updated website.com’s monitoring configuration to increase scrutiny and ensure alerts are triggered if things worsen.
 

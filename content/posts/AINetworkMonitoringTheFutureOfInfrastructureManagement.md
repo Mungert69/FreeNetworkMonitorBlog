@@ -19,6 +19,8 @@ Assistant: Absolutely! I can add these hosts for continuous monitoring. For each
 User: Sure—use alerts@example.com.
 
 The assistant then interprets the request and, using natural language commands, sets up monitoring for multiple endpoints. The assistant makes function calls in the background:
+```json
+
 
 {
   "name": "add_host",
@@ -29,6 +31,9 @@ The assistant then interprets the request and, using natural language commands, 
     "email": "alerts@example.com"
   }
 }
+```
+```json
+
 
 {
   "name": "add_host",
@@ -39,6 +44,9 @@ The assistant then interprets the request and, using natural language commands, 
     "email": "alerts@example.com"
   }
 }
+```
+```json
+
 
 {
   "name": "add_host",
@@ -49,6 +57,7 @@ The assistant then interprets the request and, using natural language commands, 
     "email": "alerts@example.com"
   }
 }
+```
 
 The add_host function is the bridge between your intent and automated monitoring—it tells the Free Network Monitor Assistant which systems to watch, what protocol or service to check (like HTTPS for your website, ICMP for internal servers, or SMTP for mail), and where to send alerts.
 
@@ -59,6 +68,8 @@ Assistant: All three systems will now be monitored continuously. You’ll get in
 User: Yes, show me what’s being monitored.
 
 The assistant issues another function call to retrieve a live list:
+```json
+
 
 {
   "name": "get_host_list",
@@ -67,12 +78,15 @@ The assistant issues another function call to retrieve a live list:
     "email": "alerts@example.com"
   }
 }
+```
 
 Thanks to get_host_list, you receive an up-to-date summary showing each host, its monitoring type, and alert status.
 
 User: Can I update the alert email or disable monitoring for myinternalapp.local if maintenance is planned?
 
 Assistant: Yes, you can edit or pause any host. For example, to temporarily disable monitoring for myinternalapp.local, I’ll issue the following:
+```json
+
 
 {
   "name": "edit_host",
@@ -83,6 +97,7 @@ Assistant: Yes, you can edit or pause any host. For example, to temporarily disa
     "auth_key": "YOUR_AUTH_KEY"
   }
 }
+```
 
 This edit_host function disables monitoring. The assistant can re-enable it at any time, adjust alert configurations, change endpoints, or even delete hosts, all from simple natural commands—no need to navigate endless menus or decipher forms.
 

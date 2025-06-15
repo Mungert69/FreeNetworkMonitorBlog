@@ -25,6 +25,8 @@ Assistant:
 Great choice! Continuous monitoring helps you spot disruptions or attacks early. Let's add your website for both HTTP (website ping) and HTTPS (SSL security) checks.
 
 ```json
+```json
+
 {
   "name": "functions.add_host",
   "arguments": {
@@ -34,6 +36,7 @@ Great choice! Continuous monitoring helps you spot disruptions or attacks early.
     "email": "sarah@cpa.com"
   }
 }
+```
 ```
 The add_host function lets us quickly set up checks, sending alerts if your site goes down or responds strangely. The Assistant shows Sarah results, including confirmation her website is now under watchdog protection.
 
@@ -48,6 +51,8 @@ Assistant:
 Let’s run an automated security assessment using enterprise-grade scanning tools. We’ll use our Security Expert to perform an Nmap vulnerability scan of your mail server.
 
 ```json
+```json
+
 {
   "name": "functions.call_security_expert",
   "arguments": {
@@ -55,6 +60,7 @@ Let’s run an automated security assessment using enterprise-grade scanning too
     "agent_location": "Scanner - EU"
   }
 }
+```
 ```
 After a short time, the Assistant provides Sarah with a detailed security report—previously only available to big companies’ IT departments.
 
@@ -69,6 +75,8 @@ Assistant:
 Absolutely! I can watch over your HTTPS endpoint, automatically alerting you of critical issues like certificate expiry.
 
 ```json
+```json
+
 {
   "name": "functions.add_host",
   "arguments": {
@@ -78,6 +86,7 @@ Absolutely! I can watch over your HTTPS endpoint, automatically alerting you of 
     "email": "sarah@cpa.com"
   }
 }
+```
 ```
 With this setup, Sarah receives timely reminders—no more scrambling or panic when browsers throw up security warnings.
 
@@ -101,6 +110,8 @@ Assistant:
 Let’s ask our Quantum Security Expert to run cutting-edge algorithm and port tests.
 
 ```json
+```json
+
 {
   "name": "functions.call_quantum_expert",
   "arguments": {
@@ -108,6 +119,7 @@ Let’s ask our Quantum Security Expert to run cutting-edge algorithm and port t
     "agent_location": "Scanner - EU"
   }
 }
+```
 ```
 Conclusion: Enterprise Security for All
 

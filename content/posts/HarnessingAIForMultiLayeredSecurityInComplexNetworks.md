@@ -23,6 +23,7 @@ In today's digital landscape, ensuring robust security across complex enterprise
   "detail_response": true
 }
 ```
+```
 
 **Assistant**: I've fetched the host list, which includes different components of your network. This will help us identify what needs specific security checks. Now, do you want to proceed with security assessments on all these hosts?
 
@@ -34,6 +35,7 @@ In today's digital landscape, ensuring robust security across complex enterprise
 {
   "detail_response": false
 }
+```
 ```
 
 **Assistant**: Here are the agents available for the scan: **Scanner - EU** and **Local Agent 1**. Which agent would you prefer to use for the vulnerability scan?
@@ -48,6 +50,7 @@ In today's digital landscape, ensuring robust security across complex enterprise
   "agent_location": "Local Agent 1"
 }
 ```
+```
 
 **Assistant**: The vulnerability scan request has been sent for execution. While we wait for the results, we can check the SSL configurations for any web servers in your network. Do you want to proceed with that?
 
@@ -60,6 +63,7 @@ In today's digital landscape, ensuring robust security across complex enterprise
   "message": "Please conduct SSL configuration checks on all monitored HTTPS hosts.",
   "agent_location": "Local Agent 1"
 }
+```
 ```
 
 **Assistant**: The SSL configuration checks are now underway. We’ll receive reports on any misconfigurations or vulnerabilities. While we wait, would you like me to gather real-time monitoring data for a specific host?
@@ -77,6 +81,7 @@ In today's digital landscape, ensuring robust security across complex enterprise
   "dataset_id": 0
 }
 ```
+```
 
 **Assistant**: I've obtained the latest monitoring data for your web server, including response times and any detected security issues. As we collect all this information, the vulnerability scan and SSL checks are also processing. 
 
@@ -89,6 +94,7 @@ In today's digital landscape, ensuring robust security across complex enterprise
   "message_id": "vulner_scan_request_id",
   "auto_check_interval_seconds": 30
 }
+```
 ```
 
 **Assistant**: I've set up periodic checks for the vulnerability scan’s status. We can monitor the progress. In the meantime, if you have any specific penetration testing needs, I can draft requests for that as well.
@@ -104,6 +110,7 @@ In today's digital landscape, ensuring robust security across complex enterprise
   "message": "Please perform a penetration test using the SQL injection module on db.company-website.com.",
   "agent_location": "Local Agent 1"
 }
+```
 ```
 
 **Assistant**: The penetration test request has been sent. We are now running a comprehensive security strategy that includes vulnerability scanning, SSL checks, real-time monitoring, and penetration testing. 

@@ -21,6 +21,7 @@ Let me call the function to get the host list right now.
   "detail_response": false
 }
 ```
+```
 
 **Assistant:** Now, let's check this function call. It will return the basic information for each monitored host, such as their IDs and addresses, letting you know what you have set up so far. Once I have the data, I’ll share it with you!
 
@@ -63,6 +64,7 @@ Let me go ahead and get that data for you.
   "agent_location": ""
 }
 ```
+```
 
 **Assistant:** I’m retrieving the latest monitoring metrics for example.com. This will help us identify any issues or confirm optimal performance.
 
@@ -102,6 +104,7 @@ The uptime shows that the host has been very reliable, and the average response 
   "page_number": 1,
   "agent_location": ""
 }
+```
 ```
 
 **Assistant:** I’m now processing the latest monitoring data for mysite.org, which will provide insights similar to what we gathered for example.com.

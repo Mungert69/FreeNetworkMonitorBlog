@@ -16,12 +16,15 @@ Imagine you're a network administrator responsible for monitoring the performanc
 
 **Function Call:**
 ```json
+```json
+
 {
   "name": "get_agents",
   "parameters": {
     "detail_response": true
   }
 }
+```
 ```
 
 Now that we've got the list of agents, you can assess which one fits your geographic or network requirements. Custom agents allow for localized monitoring, which is particularly beneficial for performance metrics that rely on proximity.
@@ -32,6 +35,8 @@ Now that we've got the list of agents, you can assess which one fits your geogra
 
 **Function Call:**
 ```json
+```json
+
 {
   "name": "call_cmd_processor_expert",
   "parameters": {
@@ -39,6 +44,7 @@ Now that we've got the list of agents, you can assess which one fits your geogra
     "agent_location": "Choose the agent based on the list provided."
   }
 }
+```
 ```
 
 **Assistant:** "By fetching the list of command processors, you can choose which one will best suit your need to run wget for downloading files and BusyBox for executing multiple UNIX commands."
@@ -51,6 +57,8 @@ Once you have selected the appropriate command processor, you can set it up with
 
 **Function Call:**
 ```json
+```json
+
 {
   "name": "call_cmd_processor_expert",
   "parameters": {
@@ -58,6 +66,7 @@ Once you have selected the appropriate command processor, you can set it up with
     "agent_location": "selected agent location"
   }
 }
+```
 ```
 
 **Assistant:** "By creating this processor, you'll be able to monitor your network extensively using the utilities you've chosen, which reflects the flexibility that custom agents provide."
@@ -68,6 +77,8 @@ Once you have selected the appropriate command processor, you can set it up with
 
 **Function Call:**
 ```json
+```json
+
 {
   "name": "run_busybox_command",
   "parameters": {
@@ -77,6 +88,7 @@ Once you have selected the appropriate command processor, you can set it up with
     "page": 1
   }
 }
+```
 ```
 
 Through these steps, you’ve successfully established a custom monitoring setup that leverages the capabilities of the Free Network Monitor Assistant, enabling you to deeply analyze your network performance while accommodating specific tasks like downloading files and running various commands.

@@ -25,6 +25,8 @@ Having understood the request, the assistant leverages the Free Network Monitorâ
 
 Assistant calls the function:
 ```json
+```json
+
 {
   "name": "call_security_expert",
   "arguments": {
@@ -32,6 +34,7 @@ Assistant calls the function:
     "agent_location": "USA - Scanner"
   }
 }
+```
 ```
 Here, the assistant sends a detailed request for an OpenSSL scan to the security expert, specifying the target (mydomain.com), what to examine, and instructing the expert to both analyze and clearly explain any issues found.
 

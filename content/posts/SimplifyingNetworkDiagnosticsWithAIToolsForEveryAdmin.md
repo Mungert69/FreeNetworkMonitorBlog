@@ -30,6 +30,7 @@ As more administrators turn to AI to streamline their network management, the Fr
   "page": 1
 }
 ```
+```
 
 **Assistant**: I've sent the command. You can expect a response with the results shortly.
 
@@ -48,6 +49,7 @@ As more administrators turn to AI to streamline their network management, the Fr
   "number_lines": 10,
   "page": 1
 }
+```
 ```
 
 **Assistant**: The command to check your network interface configurations is underway!
@@ -74,6 +76,7 @@ As more administrators turn to AI to streamline their network management, the Fr
   "email": "user@example.com",
   "agent_location": "local_agent_id"
 }
+```
 ```
 
 **Assistant**: Sending the DNS lookup request now. Keep an eye out for details that reveal the IP address associated with the domain and any unexpected results such as timeouts.

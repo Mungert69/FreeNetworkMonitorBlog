@@ -29,6 +29,7 @@ When troubleshooting a server, timely and accurate diagnostics can pinpoint issu
   "agent_location": "LocalAgent"
 }
 ```
+```
 
 **Assistant**: The command has been set to add your server for monitoring using Nmap. Once that’s processed, we can retrieve the results.
 
@@ -41,6 +42,7 @@ When troubleshooting a server, timely and accurate diagnostics can pinpoint issu
   "message_id": "xyz123",
   "auto_check_interval_seconds": 30
 }
+```
 ```
 
 **Assistant**: I'm checking the status now. We’ll keep you updated on the results. 
@@ -68,6 +70,7 @@ When troubleshooting a server, timely and accurate diagnostics can pinpoint issu
   "agent_location": "LocalAgent"
 }
 ```
+```
 
 **Assistant**: We’re retrieving the latest data from the Nmap scan. Please hold on a moment.
 
@@ -94,6 +97,7 @@ You can see that ports 80 and 443 are open, indicating web services are working.
   "agent_location": "LocalAgent"
 }
 ```
+```
 
 **Assistant**: Let me initiate this OpenSSL check. 
 
@@ -106,6 +110,7 @@ You can see that ports 80 and 443 are open, indicating web services are working.
   "message_id": "abc456",
   "auto_check_interval_seconds": 30
 }
+```
 ```
 
 **Assistant**: I'm checking the status of the OpenSSL test now.
@@ -120,6 +125,7 @@ You can see that ports 80 and 443 are open, indicating web services are working.
   "message": "SSL/TLS check for 192.168.1.100",
   "agent_location": "LocalAgent"
 }
+```
 ```
 
 **Assistant**: The results are in, showcasing the SSL/TLS version and cipher suites:

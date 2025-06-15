@@ -24,6 +24,8 @@ User: Here’s a list of IP addresses and device types:
 Assistant: Perfect! Let’s add these devices to the Free Network Monitor so we can monitor their network status and run some security checks. I’ll set up simple “ICMP” (ping) checks to confirm each device is reachable, and also prepare for security scans.
 
 First, I’ll add the devices for monitoring:
+```json
+
 
 {
   "name": "add_host",
@@ -34,6 +36,7 @@ First, I’ll add the devices for monitoring:
     "email": "your@email.com" // You’ll be prompted for this if not logged in
   }
 }
+```
 
 And similarly for the other IPs.
 
@@ -46,6 +49,8 @@ The add_host function sets up active network monitoring for each smart device us
 User: Can you check if any of these devices are exposing vulnerable services?
 
 Assistant: Absolutely. Let’s perform a targeted security assessment on each one. For IoT devices, the most common vulnerabilities are open ports (like Telnet, SSH, or unsecured web interfaces). I can initiate an Nmap scan through our Security Expert agent to look for exposed services.
+```json
+
 
 {
   "name": "call_security_expert",
@@ -54,6 +59,7 @@ Assistant: Absolutely. Let’s perform a targeted security assessment on each on
     "agent_location": "[Your Local Agent Name]" 
   }
 }
+```
 
 This scan will be repeated for each device. The assistant then interprets the scan results, highlighting any ports or services that pose a security risk, such as an open Telnet or HTTP admin interface.
 

@@ -21,6 +21,8 @@ Absolutely! We can set up automated checks for HTTP/HTTPS uptime (a PCI DSS cont
 To begin, I’ll add both servers so we can monitor their HTTPS endpoints and ensure secure connectivity:
 
 ```json
+```json
+
 {
   "name": "functions.add_host",
   "arguments": {
@@ -31,8 +33,11 @@ To begin, I’ll add both servers so we can monitor their HTTPS endpoints and en
   }
 }
 ```
+```
 
 ```json
+```json
+
 {
   "name": "functions.add_host",
   "arguments": {
@@ -42,6 +47,7 @@ To begin, I’ll add both servers so we can monitor their HTTPS endpoints and en
     "email": "admin@yourcompany.com"
   }
 }
+```
 ```
 
 After these function calls, the Assistant confirms both hosts are set up for SSL/TLS certificate monitoring and uptime checks. The email address you provided ensures compliance alerts are routed to your inbox.
@@ -57,6 +63,8 @@ Great question! For advanced PCI DSS and HIPAA compliance, let’s run an AI-pow
 First, we’ll choose a monitoring agent location (to perform scans from the relevant jurisdiction or local network, as required by compliance policy):
 
 ```json
+```json
+
 {
   "name": "functions.get_agents",
   "arguments": {
@@ -64,10 +72,13 @@ First, we’ll choose a monitoring agent location (to perform scans from the rel
   }
 }
 ```
+```
 
 Once you select your desired agent, we’ll instruct the security expert to assess strict compliance requirements on your target:
 
 ```json
+```json
+
 {
   "name": "functions.call_security_expert",
   "arguments": {
@@ -75,6 +86,7 @@ Once you select your desired agent, we’ll instruct the security expert to asse
     "agent_location": "Scanner - US"
   }
 }
+```
 ```
 
 When the assessment completes, I’ll summarize the findings and flag any compliance gaps — such as outdated certificates or use of insecure protocols — so you can take swift corrective action.
@@ -88,6 +100,8 @@ Assistant:
 Easy! The Assistant can retrieve the current status of monitored hosts at any time:
 
 ```json
+```json
+
 {
   "name": "functions.get_host_data",
   "arguments": {
@@ -96,6 +110,7 @@ Easy! The Assistant can retrieve the current status of monitored hosts at any ti
     "dataset_id": 0
   }
 }
+```
 ```
 
 You’ll receive uptime statistics, current certificate details, and whether any compliance-related alerts have been triggered. If the system detects downtime, expired SSL certificates, or weak encryption, you’ll be notified immediately via email — allowing you to address issues before they lead to a reportable incident.
@@ -109,6 +124,8 @@ Assistant:
 Of course! You can add, adjust, or remove endpoints and customize the type or frequency of checks at any time with the edit functionality. For instance:
 
 ```json
+```json
+
 {
   "name": "functions.edit_host",
   "arguments": {
@@ -119,6 +136,7 @@ Of course! You can add, adjust, or remove endpoints and customize the type or fr
     "timeout": 30000
   }
 }
+```
 ```
 
 This lets you rapidly respond to new compliance mandates, such as adding multi-factor authentication or quantum-safe encryption checks for upcoming standards.

@@ -19,6 +19,8 @@ Assistant: Great question! The first step is to monitor whether your website sup
 To begin, I’ll add your website example.com for quantum endpoint monitoring:
 
 ```json
+```json
+
 {
   "name": "functions.add_host",
   "arguments": {
@@ -28,6 +30,7 @@ To begin, I’ll add your website example.com for quantum endpoint monitoring:
     "email": "your@email.com"
   }
 }
+```
 ```
 
 Here, the assistant is using the add_host function to set up real-time checks on quantum resistance. This function will scan example.com and report back metrics relevant to quantum readiness: detection of quantum-safe TLS, supported algorithms, and protocol health.
@@ -39,6 +42,8 @@ User: What does the analysis show about quantum readiness?
 Assistant: I'll fetch the most recent quantum security data recorded for your site:
 
 ```json
+```json
+
 {
   "name": "functions.get_host_data",
   "arguments": {
@@ -48,6 +53,7 @@ Assistant: I'll fetch the most recent quantum security data recorded for your si
     "endpoint": "quantum"
   }
 }
+```
 ```
 
 The get_host_data function asks the monitoring system for the latest quantum security scan for example.com. The data typically includes:
@@ -77,6 +83,8 @@ Assistant: Absolutely! The system can alert you automatically via email if it de
 If you ever need to pause or modify your monitoring, you can do so easily:
 
 ```json
+```json
+
 {
   "name": "functions.edit_host",
   "arguments": {
@@ -85,6 +93,7 @@ If you ever need to pause or modify your monitoring, you can do so easily:
     "enabled": false
   }
 }
+```
 ```
 
 The edit_host function allows you to enable or disable monitoring as your needs change.

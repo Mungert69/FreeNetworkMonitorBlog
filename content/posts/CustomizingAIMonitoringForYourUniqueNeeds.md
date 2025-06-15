@@ -19,6 +19,8 @@ User: I want to monitor my office server, office.example.com, and see how its pa
 Assistant: Great! Let’s start by setting up basic monitoring for your server using regular HTTP checks.
 
 Function Call:
+```json
+
 {
   "name": "functions.add_host",
   "arguments": {
@@ -29,6 +31,7 @@ Function Call:
     "email": "user@email.com"
   }
 }
+```
 
 The assistant uses add_host to begin tracking the health and response trends for your server.
 
@@ -41,6 +44,8 @@ User: How can I see what patterns you’re detecting so far?
 Assistant: I’ll pull the latest monitoring snapshots, including statistics and timeline data.
 
 Function Call:
+```json
+
 {
   "name": "functions.get_host_data",
   "arguments": {
@@ -49,6 +54,7 @@ Function Call:
     "address": "office.example.com"
   }
 }
+```
 
 Here, get_host_data retrieves up-to-date analytics, giving you insight into averages, outlier values, and peak/baseline shifts.
 
@@ -59,6 +65,8 @@ User: There are some late-night slowdowns, but that’s during our backup window
 Assistant: Absolutely! By sharing your network schedule with the Assistant and reviewing the monitoring data, you can specify what’s considered “normal” in your environment.
 
 Function Call:
+```json
+
 {
   "name": "functions.edit_host",
   "arguments": {
@@ -68,6 +76,7 @@ Function Call:
     "enabled": true
   }
 }
+```
 
 The assistant uses edit_host to adjust the monitoring threshold (timeout) for that late-night window, reducing false alarms and customizing alerts based on your unique usage.
 
@@ -78,6 +87,8 @@ User: Let’s see how last month compares to this month, so your alerts are base
 Assistant: I can extract historical performance and compare behavior across custom ranges.
 
 Function Call:
+```json
+
 {
   "name": "functions.get_host_data",
   "arguments": {
@@ -87,6 +98,7 @@ Function Call:
     "date_end": "2024-05-31T23:59:59"
   }
 }
+```
 
 By analyzing these results together, you and the Assistant can spot evolving patterns and implement AI adjustments that are more closely tied to how your network actually behaves.
 

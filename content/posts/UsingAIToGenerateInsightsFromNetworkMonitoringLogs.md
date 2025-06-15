@@ -29,6 +29,7 @@ Let's dive into a hypothetical scenario where a user wants to analyze their netw
   "page_number": 1
 }
 ```
+```
 
 **Assistant**: I’ve pulled up the monitoring data for your network. Now, let's analyze this data to look for potential vulnerabilities or performance issues. Since we want actionable insights, I’ll craft a message to our AI analysis tool requesting a thorough interpretation of the logs.
 
@@ -37,6 +38,7 @@ Let's dive into a hypothetical scenario where a user wants to analyze their netw
   "message": "Analyze the monitoring logs for user@example.com. Identify any potential security vulnerabilities and performance issues, and provide actionable recommendations based on the findings.",
   "agent_location": "local"
 }
+```
 ```
 
 **Assistant**: I've just sent that analysis request, and while we wait for the response, let’s review the types of insights we can expect. The AI will look for patterns that indicate security threats, such as unusual login attempts or traffic spikes, and will also identify performance issues, like latency problems or frequent disconnections.

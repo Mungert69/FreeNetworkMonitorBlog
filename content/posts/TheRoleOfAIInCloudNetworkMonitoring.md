@@ -21,6 +21,8 @@ Absolutely! The AI assistant is designed to simplify monitoring in hybrid and mu
 Let’s add an AWS application endpoint for uptime and SSL certificate monitoring.
 
 ```json
+```json
+
 {
   "name": "functions.add_host",
   "arguments": {
@@ -33,12 +35,15 @@ Let’s add an AWS application endpoint for uptime and SSL certificate monitorin
   }
 }
 ```
+```
 
 This action sets up monitoring for the HTTPS endpoint of your AWS app and ensures you’ll be notified promptly of any downtime or SSL issues.
 
 Now, let’s do the same for your Azure service.
 
 ```json
+```json
+
 {
   "name": "functions.add_host",
   "arguments": {
@@ -51,10 +56,13 @@ Now, let’s do the same for your Azure service.
   }
 }
 ```
+```
 
 And for your on-premises server, suppose you want to track basic connectivity.
 
 ```json
+```json
+
 {
   "name": "functions.add_host",
   "arguments": {
@@ -65,6 +73,7 @@ And for your on-premises server, suppose you want to track basic connectivity.
     "email": "user@email.com"
   }
 }
+```
 ```
 
 With these three function calls, we’ve linked monitoring for all critical nodes, regardless of cloud provider or network location.
@@ -78,6 +87,8 @@ Assistant:
 Let me fetch the current status and alert summaries for all your monitored hosts:
 
 ```json
+```json
+
 {
   "name": "functions.get_host_data",
   "arguments": {
@@ -86,6 +97,7 @@ Let me fetch the current status and alert summaries for all your monitored hosts
     "email": "user@email.com"
   }
 }
+```
 ```
 
 This command retrieves live and summarized data, showing which resources across AWS, Azure, and your on-premise setup are healthy or need immediate attention. The AI aggregates this for easy review—if a host signals a problem, you’ll be instantly alerted.
@@ -101,6 +113,8 @@ Absolutely! Special consideration in hybrid/multi-cloud is the perspective of th
 Let’s review available agent locations:
 
 ```json
+```json
+
 {
   "name": "functions.get_agents",
   "arguments": {
@@ -108,10 +122,13 @@ Let’s review available agent locations:
   }
 }
 ```
+```
 
 Once you know your available agents, you can reassign monitoring for any host as needed for optimal, location-aware checks. For example, you can edit the Azure service monitoring to use a Frankfurt-based agent for Europe-centric insights:
 
 ```json
+```json
+
 {
   "name": "functions.edit_host",
   "arguments": {
@@ -120,6 +137,7 @@ Once you know your available agents, you can reassign monitoring for any host as
     "agent_location": "Frankfurt - EU"
   }
 }
+```
 ```
 
 This flexibility lets you spot not only whether a service is available but if there’s degraded performance for users in specific regions—critical for multi-cloud visibility.

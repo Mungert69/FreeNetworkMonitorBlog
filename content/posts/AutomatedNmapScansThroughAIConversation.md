@@ -36,6 +36,8 @@ Just a standard scan is fine.
 Running the Nmap Scan (Function Call Demo)
 
 Now, the assistant communicates your request to a network security expert LLM that handles the underlying Nmap execution:
+```json
+
 
 {
   "name": "call_security_expert",
@@ -44,6 +46,7 @@ Now, the assistant communicates your request to a network security expert LLM th
     "agent_location": "Local Agent Name"
   }
 }
+```
 
 Processing the Results
 
@@ -64,6 +67,8 @@ User:
 Let’s run a version scan just on 192.168.1.5.
 
 The assistant can easily update its query and rerun the Nmap command:
+```json
+
 
 {
   "name": "call_security_expert",
@@ -72,6 +77,7 @@ The assistant can easily update its query and rerun the Nmap command:
     "agent_location": "Local Agent Name"
   }
 }
+```
 
 The assistant then shares the results—perhaps revealing the web server software and potential vulnerabilities.
 

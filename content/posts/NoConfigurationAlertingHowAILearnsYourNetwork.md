@@ -24,6 +24,8 @@ Assistant: Great! I’ll add www.jamiesite.com for HTTP monitoring. Please provi
 
 Step 3: Assistant Sets Up Host with Zero Hassle  
 To establish monitoring, the assistant invokes the add_host function with minimal input—no need for manual thresholds:
+```json
+
 
 {
   "name": "add_host",
@@ -34,6 +36,7 @@ To establish monitoring, the assistant invokes the add_host function with minima
     "email": "jamie@email.com"
   }
 }
+```
 
 The assistant confirms:  
 I’ve set up monitoring for www.jamiesite.com. For the first few days, our AI will observe traffic responses to learn what’s “normal.” You won’t need to tweak any settings; alerts will be auto-configured based on your site’s real usage patterns.
@@ -52,6 +55,8 @@ Step 5: Jamie Checks the AI's Work
 User: How can I check what alerts or patterns you’ve learned about my site?
 
 Assistant: You can always request a summary of your monitored hosts and their current status, including any active alerts. Here’s how I’d pull that data:
+```json
+
 
 {
   "name": "get_host_data",
@@ -60,6 +65,7 @@ Assistant: You can always request a summary of your monitored hosts and their cu
     "address": "www.jamiesite.com"
   }
 }
+```
 
 I’ll show you response trends, current thresholds, detected anomalies, and any notifications sent—providing full transparency into how the AI understands your network.
 

@@ -33,6 +33,7 @@ To start monitoring a new host, you will use the `add_host` function. For exampl
   "agent_location": "US-based agent"
 }
 ```
+```
 
 **Assistant:** The host has been successfully added for monitoring. Now, let's proceed to set up a customized security assessment on this host.
 
@@ -49,6 +50,7 @@ Now that your host is being monitored, you can tailor specific scans. Suppose yo
   "message": "Please run a Nmap vulnerability scan on the host example.com.",
   "agent_location": "US-based agent"
 }
+```
 ```
 
 **Assistant:** The request for a Nmap vulnerability scan has been communicated to the security expert. You will receive alerts regarding the findings.
@@ -74,6 +76,7 @@ Let’s say you have another host that’s an email server, and you need to cond
   "agent_location": "EU-based agent"
 }
 ```
+```
 
 **Assistant:** The email server host has been added. Now, let’s initiate the SSL configuration check.
 
@@ -83,6 +86,7 @@ Let’s say you have another host that’s an email server, and you need to cond
   "message": "Please perform an SSL/TLS configuration check on mail.example.com.",
   "agent_location": "EU-based agent"
 }
+```
 ```
 
 **Assistant:** I've communicated the request for the SSL configuration check, and you should receive the results soon.

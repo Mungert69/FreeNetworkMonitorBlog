@@ -31,6 +31,8 @@ Just scan standard web ports (80, 443, 8080), and use http-vuln* scripts. Run fr
 Step 3: The Assistant Translates to an Nmap Script Request
 
 The assistant crafts a request for the Security Expert, including all technical Nmap details. Here’s how it looks “under the hood”:
+```json
+
 
 {
   "name": "call_security_expert",
@@ -39,6 +41,7 @@ The assistant crafts a request for the Security Expert, including all technical 
     "agent_location": "Scanner - EU"
   }
 }
+```
 
 The assistant will now wait for the Security Expert’s response and present you with the results—without you ever having to type out a complex Nmap command. You'll see specifics about open ports, any flagged vulnerabilities, and even suggestions for remediation.
 
@@ -49,6 +52,8 @@ Great, can we also test all SSL/TLS ciphers on port 443 for weaknesses?
 
 Assistant:  
 Of course! I’ll update the scan instructions to include SSL cipher checks on port 443 using appropriate Nmap scripts (like ssl-enum-ciphers):
+```json
+
 
 {
   "name": "call_security_expert",
@@ -57,6 +62,7 @@ Of course! I’ll update the scan instructions to include SSL cipher checks on p
     "agent_location": "Scanner - EU"
   }
 }
+```
 
 Again, results are parsed for you, so you get actionable insight instead of raw Nmap outputs.
 

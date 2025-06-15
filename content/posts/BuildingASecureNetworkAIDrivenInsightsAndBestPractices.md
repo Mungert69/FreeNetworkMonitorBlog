@@ -32,6 +32,7 @@ To kickstart your security journey, the first step is to monitor the hosts in yo
   "agent_location": "default"
 }
 ```
+```
 
 **Assistant:** I've added example.com as an HTTPS endpoint for monitoring. This will help you track its availability and security status.
 
@@ -51,6 +52,7 @@ Once your hosts are being monitored, it's essential to assess their security sta
   "message": "Please perform a vulnerability scan on example.com using Nmap to check for potential security weaknesses.",
   "agent_location": "default"
 }
+```
 ```
 
 **Assistant:** The vulnerability scan request has been sent. You will receive the results shortly. This scan will help identify any potential weaknesses in your network, allowing you to address them before they can be exploited.
@@ -83,6 +85,7 @@ Monitoring is an ongoing process. Regularly reviewing the collected data will he
   "agent_location": "default"
 }
 ```
+```
 
 **Assistant:** I've retrieved the latest monitoring data for example.com. This includes response times, availability, and any alerts raised. Let’s analyze it to see if there are any issues needing your attention.
 
@@ -111,6 +114,7 @@ As your network evolves, you might need to adjust monitoring configurations or d
   "agent_location": "default"
 }
 ```
+```
 
 **Assistant:** example.com monitoring has been disabled successfully. You can always re-enable it when needed.
 
@@ -130,6 +134,7 @@ If you require in-depth analysis or specific security checkups, the assistant al
   "message": "Please conduct an in-depth vulnerability assessment for my network, focusing on all monitored hosts and potential external threats.",
   "agent_location": "default"
 }
+```
 ```
 
 **Assistant:** Your request for an in-depth vulnerability assessment has been sent to a security expert. They will provide you with detailed insights and recommendations tailored to your network.

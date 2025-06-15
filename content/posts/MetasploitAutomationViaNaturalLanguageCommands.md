@@ -27,11 +27,14 @@ Great! I can automate a Metasploit-powered penetration test for demo.example.com
 Step 2: Assistant Checks Available Agents
 
 To provide this choice, the assistant calls the agent list function:
+```json
+
 
 {
   "name": "get_agents",
   "arguments": { "detail_response": false }
 }
+```
 
 Once the response lists available scanning agents—for instance, "Scanner - US East", "Scanner - EU"—the assistant presents these options.
 
@@ -44,6 +47,8 @@ Let’s use Scanner - US East.
 Step 3: Assistant Launches the Metasploit Penetration Test
 
 Now, the assistant automates the request to a Metasploit expert system, providing a detailed description of the test:
+```json
+
 
 {
   "name": "call_penetration_expert",
@@ -52,6 +57,7 @@ Now, the assistant automates the request to a Metasploit expert system, providin
     "agent_location": "Scanner - US East"
   }
 }
+```
 
 The assistant then waits as the expert system orchestrates the appropriate Metasploit modules.
 

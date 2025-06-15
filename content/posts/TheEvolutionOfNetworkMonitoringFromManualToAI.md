@@ -17,6 +17,8 @@ User: I'm curious about how AI is making network monitoring easier compared to t
 Assistant: Absolutely! In the past, administrators had to manually ping each server or log into monitoring dashboards to track uptime. With an AI-powered assistant, you just need to tell the assistant what to watch.
 
 Let’s add a couple of hosts as examples:
+```json
+
 
 {
   "name": "functions.add_host",
@@ -27,6 +29,9 @@ Let’s add a couple of hosts as examples:
     "email": "your@email.com"
   }
 }
+```
+```json
+
 
 {
   "name": "functions.add_host",
@@ -37,6 +42,7 @@ Let’s add a couple of hosts as examples:
     "email": "your@email.com"
   }
 }
+```
 
 The assistant submits these requests to begin continuous monitoring of both the main and support websites. In the background, uptime checks, SSL certificate validity, and response times are now all handled automatically—freeing you from repetitive manual checks.
 
@@ -45,6 +51,8 @@ The assistant submits these requests to begin continuous monitoring of both the 
 User: What if I want to see which hosts currently have issues?
 
 Assistant: In the manual era, you’d likely need to grep through logs or scan for recent alerts. With the assistant, it’s a simple summary request:
+```json
+
 
 {
   "name": "functions.get_host_data",
@@ -54,6 +62,7 @@ Assistant: In the manual era, you’d likely need to grep through logs or scan f
     "alert_flag": true
   }
 }
+```
 
 The assistant reviews the latest monitoring data and quickly delivers a list of any hosts currently experiencing problems—highlighting outages, slow response times, or security concerns in real time.
 
@@ -62,6 +71,8 @@ The assistant reviews the latest monitoring data and quickly delivers a list of 
 User: Can the assistant provide historical perspectives too, so I can see trends or recurring issues that I used to hand-compile in spreadsheets?
 
 Assistant: Absolutely! The assistant can instantly return detailed history over any time frame:
+```json
+
 
 {
   "name": "functions.get_host_data",
@@ -72,6 +83,7 @@ Assistant: Absolutely! The assistant can instantly return detailed history over 
     "date_end": "2024-05-01T00:00:00"
   }
 }
+```
 
 Instead of spending hours crafting reports, the assistant does the heavy lifting, delivering clear, actionable insights in seconds.
 
@@ -80,6 +92,8 @@ Instead of spending hours crafting reports, the assistant does the heavy lifting
 User: What about security—can the assistant handle scans that used to require specialty knowledge?
 
 Assistant: Modern AI-enabled assistants bridge this gap by working alongside integrated security expert tools. For example:
+```json
+
 
 {
   "name": "functions.call_security_expert",
@@ -88,6 +102,7 @@ Assistant: Modern AI-enabled assistants bridge this gap by working alongside int
     "agent_location": "Scanner - EU"
   }
 }
+```
 
 This request triggers an expert-driven assessment—no command-line or script mastery needed. The assistant coordinates everything for you and presents readable findings.
 
