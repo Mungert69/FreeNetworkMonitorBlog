@@ -1,12 +1,12 @@
 ---
-title: SSLTLS Insights Testing HTTPS Port Security With Free Network Monitor
+title: SSLTLS Insights Testing HTTPS Port Security With Quantum Ready Monitor
 date: 2025-01-17T23:54:00
 image: /blogpics/apipicgen/SSLTLSInsightsTestingHTTPSPortSecurityWithFreeNetworkMonitor-0XP8F6591M.jpg
 categories: ["SSL/TLS Security", "Network Security"]
 featured: false
 draft: false
 ---
-If you want to ensure that your online services are secure, testing the HTTPS port security is crucial. Today, we will guide you through using the Free Network Monitor Assistant to perform various security assessments, including SSL/TLS insights, leveraging tools like Nmap, Metasploit, and OpenSSL. Follow along as we demonstrate how to achieve this step by step!
+If you want to ensure that your online services are secure, testing the HTTPS port security is crucial. Today, we will guide you through using the Quantum Ready Monitor Assistant to perform various security assessments, including SSL/TLS insights, leveraging tools like Nmap, Metasploit, and OpenSSL. Follow along as we demonstrate how to achieve this step by step!
 
 To begin, you need to select an agent location for executing our assessments. Let's start by retrieving the list of available agents.
 
@@ -64,6 +64,6 @@ For our final step, let’s utilize Metasploit to check for any known exploits a
 
 *Once the search is complete, the assistant provides the user with a list of potential exploits that can be utilized, along with their details.*
 
-By following these steps, you can effectively assess the HTTPS port security of your domains using the Free Network Monitor Assistant. You'll have insights into your SSL/TLS certificate's reliability, discover potential vulnerabilities through Nmap, and explore exploit opportunities with Metasploit. 
+By following these steps, you can effectively assess the HTTPS port security of your domains using the Quantum Ready Monitor Assistant. You'll have insights into your SSL/TLS certificate's reliability, discover potential vulnerabilities through Nmap, and explore exploit opportunities with Metasploit. 
 
-With these powerful tools at your disposal, ensuring your online services are secure is just a few clicks away! Why not try it yourself with the Free Network Monitor Assistant today?
+With these powerful tools at your disposal, ensuring your online services are secure is just a few clicks away! Why not try it yourself with the Quantum Ready Monitor Assistant today?

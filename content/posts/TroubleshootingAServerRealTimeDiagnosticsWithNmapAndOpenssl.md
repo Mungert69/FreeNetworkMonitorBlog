@@ -6,7 +6,7 @@ categories: ["Diagnostics", "Server Security"]
 featured: false
 draft: false
 ---
-When troubleshooting a server, timely and accurate diagnostics can pinpoint issues that might affect connectivity and security. Today, we'll explore how to use the Free Network Monitor Assistant to perform Nmap scans and OpenSSL tests, enabling you to diagnose and resolve server problems in real-time.
+When troubleshooting a server, timely and accurate diagnostics can pinpoint issues that might affect connectivity and security. Today, we'll explore how to use the Quantum Ready Monitor Assistant to perform Nmap scans and OpenSSL tests, enabling you to diagnose and resolve server problems in real-time.
 
 ---
 
@@ -143,4 +143,4 @@ You can see that ports 80 and 443 are open, indicating web services are working.
 
 ---
 
-In conclusion, the Free Network Monitor Assistant has provided you with real-time diagnostics using Nmap and OpenSSL to troubleshoot your server's connectivity and security issues. You can visualize running scans and checks as needed, allowing for efficient oversight and maintenance of your network's health. Give it a try for your own server management needs!
+In conclusion, the Quantum Ready Monitor Assistant has provided you with real-time diagnostics using Nmap and OpenSSL to troubleshoot your server's connectivity and security issues. You can visualize running scans and checks as needed, allowing for efficient oversight and maintenance of your network's health. Give it a try for your own server management needs!

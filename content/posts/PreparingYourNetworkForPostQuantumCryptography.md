@@ -6,11 +6,11 @@ categories: ["Quantum Security", "Encryption"]
 featured: false
 draft: false
 ---
-As post-quantum cryptography becomes a necessity in today’s world, network professionals and security-conscious users must take action to prepare their systems for quantum-safe standards. In this blog post, we’ll walk you through a hands-on example using the Free Network Monitor Assistant to evaluate your network’s readiness for post-quantum encryption, step by step. Our focus is on practical actions to help future-proof your network’s encryption infrastructure.
+As post-quantum cryptography becomes a necessity in today’s world, network professionals and security-conscious users must take action to prepare their systems for quantum-safe standards. In this blog post, we’ll walk you through a hands-on example using the Quantum Ready Monitor Assistant to evaluate your network’s readiness for post-quantum encryption, step by step. Our focus is on practical actions to help future-proof your network’s encryption infrastructure.
 
 Introduction: Getting Started with Quantum-Safety Checks
 
-Let’s imagine you’re responsible for securing your organization’s main website, companyexample.com, and want to know if it’s protected with post-quantum cryptography. You want clear answers: Does your server support quantum-safe algorithms? Are your TLS endpoints exposed to quantum threats? Here’s how you can use the Free Network Monitor Assistant to find out.
+Let’s imagine you’re responsible for securing your organization’s main website, companyexample.com, and want to know if it’s protected with post-quantum cryptography. You want clear answers: Does your server support quantum-safe algorithms? Are your TLS endpoints exposed to quantum threats? Here’s how you can use the Quantum Ready Monitor Assistant to find out.
 
 Step 1: Add Your Host for Quantum Monitoring
 
@@ -98,4 +98,4 @@ Definitely. You can add multiple hosts by repeating the add_host process for eac
 
 Conclusion: Future-Proofing Starts Now
 
-By using Free Network Monitor Assistant’s quantum assessment features, you can identify where your encryption needs upgrading, receive clear remediation steps, and maintain vigilance with automatic monitoring. This practical approach positions you ahead of the quantum security curve—all with just a few guided steps. Ready to try it yourself? Start by adding your key hosts for quantum monitoring and let the assistant help you build quantum-resilient defenses, today!
+By using Quantum Ready Monitor Assistant’s quantum assessment features, you can identify where your encryption needs upgrading, receive clear remediation steps, and maintain vigilance with automatic monitoring. This practical approach positions you ahead of the quantum security curve—all with just a few guided steps. Ready to try it yourself? Start by adding your key hosts for quantum monitoring and let the assistant help you build quantum-resilient defenses, today!

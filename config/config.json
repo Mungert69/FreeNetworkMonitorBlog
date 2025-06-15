@@ -1,13 +1,13 @@
 {
   "site": {
-    "title": "Free Network Monitor Blog",
+    "title": "Quantum Ready Monitor Blog",
     "base_url": "https://blog.readyforquantum.com",
     "favicon": "/images/logo-square.jpg",
     "logo": "/img/logo.png",
     "logo_white": "/img/logo.png",
     "logo_width": "41",
     "logo_height": "27",
-    "logo_text": "Free Network Monitor Logo"
+    "logo_text": "Quantum Ready Monitor Logo"
   },
   "settings": {
     "theme_switcher": true,
@@ -18,13 +18,13 @@
   },
   "params": {
     "tag_manager_id": "",
-    "footer_content": "Free Network Monitor Blog.",
+    "footer_content": "Quantum Ready Monitor Blog.",
     "copyright": "Designed and Developed By [Mahadeva](https://www.mahadeva.co.uk/)"
   },
   "metadata": {
     "meta_author": "Mahadeva",
     "meta_image": "/img/logo.png",
-    "meta_description": "Free Network Monitor Blog"
+    "meta_description": "Quantum Ready Monitor Blog"
   },
   "widgets": {
     "about": {
@@ -43,7 +43,7 @@
     "newsletter": {
       "enable": true,
       "title": "Newsletter",
-      "content": "Join thousands of Free Network Monitor subscribers and get our best articles delivered each week!",
+      "content": "Join thousands of Quantum Ready Monitor subscribers and get our best articles delivered each week!",
       "privacy_policy_page": "#",
       "malichipm_url": ""
     }
