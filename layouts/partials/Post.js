@@ -5,6 +5,7 @@ import Link from "next/link";
 import { FaRegCalendar, FaUserAlt } from "react-icons/fa";
 
 const Post = ({ post }) => {
+  if (!post || !post.frontmatter) return null;
   const { summary_length, blog_folder } = config.settings;
   const { meta_author } = config.metadata;
   return (
