@@ -34,75 +34,17 @@ const Contact = ({ data }) => {
                 <BsArrowRightShort />
               </span>
             </h2>
-            <form
-              className="contact-form mt-12"
-              method="POST"
-              action={form_action}
-            >
-              <div className="mb-6">
-                <label className="mb-2 block font-secondary" htmlFor="name">
-                  Full name
-                  <small className="font-secondary text-sm text-primary">
-                    *
-                  </small>
-                </label>
-                <input
-                  className="form-input w-full"
-                  name="name"
-                  type="text"
-                  placeholder="Thomas Milano"
-                  required
-                />
-              </div>
-              <div className="mb-6">
-                <label className="mb-2 block font-secondary" htmlFor="email">
-                  Email Address
-                  <small className="font-secondary text-sm text-primary">
-                    *
-                  </small>
-                </label>
-                <input
-                  className="form-input w-full"
-                  name="email"
-                  type="email"
-                  placeholder="example@gmail.com"
-                  required
-                />
-              </div>
-              <div className="mb-6">
-                <label className="mb-2 block font-secondary" htmlFor="subject">
-                  Subject
-                  <small className="font-secondary text-sm text-primary">
-                    *
-                  </small>
-                </label>
-                <input
-                  className="form-input w-full"
-                  name="subject"
-                  type="text"
-                  placeholder="Blog advertisement"
-                  required
-                />
-              </div>
-              <div className="mb-6">
-                <label className="mb-2 block font-secondary" htmlFor="message">
-                  Your Message Here
-                  <small className="font-secondary text-sm text-primary">
-                    *
-                  </small>
-                </label>
-                <textarea
-                  className="form-textarea w-full"
-                  placeholder="Hello I’m Mr ‘x’ from………….."
-                  rows="7"
-                />
-              </div>
-              <input
+            <div className="contact-form mt-12 text-center">
+              <a
+                href={`mailto:${mail}?subject=Contact%20from%20Blog`}
                 className="btn btn-primary"
-                type="submit"
-                value="Send Now"
-              />
-            </form>
+              >
+                Contact Us via Email
+              </a>
+              <p className="mt-4 text-xs text-gray-500">
+                Clicking the button will open your default email client.
+              </p>
+            </div>
           </div>
         </div>
         <div className="row">
