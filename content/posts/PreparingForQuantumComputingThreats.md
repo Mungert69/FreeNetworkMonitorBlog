@@ -6,7 +6,7 @@ categories: ["Quantum Security", "Planning"]
 featured: false
 draft: false
 ---
-As organizations become increasingly aware of the threats posed by quantum computing to traditional network security, it’s essential to establish a robust, step-by-step timeline for upgrading security measures. In this blog post, we’ll walk through a practical conversation with the Quantum Network Monitor Assistant to plan, prioritize, and begin monitoring your network for quantum-safe compliance—a crucial starting point for any organization getting ready for the quantum future.
+As organizations become increasingly aware of the threats posed by quantum computing to traditional network security, it’s essential to establish a robust, step-by-step timeline for upgrading security measures. In this blog post, we’ll walk through a practical conversation with the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to plan, prioritize, and begin monitoring your network for quantum-safe compliance—a crucial starting point for any organization getting ready for the quantum future.
 
 Step 1: Assess Your Current Network Security Posture
 
@@ -89,4 +89,4 @@ This ensures ongoing verification and alerts you about any fallback to insecure 
 
 Conclusion
 
-Preparing your network for quantum threats is a process, not a one-time task. The Quantum Network Monitor Assistant helps you take inventory, assess risk, engage quantum security experts, and set a clear timeline for upgrades—all in a collaborative, workflow-oriented way. Ready to secure your future? Start mapping your quantum upgrade journey with the assistant today!
+Preparing your network for quantum threats is a process, not a one-time task. The [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) helps you take inventory, assess risk, engage quantum security experts, and set a clear timeline for upgrades—all in a collaborative, workflow-oriented way. Ready to secure your future? Start mapping your quantum upgrade journey with the assistant today!

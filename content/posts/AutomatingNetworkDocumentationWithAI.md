@@ -8,9 +8,9 @@ draft: false
 ---
 Automating Network Documentation with AI: A Step-by-Step Conversation
 
-Keeping your network documentation current is a major challenge, especially in dynamic environments. With the Quantum Network Monitor Assistant, you can automate the creation and maintenance of network inventories and receive up-to-date data that could power network diagrams and asset documentation. Let’s walk through how this works in a real scenario—capturing interactions that use actual function calls provided by the assistant.
+Keeping your network documentation current is a major challenge, especially in dynamic environments. With the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), you can automate the creation and maintenance of network inventories and receive up-to-date data that could power network diagrams and asset documentation. Let’s walk through how this works in a real scenario—capturing interactions that use actual function calls provided by the assistant.
 
-Meet Alex. They oversee a mid-sized network with dozens of monitored servers and endpoints spread across multiple locations. Alex wants a centralized, always-current list of hosts and their statuses to use for inventory and diagramming. Here’s how the Quantum Network Monitor Assistant can help!
+Meet Alex. They oversee a mid-sized network with dozens of monitored servers and endpoints spread across multiple locations. Alex wants a centralized, always-current list of hosts and their statuses to use for inventory and diagramming. Here’s how the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) can help!
 
 Step 1: Retrieve the Complete Inventory
 
@@ -97,6 +97,6 @@ Assistant: “Definitely! The output from get_host_list and get_host_data is in 
 
 Conclusion
 
-With a few simple commands (and their corresponding function calls), the Quantum Network Monitor Assistant helps you keep your network documentation, diagrams, and inventories up to date—without manual effort. The assistant’s automation means changes in your environment are captured in near real-time, making your documentation as dynamic as your network.
+With a few simple commands (and their corresponding function calls), the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) helps you keep your network documentation, diagrams, and inventories up to date—without manual effort. The assistant’s automation means changes in your environment are captured in near real-time, making your documentation as dynamic as your network.
 
-Ready to automate your own network documentation? Try the Quantum Network Monitor Assistant and take the pain out of inventory and topology mapping!
+Ready to automate your own network documentation? Try the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) and take the pain out of inventory and topology mapping!

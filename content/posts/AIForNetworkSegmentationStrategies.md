@@ -6,7 +6,7 @@ categories: ["Security", "AI"]
 featured: false
 draft: false
 ---
-Designing secure network zones (network segmentation) is a crucial part of any robust cybersecurity strategy. In this blog, we’ll show how the Quantum Network Monitor Assistant can guide you step-by-step—from conceptualizing your segmentation plan, to actively monitoring each segment for performance and security. Let’s walk through how a user can harness the assistant’s power to design, implement, and maintain secure zones in their organization.
+Designing secure network zones (network segmentation) is a crucial part of any robust cybersecurity strategy. In this blog, we’ll show how the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) can guide you step-by-step—from conceptualizing your segmentation plan, to actively monitoring each segment for performance and security. Let’s walk through how a user can harness the assistant’s power to design, implement, and maintain secure zones in their organization.
 
 ---
 
@@ -88,10 +88,10 @@ This call fetches a detailed log of alerts and performance for devices in the us
 ---
 
 Summing up: 
-With just a few simple conversations and well-placed function calls, the Quantum Network Monitor Assistant empowers you to:
+With just a few simple conversations and well-placed function calls, the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) empowers you to:
 - Identify and group hosts into logical security zones
 - Configure tailored monitoring strategies for each segment
 - Activate quantum security checks where needed
 - Track zone-specific activity and respond promptly to incidents
 
-Ready to enhance your segmentation strategy? Try the Quantum Network Monitor Assistant and bring advanced, AI-driven clarity—and quantum resilience—to every corner of your network.
+Ready to enhance your segmentation strategy? Try the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) and bring advanced, AI-driven clarity—and quantum resilience—to every corner of your network.

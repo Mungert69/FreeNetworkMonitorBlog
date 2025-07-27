@@ -6,7 +6,7 @@ categories: ["Threat Detection"]
 featured: false
 draft: false
 ---
-In today's digital landscape, phishing attacks are becoming increasingly sophisticated, targeting users through deceptive emails, websites, and networks. Fortunately, the Quantum Network Monitor Assistant offers robust capabilities to detect these threats and prevent them from causing harm. This guide will demonstrate how you can leverage the assistant's functionalities to identify phishing attempts through network scans and logs.
+In today's digital landscape, phishing attacks are becoming increasingly sophisticated, targeting users through deceptive emails, websites, and networks. Fortunately, the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) offers robust capabilities to detect these threats and prevent them from causing harm. This guide will demonstrate how you can leverage the assistant's functionalities to identify phishing attempts through network scans and logs.
 
 ### Step 1: Setting Up Hosts for Monitoring
 
@@ -71,6 +71,6 @@ In this scenario, the assistant uses the `edit_host` function to modify the host
 
 ### Conclusion
 
-With the Quantum Network Monitor Assistant, identifying and preventing phishing attempts has never been more accessible. By setting up host monitoring, running security assessments, collecting and analyzing monitoring data, and acting quickly to block threats, you can bolster your network's defenses against phishing attacks. 
+With the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), identifying and preventing phishing attempts has never been more accessible. By setting up host monitoring, running security assessments, collecting and analyzing monitoring data, and acting quickly to block threats, you can bolster your network's defenses against phishing attacks. 
 
 Explore these powerful functionalities to enhance your network security today. If you have any questions or need assistance, just click on the assistant icon at the bottom right of the page. Start leveraging AI-powered capabilities to protect your organization against phishing threats effectively!

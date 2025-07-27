@@ -6,7 +6,7 @@ categories: ["Quantum Security", "Encryption"]
 featured: false
 draft: false
 ---
-As quantum computing rapidly moves from theoretical to practical, keeping your digital assets secure requires more than standard monitoring—you need to keep a close eye on quantum-resistant encryption readiness. In this blog, we’ll walk through how you can use the Quantum Network Monitor Assistant to identify, monitor, and respond to the most important metrics that will determine whether your network stands up to quantum threats.
+As quantum computing rapidly moves from theoretical to practical, keeping your digital assets secure requires more than standard monitoring—you need to keep a close eye on quantum-resistant encryption readiness. In this blog, we’ll walk through how you can use the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to identify, monitor, and respond to the most important metrics that will determine whether your network stands up to quantum threats.
 
 Let’s see how an actual interaction with the assistant would look as you move toward quantum-safe security.
 
@@ -102,7 +102,7 @@ The edit_host function allows you to enable or disable monitoring as your needs 
 
 Summary
 
-Using the Quantum Network Monitor Assistant, it becomes simple to:
+Using the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), it becomes simple to:
 
 - Set up quantum-specific monitoring for any website or service
 - Continuously track, at a glance, if post-quantum encryption is in place and active
@@ -110,4 +110,4 @@ Using the Quantum Network Monitor Assistant, it becomes simple to:
 
 With these tools and key metrics—supported quantum algorithms, connection success rates, and timely alerts—you can feel more confident navigating the quantum future.
 
-Ready to future-proof your site? Try the Quantum Network Monitor Assistant today and see just how easy quantum security assessment can be!
+Ready to future-proof your site? Try the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) today and see just how easy quantum security assessment can be!

@@ -6,7 +6,7 @@ categories: ["AI", "Machine Learning"]
 featured: false
 draft: false
 ---
-In this blog post, we’ll walk through how the Quantum Network Monitor Assistant learns about your network and adapts its monitoring based on your specific environment. With an intelligent approach, the Assistant observes, collects data, and evolves its recommendations and monitoring rules—making network management smarter and tailored to your needs.
+In this blog post, we’ll walk through how the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) learns about your network and adapts its monitoring based on your specific environment. With an intelligent approach, the Assistant observes, collects data, and evolves its recommendations and monitoring rules—making network management smarter and tailored to your needs.
 
 Let’s follow a real conversation to see this in action!
 
@@ -100,11 +100,11 @@ Assistant: Yes! Over time, as your specific monitoring data accumulates, the Ass
 
 ---
 
-In summary, the Quantum Network Monitor Assistant builds a tailored understanding of your network by:
+In summary, the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) builds a tailored understanding of your network by:
 
 - Allowing you to choose monitoring locations that reflect your unique setup.
 - Collecting and analyzing detailed, location-specific data.
 - Adapting alerts and recommendations as your network usage patterns emerge.
 - Letting you quickly fine-tune configurations in response to operational changes.
 
-Ready to experience a truly adaptive network assistant? Start a conversation with the Quantum Network Monitor Assistant, and see how it evolves with your environment!
+Ready to experience a truly adaptive network assistant? Start a conversation with the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), and see how it evolves with your environment!

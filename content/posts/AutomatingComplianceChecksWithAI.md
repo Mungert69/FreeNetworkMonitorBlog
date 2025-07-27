@@ -6,7 +6,7 @@ categories: ["Compliance", "AI"]
 featured: false
 draft: false
 ---
-Ensuring ongoing compliance with standards such as PCI DSS and HIPAA is a major challenge for organizations handling sensitive data. Fortunately, with the Quantum Network Monitor Assistant, you can automate many of the routine compliance checks that would otherwise require manual oversight. In this blog post, we’ll walk through a practical, dialog-style example showing how the Assistant can help you maintain your compliance posture — from initial setup to custom monitoring and automated reporting.
+Ensuring ongoing compliance with standards such as PCI DSS and HIPAA is a major challenge for organizations handling sensitive data. Fortunately, with the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), you can automate many of the routine compliance checks that would otherwise require manual oversight. In this blog post, we’ll walk through a practical, dialog-style example showing how the Assistant can help you maintain your compliance posture — from initial setup to custom monitoring and automated reporting.
 
 Let’s imagine a network administrator is responsible for multiple healthcare and payment processing servers. They need to fulfill regular PCI DSS and HIPAA checks, including monitoring secure connections, service availability, and SSL/TLS configuration. Here’s how the Assistant streamlines this workflow:
 
@@ -143,6 +143,6 @@ This lets you rapidly respond to new compliance mandates, such as adding multi-f
 
 ---
 
-In summary, the Quantum Network Monitor Assistant acts like your AI-powered compliance co-pilot. It enables real-time monitoring, automated reporting, and security assessments tailored to PCI DSS, HIPAA, and evolving regulatory needs. With its flexible, conversational interface and deep integrations, staying compliant is not just achievable — it’s automated.
+In summary, the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) acts like your AI-powered compliance co-pilot. It enables real-time monitoring, automated reporting, and security assessments tailored to PCI DSS, HIPAA, and evolving regulatory needs. With its flexible, conversational interface and deep integrations, staying compliant is not just achievable — it’s automated.
 
-Ready to make compliance checks effortless? Start with the Quantum Network Monitor Assistant today and see how easy it is to keep your systems and standards in check!
+Ready to make compliance checks effortless? Start with the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) today and see how easy it is to keep your systems and standards in check!

@@ -6,7 +6,7 @@ categories: ["Compliance", "AI"]
 featured: false
 draft: false
 ---
-In today’s fast-paced IT environments, keeping up with compliance requirements can be an uphill battle—especially when it comes to generating consistent, audit-ready reports about your network’s health and security posture. Thankfully, the Quantum Network Monitor Assistant makes this process seamless. In this blog post, we’ll walk through just how easy it is to automate network compliance reporting using straightforward queries and built-in monitoring functions. 
+In today’s fast-paced IT environments, keeping up with compliance requirements can be an uphill battle—especially when it comes to generating consistent, audit-ready reports about your network’s health and security posture. Thankfully, the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) makes this process seamless. In this blog post, we’ll walk through just how easy it is to automate network compliance reporting using straightforward queries and built-in monitoring functions. 
 
 Let’s imagine Sarah, a network administrator, wants to generate a comprehensive compliance report showing all currently monitored hosts, their endpoint types, alert statuses, and availability—all details that auditors commonly request.
 
@@ -80,4 +80,4 @@ A Smooth Compliance Workflow
 
 Throughout this process, Sarah needed only simple, natural language queries to obtain comprehensive, audit-grade compliance data. Each function call—get_host_list to enumerate assets, get_host_data to focus on alerts and history—demonstrates the power of automating compliance reporting without sifting through manual logs or data dumps.
 
-Ready to simplify your compliance workflow? Let the Quantum Network Monitor Assistant handle the technical heavy lifting—your next audit report could be just a query away!
+Ready to simplify your compliance workflow? Let the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) handle the technical heavy lifting—your next audit report could be just a query away!

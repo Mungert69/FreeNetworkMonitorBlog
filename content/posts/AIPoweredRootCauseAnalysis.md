@@ -6,7 +6,7 @@ categories: ["Troubleshooting", "AI"]
 featured: false
 draft: false
 ---
-Modern network environments often face complex issues that affect multiple systems simultaneously—think intermittent outages, slowdowns, or alerts triggered across various endpoints. Pinpointing the root cause can be daunting, especially when data is scattered and the relationships aren’t obvious. The Quantum Network Monitor Assistant (FNMA) leverages AI-driven natural language queries to help users trace these multifaceted issues across their entire infrastructure, making root cause analysis faster and more intuitive.
+Modern network environments often face complex issues that affect multiple systems simultaneously—think intermittent outages, slowdowns, or alerts triggered across various endpoints. Pinpointing the root cause can be daunting, especially when data is scattered and the relationships aren’t obvious. The [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) (FNMA) leverages AI-driven natural language queries to help users trace these multifaceted issues across their entire infrastructure, making root cause analysis faster and more intuitive.
 
 Let’s walk through a hands-on example showing how a user and the assistant collaborate to solve a network-wide problem.
 
@@ -101,12 +101,12 @@ Assistant:
 
 ---
 
-This blog post demonstrates how the Quantum Network Monitor Assistant empowers users to ask natural questions (“What caused all these service alerts?”) and then handle the technical heavy lifting—correlating monitoring data, filtering by time, endpoint, and even infrastructure component. Each step, from initial symptom gathering to cross-service pattern recognition, leverages function calls behind the scenes:
+This blog post demonstrates how the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) empowers users to ask natural questions (“What caused all these service alerts?”) and then handle the technical heavy lifting—correlating monitoring data, filtering by time, endpoint, and even infrastructure component. Each step, from initial symptom gathering to cross-service pattern recognition, leverages function calls behind the scenes:
 
 - get_host_data for granular, time-anchored metrics
 - get_host_list to filter by monitoring type or endpoint
 - AI-driven pattern recognition to draw logical connections the moment the data comes back
 
-With the Quantum Network Monitor Assistant, even complex, multi-system issues become manageable. Just describe your symptoms or questions in natural language and let AI guide you, streamlining root cause analysis like never before.
+With the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), even complex, multi-system issues become manageable. Just describe your symptoms or questions in natural language and let AI guide you, streamlining root cause analysis like never before.
 
-Curious how this might work for your environment? Engage with the Quantum Network Monitor Assistant today and transform your troubleshooting workflow!
+Curious how this might work for your environment? Engage with the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) today and transform your troubleshooting workflow!

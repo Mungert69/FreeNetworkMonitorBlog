@@ -6,7 +6,7 @@ categories: ["Network Mapping", "AI"]
 featured: false
 draft: false
 ---
-Mapping and understanding complex network environments can be daunting—especially when you’re dealing with sprawling infrastructures, multi-site deployments, or frequent changes. The Quantum Network Monitor Assistant streamlines this typically challenging task by harnessing AI to automate the visualization and documentation of your network topology. This blog post walks you through a real-world scenario to illustrate how the assistant makes network mapping accessible, up-to-date, and collaborative.
+Mapping and understanding complex network environments can be daunting—especially when you’re dealing with sprawling infrastructures, multi-site deployments, or frequent changes. The [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) streamlines this typically challenging task by harnessing AI to automate the visualization and documentation of your network topology. This blog post walks you through a real-world scenario to illustrate how the assistant makes network mapping accessible, up-to-date, and collaborative.
 
 Let’s dive in!
 
@@ -102,6 +102,6 @@ With the monitoring agent in place, your network map stays current. Any time a d
 
 Closing Thoughts
 
-Through a series of intuitive interactions and a few well-placed function calls, the Quantum Network Monitor Assistant automates the discovery, visualization, and documentation of even the most complex network environments. This means less manual work, up-to-date records, and a clear view of your infrastructure’s health and structure at all times.
+Through a series of intuitive interactions and a few well-placed function calls, the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) automates the discovery, visualization, and documentation of even the most complex network environments. This means less manual work, up-to-date records, and a clear view of your infrastructure’s health and structure at all times.
 
-Ready to see your network visualized automatically? Give the Quantum Network Monitor Assistant a try and experience smarter, AI-powered network mapping today!
+Ready to see your network visualized automatically? Give the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) a try and experience smarter, AI-powered network mapping today!

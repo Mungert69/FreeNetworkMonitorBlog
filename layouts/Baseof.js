@@ -29,7 +29,24 @@ const Base = ({
         </title>
 
         {/* canonical url */}
-        {canonical && <link rel="canonical" href={canonical} itemProp="url" />}
+        <link
+          rel="canonical"
+          href={
+            (() => {
+              // Use provided canonical or build from router
+              let url = canonical || `${base_url}${router.asPath}`;
+              // Remove query params and fragments
+              url = url.split("?")[0].split("#")[0];
+              // Lowercase and remove trailing slash (except root)
+              url = url.toLowerCase();
+              if (url !== "/" && url.endsWith("/")) {
+                url = url.slice(0, -1);
+              }
+              return url;
+            })()
+          }
+          itemProp="url"
+        />
 
         {/* noindex robots */}
         {noindex && <meta name="robots" content="noindex,nofollow" />}

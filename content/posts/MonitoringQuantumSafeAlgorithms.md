@@ -6,7 +6,7 @@ categories: ["Quantum Security", "Encryption"]
 featured: false
 draft: false
 ---
-In today’s rapidly evolving digital landscape, organizations must ensure their cryptographic infrastructure can withstand the threats posed by quantum computing. Tracking the adoption of quantum-safe algorithms is essential for businesses transitioning to post-quantum cryptographic standards. In this walk-through, we’ll explore how to leverage the Quantum Network Monitor Assistant to monitor and assess the adoption of quantum-safe algorithms across your sites or services.
+In today’s rapidly evolving digital landscape, organizations must ensure their cryptographic infrastructure can withstand the threats posed by quantum computing. Tracking the adoption of quantum-safe algorithms is essential for businesses transitioning to post-quantum cryptographic standards. In this walk-through, we’ll explore how to leverage the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to monitor and assess the adoption of quantum-safe algorithms across your sites or services.
 
 A user, keen to know whether their public-facing servers support or use quantum-safe algorithms, initiates the conversation:
 
@@ -14,7 +14,7 @@ User:
 I’d like to keep tabs on which of my domains and endpoints implement quantum-safe (post-quantum) algorithms. How can I set this up?
 
 Assistant:
-Great goal! The Quantum Network Monitor Assistant offers a specialized “quantum” monitoring endpoint, making it simple to test for post-quantum cryptographic support on your domains. Let’s start by adding a host for quantum monitoring.
+Great goal! The [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) offers a specialized “quantum” monitoring endpoint, making it simple to test for post-quantum cryptographic support on your domains. Let’s start by adding a host for quantum monitoring.
 
 Assistant:
 Let’s begin by adding one of your domains (for example, example.com) and setting the endpoint to “quantum”. This will track quantum-safe algorithm adoption and compatible services on that host.
@@ -96,10 +96,10 @@ Definitely. Let’s retrieve the monitoring records for a given host within a de
 
 This lets you visualize progress and spot exactly when quantum-safe standards were adopted on each monitored endpoint.
 
-In summary, using the Quantum Network Monitor Assistant, organizations can:
+In summary, using the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), organizations can:
 - Set up active monitoring specific to quantum-safe cryptographic standards.
 - Compare readiness across multiple hosts, endpoints, ports, and geographic regions.
 - Retrieve up-to-date and historical adoption data with just a few queries.
 - Respond quickly if a host falls behind on post-quantum readiness.
 
-Ready to future-proof your cryptography? Try setting up your own quantum algorithm monitors today with the Quantum Network Monitor Assistant and track adoption every step of the way!
+Ready to future-proof your cryptography? Try setting up your own quantum algorithm monitors today with the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) and track adoption every step of the way!

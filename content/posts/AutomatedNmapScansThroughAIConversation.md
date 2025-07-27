@@ -6,7 +6,7 @@ categories: ["Nmap", "Automation"]
 featured: false
 draft: false
 ---
-Curious if you can run a full port scan on your own network without memorizing Nmap flags or laboriously configuring scripts? With the Quantum Network Monitor Assistant, complex network scans—like probing for open ports—are handled seamlessly through natural language conversation. Here’s a step-by-step look at how you can use the assistant to automate Nmap scans, illustrated with a realistic interaction.
+Curious if you can run a full port scan on your own network without memorizing Nmap flags or laboriously configuring scripts? With the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), complex network scans—like probing for open ports—are handled seamlessly through natural language conversation. Here’s a step-by-step look at how you can use the assistant to automate Nmap scans, illustrated with a realistic interaction.
 
 Let’s walk through a typical use case: you want to scan your home or office network to identify which ports are open, helping you detect unknown vulnerabilities or unauthorized services.
 
@@ -83,6 +83,6 @@ The assistant then shares the results—perhaps revealing the web server softwar
 
 Summary: AI-Powered Nmap Scanning, No Command Line Needed
 
-Throughout this exchange, the Quantum Network Monitor Assistant simplifies what would otherwise involve complex commands or specialized knowledge. The key function at play—call_security_expert—translates your intent into the appropriate Nmap operation, runs it via your chosen agent, and delivers easy-to-understand results. You can iterate, focus or expand the scope of your scans, and get actionable insights—all through plain English.
+Throughout this exchange, the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) simplifies what would otherwise involve complex commands or specialized knowledge. The key function at play—call_security_expert—translates your intent into the appropriate Nmap operation, runs it via your chosen agent, and delivers easy-to-understand results. You can iterate, focus or expand the scope of your scans, and get actionable insights—all through plain English.
 
-Ready to try it out? Start a conversation with the Quantum Network Monitor Assistant and ask something as simple as, “Scan my network for open ports.” Experience the ease of AI-driven security automation for yourself!
+Ready to try it out? Start a conversation with the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) and ask something as simple as, “Scan my network for open ports.” Experience the ease of AI-driven security automation for yourself!

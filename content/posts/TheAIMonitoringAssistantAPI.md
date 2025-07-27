@@ -6,9 +6,9 @@ categories: ["API", "AI"]
 featured: false
 draft: false
 ---
-Developers today look for flexible tools that don’t just automate tasks, but can be used as building blocks for broader solutions. The Quantum Network Monitor Assistant provides a powerful API that allows developers to expand and integrate its AI monitoring and security capabilities directly into their own applications and workflows. In this blog post, we’ll walk through how a developer can leverage the Assistant’s functions to build custom monitoring, automate responses, and even add advanced security and quantum vulnerability checks into their own systems.
+Developers today look for flexible tools that don’t just automate tasks, but can be used as building blocks for broader solutions. The [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) provides a powerful API that allows developers to expand and integrate its AI monitoring and security capabilities directly into their own applications and workflows. In this blog post, we’ll walk through how a developer can leverage the Assistant’s functions to build custom monitoring, automate responses, and even add advanced security and quantum vulnerability checks into their own systems.
 
-Let’s step through a realistic example dialog between a developer and the Quantum Network Monitor Assistant, demonstrating key API interactions along the way.
+Let’s step through a realistic example dialog between a developer and the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), demonstrating key API interactions along the way.
 
 ---
 
@@ -136,6 +136,6 @@ This returns configuration and status info for all hosts under your account, ena
 
 Each function — from basic monitoring (add_host, get_host_data) to advanced actions (edit_host, call_quantum_expert) — is available through straightforward API calls, whether you’re building Python scripts, custom CI/CD hooks, or dashboard integrations.
 
-In summary, the Quantum Network Monitor Assistant’s API isn’t just for UI users: it’s a developer-centric toolkit for automating network monitoring, orchestrating security assessments, and embedding cutting-edge quantum safety tests into any workflow. With simple function calls, you gain the power to build smarter infrastructure, safer services, and a dynamic, actionable view of your network’s health.
+In summary, the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open)’s API isn’t just for UI users: it’s a developer-centric toolkit for automating network monitoring, orchestrating security assessments, and embedding cutting-edge quantum safety tests into any workflow. With simple function calls, you gain the power to build smarter infrastructure, safer services, and a dynamic, actionable view of your network’s health.
 
-Ready to start building? Explore the API functions, try out sample calls, and see how seamlessly the Quantum Network Monitor Assistant can extend your current systems!
+Ready to start building? Explore the API functions, try out sample calls, and see how seamlessly the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) can extend your current systems!

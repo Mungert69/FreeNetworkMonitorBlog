@@ -6,11 +6,11 @@ categories: ["Security Automation"]
 featured: false
 draft: false
 ---
-In today's cyber landscape, proactive security measures are essential for identifying vulnerabilities before they can be exploited. By leveraging the Quantum Network Monitor Assistant, users can seamlessly integrate AI-driven security practices into their network monitoring routine. This blog post will guide you through setting up automated scans for both vulnerability detection and performance monitoring, ensuring your network remains secure and efficient.
+In today's cyber landscape, proactive security measures are essential for identifying vulnerabilities before they can be exploited. By leveraging the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), users can seamlessly integrate AI-driven security practices into their network monitoring routine. This blog post will guide you through setting up automated scans for both vulnerability detection and performance monitoring, ensuring your network remains secure and efficient.
 
 ### Step 1: Add Hosts for Monitoring
 
-Before scheduling your scans, you'll need to add the hosts you want to monitor. You can do this easily with the Quantum Network Monitor Assistant.
+Before scheduling your scans, you'll need to add the hosts you want to monitor. You can do this easily with the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open).
 
 **Example Interaction:**
 - **User:** "Add a new host with the address mywebsite.com using HTTP monitoring."
@@ -66,6 +66,6 @@ This flexibility allows you to adapt your monitoring strategy based on evolving 
 
 ### Conclusion
 
-By utilizing the Quantum Network Monitor Assistant, users can create a robust framework for proactive security and performance monitoring that leverages automated scans. With just a few simple interactions, you can ensure that your network remains secure and operates at peak performance without the need for constant manual oversight.
+By utilizing the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), users can create a robust framework for proactive security and performance monitoring that leverages automated scans. With just a few simple interactions, you can ensure that your network remains secure and operates at peak performance without the need for constant manual oversight.
 
-To explore the capabilities of the Quantum Network Monitor Assistant further, click the assistant icon at the bottom right of the page and begin your journey toward a more secure and efficient network management experience!
+To explore the capabilities of the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) further, click the assistant icon at the bottom right of the page and begin your journey toward a more secure and efficient network management experience!
