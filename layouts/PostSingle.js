@@ -82,6 +82,25 @@ const PostSingle = ({
                   <MDXRemote {...mdxContent} components={shortcodes} />
                 </div>
               </article>
+
+              {/* Render Q&A section if questions and answers exist and are arrays of equal length */}
+              {Array.isArray(frontmatter.questions) &&
+                Array.isArray(frontmatter.answers) &&
+                frontmatter.questions.length === frontmatter.answers.length &&
+                frontmatter.questions.length > 0 && (
+                  <div className="mt-16 p-6 rounded border border-border dark:border-darkmode-border bg-theme-light dark:bg-darkmode-theme-dark">
+                    <h2 className="section-title mb-6">Frequently Asked Questions</h2>
+                    <ul>
+                      {frontmatter.questions.map((question, idx) => (
+                        <li key={`qa-${idx}`} className="mb-6">
+                          <h3 className="font-bold mb-2">{question}</h3>
+                          <p>{frontmatter.answers[idx]}</p>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+
               <div className="mt-16">
                 {disqus.enable && (
                   <DiscussionEmbed
