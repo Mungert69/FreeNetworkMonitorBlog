@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/PreparingYourNetworkForPostQuantumCryptography-XYD1Y9
 categories: ["Quantum Security", "Encryption"]
 featured: false
 draft: false
+questions:
+  - "What is the first step to check if my website supports post-quantum encryption using the Quantum Network Monitor Assistant?"
+  - "How can I find out if my server supports post-quantum algorithms like Kyber or Dilithium2?"
+  - "What should I do if my server does not have Kyber512 enabled and only uses traditional TLS?"
+  - "Is it possible to receive alerts if my server's quantum cryptography status changes?"
+  - "Can I monitor multiple servers at once for quantum readiness?"
+answers:
+  - "The first step is to add your website host (e.g., companyexample.com) to the Quantum Network Monitor Assistant for quantum monitoring by using the add_host function with the endpoint type set to 'quantum'. This registers your site for automated scans to check for quantum-safe cryptographic protection."
+  - "After adding your host for monitoring, you can retrieve the latest quantum assessment results by using the get_host_data function. This will show whether your server supports post-quantum key encapsulation mechanisms (KEMs) such as Kyber or Dilithium2, and highlight any vulnerabilities."
+  - "You can use the call_quantum_expert function to get tailored recommendations from the integrated quantum security expert. This will provide specific actions like configuration changes, firmware updates, certificate replacements, and vendor guidance to enable Kyber512 and implement post-quantum-safe configurations."
+  - "Yes, when you add a host for continuous quantum monitoring, you can set up email notifications to alert you of any changes in your server’s quantum cryptography status, helping you stay informed about your exposure to quantum threats."
+  - "Absolutely. You can add multiple hosts by repeating the add_host process for each server. Using functions like get_host_list and get_host_data, you can monitor and analyze quantum vulnerabilities and trends across your entire network."
 ---
 As post-quantum cryptography becomes a necessity in today’s world, network professionals and security-conscious users must take action to prepare their systems for quantum-safe standards. In this blog post, we’ll walk you through a hands-on example using the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to evaluate your network’s readiness for post-quantum encryption, step by step. Our focus is on practical actions to help future-proof your network’s encryption infrastructure.
 

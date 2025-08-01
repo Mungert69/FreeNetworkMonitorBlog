@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/BuildingASecureNetworkAIDrivenInsightsAndBestPractice
 categories: ["Security Best Practices"]
 featured: false
 draft: false
+questions:
+  - "How do I add a new host for monitoring using the Quantum Network Monitor Assistant?"
+  - "Can I run vulnerability scans on my monitored hosts with this assistant?"
+  - "How can I review the monitoring data collected for a specific host?"
+  - "Is it possible to temporarily disable monitoring for a host?"
+  - "Can I get help from security experts through the Quantum Network Monitor Assistant?"
+answers:
+  - "To add a new host, provide the assistant with the host address and specify the type of endpoint to monitor, such as HTTP, HTTPS, or ping. The assistant will then configure the monitoring settings, including port and timeout values."
+  - "Yes, the Quantum Network Monitor Assistant allows you to initiate vulnerability scans, such as using Nmap, to check for potential security weaknesses on your monitored hosts."
+  - "You can request the latest monitoring data for a host, which includes metrics like response times, availability, and alerts. The assistant retrieves this data so you can analyze trends and identify any issues."
+  - "Yes, you can disable monitoring for any host temporarily through the assistant. This is useful if the host is no longer relevant or requires maintenance, and you can re-enable monitoring at any time."
+  - "Absolutely. The assistant can forward your request for an in-depth vulnerability assessment to security experts who will provide detailed insights and recommendations tailored to your network."
 ---
 In today's digital landscape, building a secure network is more crucial than ever, especially with the rise of sophisticated cyber threats. The [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) provides a powerful suite of tools that utilize AI-driven insights to help you secure your networks effectively. In this guide, we’ll walk through how to leverage these features for building a resilient network.
 

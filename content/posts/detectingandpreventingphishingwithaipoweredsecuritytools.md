@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/DetectingAndPreventingPhishingWithAIPoweredSecurityTo
 categories: ["Threat Detection"]
 featured: false
 draft: false
+questions:
+  - "How do I start monitoring a host for phishing attempts using the Quantum Network Monitor Assistant?"
+  - "What is the purpose of running security assessments with the assistant?"
+  - "How can I retrieve and interpret monitoring data from the assistant?"
+  - "What should I do if the assistant detects suspicious behavior on a monitored host?"
+  - "How can I check if a vulnerability scan is still running using the assistant?"
+answers:
+  - "To start monitoring a host, you need to add the host by specifying the domain and the type of service to monitor (e.g., HTTP, HTTPS, or ICMP). Then, provide an email address to receive alerts. This setup enables continuous observation of network traffic for suspicious activity."
+  - "Running security assessments, such as vulnerability scans, helps identify weaknesses in the monitored hosts that phishing attempts might exploit. The assistant can perform these scans using different agent locations and communicate with security experts to evaluate any security issues."
+  - "You can request the latest monitoring data for a host, which includes metrics like response time, status, and alerts about phishing indicators. This data helps you scrutinize the host's performance and detect any unusual behavior that might suggest phishing attempts."
+  - "If suspicious behavior is detected, the assistant will notify you and offer options such as blocking the host. Taking immediate action, like blocking the host or updating settings, helps prevent further interactions with potentially malicious sites."
+  - "You can ask the assistant if a specific scan is still running. The assistant will provide the current status and duration of the scan and can check again later if needed, helping you manage ongoing security operations efficiently."
 ---
 In today's digital landscape, phishing attacks are becoming increasingly sophisticated, targeting users through deceptive emails, websites, and networks. Fortunately, the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) offers robust capabilities to detect these threats and prevent them from causing harm. This guide will demonstrate how you can leverage the assistant's functionalities to identify phishing attempts through network scans and logs.
 

@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/AIForDistributedNetworkMonitoring-5N3BVYGS65.jpg
 categories: ["Distributed Networks", "AI"]
 featured: false
 draft: false
+questions:
+  - "What is the Quantum Network Monitor Assistant (QNMA) used for?"
+  - "How do I set up monitoring for hosts in different geographic locations using QNMA?"
+  - "Can QNMA provide real-time performance data such as latency and uptime for monitored hosts?"
+  - "Is it possible to add a new monitoring agent in a location where I open a new branch, such as Singapore?"
+  - "Do I need to provide an email address when setting up hosts for monitoring in QNMA?"
+answers:
+  - "QNMA is an AI-powered tool designed to monitor geographically dispersed network infrastructure, providing real-time insights, uptime, latency, and security monitoring across multiple regions."
+  - "First, list available network agents in the desired regions using the get_agents function. Then, add hosts to be monitored by specifying their address, monitoring endpoint (like HTTPS or ICMP), and the agent location corresponding to each region using the add_host function."
+  - "Yes, by using the get_host_data function, QNMA retrieves real-time details including response time, downtime history, and alert status for each monitored host, contextualized by the agent location."
+  - "Absolutely. You can install a QNMA agent in the new location and then add it as an agent in the system. After that, you can register hosts to be monitored from that new agent just like in other regions."
+  - "Yes, if you are not logged in, you need to provide your email address when adding hosts so that you can receive alerts related to the monitored hosts."
 ---
 In today’s interconnected world, organizations are rarely constrained by geography. Their digital assets span clouds, data centers, branch offices, and remote worksites—making network health, uptime, and security a distributed challenge. The [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) (QNMA) is designed to bring AI-powered clarity and effortless automation to monitoring such geographically dispersed infrastructure. In this blog, we’ll walk through, step-by-step, how you can use QNMA to monitor hosts around the globe, select the right network agent for each region, and get actionable insights in real time.
 

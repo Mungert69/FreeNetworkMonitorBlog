@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/AdvancedWebCrawlingAndDataExtractionWithAIIntegration
 categories: ["Web Crawling"]
 featured: false
 draft: false
+questions:
+  - "What is the first step to start using the Quantum Network Monitor Assistant for web crawling?"
+  - "How can I customize the crawling process parameters?"
+  - "How do I monitor the progress of the web crawling?"
+  - "What kind of data can I extract after the crawl is complete?"
+  - "How does the Quantum Network Monitor Assistant use AI for data analysis?"
+answers:
+  - "The first step is to identify the target website you want to extract data from and add the host to be monitored using the crawlsite endpoint."
+  - "You can configure crawling parameters such as timeouts by editing the host settings. For example, you can set a timeout of 60 seconds by providing your authentication key to authorize the change."
+  - "You can ask the assistant if the crawl is still running, and it will provide updates on the crawling status, including how long it has been running."
+  - "After crawling, you can extract data such as the number of pages crawled, total links found, and titles of the pages. This data can be retrieved using the get_host_data function."
+  - "The assistant leverages AI to perform advanced analysis like keyword extraction, sentiment analysis, and trend identification on the extracted data, helping you gain deeper insights."
 ---
 In today's digital landscape, data is more valuable than ever. Organizations often need to gather and analyze data from various websites for market research, competitive analysis, and decision-making. With the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), you can perform advanced web crawling and data extraction seamlessly, while leveraging AI integration for smarter data analysis. Here's how you can utilize the assistant’s tools to achieve this.
 

@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/DeployingAIForNetworkThreatDetectionAndResponse-DMC55
 categories: ["Quantum Security", "AI"]
 featured: false
 draft: false
+questions:
+  - "What is the Quantum Network Monitor Assistant used for?"
+  - "How does the assistant perform a quantum readiness test on a website?"
+  - "What kind of results does the assistant provide after the quantum readiness check?"
+  - "Can the Quantum Network Monitor Assistant scan other parts of my network besides a website?"
+  - "Do I need to have expertise in quantum computing or cryptography to use the Quantum Network Monitor Assistant?"
+answers:
+  - "The Quantum Network Monitor Assistant is used to evaluate a network's readiness against quantum computing threats by testing for quantum-vulnerable encryption and verifying the presence of post-quantum cryptographic protections."
+  - "The assistant initiates a quantum vulnerability scan by calling a specialized quantum security engine with the target website and port, checking for weak encryption algorithms like RSA or ECC and verifying support for post-quantum cryptographic protocols."
+  - "The assistant summarizes whether quantum-vulnerable ciphers are detected, highlights any post-quantum protections in place, and offers step-by-step recommendations for upgrading or enabling quantum-safe encryption if needed."
+  - "Yes, the assistant can run quantum readiness scans on other hosts or services such as internal VPNs or email gateways by specifying their addresses and ports, allowing comprehensive network-wide assessments."
+  - "No, the assistant is designed to be user-friendly and guides you through every step of the process, from selecting targets to interpreting results and implementing recommendations, making it accessible without specialized expertise."
 ---
 Is your organization prepared for the quantum future? As quantum computing advances, traditional encryption methods are increasingly at risk. With the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), you can easily evaluate your network’s readiness for these emerging threats. Let’s walk through a real-world example showing how the AI assistant automates quantum readiness checks in a few simple steps.
 

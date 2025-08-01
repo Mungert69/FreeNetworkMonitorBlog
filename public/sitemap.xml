@@ -466,6 +466,9 @@
   <loc>https://blog.readyforquantum.com/posts/timeseriesnetworkanalyticspredictingoutagesbeforetheyhappen</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/posts/titleintegrationtestblogfocusautomatedtesting</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/posts/troubleshootingaserverrealtimediagnosticswithnmapandopenssl</loc>
 </url>
 <url>
@@ -653,6 +656,12 @@
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/Cloud</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/categories/Integration</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/categories/Test</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/Server-Security</loc>

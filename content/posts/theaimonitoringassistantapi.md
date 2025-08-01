@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/TheAIMonitoringAssistantAPI-ABD9Y68KNP.jpg
 categories: ["API", "AI"]
 featured: false
 draft: false
+questions:
+  - "What API function do I use to add a new host for monitoring HTTP and HTTPS services?"
+  - "How can I automatically retrieve the latest status of monitored endpoints every 10 minutes?"
+  - "Is it possible to modify monitoring settings such as timeout or temporarily disable monitoring for an existing host?"
+  - "How do I trigger a quantum vulnerability scan for an endpoint using the API?"
+  - "What API call allows me to list all hosts currently monitored under my account?"
+answers:
+  - "You use the add_host function, specifying parameters like address, endpoint (http or https), port, timeout, and email. This registers the host for continuous monitoring."
+  - "You can use the get_host_data function filtered by address and endpoint. Schedule this API call in your backend using a cron job or serverless timer to fetch and forward monitoring results periodically."
+  - "Yes, you can use the edit_host function with the host's ID and your auth key to update specific fields like timeout or enabled status, allowing you to adjust monitoring parameters or pause monitoring."
+  - "First, use get_agents to find agent locations that support quantum tests. Then call call_quantum_expert with a message describing the test (e.g., Kyber512 support on port 443) and specify the agent location to run the scan."
+  - "Use the get_host_list function with filters such as your email address to retrieve configuration and status information for all hosts associated with your account."
 ---
 Developers today look for flexible tools that don’t just automate tasks, but can be used as building blocks for broader solutions. The [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) provides a powerful API that allows developers to expand and integrate its AI monitoring and security capabilities directly into their own applications and workflows. In this blog post, we’ll walk through how a developer can leverage the Assistant’s functions to build custom monitoring, automate responses, and even add advanced security and quantum vulnerability checks into their own systems.
 

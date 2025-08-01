@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/MonitoringQuantumSafeAlgorithms-FJ7M0FXPYH.jpg
 categories: ["Quantum Security", "Encryption"]
 featured: false
 draft: false
+questions:
+  - "What is the Quantum Network Monitor Assistant used for?"
+  - "How can I set up monitoring for a domain to check if it supports quantum-safe algorithms?"
+  - "Is it possible to monitor multiple hosts or specify ports and geographic locations for the checks?"
+  - "How do I retrieve information about which monitored hosts support quantum-safe algorithms?"
+  - "Can I get historical reports to see when my hosts transitioned to quantum-safe encryption?"
+answers:
+  - "The Quantum Network Monitor Assistant is used to monitor and assess the adoption of quantum-safe (post-quantum) cryptographic algorithms across your domains, endpoints, ports, and geographic locations to ensure your cryptographic infrastructure is prepared for quantum computing threats."
+  - "You can set up monitoring by adding your domain with the endpoint set to 'quantum' using a function call like: {\"detail_response\": true, \"address\": \"example.com\", \"endpoint\": \"quantum\", \"email\": \"youremail@example.com\"}. This initiates recurring checks for quantum-safe algorithm support on that domain."
+  - "Yes, you can monitor multiple hosts and specify ports and agent locations. For example, to monitor api.example.com on port 8443 from both EU and US agents, you would submit two calls specifying the port and agent_location fields accordingly."
+  - "You can retrieve this information by querying the monitoring data filtered for the 'quantum' endpoint with a call like: {\"detail_response\": true, \"endpoint\": \"quantum\"}. This returns the quantum readiness status for all your monitored hosts."
+  - "Yes, you can request historical monitoring records for a specific host within a date range by submitting a query like: {\"detail_response\": true, \"address\": \"example.com\", \"date_start\": \"2024-01-01T00:00:00\", \"date_end\": \"2024-07-01T23:59:59\"}. This helps visualize progress and identify when quantum-safe standards were adopted."
 ---
 In today’s rapidly evolving digital landscape, organizations must ensure their cryptographic infrastructure can withstand the threats posed by quantum computing. Tracking the adoption of quantum-safe algorithms is essential for businesses transitioning to post-quantum cryptographic standards. In this walk-through, we’ll explore how to leverage the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to monitor and assess the adoption of quantum-safe algorithms across your sites or services.
 

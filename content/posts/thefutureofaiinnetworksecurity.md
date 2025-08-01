@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/TheFutureOfAIInNetworkSecurity-C1NKHD4Z82.jpg
 categories: ["AI", "Security"]
 featured: false
 draft: false
+questions:
+  - "What types of monitoring endpoints can I use with the Quantum Network Monitor Assistant?"
+  - "How does the Quantum Network Monitor Assistant use machine learning to detect security anomalies?"
+  - "Can I get a summary of all hosts with AI-detected alerts over a specific time period?"
+  - "What is the quantum vulnerability assessment feature and how does it help?"
+  - "How can I start using the Quantum Network Monitor Assistant for my network security?"
+answers:
+  - "You can choose from HTTP, HTTPS, or the 'quantum' endpoint for state-of-the-art tests when setting up monitoring for your servers."
+  - "The assistant collects telemetry data such as response times, certificate validations, and geographic access patterns, then uses machine learning models to identify unusual behaviors like spikes, anomalies, or location shifts that may indicate security threats."
+  - "Yes, you can query the assistant to retrieve all hosts flagged by AI models for alerts within a chosen date range, helping you focus on real threats and reduce analyst fatigue."
+  - "The quantum vulnerability assessment uses a quantum expert large language model (LLM) to evaluate your hosts for resistance to quantum-enabled attacks, checking support for post-quantum cryptographic protocols and highlighting any quantum-vulnerable services to future-proof your security."
+  - "You can begin by adding your servers with the desired monitoring endpoint through the assistant’s interface, then leverage its AI-driven analytics and quantum assessments to monitor, analyze, and preempt network security incidents."
 ---
 As organizations face increasingly sophisticated threats, the intersection of artificial intelligence (AI), machine learning (ML), and network security is reshaping how we defend our digital infrastructure. In this blog post, I’ll show you—through a step-by-step, dialogue-style example—how you can use the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to monitor, analyze, and preempt network security incidents, leveraging some of the latest ML-driven features that point towards the future of AI in cybersecurity.
 

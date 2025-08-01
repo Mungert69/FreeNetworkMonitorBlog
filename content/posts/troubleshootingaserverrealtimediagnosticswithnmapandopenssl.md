@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/TroubleshootingAServerRealTimeDiagnosticsWithNmapAndO
 categories: ["Diagnostics", "Server Security"]
 featured: false
 draft: false
+questions:
+  - "What is the purpose of using Nmap in the Quantum Network Monitor Assistant?"
+  - "How does the OpenSSL test help in troubleshooting server security?"
+  - "How long do the Nmap and OpenSSL scans typically take to complete?"
+  - "What do the scan results tell me about my server's security?"
+  - "Can I use the Quantum Network Monitor Assistant for ongoing server monitoring?"
+answers:
+  - "Nmap is used to scan the server for open ports and running services, helping to identify connectivity issues or unexpected services that might affect security."
+  - "The OpenSSL test checks the server's SSL/TLS configuration, including the protocol version and cipher suites, to ensure that the encryption is strong and secure against vulnerabilities."
+  - "Both the Nmap and OpenSSL scans usually take about a minute or so to complete, with status checks performed every 30 seconds."
+  - "The scan results show which ports are open and what services are running, as well as the SSL/TLS version and cipher suites used. This information helps confirm that the server is running expected services and has a secure encryption setup."
+  - "Yes, the Quantum Network Monitor Assistant allows you to run real-time diagnostics and visualize scan results, making it useful for continuous monitoring and maintenance of your server's connectivity and security."
 ---
 When troubleshooting a server, timely and accurate diagnostics can pinpoint issues that might affect connectivity and security. Today, we'll explore how to use the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to perform Nmap scans and OpenSSL tests, enabling you to diagnose and resolve server problems in real-time.
 

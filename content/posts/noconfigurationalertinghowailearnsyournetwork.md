@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/NmapVs.ZenmapChoosingTheRightNetworkMappingTool-D9HYM
 categories: ["AI", "Best Practices"]
 featured: false
 draft: false
+questions:
+  - "How does the Quantum Network Monitor Assistant set up alerts without manual configuration?"
+  - "What kind of network traffic data does the AI analyze to detect anomalies?"
+  - "How can I check the alerts or patterns the AI has learned about my monitored site?"
+  - "What information do I need to provide to set up monitoring with the Quantum Network Monitor Assistant?"
+  - "Can the Quantum Network Monitor Assistant notify me of issues outside of normal business hours?"
+answers:
+  - "The assistant automatically analyzes network traffic patterns over time, learns what is normal for your hosts, and dynamically configures alert thresholds based on this learned baseline, eliminating the need for manual threshold settings."
+  - "The AI continuously analyzes response times, traffic volumes, error rates, and time-of-day and day-of-week patterns to understand normal behavior and detect unusual activity."
+  - "You can request a summary of your monitored hosts and their current status, including active alerts, response trends, current thresholds, detected anomalies, and notifications sent, by using the assistant’s get_host_data function."
+  - "You need to provide the server address you want to monitor, the preferred monitoring type (such as HTTP or ICMP), and an email address to receive alerts."
+  - "Yes, the assistant learns your site's normal traffic patterns including time-of-day trends and will send alerts if anomalies occur at any time, such as late-night spikes or outages."
 ---
 In this walkthrough, we’ll explore how the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) makes it effortless to set up robust, AI-powered network alerting—without any manual configuration. We’ll demonstrate how the assistant can automatically analyze network traffic, learn normal patterns, and proactively configure alerts to notify you when something unusual happens.
 

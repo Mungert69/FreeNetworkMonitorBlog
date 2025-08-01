@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/TheEthicsOfAINetworkMonitoring-JNV6HIXGV2.jpg
 categories: ["AI", "Ethics"]
 featured: false
 draft: false
+questions:
+  - "How does the Quantum Network Monitor Assistant help balance security and user privacy?"
+  - "What types of monitoring can I perform without compromising user privacy?"
+  - "How can I access monitoring logs without exposing sensitive user information?"
+  - "What should I do if I need to stop or modify monitoring due to privacy concerns or policy changes?"
+  - "Why is it important to use the Quantum Network Monitor Assistant responsibly?"
+answers:
+  - "The Assistant focuses on minimalistic, purpose-driven monitoring by targeting technical health indicators like system uptime and server configurations without tracking individual user behaviors or collecting personal data."
+  - "You can perform standard HTTP uptime checks and targeted scans such as SSL/TLS certificate evaluations that only assess server-level attributes, ensuring no user traffic or content is logged."
+  - "By retrieving monitoring results filtered by specific technical endpoints using functions like get_host_data, you can view only the latest status related to service health without any user data exposure."
+  - "You can easily disable or remove monitoring configurations using the edit_host function, which stops automated scans promptly and aligns monitoring activities with company policies or regulatory requirements."
+  - "Responsible use ensures that while powerful AI-driven automation protects network security, it also respects user privacy by limiting data collection to what is essential and maintaining transparency and control over monitoring activities."
 ---
 Balancing Security and Privacy: Using the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) Responsibly
 

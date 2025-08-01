@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/SSLTLSInsightsTestingHTTPSPortSecurityWithFreeNetwork
 categories: ["SSL/TLS Security", "Network Security"]
 featured: false
 draft: false
+questions:
+  - "What is the first step to perform HTTPS port security testing using the Quantum Network Monitor Assistant?"
+  - "How does the Quantum Network Monitor Assistant verify the SSL/TLS certificate of a domain?"
+  - "What tool is used to perform a vulnerability scan on the HTTPS port in this guide?"
+  - "How can Metasploit be utilized in assessing HTTPS port security according to the blog post?"
+  - "Where can I try the Quantum Network Monitor Assistant to perform these security assessments myself?"
+answers:
+  - "The first step is to select an agent location for executing the security assessments by retrieving the list of available agents."
+  - "It uses OpenSSL through a selected agent to perform an SSL/TLS configuration check, validating the SSL certificate and checking for any vulnerabilities."
+  - "Nmap is used to conduct a vulnerability scan on port 443 to identify any potential security weaknesses."
+  - "Metasploit is used to search its database for any known exploits related to SSL/TLS vulnerabilities for the target domain, helping to identify potential exploit opportunities."
+  - "You can try the Quantum Network Monitor Assistant at https://readyforquantum.com/?assistant=open to perform SSL/TLS checks, vulnerability scans, and exploit searches."
 ---
 If you want to ensure that your online services are secure, testing the HTTPS port security is crucial. Today, we will guide you through using the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to perform various security assessments, including SSL/TLS insights, leveraging tools like Nmap, Metasploit, and OpenSSL. Follow along as we demonstrate how to achieve this step by step!
 

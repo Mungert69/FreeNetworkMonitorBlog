@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/SimplifyingPenetrationTestingWithAIAndMetasploit-LVPA
 categories: ["Quantum Computing", "Cybersecurity"]
 featured: false
 draft: false
+questions:
+  - "What makes quantum computers a threat to current encryption methods?"
+  - "How does Grover’s Algorithm affect symmetric key cryptography like AES?"
+  - "What is post-quantum cryptography and why is it important?"
+  - "What steps should organizations take to prepare for the quantum computing threat?"
+  - "What is Quantum Key Distribution (QKD) and what are its limitations?"
+answers:
+  - "Quantum computers use qubits that can exist in multiple states simultaneously, enabling them to perform certain calculations exponentially faster than classical computers. This capability allows quantum algorithms like Shor’s Algorithm to efficiently break widely used public-key cryptosystems such as RSA and ECC, and Grover’s Algorithm to weaken symmetric key cryptography like AES."
+  - "Grover’s Algorithm provides a quadratic speedup for searching unsorted databases, effectively halving the security level of symmetric key lengths. For example, AES-256 would offer roughly the same security against a quantum adversary as AES-128 does against classical attacks."
+  - "Post-quantum cryptography (PQC) refers to cryptographic algorithms designed to be secure against both classical and quantum computer attacks. These algorithms rely on mathematical problems believed to be hard for quantum computers, such as lattice-based and code-based problems. PQC is important because it aims to protect data and communications in the upcoming quantum era."
+  - "Organizations should audit their cryptographic assets to identify vulnerabilities, stay informed about developments in post-quantum cryptography standards, plan a migration roadmap to quantum-resistant algorithms, implement best practices like using strong symmetric keys and perfect forward secrecy, and consult cybersecurity experts to tailor solutions."
+  - "Quantum Key Distribution (QKD) uses principles of quantum mechanics to enable theoretically secure key exchange that is immune to eavesdropping. However, QKD requires specialized hardware and infrastructure, which currently limits its practicality for widespread use."
 ---
 In recent years, quantum computing has transitioned from a theoretical concept to a rapidly advancing technology with the potential to revolutionize various fields, including cryptography. While quantum computers promise unprecedented computational power, they also pose significant threats to the encryption methods that currently secure our digital communications, financial transactions, and sensitive data. This raises a critical question: Is your encryption ready for the quantum era?
 

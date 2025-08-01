@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/QuantumSafeAlgorithmsEveryCTOShouldKnow-VN6B389IPS.jp
 categories: ["Quantum Computing", "Best Practices"]
 featured: false
 draft: false
+questions:
+  - "Why is quantum-safe cryptography important for organizations today?"
+  - "What are the main categories of quantum-safe cryptographic algorithms?"
+  - "Which quantum-safe algorithms are considered leading candidates by NIST for public-key encryption and digital signatures?"
+  - "What steps should a CTO take to prepare their organization for adopting quantum-safe cryptography?"
+  - "What are some challenges associated with certain quantum-safe algorithms like Rainbow and SIKE?"
+answers:
+  - "Quantum-safe cryptography is important because quantum computers can potentially break widely used cryptographic algorithms like RSA and ECC, putting encrypted data at risk. Organizations need to protect sensitive information, especially data requiring long-term confidentiality, and comply with emerging regulations that mandate quantum-resistant security measures."
+  - "The main categories of quantum-safe algorithms include lattice-based cryptography, code-based cryptography, multivariate cryptography, hash-based cryptography, and isogeny-based cryptography. Each category relies on different hard mathematical problems and offers various trade-offs in security, performance, and key sizes."
+  - "CRYSTALS-Kyber (lattice-based) is a leading candidate for public-key encryption and key encapsulation, while CRYSTALS-Dilithium (also lattice-based) is a leading candidate for digital signatures. Both have been selected as finalists by NIST due to their strong security and performance."
+  - "A CTO should stay informed about standards and developments from organizations like NIST, conduct a cryptographic inventory to identify vulnerable algorithms, plan for hybrid cryptography combining classical and post-quantum algorithms, evaluate the performance impact of new algorithms, and collaborate with vendors and partners to ensure interoperability and compliance."
+  - "Rainbow, a multivariate signature scheme, has faced security challenges with some variants being broken, requiring ongoing research to improve its security. SIKE, an isogeny-based key encapsulation mechanism, offers small key sizes but has been weakened by recent cryptanalysis and is still under active research, limiting its current adoption."
 ---
 In an era where quantum computing is rapidly advancing, the security landscape is poised for a significant transformation. Traditional cryptographic algorithms, which underpin much of today’s digital security, are vulnerable to the immense computational power of quantum computers. As a Chief Technology Officer (CTO), understanding quantum-safe algorithms is crucial to future-proofing your organization’s data and communications. This article explores the fundamentals of quantum-safe cryptography and highlights key algorithms every CTO should be familiar with.
 

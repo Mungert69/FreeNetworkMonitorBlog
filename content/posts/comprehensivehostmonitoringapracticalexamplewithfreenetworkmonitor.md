@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/ComprehensiveHostMonitoringAPracticalExampleWithFreeN
 categories: ["Host Monitoring"]
 featured: false
 draft: false
+questions:
+  - "How do I list all the hosts currently being monitored using the Quantum Network Monitor Assistant?"
+  - "What kind of performance data can I get for a specific host like example.com?"
+  - "What does it mean if a host has alerts triggered related to response time?"
+  - "Can I assess multiple hosts one after another using the Quantum Network Monitor Assistant?"
+  - "What are the benefits of using the Quantum Network Monitor Assistant for host monitoring?"
+answers:
+  - "You can list all monitored hosts by calling the function with the parameter {\"detail_response\": false}. This will return basic information such as host IDs and addresses, giving you an overview of all configured hosts."
+  - "For a specific host, you can retrieve detailed monitoring data including uptime percentage, average response time, and any alerts that have been triggered. This helps you assess the host's reliability and performance."
+  - "Alerts related to response time indicate that the host's response times have exceeded predefined thresholds, which may suggest performance issues that need investigation or action to ensure optimal network performance."
+  - "Yes, you can sequentially request detailed monitoring data for each host by specifying their host ID and address. This allows you to compare performance metrics and alerts across different hosts."
+  - "The assistant provides an easy way to list and monitor multiple hosts, retrieve detailed performance metrics, identify alerts quickly, and help you maintain optimal network performance and security through timely insights."
 ---
 In today’s blog, we’ll explore how to utilize the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) for comprehensive host monitoring. This practical example will guide you through the steps to list and assess hosts effectively, highlighting key monitoring features and the insightful results you can obtain.
 

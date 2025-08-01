@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/AdvancedNmapScriptingCustomizingYourNetworkScans-YHHO
 categories: ["Cybersecurity"]
 featured: false
 draft: false
+questions:
+  - "What is the Nmap Scripting Engine (NSE) and what is it used for?"
+  - "How do I create a basic custom Nmap script?"
+  - "How can I run a custom Nmap script with specific arguments?"
+  - "Where can I find the default Nmap scripts and how do I view available scripts?"
+  - "What are some ways to enhance a custom Nmap script after creating a basic version?"
+answers:
+  - "The Nmap Scripting Engine (NSE) is a feature of Nmap that allows users to write scripts in Lua to automate a wide range of networking tasks such as service detection, vulnerability detection, network discovery, and brute force attacks."
+  - "To create a basic custom Nmap script, you need to write a Lua script with a header containing metadata, define the main action function that specifies the script's functionality, save the script in the Nmap scripts directory, and then run it using the Nmap command with the --script option."
+  - "You can run a custom Nmap script with specific arguments by using the --script-args option followed by the argument name and value. For example: nmap --script my_custom_script.nse --script-args my_custom_script.port=8080 -p 8080 <target_ip>."
+  - "The default Nmap scripts are located in the 'scripts' directory of your Nmap installation. You can view all available scripts and their descriptions by running the command: nmap --script-help."
+  - "After creating a basic script, you can enhance it by adding features such as argument parsing to accept user inputs, error handling to manage unexpected situations, and output formatting to make the results more user-friendly."
 ---
 Nmap, short for Network Mapper, is a powerful open-source tool used for network discovery and security auditing. While its basic functionalities are widely known, the advanced capabilities of Nmap, particularly its scripting engine, allow users to customize and enhance their network scans significantly. This blog post will delve into advanced Nmap scripting, focusing on how to create and utilize custom scripts to tailor your network scans to your specific needs.
 

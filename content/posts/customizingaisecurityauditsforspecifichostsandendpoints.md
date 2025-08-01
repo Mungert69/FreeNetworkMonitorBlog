@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/CustomizingAISecurityAuditsForSpecificHostsAndEndpoin
 categories: ["Custom Security Solutions"]
 featured: false
 draft: false
+questions:
+  - "What is the difference between a host and an endpoint in network security?"
+  - "How do I add a new host for monitoring using the Quantum Network Monitor Assistant?"
+  - "Can I customize security scans based on different endpoint types?"
+  - "What role does the agent location play in security assessments?"
+  - "How do I request a specific security scan like a Nmap vulnerability scan?"
+answers:
+  - "A host refers to any device that is part of your network, while endpoints are specific services or applications running on those devices."
+  - "You can add a new host by using the add_host function, providing details such as the host address, endpoint type, port, timeout, your email for alerts, and the agent location."
+  - "Yes, the Quantum Network Monitor Assistant allows you to tailor scans based on endpoint types, such as running vulnerability scans on web servers or SSL configuration checks on email servers."
+  - "Agent location specifies where the monitoring agent is based, which can be important for compliance, latency, or regional security considerations when conducting scans and assessments."
+  - "After adding the host, you can request a specific scan by sending a message with the scan type and host details, along with the agent location, which the assistant will communicate to the security expert."
 ---
 When it comes to network security, customizing your security audits based on specific hosts and endpoint configurations is essential. The [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) enables you to tailor scans and assessments efficiently. In this post, we’ll walk you through how to do just that, ensuring that you can maximize the effectiveness of your security assessments.
 

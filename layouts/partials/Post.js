@@ -2,6 +2,7 @@ import config from "@config/config.json";
 import ImageFallback from "@layouts/components/ImageFallback";
 import dateFormat from "@lib/utils/dateFormat";
 import Link from "next/link";
+import { slugify } from "@lib/utils/textConverter";
 import { FaRegCalendar, FaUserAlt } from "react-icons/fa";
 
 const Post = ({ post }) => {
@@ -28,7 +29,7 @@ const Post = ({ post }) => {
             >
               <Link
                 className="capitalize"
-                href={`/categories/${tag.replace(" ", "-")}`}
+                href={`/categories/${slugify(tag)}`}
               >
                 {tag}
               </Link>

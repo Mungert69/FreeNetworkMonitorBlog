@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/AIPoweredNetworkMonitoringForDistributedAndRemoteTeam
 categories: ["Remote Work Security"]
 featured: false
 draft: false
+questions:
+  - "How do I add a new host for monitoring using the Quantum Network Monitor Assistant?"
+  - "Can the Quantum Network Monitor Assistant perform security assessments on my hosts?"
+  - "What diagnostic commands can I run with the Quantum Network Monitor Assistant?"
+  - "How can I check the status of ongoing monitoring functions or scans?"
+  - "Is it possible to cancel an ongoing scan or function using the assistant?"
+answers:
+  - "To add a new host, you can issue a command like 'Add our cloud server at 192.168.1.10 for HTTP monitoring.' The assistant will then ask for an email address for alerts and the agent location for monitoring before confirming the host has been successfully added."
+  - "Yes, the assistant can conduct security assessments by scanning your hosts for vulnerabilities. You need to specify the host and select an agent location to execute the scan. After completion, the assistant will report if any vulnerabilities were found."
+  - "You can use BusyBox commands for diagnostics, such as running a ping command to check latency or other connectivity and performance troubleshooting commands directly from the monitoring interface."
+  - "You can ask the assistant about the status of any running functions or scans, for example, 'Is the security scan still running for 192.168.1.10?' The assistant will provide the current status and duration of the operation."
+  - "Yes, you can cancel any ongoing scan or function by issuing a command like 'Cancel the ongoing scan for 192.168.1.10.' The assistant will confirm once the scan has been successfully canceled."
 ---
 In today's increasingly mobile and distributed work environment, ensuring robust network monitoring and security for remote teams is more critical than ever. The [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) is designed to empower organizations by providing AI-driven solutions to monitor and secure their infrastructure effectively. Let’s explore how users can harness this tool to achieve optimal visibility and security for remote and mobile teams.
 

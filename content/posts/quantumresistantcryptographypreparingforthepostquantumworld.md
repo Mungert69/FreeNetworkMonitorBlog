@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/QuantumResistantCryptographyPreparingForThePostQuantu
 categories: ["Quantum Computing"]
 featured: false
 draft: false
+questions:
+  - "What is the main threat that quantum computing poses to current cryptographic systems?"
+  - "Why is there an urgent need to develop quantum-resistant cryptography?"
+  - "What are some promising approaches to designing quantum-resistant cryptographic algorithms?"
+  - "What role does NIST play in the development of quantum-resistant cryptography?"
+  - "How are industry leaders responding to the challenge of quantum computing in cryptography?"
+answers:
+  - "Quantum computing can break widely used cryptographic algorithms like RSA and ECC by efficiently solving mathematical problems such as factoring large integers and discrete logarithms, which are currently considered hard for classical computers."
+  - "As quantum computers advance, they will be capable of breaking existing cryptographic algorithms, putting sensitive information at risk. Developing quantum-resistant cryptography is necessary to protect data privacy, national security, and digital communications against future quantum attacks."
+  - "Promising approaches include lattice-based cryptography, hash-based signatures, multivariate polynomial equations, and code-based cryptography, all of which rely on mathematical problems believed to be hard for quantum computers to solve."
+  - "NIST is leading the effort to standardize post-quantum cryptographic algorithms by soliciting, evaluating, and selecting robust and secure algorithms through a formal process that began in 2016, helping ensure widespread acceptance and implementation."
+  - "Major technology companies like Google and Microsoft are actively researching and beginning to implement quantum-resistant algorithms in their systems, while also promoting awareness and education about the importance of preparing for a post-quantum world."
 ---
 In recent years, the rapid advancement of quantum computing has raised significant concerns about the security of current cryptographic systems. Traditional cryptographic algorithms, which underpin the security of our digital communications, banking systems, and personal data, are at risk of being rendered obsolete by the capabilities of quantum computers. This blog post delves into the concept of quantum-resistant cryptography, exploring its importance, the challenges it faces, and the steps being taken to prepare for a post-quantum world.
 

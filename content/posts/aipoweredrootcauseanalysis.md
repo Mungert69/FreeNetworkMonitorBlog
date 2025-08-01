@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/AIPoweredRootCauseAnalysis-UHJ3WMQFON.jpg
 categories: ["Troubleshooting", "AI"]
 featured: false
 draft: false
+questions:
+  - "What is the Quantum Network Monitor Assistant (FNMA) and how does it help with network issues?"
+  - "How does the assistant identify the root cause of alerts from multiple web services?"
+  - "What role does DNS monitoring play in diagnosing network problems with the assistant?"
+  - "What additional steps does the assistant recommend for corroborating findings and preventing future issues?"
+  - "What functions does the Quantum Network Monitor Assistant use behind the scenes to analyze network data?"
+answers:
+  - "The Quantum Network Monitor Assistant (FNMA) is an AI-driven tool that uses natural language queries to help users trace and analyze complex network issues across multiple systems. It simplifies root cause analysis by correlating monitoring data, filtering by time and endpoints, and identifying patterns that affect the entire infrastructure."
+  - "The assistant retrieves detailed monitoring data for each affected host, looks for common patterns such as timing of alerts, response times, and packet loss, and then correlates this information. In the example, it found that all alerts occurred within the same ten-minute window with increased response times and packet loss, suggesting a shared infrastructure issue."
+  - "DNS monitoring helps the assistant check if DNS lookups experienced issues during the incident window. By querying DNS endpoint monitoring data, the assistant can detect spikes in latency and errors, which can indicate a DNS service disruption as the root cause affecting multiple systems."
+  - "The assistant suggests checking DNS server logs for the incident timeframe, setting up alert correlation to detect patterns across multiple endpoints, and regularly reviewing the dependency map to understand which services share critical infrastructure components."
+  - "The assistant uses functions like get_host_data to retrieve granular, time-specific monitoring metrics; get_host_list to filter hosts by monitoring type or endpoint; and AI-driven pattern recognition to logically connect data points and identify root causes quickly."
 ---
 Modern network environments often face complex issues that affect multiple systems simultaneously—think intermittent outages, slowdowns, or alerts triggered across various endpoints. Pinpointing the root cause can be daunting, especially when data is scattered and the relationships aren’t obvious. The [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) (FNMA) leverages AI-driven natural language queries to help users trace these multifaceted issues across their entire infrastructure, making root cause analysis faster and more intuitive.
 

@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/AutomatingNetworkDocumentationWithAI-LG4M15AJEB.jpg
 categories: ["Documentation", "AI"]
 featured: false
 draft: false
+questions:
+  - "What is the Quantum Network Monitor Assistant used for?"
+  - "How can I get a list of all devices currently monitored by the Quantum Network Monitor Assistant?"
+  - "Is it possible to track only the devices that have changed recently?"
+  - "Can the assistant help organize network devices by their physical or logical location?"
+  - "How can I export or integrate the network data collected by the assistant?"
+answers:
+  - "The Quantum Network Monitor Assistant is used to automate the creation and maintenance of network inventories, provide up-to-date data for network diagrams and asset documentation, and keep network documentation current in dynamic environments."
+  - "You can retrieve a detailed list of all monitored hosts, including their status, endpoints, and agent locations, by using the get_host_list function with the detail_response parameter set to true."
+  - "Yes, by using the get_host_data function with a specified date range, you can fetch updates for hosts whose monitoring data was updated within that period, allowing you to update only those devices in your documentation."
+  - "Yes, the assistant can list all distinct agent locations monitoring your devices using the get_agents function, and then you can filter host lists by location to visualize network topology by geographical or logical zones."
+  - "The data returned by functions like get_host_list and get_host_data is in a structured format suitable for exporting as CSV, importing into spreadsheets, or feeding into APIs for diagramming and network management tools."
 ---
 Automating Network Documentation with AI: A Step-by-Step Conversation
 

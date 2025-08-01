@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/QuantumResistantEncryptionWhatYouNeedToMonitor-F1ASV0
 categories: ["Quantum Security", "Encryption"]
 featured: false
 draft: false
+questions:
+  - "What is the Quantum Network Monitor Assistant used for?"
+  - "How can I set up quantum-resistant encryption monitoring for my website example.com?"
+  - "What key metrics does the Quantum Network Monitor Assistant track to assess quantum readiness?"
+  - "Can I receive alerts if my server stops supporting quantum-safe encryption or if a downgrade is detected?"
+  - "Is it possible to pause or disable the quantum monitoring for my website if needed?"
+answers:
+  - "The Quantum Network Monitor Assistant is used to identify, monitor, and respond to key metrics that determine whether a network or website is protected against quantum computing threats by using quantum-resistant encryption."
+  - "You can set up monitoring by using the add_host function with parameters specifying your website address, the quantum endpoint, and your email. This will enable real-time checks on quantum resistance, including detection of quantum-safe TLS, supported algorithms, and protocol health."
+  - "It tracks metrics such as quantum-resistant cipher suite usage (e.g., Kyber512), SSL/TLS versions supported, algorithm negotiation success or failure counts, handshake types, successful quantum-safe protocol connections, and alerts on protocol downgrade risks or legacy algorithms detected."
+  - "Yes, the system can automatically send email alerts if it detects removal or downgrade of quantum-safe cipher suites, transitions to only classical encryption, or handshake and protocol negotiation failures that suggest quantum-vulnerable fallback."
+  - "Yes, you can pause or disable monitoring by using the edit_host function with the 'enabled' parameter set to false, allowing you to modify your monitoring preferences as your needs change."
 ---
 As quantum computing rapidly moves from theoretical to practical, keeping your digital assets secure requires more than standard monitoring—you need to keep a close eye on quantum-resistant encryption readiness. In this blog, we’ll walk through how you can use the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to identify, monitor, and respond to the most important metrics that will determine whether your network stands up to quantum threats.
 

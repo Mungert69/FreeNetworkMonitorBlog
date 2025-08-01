@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/QuantumKeyDistributionMonitoring-X2VGT3Q7Z8.jpg
 categories: ["Quantum Security", "Encryption"]
 featured: false
 draft: false
+questions:
+  - "What is Quantum Key Distribution (QKD) and why is it important for network security?"
+  - "How can I start monitoring my network endpoints for quantum-safe encryption readiness using the Quantum Network Monitor Assistant?"
+  - "What kind of information can I expect from the quantum monitoring results provided by the assistant?"
+  - "Is it possible to get a detailed expert analysis on the quantum-safe mechanisms supported by my network endpoints?"
+  - "Can I update or adjust the quantum monitoring setup if my network infrastructure changes?"
+answers:
+  - "Quantum Key Distribution (QKD) is a method of securely exchanging cryptographic keys using quantum mechanics principles. It provides unparalleled security against both classical and quantum attacks, making it crucial for protecting networks as quantum computing advances."
+  - "You can begin by adding your network gateway or endpoints to the Quantum Network Monitor Assistant's monitoring list, specifying them as quantum endpoints. The assistant will then assess their resilience and compatibility with future QKD systems and send alerts and reports to your email."
+  - "The monitoring results include details on supported quantum-safe algorithms, the status of QKD handshakes, and recommendations such as missing quantum-safe protocol support or the presence of weak legacy fallbacks."
+  - "Yes, the Quantum Network Monitor Assistant can contact a Quantum Security Expert to perform a comprehensive assessment of your endpoints. This includes testing specific post-quantum algorithms like Kyber512 and Dilithium2 and providing a readiness report with recommendations for QKD integration."
+  - "Absolutely. The assistant allows you to edit host parameters such as endpoint types, ports, and notification settings without restarting the monitoring process. This flexibility ensures your QKD monitoring stays aligned with your evolving infrastructure."
 ---
 Preparing Your Network for Quantum Key Distribution with the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open)
 

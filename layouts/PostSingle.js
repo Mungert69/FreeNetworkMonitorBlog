@@ -7,10 +7,12 @@ import { MDXRemote } from "next-mdx-remote";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 import { FaRegCalendar, FaUserAlt } from "react-icons/fa";
 import Post from "./partials/Post";
 import Sidebar from "./partials/Sidebar";
 import shortcodes from "./shortcodes/all";
+import { slugify } from "@lib/utils/textConverter";
 const { disqus } = config;
 const { meta_author } = config.metadata;
 
@@ -24,13 +26,48 @@ const PostSingle = ({
   allCategories,
   relatedPosts,
 }) => {
+  // DEBUG: Log the frontmatter to check for questions/answers
+  if (typeof window !== "undefined") {
+    console.log("Frontmatter in PostSingle:", frontmatter);
+  }
   let { description, title, date, image, categories } = frontmatter;
   description = description ? description : content.slice(0, 120);
 
   const { theme } = useTheme();
 
+  // Generate JSON-LD FAQ schema if Q&A present
+  let faqJsonLd = null;
+  if (
+    Array.isArray(frontmatter.questions) &&
+    Array.isArray(frontmatter.answers) &&
+    frontmatter.questions.length === frontmatter.answers.length &&
+    frontmatter.questions.length > 0
+  ) {
+    const mainEntity = frontmatter.questions.map((q, i) => ({
+      "@type": "Question",
+      "name": q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": frontmatter.answers[i]
+      }
+    }));
+    faqJsonLd = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity
+    };
+  }
+
   return (
     <Base title={title} description={description} canonical={canonical}>
+      {faqJsonLd && (
+        <Head>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+          />
+        </Head>
+      )}
       <section className="section single-blog mt-6">
         <div className="container">
           <div className="row">
@@ -38,13 +75,17 @@ const PostSingle = ({
               <article>
                 <div className="relative">
                   {image && (
-                    <Image
-                      src={image}
-                      height="500"
-                      width="1000"
-                      alt={title}
-                      className="rounded-lg"
-                    />
+                    <div className="flex justify-center my-6">
+                      <Image
+                        src={image}
+                        height={350}
+                        width={350}
+                        alt={title}
+                        className="rounded-lg shadow-md max-w-[90vw] object-contain"
+                        style={{ maxHeight: "350px" }}
+                        priority={true}
+                      />
+                    </div>
                   )}
                   <ul className="absolute top-3 left-2 flex flex-wrap items-center">
                     {categories.map((tag, index) => (
@@ -54,7 +95,7 @@ const PostSingle = ({
                       >
                         <Link
                           className="capitalize"
-                          href={`/categories/${tag.replace(" ", "-")}`}
+                          href={`/categories/${slugify(tag)}`}
                         >
                           {tag}
                         </Link>

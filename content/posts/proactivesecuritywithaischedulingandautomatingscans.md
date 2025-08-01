@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/ProactiveSecurityWithAISchedulingAndAutomatingScans-2
 categories: ["Security Automation"]
 featured: false
 draft: false
+questions:
+  - "How do I add a new host for monitoring using the Quantum Network Monitor Assistant?"
+  - "Can I schedule automated vulnerability scans with the assistant?"
+  - "Is it possible to automate performance monitoring alongside vulnerability scans?"
+  - "How can I retrieve the latest monitoring data for my hosts?"
+  - "Can I modify the scan schedules or parameters after setting them up?"
+answers:
+  - "You can add a new host by instructing the assistant with the host address and monitoring type. For example, say 'Add a new host with the address mywebsite.com using HTTP monitoring.' The assistant will then ask for port and timeout settings or use default ones if you prefer."
+  - "Yes, you can schedule automated vulnerability scans by specifying the scan frequency and target address. For example, you can say 'Schedule a weekly vulnerability scan for mywebsite.com,' and the assistant will ask for the agent location to execute the scan and confirm the scheduling."
+  - "Absolutely. You can set up automated performance monitoring by specifying the frequency, target, and protocol. For instance, saying 'Set up daily performance monitoring for mywebsite.com using HTTPS' will prompt the assistant to confirm timeout settings and then set up the monitoring."
+  - "You can ask the assistant to show the latest data by requesting it directly, such as 'Show me the latest data for mywebsite.com.' The assistant will provide recent response times, status, and vulnerability scan results."
+  - "Yes, the assistant allows you to manage and edit your scan configurations. For example, you can say 'Change the vulnerability scan for mywebsite.com to bi-weekly,' and the assistant will update the scanning frequency accordingly."
 ---
 In today's cyber landscape, proactive security measures are essential for identifying vulnerabilities before they can be exploited. By leveraging the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), users can seamlessly integrate AI-driven security practices into their network monitoring routine. This blog post will guide you through setting up automated scans for both vulnerability detection and performance monitoring, ensuring your network remains secure and efficient.
 

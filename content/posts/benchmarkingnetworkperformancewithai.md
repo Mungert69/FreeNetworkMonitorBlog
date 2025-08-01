@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/BenchmarkingNetworkPerformanceWithAI-4BC1F000QY.jpg
 categories: ["Performance", "AI"]
 featured: false
 draft: false
+questions:
+  - "How do I add a website and an internal server to the Quantum Network Monitor Assistant for performance benchmarking?"
+  - "How can I view the current baseline performance metrics for my monitored hosts?"
+  - "What is the process to track performance changes over time or compare current data with previous baselines?"
+  - "How do I modify the monitoring setup or remove a host from the Quantum Network Monitor Assistant?"
+  - "What are the main benefits of using the Quantum Network Monitor Assistant for network performance benchmarking?"
+answers:
+  - "You add each host using the add_host function with appropriate probes: use the HTTP endpoint for the website to measure page response time, and the ICMP endpoint for the internal server to benchmark network latency. You provide the address, endpoint type, and your email for notifications."
+  - "After adding hosts, you use the get_host_data function with the host's address and dataset_id to fetch detailed statistics such as average response times, deviations, and trends. This data helps you establish and view the normal performance baseline."
+  - "You can retrieve historical data for any date range using the get_host_data function with date_start and date_end parameters. By comparing these historical metrics with your baseline, you can detect performance drifts, congestion, or network changes."
+  - "You use the edit_host function to update monitoring settings or remove a host. For example, to delete monitoring on a host, you set the 'hidden' parameter to true and provide your authentication key. You can also change endpoint types or other configurations as needed."
+  - "The assistant allows you to easily add hosts for monitoring, retrieve live and historical performance metrics, and adjust your monitored endpoints through conversational AI. It helps establish baselines, track performance drifts proactively, and receive alerts, making network monitoring more efficient and AI-driven."
 ---
 When working to ensure your network is robust and responsive, establishing and tracking performance baselines is an essential first step. In this blog, I’ll walk you through how a user leverages the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to benchmark network performance using AI. You’ll see how easy it is to set up hosts, capture baseline metrics, and monitor for performance drifts—all via conversational AI and built-in monitoring tools.
 

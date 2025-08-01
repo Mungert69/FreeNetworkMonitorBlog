@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/MasteringNetworkMonitoringWithAIEnsuringOptimalPerfor
 categories: ["Cybersecurity", "AI"]
 featured: false
 draft: false
+questions:
+  - "What are the prerequisites for automating Nmap scans using AI?"
+  - "How can I run an Nmap scan from a Python script?"
+  - "How should I store Nmap scan results for AI analysis?"
+  - "What is an example of using AI to analyze Nmap scan data?"
+  - "How can I automate the entire process of scanning and analyzing with Nmap and AI?"
+answers:
+  - "The prerequisites include having Nmap installed, Python 3.x installed, basic knowledge of Python programming, and AI libraries such as scikit-learn, pandas, and numpy installed."
+  - "You can use the subprocess module in Python to run Nmap commands. For example, use subprocess.run() with the command ['nmap', '-sV', target] to perform a service version detection scan on the target IP."
+  - "You can store the scan results in a structured format like CSV or JSON. The blog post shows how to append scan results to a CSV file using Python's csv module."
+  - "An example is classifying services running on scanned hosts using a machine learning model like RandomForestClassifier. This involves loading scan data into a Pandas DataFrame, extracting features with CountVectorizer, training the model, and evaluating its accuracy."
+  - "You can create a main Python script that runs the Nmap scan, saves the results, and then triggers the AI analysis function. This script can be run repeatedly or scheduled to automate network security assessments."
 ---
 ## Introduction
 

@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/ReducingFalsePositivesInSecurityAlertsWithAI-FHQFRFXU
 categories: ["AI", "Security"]
 featured: false
 draft: false
+questions:
+  - "How does the Quantum Network Monitor Assistant reduce false positive alerts?"
+  - "Can I customize alert sensitivity for specific hosts using the assistant?"
+  - "How does the assistant handle multiple consecutive network drops?"
+  - "Is it possible to see which events were filtered out as non-critical by the AI?"
+  - "What benefits can I expect by using the Quantum Network Monitor Assistant for alert management?"
+answers:
+  - "The assistant uses built-in machine learning features that continuously learn from historic patterns to filter out transient or low-impact events, reducing alert noise and focusing on critical, high-confidence alerts."
+  - "Yes, the assistant allows you to review and adjust alert thresholds or enable advanced AI filtering for each monitored host, helping to reduce false alarms for servers that experience brief or non-critical issues."
+  - "The assistant employs AI alert aggregation that increases the alert confidence threshold, so you only receive notifications for issues that recur within a short time window or are part of a larger suspicious pattern, rather than for single, isolated drops."
+  - "Yes, the assistant can fetch monitoring data showing a breakdown of critical alerts that were sent and events that the AI dismissed as routine fluctuations, allowing you to review what was filtered out."
+  - "By leveraging the assistant’s machine learning engine, you can set smarter alert thresholds, increase confidence levels, and enable alert aggregation, transforming overwhelming alert floods into a focused, manageable set of notifications that truly matter."
 ---
 In today’s fast-paced IT environments, security teams are flooded with network events and potential threats. But most of those alerts turn out to be “false positives”—routine blips mistaken for real risks. In this scenario, we’ll walk you through how a user leverages the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to dramatically reduce alert noise using built-in machine learning features. You’ll see the tools in action via a realistic user-assistant conversation.
 

@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/RespondingToSecurityThreatsWithRealTimeAIInsights-4YJ
 categories: ["Incident Response"]
 featured: false
 draft: false
+questions:
+  - "How do I add a new host for monitoring using the Quantum Network Monitor Assistant?"
+  - "What types of security scans can the assistant perform on my hosts?"
+  - "How does the assistant notify me about vulnerabilities or changes in my network?"
+  - "Can I check the status of ongoing scans or cancel them if needed?"
+  - "What kind of insights does the assistant provide after running security scans?"
+answers:
+  - "You can add a new host by simply instructing the assistant with a command like 'Add a new host with the address myserver.com for HTTP monitoring.' The assistant will confirm once the host has been successfully added."
+  - "The assistant can perform various security assessments including vulnerability scans and web application assessments, using AI to conduct thorough checks and analyze the data for insights."
+  - "You can set up notifications for critical alerts by updating the monitoring settings. For example, instructing the assistant to alert you if any vulnerabilities are detected on a specific host ensures you receive timely notifications."
+  - "Yes, you can ask the assistant if a scan is still running, and it will provide the current status. If necessary, you can also cancel an ongoing scan by instructing the assistant to do so."
+  - "After scans, the assistant provides detailed reports including response times, status, and any potential vulnerabilities detected. These actionable insights help you pinpoint areas that need immediate attention."
 ---
 In today's increasingly digital world, responding to security threats swiftly and effectively is crucial for maintaining the integrity of your network. The [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) stands out as a powerful tool, providing real-time AI insights, running comprehensive scans, and delivering actionable recommendations. In this blog, we’ll explore how you can leverage this assistant to handle active threats and enhance your security posture.
 

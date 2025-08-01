@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/MasteringHostManagementWithAIAddingMonitoringAndOptim
 categories: ["Host Management"]
 featured: false
 draft: false
+questions:
+  - "How do I add a new host for monitoring using the Quantum Network Monitor Assistant?"
+  - "What information is required to update the timeout setting for a monitored host?"
+  - "How can I retrieve the latest monitoring data for a specific host?"
+  - "What is the purpose of the 'agent location' parameter when adding or retrieving host data?"
+  - "Where can I find more tools and tips to enhance my network management using the Quantum Network Monitor Assistant?"
+answers:
+  - "To add a new host, provide the host address, the type of service endpoint (e.g., HTTP), your email for notifications, and the location of the monitoring agent. The assistant will then confirm the host has been successfully added for monitoring."
+  - "You need to provide the unique host ID, the new timeout value in milliseconds, and confirm your authentication key to authorize the change."
+  - "Request the latest data by specifying the host address and dataset ID (usually 0 for the latest). You can choose to receive detailed statistics or just summary data. The assistant will then provide the current status and response time."
+  - "The 'agent location' specifies where the monitoring agent is located, which helps the assistant know from which point in the network the monitoring is performed."
+  - "You can explore additional functionality and tips by clicking the assistant icon at the bottom right of the Quantum Network Monitor Assistant webpage."
 ---
 Managing hosts effectively in a network is crucial for ensuring smooth operations and maintaining security. The [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) can streamline this process by helping you add, monitor, and optimize hosts seamlessly. In this guide, we will walk you through using the assistant's tools to achieve just that.
 

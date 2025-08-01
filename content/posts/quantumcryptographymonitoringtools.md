@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/QuantumCryptographyMonitoringTools-CFT4OVRZF6.jpg
 categories: ["Quantum Security", "Encryption"]
 featured: false
 draft: false
+questions:
+  - "How do I set up monitoring for a quantum-encrypted gateway using the Quantum Network Monitor Assistant?"
+  - "What specific metrics does the Quantum Network Monitor Assistant track for quantum endpoints?"
+  - "Can I review historical quantum encryption events like cipher fallback occurrences?"
+  - "How can I update my quantum encryption monitoring settings, such as increasing the handshake timeout?"
+  - "Why is it important to monitor quantum-specific metrics in network security?"
+answers:
+  - "To set up monitoring, you add your quantum-secured gateway as a host with the 'quantum' endpoint using the add_host function. This configuration tracks quantum-specific metrics like cryptographic handshake health and key exchange latency. An example JSON setup includes specifying the address, endpoint as 'quantum', timeout, and your email for alerts."
+  - "The assistant tracks metrics such as quantum cryptographic handshake time (latency of key negotiations), cipher suite compliance (ensuring only quantum-safe ciphers are used), protocol health and fallback detection (to prevent downgrade to legacy encryption), alert flags for non-quantum cryptography detection, and the agent location validating the handshake."
+  - "Yes, you can retrieve historical monitoring data for your quantum endpoints by specifying a date range with the get_host_data function. This allows you to audit all quantum status events, including any fallback or protocol anomalies, to verify compliance and assess your cryptographic posture over time."
+  - "You can update your monitoring configuration anytime using the edit_host function. For example, to increase the handshake timeout to 90 seconds, you would send an updated JSON configuration with the new timeout value. This dynamically adjusts your monitoring profile to reflect changes in your quantum encryption setup."
+  - "Monitoring quantum-specific metrics ensures that your encryption protocols remain quantum-safe, preventing vulnerabilities from outdated or non-quantum ciphers. It helps detect handshake instabilities, protocol downgrades, and other anomalies unique to quantum encryption, keeping your network secure as quantum technologies evolve."
 ---
 As organizations adopt quantum encryption as a new security standard, network monitoring practices must evolve to address emerging metrics and potential threats unique to this field. In this blog post, we’ll walk through how a user can leverage the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to monitor quantum-encrypted systems and track the most relevant and impactful metrics.
 

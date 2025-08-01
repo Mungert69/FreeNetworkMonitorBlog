@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/AIAndTheFutureOfIntrusionDetectionSystems-M67WCVW9PH.
 categories: ["Cybersecurity"]
 featured: false
 draft: false
+questions:
+  - "What role does AI play in enhancing Intrusion Detection Systems (IDS)?"
+  - "How can I set up a host for AI-based intrusion detection using the Network Monitor Assistant?"
+  - "What kind of monitoring data can the Network Monitor Assistant provide?"
+  - "Can the Network Monitor Assistant perform security assessments on my network?"
+  - "How do I start using the Network Monitor Assistant for intrusion detection?"
+answers:
+  - "AI enhances Intrusion Detection Systems by making them more efficient and effective in detecting unauthorized access and potential threats through advanced anomaly detection and security assessments."
+  - "You can set up a host by instructing the Network Monitor Assistant to add the host address, for example, by saying 'Add a new host with the address myserver.com for intrusion detection.' The assistant will then monitor the host and help configure AI-based monitoring settings."
+  - "The assistant can provide the latest monitoring data such as response time, status of the host, and highlight any anomalies detected by the AI system, like unusual login attempts or suspicious activities."
+  - "Yes, the assistant can conduct vulnerability scans using AI tools to identify potential risks, such as outdated software or other medium to critical vulnerabilities, and provide actionable insights to improve your network security."
+  - "You can start by clicking the assistant icon located at the bottom right of your screen, then follow the prompts to add hosts, enable AI-based anomaly detection, retrieve monitoring data, or run security assessments."
 ---
 In today's rapidly evolving digital landscape, the importance of robust security measures cannot be overstated. Intrusion Detection Systems (IDS) play a crucial role in safeguarding networks from unauthorized access and potential threats. With the advent of Artificial Intelligence (AI), the capabilities of IDS are being transformed, making them more efficient and effective. The Network Monitor Assistant can help you leverage these advancements in AI for your intrusion detection needs. Click the assistant icon at the bottom right to try it out!
 

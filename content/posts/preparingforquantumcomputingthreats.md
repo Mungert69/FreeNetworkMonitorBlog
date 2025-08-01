@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/PreparingForQuantumComputingThreats-N8F68BP34B.jpg
 categories: ["Quantum Security", "Planning"]
 featured: false
 draft: false
+questions:
+  - "What is the first step in preparing my network for quantum-safe security?"
+  - "How can I identify which services on my network are vulnerable to quantum attacks?"
+  - "How do I test if my network endpoints support quantum-safe algorithms?"
+  - "What is a recommended approach to planning upgrade timelines for quantum security?"
+  - "How can I monitor my network after implementing quantum-safe upgrades?"
+answers:
+  - "The first step is to assess your current network security posture by retrieving a detailed list of all network hosts and services currently being monitored. This inventory helps you understand what assets you have and their configurations."
+  - "You can filter your monitored hosts to find those using encryption methods that are not quantum-resistant, such as standard HTTPS relying on classical algorithms. This helps prioritize which systems need quantum-safe upgrades."
+  - "You can schedule quantum security assessments by using tools like the Quantum Network Monitor Assistant to test critical endpoints for support of post-quantum algorithms such as Kyber512 and Dilithium2. The assistant provides reports indicating which hosts are secure or at risk."
+  - "After identifying vulnerable assets, create a timeline prioritizing critical endpoints with immediate risks first, followed by less critical systems. For example, set quarterly goals to update mission-critical servers first, then email systems, and so on. Use alerting functions to track progress and compliance."
+  - "Once services are migrated to quantum-safe protocols, you can add them to monitoring in quantum mode using the assistant’s add_host function. This ensures ongoing verification and alerts you if any endpoint falls back to insecure algorithms."
 ---
 As organizations become increasingly aware of the threats posed by quantum computing to traditional network security, it’s essential to establish a robust, step-by-step timeline for upgrading security measures. In this blog post, we’ll walk through a practical conversation with the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to plan, prioritize, and begin monitoring your network for quantum-safe compliance—a crucial starting point for any organization getting ready for the quantum future.
 

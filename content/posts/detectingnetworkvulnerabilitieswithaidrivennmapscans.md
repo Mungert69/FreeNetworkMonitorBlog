@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/DetectingNetworkVulnerabilitiesWithAIDrivenNmapScans-
 categories: ["Network Security"]
 featured: false
 draft: false
+questions:
+  - "What is the Quantum Network Monitor Assistant used for?"
+  - "How do I start a vulnerability scan using the Quantum Network Monitor Assistant?"
+  - "Can I check the status of an ongoing Nmap scan with the assistant?"
+  - "What kind of information does the assistant provide after completing a scan?"
+  - "What remediation steps does the assistant recommend for detected vulnerabilities?"
+answers:
+  - "The Quantum Network Monitor Assistant is used to perform AI-driven Nmap scans to detect vulnerabilities in your network, generate detailed reports, and guide remediation steps."
+  - "First, set up and configure an appropriate agent in your network. Then, specify the target IP address or domain you want to scan. Use the assistant to initiate the Nmap vulnerability scan by selecting the agent location to execute the scan."
+  - "Yes, you can ask the assistant if the Nmap scan is still running, and it will provide updates on the scan's progress."
+  - "After the scan is complete, the assistant generates a detailed report that includes open ports, detected vulnerabilities, and recommendations for remediation."
+  - "The assistant recommends updating vulnerable software versions, applying security patches, and considering additional network segmentation to reduce exposure."
 ---
 In today's digital landscape, identifying network vulnerabilities is crucial for maintaining robust security. The [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) provides a streamlined way to leverage AI-driven Nmap scans for detecting vulnerabilities in your network. Below, we’ll explore how to use the assistant to conduct service scans and vulnerability checks, as well as how to generate detailed reports.
 

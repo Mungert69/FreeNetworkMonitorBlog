@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/QuantumResistantCryptographyPreparingForThePostQuantu
 categories: ["Nmap", "Automation"]
 featured: false
 draft: false
+questions:
+  - "What is the Quantum Network Monitor Assistant used for?"
+  - "How does the assistant know what kind of scan to perform?"
+  - "Can I specify which devices or IP ranges to scan using the assistant?"
+  - "Does the assistant provide detailed scan results and allow follow-up scans?"
+  - "Do I need to have technical knowledge of Nmap commands to use the Quantum Network Monitor Assistant?"
+answers:
+  - "The Quantum Network Monitor Assistant is used to perform complex network scans, such as Nmap port scans, through natural language conversation without needing to memorize technical commands or configure scripts."
+  - "The assistant interprets your natural language request and determines the appropriate Nmap scan parameters, such as the target IP range and scan type, then asks clarifying questions if needed before executing the scan."
+  - "Yes, you can specify devices, IP ranges, or hostnames to scan, and also choose whether to run the scan from a local network agent or an internet-based scan."
+  - "Yes, after completing a scan, the assistant summarizes the results and allows you to request more detailed scans, such as service/version detection on specific IPs, all through natural language commands."
+  - "No, the assistant handles all the technical details and command execution behind the scenes, enabling you to perform network scans simply by describing what you want in plain English."
 ---
 Curious if you can run a full port scan on your own network without memorizing Nmap flags or laboriously configuring scripts? With the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), complex network scans—like probing for open ports—are handled seamlessly through natural language conversation. Here’s a step-by-step look at how you can use the assistant to automate Nmap scans, illustrated with a realistic interaction.
 

@@ -5,6 +5,18 @@ image: /blogpics/apipicgen/AIEnhancedCustomMonitoringSolutionsForLargeScaleNetwo
 categories: ["Network Monitoring"]
 featured: false
 draft: false
+questions:
+  - "How do I add a new host for monitoring using the Network Monitor Assistant?"
+  - "Can I monitor multiple hosts at the same time with the Network Monitor Assistant?"
+  - "How can I retrieve the latest monitoring data for a specific host?"
+  - "Does the Network Monitor Assistant support security assessments?"
+  - "Where can I access the Network Monitor Assistant to start using these features?"
+answers:
+  - "You can add a new host by issuing a command like 'Add a new host with the address server1.company.com using HTTP monitoring.' The assistant will confirm that the host has been added and is being monitored."
+  - "Yes, you can add multiple hosts in a single session, making it easy to scale your monitoring efforts across many devices."
+  - "Simply ask the assistant to show the latest data for the host, for example, 'Show me the latest data for the host server1.company.com.' The assistant will provide real-time performance metrics like response time and status."
+  - "Yes, the assistant can perform security assessments using external tools like Nmap to scan for vulnerabilities and help you identify potential security risks."
+  - "You can access the Network Monitor Assistant by clicking the assistant icon located at the bottom right of the interface."
 ---
 In today's fast-paced digital landscape, managing large-scale networks can be a daunting task. With numerous devices and services to monitor, having an efficient and customizable monitoring solution is essential. The Network Monitor Assistant offers AI-enhanced capabilities that allow users to create tailored monitoring solutions for their networks. Click the assistant icon at the bottom right to try it out!
 
