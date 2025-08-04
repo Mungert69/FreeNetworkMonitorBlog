@@ -4,7 +4,8 @@ import { JsonContext } from "context/state";
 import { ThemeProvider } from "next-themes";
 import Head from "next/head";
 import { useEffect, useState } from "react";
-import TagManager from "react-gtm-module";
+import { useRouter } from "next/router";
+import ReactGA from "react-ga4";
 import "styles/style.scss";
 
 const App = ({ Component, pageProps }) => {
@@ -17,24 +18,38 @@ const App = ({ Component, pageProps }) => {
   const [fontcss, setFontcss] = useState();
   useEffect(() => {
     fetch(
-      `https://fonts.googleapis.com/css2?family=${pf}${
-        sf ? "&family=" + sf : ""
+      `https://fonts.googleapis.com/css2?family=${pf}${sf ? "&family=" + sf : ""
       }&display=swap`
     ).then((res) => res.text().then((css) => setFontcss(css)));
   }, [pf, sf]);
 
-  // google tag manager (gtm)
-  const tagManagerArgs = {
-    gtmId: config.params.tag_manager_id,
-  };
+  // Google Analytics 4 (react-ga4)
+  const router = useRouter();
   useEffect(() => {
-    setTimeout(() => {
+    if (
       process.env.NODE_ENV === "production" &&
-        config.params.tag_manager_id &&
-        TagManager.initialize(tagManagerArgs);
-    }, 5000);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+      config.params.google_analytics_id
+    ) {
+
+      ReactGA.initialize(config.params.google_analytics_id, {
+        gaOptions: {
+          cookieFlags: 'SameSite=None;Secure',
+          siteSpeedSampleRate: 100
+        }
+      });
+      // Track initial page load
+      ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+
+      // Track page views on route change
+      const handleRouteChange = (url) => {
+        ReactGA.send({ hitType: "pageview", page: url });
+      };
+      router.events.on("routeChangeComplete", handleRouteChange);
+      return () => {
+        router.events.off("routeChangeComplete", handleRouteChange);
+      };
+    }
+  }, [router]);
 
   return (
     <JsonContext>
