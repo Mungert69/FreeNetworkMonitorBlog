@@ -34,6 +34,9 @@
   <loc>https://blog.readyforquantum.com/posts/aiassistedcapacityplanning</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/posts/aiassistednetworktroubleshooting</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/posts/aidrivenincidentresponsecuttingdowntimeby50</loc>
 </url>
 <url>
@@ -44,6 +47,9 @@
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/posts/aiformspsscalingnetworkmonitoringservices</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/posts/aifornetworkconfigurationmanagement</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/posts/aifornetworksegmentationstrategies</loc>
@@ -253,6 +259,9 @@
   <loc>https://blog.readyforquantum.com/posts/monitoringquantumsafealgorithms</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/posts/monitoringthequantumtransition</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/posts/networkbehavioranalysisidentifyingthreatsthroughpatterns</loc>
 </url>
 <url>
@@ -424,6 +433,9 @@
   <loc>https://blog.readyforquantum.com/posts/theevolutionofnmapfrommanualtoaidrivenscans</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/posts/thefutureofaiinnetworkoperations</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/posts/thefutureofaiinnetworksecurity</loc>
 </url>
 <url>
@@ -508,10 +520,16 @@
   <loc>https://blog.readyforquantum.com/categories/AI</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/categories/Troubleshooting</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/categories/Distributed-Networks</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/MSP</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/categories/Configuration-Management</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/Security</loc>
@@ -524,9 +542,6 @@
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/Penetration-Testing</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/Troubleshooting</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/Web-Data</loc>
@@ -652,6 +667,9 @@
   <loc>https://blog.readyforquantum.com/categories/Ethics</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/categories/Future-Tech</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/categories/UX</loc>
 </url>
 <url>
@@ -746,5 +764,8 @@
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/posts/27</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/posts/28</loc>
 </url>
 </urlset>
