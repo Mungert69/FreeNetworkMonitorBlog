@@ -154,6 +154,9 @@
   <loc>https://blog.readyforquantum.com/posts/cybersecuritybestpracticesstayingaheadofevolvingthreats</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/posts/default1</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/posts/deployingaifornetworkthreatdetectionandresponse</loc>
 </url>
 <url>
@@ -583,6 +586,9 @@
   <loc>https://blog.readyforquantum.com/categories/Custom-Security-Solutions</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/categories/Test</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/categories/Threat-Detection</loc>
 </url>
 <url>
@@ -677,9 +683,6 @@
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/Integration</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/Test</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/Server-Security</loc>
