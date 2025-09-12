@@ -77,7 +77,11 @@ const PostSingle = ({
                   {image && (
                     <div className="flex justify-center my-6">
                       <Image
-                        src={image}
+                        src={
+                          image.startsWith("http")
+                            ? image
+                            : `${config.site.base_url}${image}`
+                        }
                         height={350}
                         width={350}
                         alt={title}
