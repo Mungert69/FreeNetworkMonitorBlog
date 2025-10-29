@@ -18,7 +18,7 @@ answers:
   - "Yes, you can update a host's monitoring configuration using the edit_host function by specifying the host's ID, changing the endpoint to 'quantum' or another appropriate value, and including your email. This keeps the monitoring data current."
   - "Yes, by requesting monitoring data with an alert_flag set to true, the assistant can provide a report highlighting hosts that triggered alerts due to lack of quantum-resistance, helping prioritize upgrades."
 ---
-Transitioning to a quantum-safe infrastructure is a vital priority for organizations seeking resilience in the face of advancing quantum computing technologies. In this blog post, we’ll walk through how a user can leverage the Quantum Network Monitor Assistant to track and monitor the shift from classical cryptography to quantum-resistant algorithms across their digital assets—a process we’ll refer to as “Monitoring the Quantum Transition”.
+Transitioning to a quantum-safe infrastructure is a vital priority for organizations seeking resilience in the face of advancing quantum computing technologies. In this blog post, we’ll walk through how a user can leverage the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to track and monitor the shift from classical cryptography to quantum-resistant algorithms across their digital assets—a process we’ll refer to as “Monitoring the Quantum Transition”.
 
 Let’s follow a realistic conversation as a user interacts with the assistant to achieve this goal, highlighting how the assistant’s specialized function calls can help.
 
@@ -26,7 +26,7 @@ Let’s follow a realistic conversation as a user interacts with the assistant t
 
 User: I want to monitor which of my websites and services are already using quantum-resistant algorithms and which still rely on classical cryptography. How should I start?
 
-Assistant: That’s a smart and proactive step! To begin, you can use the Quantum Network Monitor Assistant to add your websites and services for ongoing monitoring. By selecting the “quantum” endpoint, the Assistant tests for deployment of quantum-safe encryption. Let’s start by adding one of your hosts—say, example.com—for monitoring using the quantum check.
+Assistant: That’s a smart and proactive step! To begin, you can use the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to add your websites and services for ongoing monitoring. By selecting the “quantum” endpoint, the Assistant tests for deployment of quantum-safe encryption. Let’s start by adding one of your hosts—say, example.com—for monitoring using the quantum check.
 
 We’ll use the add_host function for this purpose:
 
@@ -95,6 +95,6 @@ Reviewing these results helps you prioritize upgrades and coordinate with teams 
 
 ---
 
-To summarize: By adding, listing, editing, and retrieving the monitoring status of your assets, the Quantum Network Monitor Assistant offers a hands-on approach to tracking your organization’s progress from classical to quantum-resilient infrastructure. Each function—like add_host for registering assets, get_host_list and get_host_data for visibility and reporting, and edit_host for updating status—empowers you to manage and accelerate your quantum transition with ease.
+To summarize: By adding, listing, editing, and retrieving the monitoring status of your assets, the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) offers a hands-on approach to tracking your organization’s progress from classical to quantum-resilient infrastructure. Each function—like add_host for registering assets, get_host_list and get_host_data for visibility and reporting, and edit_host for updating status—empowers you to manage and accelerate your quantum transition with ease.
 
-Ready to start your transition journey? Try the Quantum Network Monitor Assistant today and make quantum resilience a reality for your organization!
+Ready to start your transition journey? Try the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) today and make quantum resilience a reality for your organization!

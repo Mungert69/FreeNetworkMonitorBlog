@@ -18,7 +18,7 @@ answers:
   - "Yes, the assistant can set up monitoring and send alerts via email whenever there is a change or drift in DNS or security configurations, enabling proactive management."
   - "The assistant uses get_host_list to discover devices, get_host_data to retrieve current configuration data, and edit_host to enable or update monitoring settings for configuration changes."
 ---
-In today’s complex IT environments, keeping network configurations consistent across multiple devices and global locations is a core security and operational challenge. The Quantum Network Monitor Assistant serves as an AI-powered ally, allowing users to automate, monitor, and verify network configurations across diverse infrastructures. Let’s walk through a realistic user-assistant conversation, showing exactly how these powerful features come together to solve this problem.
+In today’s complex IT environments, keeping network configurations consistent across multiple devices and global locations is a core security and operational challenge. The [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) serves as an AI-powered ally, allowing users to automate, monitor, and verify network configurations across diverse infrastructures. Let’s walk through a realistic user-assistant conversation, showing exactly how these powerful features come together to solve this problem.
 
 —
 
@@ -119,7 +119,7 @@ Assistant: Alerts are now enabled for configuration changes across all your glob
 
 —
 
-This example showcases the Quantum Network Monitor Assistant’s ability to:
+This example showcases the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open)’s ability to:
 
 - Discover and categorize devices by location and type,
 - Retrieve and compare current configuration data at scale,
@@ -127,4 +127,4 @@ This example showcases the Quantum Network Monitor Assistant’s ability to:
 
 By weaving together get_host_list, get_host_data, and edit_host functions, configuration management becomes a proactive, AI-driven process rather than a reactive or manual task.
 
-Ready to bring real-time configuration management and drift detection to your networks? Try the Quantum Network Monitor Assistant with your environment—for continuous consistency, no matter how global or dynamic your infrastructure!
+Ready to bring real-time configuration management and drift detection to your networks? Try the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) with your environment—for continuous consistency, no matter how global or dynamic your infrastructure!

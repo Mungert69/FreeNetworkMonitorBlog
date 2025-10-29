@@ -8,7 +8,7 @@ draft: false
 questions: []
 answers: []
 ---
-In this guide, we'll walk through a real-life scenario using the Quantum Network Monitor Assistant to execute advanced diagnostics on remote servers—leveraging the powerful flexibility of Android-based mobile agents. Whether you’re in the field or simply want to monitor infrastructure from anywhere, you’ll see how seamlessly the assistant operates when deployed on Android devices.
+In this guide, we'll walk through a real-life scenario using the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to execute advanced diagnostics on remote servers—leveraging the powerful flexibility of Android-based mobile agents. Whether you’re in the field or simply want to monitor infrastructure from anywhere, you’ll see how seamlessly the assistant operates when deployed on Android devices.
 
 Let’s dive into a step-by-step conversation illustrating this process:
 
@@ -94,6 +94,6 @@ Assistant: The agent management tool allows you to register additional hosts wit
 
 ---
 
-By showcasing diagnostics like ping, traceroute, port scans, and SSL checks—all initiated from a mobile agent—the Quantum Network Monitor Assistant demonstrates a truly flexible and portable approach to server monitoring and troubleshooting. Whether you’re on-site with your Android device or managing devices remotely, you can adapt, diagnose, and respond to network issues instantly.
+By showcasing diagnostics like ping, traceroute, port scans, and SSL checks—all initiated from a mobile agent—the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) demonstrates a truly flexible and portable approach to server monitoring and troubleshooting. Whether you’re on-site with your Android device or managing devices remotely, you can adapt, diagnose, and respond to network issues instantly.
 
-Ready to experience it? Set up your Android agent, connect it to the Quantum Network Monitor Assistant, and explore the power of mobility-driven network diagnostics today!
+Ready to experience it? Set up your Android agent, connect it to the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), and explore the power of mobility-driven network diagnostics today!

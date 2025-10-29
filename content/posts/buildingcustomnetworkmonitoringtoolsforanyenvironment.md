@@ -8,13 +8,13 @@ draft: false
 questions: []
 answers: []
 ---
-In this guide, we walk through how the Quantum Network Monitor Assistant empowers users to create truly custom network monitoring solutions for any environment—whether you're watching IoT devices at home, managing enterprise infrastructure, or monitoring a hybrid cloud. We'll focus on leveraging the power of custom command processors, including two hands-on examples: the classic PingProcessor and a user-defined TextValidatorProcessor.
+In this guide, we walk through how the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) empowers users to create truly custom network monitoring solutions for any environment—whether you're watching IoT devices at home, managing enterprise infrastructure, or monitoring a hybrid cloud. We'll focus on leveraging the power of custom command processors, including two hands-on examples: the classic PingProcessor and a user-defined TextValidatorProcessor.
 
 Let’s see how a typical interaction unfolds:
 
 ---
 
-The user, wanting to monitor a new device, starts by chatting with the Quantum Network Monitor Assistant.
+The user, wanting to monitor a new device, starts by chatting with the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open).
 
 User: I need a custom network check that pings a device and reports if it’s unreachable. Can I make a monitoring tool for that?
 
@@ -32,7 +32,7 @@ To help you get started, I’ll ask the Cmd Processor Expert to create a PingPro
 }
 ```
 
-After the request is made, the Quantum Network Monitor Assistant communicates with the Cmd Processor Expert. This expert securely deploys the PingProcessor on your chosen agent—no coding skills required! You can now schedule this processor to monitor any device you wish.
+After the request is made, the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) communicates with the Cmd Processor Expert. This expert securely deploys the PingProcessor on your chosen agent—no coding skills required! You can now schedule this processor to monitor any device you wish.
 
 User: How do I run the PingProcessor to watch 10.10.1.5 every 60 seconds?
 
@@ -88,6 +88,6 @@ and you can give edits as new requests, allowing you to iterate on your monitori
 
 ---
 
-In summary: The Quantum Network Monitor Assistant allows you to custom-tailor monitoring for any environment. Using command processors, you’re not limited to canned checks. Whether it’s PingProcessor, TextValidatorProcessor, or a new idea altogether, just describe what you need in plain language and the assistant takes care of the technical heavy lifting—from creation and scheduling to viewing and updating your processors.
+In summary: The [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) allows you to custom-tailor monitoring for any environment. Using command processors, you’re not limited to canned checks. Whether it’s PingProcessor, TextValidatorProcessor, or a new idea altogether, just describe what you need in plain language and the assistant takes care of the technical heavy lifting—from creation and scheduling to viewing and updating your processors.
 
-Ready to build? Start a conversation with the Quantum Network Monitor Assistant and try creating your own command processor today!
+Ready to build? Start a conversation with the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) and try creating your own command processor today!
