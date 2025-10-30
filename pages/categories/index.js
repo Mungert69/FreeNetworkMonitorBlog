@@ -6,10 +6,12 @@ import Link from "next/link";
 const { blog_folder } = config.settings;
 import { getSinglePage } from "@lib/contentParser";
 import { FaFolder } from "react-icons/fa";
+import CategorySearch from "@layouts/components/CategorySearch";
 
-const Categories = ({ categories }) => {
+const Categories = ({ categories, posts }) => {
   return (
     <Base title={"categories"}>
+      <CategorySearch posts={posts} />
       <section className="section pt-0">
         {markdownify(
           "Categories",
@@ -60,6 +62,11 @@ export const getStaticProps = () => {
   return {
     props: {
       categories: categoriesWithPostsCount,
+      posts: posts.map((post) => ({
+        slug: post.slug,
+        frontmatter: post.frontmatter,
+        content: post.content,
+      })),
     },
   };
 };

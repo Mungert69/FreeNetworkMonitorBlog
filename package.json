@@ -5,9 +5,10 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "NODE_OPTIONS='--inspect' node lib/jsonGenerator.js && next dev",
-    "build": "node lib/jsonGenerator.js && node lib/generate-sitemap.js && next build",
-    "export": "node lib/jsonGenerator.js && node lib/generate-sitemap.js && next build && next export",
+    "dev": "NODE_OPTIONS='--inspect' node lib/jsonGenerator.js && node lib/generate-embeddings.js && next dev",
+    "build": "node lib/jsonGenerator.js && node lib/generate-embeddings.js && node lib/generate-sitemap.js && next build",
+    "export": "node lib/jsonGenerator.js && node lib/generate-embeddings.js && node lib/generate-sitemap.js && next build && next export",
+    "generate-embeddings": "node lib/generate-embeddings.js",
     "lint": "next lint",
     "start": "next start",
     "generate-sitemap": "node lib/generate-sitemap.js"
