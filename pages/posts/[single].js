@@ -3,6 +3,7 @@ import PostSingle from "@layouts/PostSingle";
 import { getSinglePage } from "@lib/contentParser";
 import { getTaxonomy } from "@lib/taxonomyParser";
 import parseMDX from "@lib/utils/mdxParser";
+import { slugify } from "@lib/utils/textConverter";
 const { base_url } = config.site;
 const { blog_folder } = config.settings;
 
@@ -62,15 +63,19 @@ export const getStaticProps = async ({ params }) => {
 
   //all categories
   const categories = getTaxonomy(`content/${blog_folder}`, "categories");
-  const categoriesWithPostsCount = categories.map((category) => {
-    const filteredPosts = posts.filter((post) =>
-      post.frontmatter.categories.includes(category)
-    );
-    return {
-      name: category,
-      posts: filteredPosts.length,
-    };
-  });
+  const categoriesWithPostsCount = categories
+    .map((category) => {
+      const filteredPosts = posts.filter((post) =>
+        post.frontmatter.categories.some(
+          (postCategory) => slugify(postCategory) === category
+        )
+      );
+      return {
+        name: category,
+        posts: filteredPosts.length,
+      };
+    })
+    .filter((category) => category.posts > 0);
   return {
     props: {
       post: post,

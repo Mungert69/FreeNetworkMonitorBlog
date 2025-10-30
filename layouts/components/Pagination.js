@@ -7,10 +7,45 @@ const Pagination = ({ section, currentPage, totalPages }) => {
   const hasPrevPage = currentPage > 1;
   const hasNextPage = totalPages > currentPage;
 
-  let pageList = [];
-  for (let i = 1; i <= totalPages; i++) {
-    pageList.push(i);
-  }
+  const siblingCount = 1;
+
+  const range = (start, end) => {
+    const length = end - start + 1;
+    return Array.from({ length }, (_, idx) => idx + start);
+  };
+
+  const paginationRange = React.useMemo(() => {
+    const totalPageNumbers = siblingCount * 2 + 5;
+
+    if (totalPages <= totalPageNumbers) {
+      return range(1, totalPages);
+    }
+
+    const leftSiblingIndex = Math.max(currentPage - siblingCount, 2);
+    const rightSiblingIndex = Math.min(
+      currentPage + siblingCount,
+      totalPages - 1
+    );
+
+    const shouldShowLeftDots = leftSiblingIndex > 2;
+    const shouldShowRightDots = rightSiblingIndex < totalPages - 1;
+
+    if (!shouldShowLeftDots && shouldShowRightDots) {
+      const leftRange = range(1, 3 + siblingCount * 2);
+      return [...leftRange, "dots-right", totalPages];
+    }
+
+    if (shouldShowLeftDots && !shouldShowRightDots) {
+      const rightRange = range(
+        totalPages - (3 + siblingCount * 2) + 1,
+        totalPages
+      );
+      return [1, "dots-left", ...rightRange];
+    }
+
+    const middleRange = range(leftSiblingIndex, rightSiblingIndex);
+    return [1, "dots-left", ...middleRange, "dots-right", totalPages];
+  }, [currentPage, siblingCount, totalPages]);
 
   return (
     <>
@@ -44,31 +79,44 @@ const Pagination = ({ section, currentPage, totalPages }) => {
           )}
 
           {/* page index */}
-          {pageList.map((pagination, i) => (
-            <React.Fragment key={`page-${i}`}>
-              {pagination === currentPage ? (
+          {paginationRange.map((item, index) => {
+            if (typeof item === "string") {
+              return (
                 <span
-                  aria-current="page"
-                  className={`inline-flex h-[38px] w-[38px] items-center justify-center rounded-full bg-primary px-4 py-1 font-secondary text-lg font-bold leading-none text-dark text-white dark:text-darkmode-light`}
+                  key={`dots-${index}`}
+                  className="inline-flex h-[38px] w-[38px] items-center justify-center text-lg font-semibold text-dark dark:text-darkmode-light"
                 >
-                  {pagination}
+                  &hellip;
                 </span>
-              ) : (
-                <Link
-                  href={
-                    i === 0
-                      ? `${section ? "/" + section : "/"}`
-                      : `${section ? "/" + section : ""}/page/${pagination}`
-                  }
-                  passHref
-                  aria-current="page"
-                  className={`inline-flex h-[38px] w-[38px] items-center justify-center rounded-full px-4 py-1 font-secondary text-lg font-bold leading-none text-dark dark:text-darkmode-light`}
-                >
-                  {pagination}
-                </Link>
-              )}
-            </React.Fragment>
-          ))}
+              );
+            }
+
+            const pageNumber = item;
+            const isCurrent = pageNumber === currentPage;
+            const href =
+              pageNumber === 1
+                ? `${section ? "/" + section : "/"}`
+                : `${section ? "/" + section : ""}/page/${pageNumber}`;
+
+            return isCurrent ? (
+              <span
+                key={`page-${pageNumber}`}
+                aria-current="page"
+                className="inline-flex h-[38px] w-[38px] items-center justify-center rounded-full border border-primary bg-primary text-white shadow-md"
+              >
+                {pageNumber}
+              </span>
+            ) : (
+              <Link
+                key={`page-${pageNumber}`}
+                href={href}
+                aria-current="page"
+                className="inline-flex h-[38px] w-[38px] items-center justify-center rounded-full px-4 py-1 font-secondary text-lg font-bold leading-none text-dark transition hover:bg-primary hover:text-white dark:text-darkmode-light"
+              >
+                {pageNumber}
+              </Link>
+            );
+          })}
 
           {/* next page */}
           {hasNextPage ? (

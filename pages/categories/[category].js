@@ -62,15 +62,19 @@ export const getStaticProps = ({ params }) => {
   );
   const categories = getTaxonomy(`content/${blog_folder}`, "categories");
 
-  const categoriesWithPostsCount = categories.map((category) => {
-    const filteredPosts = posts.filter((post) =>
-      post.frontmatter.categories.includes(category)
-    );
-    return {
-      name: category,
-      posts: filteredPosts.length,
-    };
-  });
+  const categoriesWithPostsCount = categories
+    .map((category) => {
+      const filteredPosts = posts.filter((post) =>
+        post.frontmatter.categories.some(
+          (postCategory) => slugify(postCategory) === category
+        )
+      );
+      return {
+        name: category,
+        posts: filteredPosts.length,
+      };
+    })
+    .filter((category) => category.posts > 0);
 
   return {
     props: {

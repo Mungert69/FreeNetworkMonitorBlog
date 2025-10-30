@@ -1,7 +1,7 @@
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import { getTaxonomy } from "@lib/taxonomyParser";
-import { humanize, markdownify } from "@lib/utils/textConverter";
+import { humanize, markdownify, slugify } from "@lib/utils/textConverter";
 import Link from "next/link";
 const { blog_folder } = config.settings;
 import { getSinglePage } from "@lib/contentParser";
@@ -44,15 +44,19 @@ export default Categories;
 export const getStaticProps = () => {
   const posts = getSinglePage(`content/${blog_folder}`);
   const categories = getTaxonomy(`content/${blog_folder}`, "categories");
-  const categoriesWithPostsCount = categories.map((category) => {
-    const filteredPosts = posts.filter((post) =>
-      post.frontmatter.categories.includes(category)
-    );
-    return {
-      name: category,
-      posts: filteredPosts.length,
-    };
-  });
+  const categoriesWithPostsCount = categories
+    .map((category) => {
+      const filteredPosts = posts.filter((post) =>
+        post.frontmatter.categories.some(
+          (postCategory) => slugify(postCategory) === category
+        )
+      );
+      return {
+        name: category,
+        posts: filteredPosts.length,
+      };
+    })
+    .filter((category) => category.posts > 0);
   return {
     props: {
       categories: categoriesWithPostsCount,

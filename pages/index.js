@@ -8,7 +8,7 @@ import { getListPage, getSinglePage } from "@lib/contentParser";
 import { getTaxonomy } from "@lib/taxonomyParser";
 import dateFormat from "@lib/utils/dateFormat";
 import { sortByDate } from "@lib/utils/sortFunctions";
-import { markdownify } from "@lib/utils/textConverter";
+import { markdownify, slugify } from "@lib/utils/textConverter";
 import Link from "next/link";
 import { FaRegCalendar } from "react-icons/fa";
 const { blog_folder, pagination } = config.settings;
@@ -184,15 +184,19 @@ export const getStaticProps = async () => {
   const posts = getSinglePage(`content/${blog_folder}`);
   const categories = getTaxonomy(`content/${blog_folder}`, "categories");
 
-  const categoriesWithPostsCount = categories.map((category) => {
-    const filteredPosts = posts.filter((post) =>
-      post.frontmatter.categories.includes(category)
-    );
-    return {
-      name: category,
-      posts: filteredPosts.length,
-    };
-  });
+  const categoriesWithPostsCount = categories
+    .map((category) => {
+      const filteredPosts = posts.filter((post) =>
+        post.frontmatter.categories.some(
+          (postCategory) => slugify(postCategory) === category
+        )
+      );
+      return {
+        name: category,
+        posts: filteredPosts.length,
+      };
+    })
+    .filter((category) => category.posts > 0);
 
   return {
     props: {
