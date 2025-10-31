@@ -53,6 +53,7 @@ const extractSlugFromUrl = (urlValue) => {
 const CategorySearch = ({ posts }) => {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
+  const [searchSubmitted, setSearchSubmitted] = useState(false);
   const [apiBaseUrl, setApiBaseUrl] = useState(null);
   const [loadingConfig, setLoadingConfig] = useState(true);
   const [searching, setSearching] = useState(false);
@@ -154,9 +155,11 @@ const CategorySearch = ({ posts }) => {
 
   const handleSearch = async (event) => {
     event.preventDefault();
+    setSearchSubmitted(true);
     const trimmed = query.trim();
     if (!trimmed) {
       setResults([]);
+      setSearchSubmitted(false); // Reset so "No matches" doesn't show on empty query
       return;
     }
     if (!apiBaseUrl) {
@@ -339,7 +342,7 @@ const CategorySearch = ({ posts }) => {
           </div>
         )}
 
-        {!hasResults && !loadingConfig && !searching && !error && query && (
+        {!hasResults && !loadingConfig && !searching && !error && searchSubmitted && query.trim() && (
           <div className="mt-12 rounded border border-border p-6 text-center text-sm text-light dark:border-darkmode-border dark:text-darkmode-light">
             No matches found for “{query}”.
           </div>
