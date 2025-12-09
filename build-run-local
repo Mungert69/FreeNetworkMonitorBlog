@@ -7,4 +7,4 @@ mkdir -p ./out/blogpics
 cp ./public/runConfig-dev.json ./public/runConfig.json
 npm run export
 docker compose -f docker-compose-local.yml build
-docker push mungert/networkmonitorblog-local:0.9.0
+docker push mungert/networkmonitorblog-local:0.9.1
