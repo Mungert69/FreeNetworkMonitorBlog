@@ -7,5 +7,12 @@ mkdir -p ./out/blogpics
 cp ./public/runConfig-live.js ./public/runConfig.js
 cp ./public/runConfig-live.json ./public/runConfig.json
 npm run export
-docker compose -f docker-compose.yml build
-docker push mungert/networkmonitorblog:0.9.1
+docker buildx inspect multiarch-builder >/dev/null 2>&1 || docker buildx create --name multiarch-builder --use
+docker buildx use multiarch-builder
+docker buildx inspect --bootstrap
+docker buildx build \
+  --platform linux/amd64,linux/arm64 \
+  --file ./Dockerfile \
+  --tag mungert/networkmonitorblog:0.9.1 \
+  --push \
+  .
