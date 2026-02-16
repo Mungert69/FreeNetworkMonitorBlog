@@ -28,7 +28,7 @@
     "import": "^0.0.6",
     "isomorphic-unfetch": "^4.0.2",
     "marked": "^12.0.1",
-    "next": "^14.2.33",
+    "next": "^14.2.35",
     "next-mdx-remote": "^4.4.1",
     "next-themes": "^0.3.0",
     "react": "18.2.0",
