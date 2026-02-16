@@ -1,9 +1,14 @@
 import { createContext, useContext } from "react";
-import posts from "../.json/posts.json";
+import generatedPosts from "../.json/posts.json";
+import bundledPosts from "../posts.json";
 
 const SearchContext = createContext();
 
 export const JsonContext = ({ children }) => {
+  const toArray = (value) => (Array.isArray(value) ? value : []);
+  const generated = toArray(generatedPosts);
+  const bundled = toArray(bundledPosts);
+  const posts = generated.length > 0 ? generated : bundled;
 
   const state = {
     posts,

@@ -7,17 +7,19 @@ import { useRouter } from "next/router";
 const SearchPage = () => {
   const router = useRouter();
   const { query } = router;
-  const keyword = slugify(query.key);
+  const keyword = slugify(query.key || "");
   const { posts } = useSearchContext();
+  const normalizedPosts = Array.isArray(posts) ? posts : [];
 
-  const searchResults = posts.filter((product) => {
-    if (product.frontmatter.draft) {
-      return !product.frontmatter.draft;
+  const searchResults = normalizedPosts.filter((product) => {
+    const frontmatter = product?.frontmatter || {};
+    if (frontmatter.draft) {
+      return false;
     }
-    if (slugify(product.frontmatter.title).includes(keyword)) {
+    if (slugify(frontmatter.title || "").includes(keyword)) {
       return product;
     } else if (
-      product.frontmatter.categories.find((category) =>
+      (Array.isArray(frontmatter.categories) ? frontmatter.categories : []).find((category) =>
         slugify(category).includes(keyword)
       )
     ) {
