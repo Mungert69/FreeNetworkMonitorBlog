@@ -1,7 +1,7 @@
 {
-  "name": "next-tailwind-boilerplate",
+  "name": "Free Network Monitor Blogs",
   "description": "a nextjs and tailwindcss boilerplate by themefisher.com",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {

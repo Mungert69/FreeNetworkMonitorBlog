@@ -1,6 +1,7 @@
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import { getTaxonomy } from "@lib/taxonomyParser";
+import { toPostCardDataList } from "@lib/utils/postPayload";
 import { humanize, markdownify, slugify } from "@lib/utils/textConverter";
 import Link from "next/link";
 const { blog_folder } = config.settings;
@@ -44,11 +45,12 @@ const Categories = ({ categories, posts }) => {
 export default Categories;
 
 export const getStaticProps = () => {
-  const posts = getSinglePage(`content/${blog_folder}`);
+  const allPosts = getSinglePage(`content/${blog_folder}`);
+  const posts = toPostCardDataList(allPosts);
   const categories = getTaxonomy(`content/${blog_folder}`, "categories");
   const categoriesWithPostsCount = categories
     .map((category) => {
-      const filteredPosts = posts.filter((post) =>
+      const filteredPosts = allPosts.filter((post) =>
         post.frontmatter.categories.some(
           (postCategory) => slugify(postCategory) === category
         )
@@ -62,11 +64,7 @@ export const getStaticProps = () => {
   return {
     props: {
       categories: categoriesWithPostsCount,
-      posts: posts.map((post) => ({
-        slug: post.slug,
-        frontmatter: post.frontmatter,
-        content: post.content,
-      })),
+      posts,
     },
   };
 };

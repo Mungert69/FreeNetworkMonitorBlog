@@ -6,6 +6,7 @@ import Post from "@layouts/partials/Post";
 import Sidebar from "@layouts/partials/Sidebar";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { getTaxonomy } from "@lib/taxonomyParser";
+import { toPostCardDataList } from "@lib/utils/postPayload";
 import dateFormat from "@lib/utils/dateFormat";
 import { sortByDate } from "@lib/utils/sortFunctions";
 import { markdownify, slugify } from "@lib/utils/textConverter";
@@ -181,12 +182,13 @@ export const getStaticProps = async () => {
   const homepage = await getListPage("content/_index.md");
   const { frontmatter } = homepage;
   const { banner, featured_posts, recent_posts, promotion } = frontmatter;
-  const posts = getSinglePage(`content/${blog_folder}`);
+  const allPosts = getSinglePage(`content/${blog_folder}`);
+  const posts = toPostCardDataList(allPosts);
   const categories = getTaxonomy(`content/${blog_folder}`, "categories");
 
   const categoriesWithPostsCount = categories
     .map((category) => {
-      const filteredPosts = posts.filter((post) =>
+      const filteredPosts = allPosts.filter((post) =>
         post.frontmatter.categories.some(
           (postCategory) => slugify(postCategory) === category
         )

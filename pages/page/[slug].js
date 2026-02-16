@@ -2,6 +2,7 @@ import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import Pagination from "@layouts/components/Pagination";
 import { getListPage, getSinglePage } from "@lib/contentParser";
+import { toPostCardDataList } from "@lib/utils/postPayload";
 import { markdownify } from "@lib/utils/textConverter";
 import Post from "@partials/Post";
 const { blog_folder, summary_length } = config.settings;
@@ -66,7 +67,8 @@ export const getStaticPaths = () => {
 export const getStaticProps = async ({ params }) => {
   const currentPage = parseInt((params && params.slug) || 1);
   const { pagination } = config.settings;
-  const posts = getSinglePage(`content/${blog_folder}`);
+  const allPosts = getSinglePage(`content/${blog_folder}`);
+  const posts = toPostCardDataList(allPosts);
   const postIndex = await getListPage(`content/${blog_folder}/_index.md`);
 
   return {
@@ -74,7 +76,9 @@ export const getStaticProps = async ({ params }) => {
       pagination: pagination,
       posts: posts,
       currentPage: currentPage,
-      postIndex: postIndex,
+      postIndex: {
+        frontmatter: postIndex.frontmatter,
+      },
     },
   };
 };

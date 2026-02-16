@@ -1,14 +1,17 @@
 import Base from "@layouts/Baseof";
+import config from "@config/config.json";
+import { getSinglePage } from "@lib/contentParser";
+import { toPostCardDataList } from "@lib/utils/postPayload";
 import { slugify } from "@lib/utils/textConverter";
 import Post from "@partials/Post";
-import { useSearchContext } from "context/state";
 import { useRouter } from "next/router";
 
-const SearchPage = () => {
+const { blog_folder } = config.settings;
+
+const SearchPage = ({ posts = [] }) => {
   const router = useRouter();
   const { query } = router;
   const keyword = slugify(query.key || "");
-  const { posts } = useSearchContext();
   const normalizedPosts = Array.isArray(posts) ? posts : [];
 
   const searchResults = normalizedPosts.filter((product) => {
@@ -56,3 +59,14 @@ const SearchPage = () => {
 };
 
 export default SearchPage;
+
+export const getStaticProps = async () => {
+  const allPosts = getSinglePage(`content/${blog_folder}`);
+  const posts = toPostCardDataList(allPosts, 1200);
+
+  return {
+    props: {
+      posts,
+    },
+  };
+};

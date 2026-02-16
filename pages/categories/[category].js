@@ -3,6 +3,7 @@ import Base from "@layouts/Baseof";
 import Sidebar from "@layouts/partials/Sidebar";
 import { getSinglePage } from "@lib/contentParser";
 import { getTaxonomy } from "@lib/taxonomyParser";
+import { toPostCardDataList } from "@lib/utils/postPayload";
 import { slugify } from "@lib/utils/textConverter";
 import Post from "@partials/Post";
 const { blog_folder } = config.settings;
@@ -54,17 +55,19 @@ export const getStaticPaths = () => {
 
 // category page data
 export const getStaticProps = ({ params }) => {
-  const posts = getSinglePage(`content/${blog_folder}`);
-  const filterPosts = posts.filter((post) =>
+  const allPosts = getSinglePage(`content/${blog_folder}`);
+  const filterPosts = allPosts.filter((post) =>
     post.frontmatter.categories.find((category) =>
       slugify(category).includes(params.category)
     )
   );
+  const posts = toPostCardDataList(allPosts);
+  const postsByCategories = toPostCardDataList(filterPosts);
   const categories = getTaxonomy(`content/${blog_folder}`, "categories");
 
   const categoriesWithPostsCount = categories
     .map((category) => {
-      const filteredPosts = posts.filter((post) =>
+      const filteredPosts = allPosts.filter((post) =>
         post.frontmatter.categories.some(
           (postCategory) => slugify(postCategory) === category
         )
@@ -79,7 +82,7 @@ export const getStaticProps = ({ params }) => {
   return {
     props: {
       posts,
-      postsByCategories: filterPosts,
+      postsByCategories,
       category: params.category,
       categories: categoriesWithPostsCount,
     },
