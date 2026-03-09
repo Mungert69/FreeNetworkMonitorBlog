@@ -22,6 +22,8 @@
     "@xenova/transformers": "^2.9.1",
     "axios": "^1.6.8",
     "axios-retry": "^4.1.0",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0",
     "disqus-react": "^1.1.5",
     "frontmatter": "^0.0.3",
     "fs": "^0.0.1-security",
@@ -54,19 +56,13 @@
     "@testing-library/react": "^16.3.2",
     "@vitejs/plugin-react": "^5.1.4",
     "autoprefixer": "^10.4.19",
-    "date-fns": "^4.1.0",
-    "date-fns-tz": "^3.2.0",
     "jsdom": "^28.1.0",
-    "jshint": "^2.13.6",
     "postcss": "^8.4.38",
-    "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.7.2",
     "sass": "^1.72.0",
     "sharp": "^0.34.5",
     "tailwind-bootstrap-grid": "^7.0.0",
     "tailwind-scrollbar": "^4.0.2",
     "tailwindcss": "^4.2.1",
-    "typescript": "^5.9.3",
     "vitest": "^4.0.18"
   }
 }
