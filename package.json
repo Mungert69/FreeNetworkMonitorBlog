@@ -8,6 +8,9 @@
     "dev": "NODE_OPTIONS='--inspect' node lib/jsonGenerator.js && next dev",
     "build": "node lib/jsonGenerator.js && node lib/generate-sitemap.js && next build",
     "export": "node lib/jsonGenerator.js && node lib/generate-sitemap.js && next build && next export",
+    "test": "npm run test:unit && npm run test:ui",
+    "test:unit": "node --test tests/**/*.test.cjs",
+    "test:ui": "vitest run",
     "lint": "eslint .",
     "start": "next start",
     "generate-sitemap": "node lib/generate-sitemap.js"
@@ -30,7 +33,7 @@
     "marked": "^12.0.1",
     "next": "^16.1.6",
     "next-mdx-remote": "^4.4.1",
-    "next-themes": "^0.3.0",
+    "next-themes": "^0.4.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-ga4": "^2.1.0",
@@ -45,11 +48,15 @@
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.12",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@vitejs/plugin-react": "^5.1.4",
     "autoprefixer": "^10.4.19",
     "date-fns": "^2.29.3",
     "date-fns-tz": "^1.3.8",
     "eslint": "^9.31.1",
     "eslint-config-next": "^16.1.6",
+    "jsdom": "^28.1.0",
     "jshint": "^2.13.6",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
@@ -58,6 +65,7 @@
     "sharp": "^0.33.3",
     "tailwind-bootstrap-grid": "^5.1.0",
     "tailwind-scrollbar": "^3.1.0",
-    "tailwindcss": "^3.4.3"
+    "tailwindcss": "^3.4.3",
+    "vitest": "^4.0.18"
   }
 }
