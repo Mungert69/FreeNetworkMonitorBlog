@@ -8,6 +8,7 @@ const {
   getAllPosts,
   getAllCategories,
   getPaginatedPages,
+  resolveStaticPages,
   isValidPostSlug,
   toCategorySlug,
   toCanonicalUrl,
@@ -95,7 +96,7 @@ test('url and xml builders include static, post, category, and pagination urls',
   assert.ok(urls.includes('https://example.com/about/'));
   assert.ok(urls.includes('https://example.com/posts/a/'));
   assert.ok(urls.includes('https://example.com/categories/cat-a/'));
-  assert.ok(urls.includes('https://example.com/posts/2/'));
+  assert.ok(urls.includes('https://example.com/page/2/'));
 
   const xml = buildSitemapXml(urls);
   assert.match(xml, /<urlset xmlns="http:\/\/www.sitemaps.org\/schemas\/sitemap\/0.9">/);
@@ -131,9 +132,9 @@ test('generateSitemap writes sitemap.xml with expected urls', () => {
   const xml = fs.readFileSync(outputPath, 'utf-8');
   assert.match(xml, /https:\/\/example.com\/posts\/one\//);
   assert.match(xml, /https:\/\/example.com\/categories\/ai\//);
-  assert.match(xml, /https:\/\/example.com\/posts\/2\//);
+  assert.match(xml, /https:\/\/example.com\/page\/2\//);
 
-  assert.deepEqual(getPaginatedPages(3, 2), ['posts/2']);
+  assert.deepEqual(getPaginatedPages(3, 2), ['page/2']);
 });
 
 test('slug and canonical helpers enforce sitemap-safe urls', () => {
@@ -143,4 +144,14 @@ test('slug and canonical helpers enforce sitemap-safe urls', () => {
   assert.equal(toCategorySlug('Advanced Security'), 'advanced-security');
   assert.equal(toCategorySlug('AI'), 'ai');
   assert.equal(toCanonicalUrl('https://example.com/', '/posts/abc/'), 'https://example.com/posts/abc/');
+});
+
+test('resolveStaticPages keeps only existing content pages plus root', () => {
+  const root = makeTempDir();
+  const contentDir = path.join(root, 'content');
+  fs.mkdirSync(contentDir, { recursive: true });
+  fs.writeFileSync(path.join(contentDir, 'contact.md'), '---\\ntitle: Contact\\n---\\n');
+
+  const resolved = resolveStaticPages(['', 'about', 'contact'], { cwd: root });
+  assert.deepEqual(resolved, ['', 'contact']);
 });
