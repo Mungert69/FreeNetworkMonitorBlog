@@ -17,7 +17,7 @@ const BlogPagination = ({ postIndex, posts, currentPage, pagination }) => {
   const totalPages = Math.ceil(posts.length / pagination);
   const canonical =
     currentPage > 1
-      ? `${base_url}/posts/${currentPage}`
+      ? `${base_url}/page/${currentPage}/`
       : `${base_url}/posts/`;
 
   return (

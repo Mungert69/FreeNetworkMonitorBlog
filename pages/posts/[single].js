@@ -18,7 +18,7 @@ const Article = ({
   posts,
 }) => {
   const { frontmatter, content } = post;
-  const canonical = `${base_url}/posts/${slug}`;
+  const canonical = `${base_url}/posts/${slug}/`;
 
   return (
     <PostSingle
