@@ -8,6 +8,8 @@ const {
   getAllPosts,
   getAllCategories,
   getPaginatedPages,
+  isValidPostSlug,
+  toCanonicalUrl,
   buildUrls,
   buildSitemapXml,
   generateSitemap,
@@ -52,6 +54,16 @@ test('helpers extract posts and categories correctly', () => {
     layout: '"404"',
     categories: ['Ignore'],
   });
+  writeMarkdown(path.join(postsDir, 'default.md'), {
+    title: 'Default Placeholder',
+    url: '/default1/',
+    categories: ['Ignore'],
+  });
+  writeMarkdown(path.join(postsDir, 'numeric.md'), {
+    title: 'Numeric Placeholder',
+    url: '/2/',
+    categories: ['Ignore'],
+  });
 
   const posts = getAllPosts('posts', { cwd: root });
   assert.equal(posts.length, 2);
@@ -79,14 +91,14 @@ test('url and xml builders include static, post, category, and pagination urls',
   });
 
   assert.ok(urls.includes('https://example.com/'));
-  assert.ok(urls.includes('https://example.com/about'));
-  assert.ok(urls.includes('https://example.com/posts/a'));
-  assert.ok(urls.includes('https://example.com/categories/Cat-A'));
-  assert.ok(urls.includes('https://example.com/posts/2'));
+  assert.ok(urls.includes('https://example.com/about/'));
+  assert.ok(urls.includes('https://example.com/posts/a/'));
+  assert.ok(urls.includes('https://example.com/categories/Cat-A/'));
+  assert.ok(urls.includes('https://example.com/posts/2/'));
 
   const xml = buildSitemapXml(urls);
   assert.match(xml, /<urlset xmlns="http:\/\/www.sitemaps.org\/schemas\/sitemap\/0.9">/);
-  assert.match(xml, /<loc>https:\/\/example.com\/posts\/a<\/loc>/);
+  assert.match(xml, /<loc>https:\/\/example.com\/posts\/a\/<\/loc>/);
 });
 
 test('generateSitemap writes sitemap.xml with expected urls', () => {
@@ -116,9 +128,16 @@ test('generateSitemap writes sitemap.xml with expected urls', () => {
   assert.ok(fs.existsSync(outputPath));
 
   const xml = fs.readFileSync(outputPath, 'utf-8');
-  assert.match(xml, /https:\/\/example.com\/posts\/one/);
-  assert.match(xml, /https:\/\/example.com\/categories\/AI/);
-  assert.match(xml, /https:\/\/example.com\/posts\/2/);
+  assert.match(xml, /https:\/\/example.com\/posts\/one\//);
+  assert.match(xml, /https:\/\/example.com\/categories\/AI\//);
+  assert.match(xml, /https:\/\/example.com\/posts\/2\//);
 
   assert.deepEqual(getPaginatedPages(3, 2), ['posts/2']);
+});
+
+test('slug and canonical helpers enforce sitemap-safe urls', () => {
+  assert.equal(isValidPostSlug('howtoaddandedithostswiththeassistant'), true);
+  assert.equal(isValidPostSlug('default1'), false);
+  assert.equal(isValidPostSlug('2'), false);
+  assert.equal(toCanonicalUrl('https://example.com/', '/posts/abc/'), 'https://example.com/posts/abc/');
 });
