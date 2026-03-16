@@ -31,6 +31,36 @@ ensure_dir() {
   mkdir -p "${dir_path}"
 }
 
+sync_apipicgen() {
+  ensure_dir "${DEST_APIPICGEN}"
+
+  if command -v rsync >/dev/null 2>&1; then
+    rsync -a --exclude='*-orig.*' "${SOURCE_APIPICGEN}/" "${DEST_APIPICGEN}/"
+  else
+    find "${SOURCE_APIPICGEN}" -maxdepth 1 -type f ! -name '*-orig.*' -exec cp -a {} "${DEST_APIPICGEN}/" \;
+  fi
+}
+
+validate_referenced_images() {
+  missing=0
+
+  grep -RhoE '^image:[[:space:]]+/blogpics/apipicgen/[^[:space:]]+\.(jpg|png)' ./content/posts \
+    | sed -E 's/^image:[[:space:]]+\/blogpics\/apipicgen\///' \
+    | sort -u \
+    | while read -r filename; do
+        [ -n "${filename}" ] || continue
+        if [ ! -f "${DEST_APIPICGEN}/${filename}" ]; then
+          echo "Missing referenced image: ${filename}"
+          missing=1
+        fi
+      done
+
+  if [ "${missing}" -ne 0 ]; then
+    echo "Build aborted: one or more referenced blog images are missing from ${DEST_APIPICGEN}"
+    exit 1
+  fi
+}
+
 if [ ! -d "${SOURCE_APIPICGEN}" ]; then
   echo "Missing source image directory: ${SOURCE_APIPICGEN}"
   exit 1
@@ -38,16 +68,13 @@ fi
 
 ensure_dir ./public/img
 ensure_dir ./public/blogpics
-ensure_dir "${DEST_APIPICGEN}"
-if command -v rsync >/dev/null 2>&1; then
-  rsync -a --exclude='*-orig.*' "${SOURCE_APIPICGEN}/" "${DEST_APIPICGEN}/"
-else
-  find "${SOURCE_APIPICGEN}" -maxdepth 1 -type f ! -name '*-orig.*' -exec cp -a {} "${DEST_APIPICGEN}/" \;
-fi
+sync_apipicgen
 
 cp ./public/runConfig-live.js ./public/runConfig.js
 cp ./public/runConfig-live.json ./public/runConfig.json
 npm run export
+sync_apipicgen
+validate_referenced_images
 mkdir -p ./out/images
 mkdir -p ./out/blogpics
 docker buildx inspect multiarch-builder >/dev/null 2>&1 || docker buildx create --name multiarch-builder --use
