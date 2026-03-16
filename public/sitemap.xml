@@ -190,6 +190,9 @@
   <loc>https://blog.readyforquantum.com/posts/frompingtoprecisioncraftingpurposebuiltprocessorsfornetworkinsights</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/posts/gettingstartedwiththequantumnetworkmonitorassistant</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/posts/harnessingaiformultilayeredsecurityincomplexnetworks</loc>
 </url>
 <url>
@@ -203,6 +206,9 @@
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/posts/howquantumreadinesscheckscansaveyournetworktoday</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/posts/howtoaddandedithostswiththeassistant</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/posts/howtomonitorssltlsvulnerabilitiesautomatically</loc>
@@ -631,10 +637,19 @@
   <loc>https://blog.readyforquantum.com/categories/Network-Insights</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/categories/Getting-Started</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/categories/Onboarding</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/categories/Advanced-Security</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/Quantum-Computing</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/categories/Host-Management</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/Website</loc>
@@ -644,9 +659,6 @@
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/Network-Diagnostics</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/Host-Management</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/Metasploit</loc>

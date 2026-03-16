@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "NODE_OPTIONS='--inspect' node lib/jsonGenerator.js && next dev",
     "build": "node lib/jsonGenerator.js && node lib/generate-sitemap.js && next build",
-    "export": "node lib/jsonGenerator.js && node lib/generate-sitemap.js && next build && next export",
+    "export": "rm -rf ./out && node lib/jsonGenerator.js && node lib/generate-sitemap.js && next build && node lib/validate-export.js",
+    "validate-export": "node lib/validate-export.js",
     "test": "npm run test:unit && npm run test:ui",
     "test:unit": "node --test tests/**/*.test.cjs",
     "test:ui": "vitest run",

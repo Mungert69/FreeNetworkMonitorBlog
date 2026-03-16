@@ -5,6 +5,7 @@ const os = require('node:os');
 const path = require('node:path');
 
 const {
+  getDefaultPaths,
   toPlainText,
   truncate,
   createFrontmatterBlock,
@@ -30,6 +31,16 @@ const samplePost = {
 test('toPlainText removes markdown syntax and preserves readable text', () => {
   const plain = toPlainText(samplePost.content);
   assert.equal(plain, 'Heading Text https://example.com.');
+});
+
+test('getDefaultPaths resolves repo-root absolute paths', () => {
+  const root = makeTempDir();
+  const defaults = getDefaultPaths(root);
+
+  assert.equal(defaults.repoRoot, path.resolve(root));
+  assert.equal(defaults.jsonDir, path.join(path.resolve(root), '.json'));
+  assert.equal(defaults.contentRoot, path.join(path.resolve(root), 'content'));
+  assert.equal(defaults.publicDir, path.join(path.resolve(root), 'public'));
 });
 
 test('truncate adds ellipsis only when exceeding max length', () => {
