@@ -9,6 +9,7 @@ const {
   getAllCategories,
   getPaginatedPages,
   isValidPostSlug,
+  toCategorySlug,
   toCanonicalUrl,
   buildUrls,
   buildSitemapXml,
@@ -73,19 +74,19 @@ test('helpers extract posts and categories correctly', () => {
   );
 
   const categories = getAllCategories(posts);
-  assert.deepEqual(categories.sort(), ['AI', 'Ops', 'Security']);
+  assert.deepEqual(categories.sort(), ['ai', 'ops', 'security']);
 });
 
 test('url and xml builders include static, post, category, and pagination urls', () => {
   const urls = buildUrls({
     baseUrl: 'https://example.com',
     posts: [
-      { slug: 'a', frontmatter: { categories: ['Cat A'] } },
-      { slug: 'b', frontmatter: { categories: ['Cat B'] } },
+      { slug: 'a', frontmatter: { categories: ['cat-a'] } },
+      { slug: 'b', frontmatter: { categories: ['cat-b'] } },
       { slug: 'c', frontmatter: { categories: [] } },
       { slug: 'd', frontmatter: { categories: [] } },
     ],
-    categories: ['Cat A', 'Cat B'],
+    categories: ['cat-a', 'cat-b'],
     staticPages: ['', 'about'],
     postsPerPage: 2,
   });
@@ -93,7 +94,7 @@ test('url and xml builders include static, post, category, and pagination urls',
   assert.ok(urls.includes('https://example.com/'));
   assert.ok(urls.includes('https://example.com/about/'));
   assert.ok(urls.includes('https://example.com/posts/a/'));
-  assert.ok(urls.includes('https://example.com/categories/Cat-A/'));
+  assert.ok(urls.includes('https://example.com/categories/cat-a/'));
   assert.ok(urls.includes('https://example.com/posts/2/'));
 
   const xml = buildSitemapXml(urls);
@@ -129,7 +130,7 @@ test('generateSitemap writes sitemap.xml with expected urls', () => {
 
   const xml = fs.readFileSync(outputPath, 'utf-8');
   assert.match(xml, /https:\/\/example.com\/posts\/one\//);
-  assert.match(xml, /https:\/\/example.com\/categories\/AI\//);
+  assert.match(xml, /https:\/\/example.com\/categories\/ai\//);
   assert.match(xml, /https:\/\/example.com\/posts\/2\//);
 
   assert.deepEqual(getPaginatedPages(3, 2), ['posts/2']);
@@ -139,5 +140,7 @@ test('slug and canonical helpers enforce sitemap-safe urls', () => {
   assert.equal(isValidPostSlug('howtoaddandedithostswiththeassistant'), true);
   assert.equal(isValidPostSlug('default1'), false);
   assert.equal(isValidPostSlug('2'), false);
+  assert.equal(toCategorySlug('Advanced Security'), 'advanced-security');
+  assert.equal(toCategorySlug('AI'), 'ai');
   assert.equal(toCanonicalUrl('https://example.com/', '/posts/abc/'), 'https://example.com/posts/abc/');
 });
