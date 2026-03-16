@@ -33,12 +33,30 @@ ensure_dir() {
 
 sync_apipicgen() {
   ensure_dir "${DEST_APIPICGEN}"
+  refs_file="$(mktemp)"
 
-  if command -v rsync >/dev/null 2>&1; then
-    rsync -a --exclude='*-orig.*' "${SOURCE_APIPICGEN}/" "${DEST_APIPICGEN}/"
-  else
-    find "${SOURCE_APIPICGEN}" -maxdepth 1 -type f ! -name '*-orig.*' -exec cp -a {} "${DEST_APIPICGEN}/" \;
-  fi
+  grep -RhoE '^image:[[:space:]]+/blogpics/apipicgen/[^[:space:]]+\.(jpg|png)' ./content/posts \
+    | sed -E 's/^image:[[:space:]]+\/blogpics\/apipicgen\///' \
+    | sort -u > "${refs_file}"
+
+  find "${DEST_APIPICGEN}" -maxdepth 1 -type f -name '*.jpg' -delete
+  find "${DEST_APIPICGEN}" -maxdepth 1 -type f -name '*.png' -delete
+
+  while read -r filename; do
+    [ -n "${filename}" ] || continue
+    src="${SOURCE_APIPICGEN}/${filename}"
+    if [ -f "${src}" ]; then
+      cp -a "${src}" "${DEST_APIPICGEN}/"
+      continue
+    fi
+
+    match="$(find "${SOURCE_APIPICGEN}" -maxdepth 1 -type f -iname "${filename}" | head -n 1 || true)"
+    if [ -n "${match}" ]; then
+      cp -a "${match}" "${DEST_APIPICGEN}/${filename}"
+    fi
+  done < "${refs_file}"
+
+  rm -f "${refs_file}"
 }
 
 validate_referenced_images() {
