@@ -43,17 +43,21 @@ sync_apipicgen() {
 
 validate_referenced_images() {
   missing=0
+  refs_file="$(mktemp)"
 
   grep -RhoE '^image:[[:space:]]+/blogpics/apipicgen/[^[:space:]]+\.(jpg|png)' ./content/posts \
     | sed -E 's/^image:[[:space:]]+\/blogpics\/apipicgen\///' \
-    | sort -u \
-    | while read -r filename; do
-        [ -n "${filename}" ] || continue
-        if [ ! -f "${DEST_APIPICGEN}/${filename}" ]; then
-          echo "Missing referenced image: ${filename}"
-          missing=1
-        fi
-      done
+    | sort -u > "${refs_file}"
+
+  while read -r filename; do
+    [ -n "${filename}" ] || continue
+    if [ ! -f "${DEST_APIPICGEN}/${filename}" ]; then
+      echo "Missing referenced image: ${filename}"
+      missing=1
+    fi
+  done < "${refs_file}"
+
+  rm -f "${refs_file}"
 
   if [ "${missing}" -ne 0 ]; then
     echo "Build aborted: one or more referenced blog images are missing from ${DEST_APIPICGEN}"
