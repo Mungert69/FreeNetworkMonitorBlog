@@ -34,6 +34,8 @@ ensure_dir() {
 sync_apipicgen() {
   ensure_dir "${DEST_APIPICGEN}"
   refs_file="$(mktemp)"
+  matches_file="$(mktemp)"
+  sync_failed=0
 
   grep -RhoE '^image:[[:space:]]+/blogpics/apipicgen/[^[:space:]]+\.(jpg|png)' ./content/posts \
     | sed -E 's/^image:[[:space:]]+\/blogpics\/apipicgen\///' \
@@ -50,13 +52,31 @@ sync_apipicgen() {
       continue
     fi
 
-    match="$(find "${SOURCE_APIPICGEN}" -maxdepth 1 -type f -iname "${filename}" | head -n 1 || true)"
-    if [ -n "${match}" ]; then
+    find "${SOURCE_APIPICGEN}" -maxdepth 1 -type f -iname "${filename}" > "${matches_file}"
+    match_count="$(wc -l < "${matches_file}" | tr -d ' ')"
+
+    if [ "${match_count}" -eq 1 ]; then
+      match="$(head -n 1 "${matches_file}")"
       cp -a "${match}" "${DEST_APIPICGEN}/${filename}"
+    elif [ "${match_count}" -gt 1 ]; then
+      echo "Ambiguous source image match for: ${filename}"
+      while read -r match_path; do
+        [ -n "${match_path}" ] && echo "  - $(basename "${match_path}")"
+      done < "${matches_file}"
+      sync_failed=1
+    else
+      echo "Missing source image file: ${filename}"
+      sync_failed=1
     fi
   done < "${refs_file}"
 
+  rm -f "${matches_file}"
   rm -f "${refs_file}"
+
+  if [ "${sync_failed}" -ne 0 ]; then
+    echo "Build aborted: could not resolve one or more referenced images from ${SOURCE_APIPICGEN}"
+    exit 1
+  fi
 }
 
 validate_referenced_images() {
