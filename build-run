@@ -9,6 +9,10 @@ DEST_APIPICGEN="./public/blogpics/apipicgen"
 ensure_dir() {
   dir_path="$1"
 
+  if [ -d "${dir_path}" ]; then
+    return
+  fi
+
   if [ -L "${dir_path}" ] && [ ! -d "${dir_path}" ]; then
     link_target="$(readlink "${dir_path}")"
     if [ -z "${link_target}" ]; then
