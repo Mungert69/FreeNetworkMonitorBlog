@@ -1,8 +1,6 @@
 #!/bin/sh
 set -eu
 
-value=`cat ../secret`
-git pull https://mungert69:$value@github.com/Mungert69/FreeNetworkMonitorBlog
 npm install 
 
 SOURCE_APIPICGEN="${HOME}/code/securefiles/live/apipicgen"
@@ -13,11 +11,13 @@ if [ ! -d "${SOURCE_APIPICGEN}" ]; then
   exit 1
 fi
 
+mkdir -p ./public/img
+mkdir -p ./public/blogpics
 mkdir -p "${DEST_APIPICGEN}"
 if command -v rsync >/dev/null 2>&1; then
-  rsync -a "${SOURCE_APIPICGEN}/" "${DEST_APIPICGEN}/"
+  rsync -a --exclude='*-orig.*' "${SOURCE_APIPICGEN}/" "${DEST_APIPICGEN}/"
 else
-  cp -a "${SOURCE_APIPICGEN}/." "${DEST_APIPICGEN}/"
+  find "${SOURCE_APIPICGEN}" -maxdepth 1 -type f ! -name '*-orig.*' -exec cp -a {} "${DEST_APIPICGEN}/" \;
 fi
 
 cp ./public/runConfig-live.js ./public/runConfig.js
