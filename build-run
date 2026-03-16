@@ -6,14 +6,35 @@ npm install
 SOURCE_APIPICGEN="${HOME}/code/securefiles/live/apipicgen"
 DEST_APIPICGEN="./public/blogpics/apipicgen"
 
+ensure_dir() {
+  dir_path="$1"
+
+  if [ -L "${dir_path}" ] && [ ! -d "${dir_path}" ]; then
+    link_target="$(readlink "${dir_path}")"
+    if [ -z "${link_target}" ]; then
+      echo "Path is a symlink but target could not be resolved: ${dir_path}"
+      exit 1
+    fi
+    mkdir -p "${link_target}"
+    return
+  fi
+
+  if [ -e "${dir_path}" ] && [ ! -d "${dir_path}" ]; then
+    echo "Path exists but is not a directory: ${dir_path}"
+    exit 1
+  fi
+
+  mkdir -p "${dir_path}"
+}
+
 if [ ! -d "${SOURCE_APIPICGEN}" ]; then
   echo "Missing source image directory: ${SOURCE_APIPICGEN}"
   exit 1
 fi
 
-mkdir -p ./public/img
-mkdir -p ./public/blogpics
-mkdir -p "${DEST_APIPICGEN}"
+ensure_dir ./public/img
+ensure_dir ./public/blogpics
+ensure_dir "${DEST_APIPICGEN}"
 if command -v rsync >/dev/null 2>&1; then
   rsync -a --exclude='*-orig.*' "${SOURCE_APIPICGEN}/" "${DEST_APIPICGEN}/"
 else
