@@ -5,6 +5,28 @@ import Header from "@partials/Header";
 import Head from "next/head";
 import { useRouter } from "next/router";
 
+function normalizeCanonicalUrl(baseUrl, canonicalOrPath) {
+  const root = String(baseUrl || "").replace(/\/+$/g, "");
+  const raw = String(canonicalOrPath || "/").split("?")[0].split("#")[0];
+
+  let full = raw;
+  if (!/^https?:\/\//i.test(full)) {
+    full = `${root}${full.startsWith("/") ? "" : "/"}${full}`;
+  }
+
+  try {
+    const parsed = new URL(full);
+    let pathname = parsed.pathname.replace(/\/{2,}/g, "/");
+    if (!pathname) pathname = "/";
+    if (pathname !== "/" && !pathname.endsWith("/")) {
+      pathname = `${pathname}/`;
+    }
+    return `${parsed.origin}${pathname}`;
+  } catch {
+    return root || "/";
+  }
+}
+
 const Base = ({
   title,
   meta_title,
@@ -17,6 +39,10 @@ const Base = ({
   const { meta_image, meta_author, meta_description } = config.metadata;
   const { base_url } = config.site;
   const router = useRouter();
+  const resolvedCanonical = normalizeCanonicalUrl(
+    base_url,
+    canonical || router.asPath,
+  );
 
   return (
     <>
@@ -31,20 +57,7 @@ const Base = ({
         {/* canonical url */}
         <link
           rel="canonical"
-          href={
-            (() => {
-              // Use provided canonical or build from router
-              let url = canonical || `${base_url}${router.asPath}`;
-              // Remove query params and fragments
-              url = url.split("?")[0].split("#")[0];
-              // Lowercase and remove trailing slash (except root)
-              url = url.toLowerCase();
-              if (url !== "/" && url.endsWith("/")) {
-                url = url.slice(0, -1);
-              }
-              return url;
-            })()
-          }
+          href={resolvedCanonical}
           itemProp="url"
         />
 
@@ -76,7 +89,7 @@ const Base = ({
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content={canonical}
+          content={resolvedCanonical}
         />
 
         {/* twitter-title */}

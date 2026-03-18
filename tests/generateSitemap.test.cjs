@@ -8,6 +8,10 @@ const {
   getAllPosts,
   getAllCategories,
   getPaginatedPages,
+  resolveStaticPages,
+  isValidPostSlug,
+  toCategorySlug,
+  toCanonicalUrl,
   buildUrls,
   buildSitemapXml,
   generateSitemap,
@@ -52,6 +56,16 @@ test('helpers extract posts and categories correctly', () => {
     layout: '"404"',
     categories: ['Ignore'],
   });
+  writeMarkdown(path.join(postsDir, 'default.md'), {
+    title: 'Default Placeholder',
+    url: '/default1/',
+    categories: ['Ignore'],
+  });
+  writeMarkdown(path.join(postsDir, 'numeric.md'), {
+    title: 'Numeric Placeholder',
+    url: '/2/',
+    categories: ['Ignore'],
+  });
 
   const posts = getAllPosts('posts', { cwd: root });
   assert.equal(posts.length, 2);
@@ -61,32 +75,32 @@ test('helpers extract posts and categories correctly', () => {
   );
 
   const categories = getAllCategories(posts);
-  assert.deepEqual(categories.sort(), ['AI', 'Ops', 'Security']);
+  assert.deepEqual(categories.sort(), ['ai', 'ops', 'security']);
 });
 
 test('url and xml builders include static, post, category, and pagination urls', () => {
   const urls = buildUrls({
     baseUrl: 'https://example.com',
     posts: [
-      { slug: 'a', frontmatter: { categories: ['Cat A'] } },
-      { slug: 'b', frontmatter: { categories: ['Cat B'] } },
+      { slug: 'a', frontmatter: { categories: ['cat-a'] } },
+      { slug: 'b', frontmatter: { categories: ['cat-b'] } },
       { slug: 'c', frontmatter: { categories: [] } },
       { slug: 'd', frontmatter: { categories: [] } },
     ],
-    categories: ['Cat A', 'Cat B'],
+    categories: ['cat-a', 'cat-b'],
     staticPages: ['', 'about'],
     postsPerPage: 2,
   });
 
   assert.ok(urls.includes('https://example.com/'));
-  assert.ok(urls.includes('https://example.com/about'));
-  assert.ok(urls.includes('https://example.com/posts/a'));
-  assert.ok(urls.includes('https://example.com/categories/Cat-A'));
-  assert.ok(urls.includes('https://example.com/posts/2'));
+  assert.ok(urls.includes('https://example.com/about/'));
+  assert.ok(urls.includes('https://example.com/posts/a/'));
+  assert.ok(urls.includes('https://example.com/categories/cat-a/'));
+  assert.ok(urls.includes('https://example.com/page/2/'));
 
   const xml = buildSitemapXml(urls);
   assert.match(xml, /<urlset xmlns="http:\/\/www.sitemaps.org\/schemas\/sitemap\/0.9">/);
-  assert.match(xml, /<loc>https:\/\/example.com\/posts\/a<\/loc>/);
+  assert.match(xml, /<loc>https:\/\/example.com\/posts\/a\/<\/loc>/);
 });
 
 test('generateSitemap writes sitemap.xml with expected urls', () => {
@@ -116,9 +130,28 @@ test('generateSitemap writes sitemap.xml with expected urls', () => {
   assert.ok(fs.existsSync(outputPath));
 
   const xml = fs.readFileSync(outputPath, 'utf-8');
-  assert.match(xml, /https:\/\/example.com\/posts\/one/);
-  assert.match(xml, /https:\/\/example.com\/categories\/AI/);
-  assert.match(xml, /https:\/\/example.com\/posts\/2/);
+  assert.match(xml, /https:\/\/example.com\/posts\/one\//);
+  assert.match(xml, /https:\/\/example.com\/categories\/ai\//);
+  assert.match(xml, /https:\/\/example.com\/page\/2\//);
 
-  assert.deepEqual(getPaginatedPages(3, 2), ['posts/2']);
+  assert.deepEqual(getPaginatedPages(3, 2), ['page/2']);
+});
+
+test('slug and canonical helpers enforce sitemap-safe urls', () => {
+  assert.equal(isValidPostSlug('howtoaddandedithostswiththeassistant'), true);
+  assert.equal(isValidPostSlug('default1'), false);
+  assert.equal(isValidPostSlug('2'), false);
+  assert.equal(toCategorySlug('Advanced Security'), 'advanced-security');
+  assert.equal(toCategorySlug('AI'), 'ai');
+  assert.equal(toCanonicalUrl('https://example.com/', '/posts/abc/'), 'https://example.com/posts/abc/');
+});
+
+test('resolveStaticPages keeps only existing content pages plus root', () => {
+  const root = makeTempDir();
+  const contentDir = path.join(root, 'content');
+  fs.mkdirSync(contentDir, { recursive: true });
+  fs.writeFileSync(path.join(contentDir, 'contact.md'), '---\\ntitle: Contact\\n---\\n');
+
+  const resolved = resolveStaticPages(['', 'about', 'contact'], { cwd: root });
+  assert.deepEqual(resolved, ['', 'contact']);
 });

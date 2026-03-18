@@ -5,13 +5,14 @@ import { toPostCardDataList } from "@lib/utils/postPayload";
 import { humanize, markdownify, slugify } from "@lib/utils/textConverter";
 import Link from "next/link";
 const { blog_folder } = config.settings;
+const { base_url } = config.site;
 import { getSinglePage } from "@lib/contentParser";
 import { FaFolder } from "react-icons/fa";
 import CategorySearch from "@layouts/components/CategorySearch";
 
 const Categories = ({ categories, posts }) => {
   return (
-    <Base title={"categories"}>
+    <Base title={"categories"} canonical={`${base_url}/categories/`}>
       <CategorySearch posts={posts} />
       <section className="section pt-0">
         {markdownify(

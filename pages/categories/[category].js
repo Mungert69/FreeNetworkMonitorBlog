@@ -7,11 +7,12 @@ import { toPostCardDataList } from "@lib/utils/postPayload";
 import { slugify } from "@lib/utils/textConverter";
 import Post from "@partials/Post";
 const { blog_folder } = config.settings;
+const { base_url } = config.site;
 
 // category page
 const Category = ({ postsByCategories, category, posts, categories }) => {
   return (
-    <Base title={category}>
+    <Base title={category} canonical={`${base_url}/categories/${category}/`}>
       <div className="section mt-16">
         <div className="container">
           <h1 className="h2 mb-12">

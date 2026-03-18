@@ -2,9 +2,121 @@
 set -eu
 
 npm install 
+
+SOURCE_APIPICGEN="${HOME}/code/securefiles/live/apipicgen"
+DEST_APIPICGEN="./public/blogpics/apipicgen"
+
+ensure_dir() {
+  dir_path="$1"
+
+  if [ -d "${dir_path}" ]; then
+    return
+  fi
+
+  if [ -L "${dir_path}" ] && [ ! -d "${dir_path}" ]; then
+    link_target="$(readlink "${dir_path}")"
+    if [ -z "${link_target}" ]; then
+      echo "Path is a symlink but target could not be resolved: ${dir_path}"
+      exit 1
+    fi
+    mkdir -p "${link_target}"
+    return
+  fi
+
+  if [ -e "${dir_path}" ] && [ ! -d "${dir_path}" ]; then
+    echo "Path exists but is not a directory: ${dir_path}"
+    exit 1
+  fi
+
+  mkdir -p "${dir_path}"
+}
+
+sync_apipicgen() {
+  ensure_dir "${DEST_APIPICGEN}"
+  refs_file="$(mktemp)"
+  matches_file="$(mktemp)"
+  sync_failed=0
+
+  grep -RhoE '^image:[[:space:]]+/blogpics/apipicgen/[^[:space:]]+\.(jpg|png)' ./content/posts \
+    | sed -E 's/^image:[[:space:]]+\/blogpics\/apipicgen\///' \
+    | sort -u > "${refs_file}"
+
+  find "${DEST_APIPICGEN}" -maxdepth 1 -type f -name '*.jpg' -delete
+  find "${DEST_APIPICGEN}" -maxdepth 1 -type f -name '*.png' -delete
+
+  while read -r filename; do
+    [ -n "${filename}" ] || continue
+    src="${SOURCE_APIPICGEN}/${filename}"
+    if [ -f "${src}" ]; then
+      cp -a "${src}" "${DEST_APIPICGEN}/"
+      continue
+    fi
+
+    find "${SOURCE_APIPICGEN}" -maxdepth 1 -type f -iname "${filename}" > "${matches_file}"
+    match_count="$(wc -l < "${matches_file}" | tr -d ' ')"
+
+    if [ "${match_count}" -eq 1 ]; then
+      match="$(head -n 1 "${matches_file}")"
+      cp -a "${match}" "${DEST_APIPICGEN}/${filename}"
+    elif [ "${match_count}" -gt 1 ]; then
+      echo "Ambiguous source image match for: ${filename}"
+      while read -r match_path; do
+        [ -n "${match_path}" ] && echo "  - $(basename "${match_path}")"
+      done < "${matches_file}"
+      sync_failed=1
+    else
+      echo "Missing source image file: ${filename}"
+      sync_failed=1
+    fi
+  done < "${refs_file}"
+
+  rm -f "${matches_file}"
+  rm -f "${refs_file}"
+
+  if [ "${sync_failed}" -ne 0 ]; then
+    echo "Build aborted: could not resolve one or more referenced images from ${SOURCE_APIPICGEN}"
+    exit 1
+  fi
+}
+
+validate_referenced_images() {
+  missing=0
+  refs_file="$(mktemp)"
+
+  grep -RhoE '^image:[[:space:]]+/blogpics/apipicgen/[^[:space:]]+\.(jpg|png)' ./content/posts \
+    | sed -E 's/^image:[[:space:]]+\/blogpics\/apipicgen\///' \
+    | sort -u > "${refs_file}"
+
+  while read -r filename; do
+    [ -n "${filename}" ] || continue
+    if [ ! -f "${DEST_APIPICGEN}/${filename}" ]; then
+      echo "Missing referenced image: ${filename}"
+      missing=1
+    fi
+  done < "${refs_file}"
+
+  rm -f "${refs_file}"
+
+  if [ "${missing}" -ne 0 ]; then
+    echo "Build aborted: one or more referenced blog images are missing from ${DEST_APIPICGEN}"
+    exit 1
+  fi
+}
+
+if [ ! -d "${SOURCE_APIPICGEN}" ]; then
+  echo "Missing source image directory: ${SOURCE_APIPICGEN}"
+  exit 1
+fi
+
+ensure_dir ./public/img
+ensure_dir ./public/blogpics
+sync_apipicgen
+
 cp ./public/runConfig-live.js ./public/runConfig.js
 cp ./public/runConfig-live.json ./public/runConfig.json
 npm run export
+sync_apipicgen
+validate_referenced_images
 mkdir -p ./out/images
 mkdir -p ./out/blogpics
 docker buildx inspect multiarch-builder >/dev/null 2>&1 || docker buildx create --name multiarch-builder --use
