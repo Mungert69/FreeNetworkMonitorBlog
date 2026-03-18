@@ -63,12 +63,12 @@ Once you have hosts added to your monitoring system, you may need to make adjust
 
 **Final Command to Edit Host:**
 ```json
-{
+\{
   "detail_response": false,
   "auth_key": "your_auth_key",
   "id": 1, // or the correct ID for example.com
   "timeout": 30000
-}
+\}
 ```
 ```
 **Assistant Response:** "The timeout for example.com has been updated to 30 seconds."

@@ -33,9 +33,9 @@ User: "It's an HTTP server, and my email is user@example.com."
 ```json
 ```json
 
-{
+\{
     "name": "add_host",
-    "arguments": {
+    "arguments": \{
         "detail_response": false,
         "address": "example.com",
         "endpoint": "http",
@@ -43,8 +43,8 @@ User: "It's an HTTP server, and my email is user@example.com."
         "timeout": 59000,
         "email": "user@example.com",
         "agent_location": ""
-    }
-}
+    \}
+\}
 ```
 ```
 The assistant would proceed to add the host to monitor based on the provided information. This inclusion enables the system to track the server's availability in real-time.
@@ -58,9 +58,9 @@ User: "Can I get the monitoring logs for example.com?"
 ```json
 ```json
 
-{
+\{
     "name": "get_host_data",
-    "arguments": {
+    "arguments": \{
         "detail_response": true,
         "dataset_id": 0,
         "id": 0,
@@ -76,8 +76,8 @@ User: "Can I get the monitoring logs for example.com?"
         "page_size": 10,
         "page_number": 1,
         "agent_location": ""
-    }
-}
+    \}
+\}
 ```
 ```
 The assistant would retrieve the latest monitoring logs, which may include response times and downtime occurrences. Analyzing this data reveals patterns or recurring issues that need to be addressed.
@@ -91,11 +91,11 @@ User: "Can you run an Nmap scan on example.com?"
 ```json
 ```json
 
-{
+\{
     "name": "call_security_expert",
     "message": "Please perform an Nmap scan on the server at example.com to assess its status and identify potential vulnerabilities.",
     "agent_location": ""
-}
+\}
 ```
 ```
 The assistant communicates the Nmap request to an expert, who will execute the scan and return insights. Once results are provided, you can determine whether specific ports are open or if there are any vulnerabilities to address.
@@ -117,9 +117,9 @@ User: "How can I edit the monitoring settings?"
 ```json
 ```json
 
-{
+\{
     "name": "edit_host",
-    "arguments": {
+    "arguments": \{
         "detail_response": false,
         "auth_key": "",
         "id": 1,  // Assuming we have the ID from the previous steps
@@ -130,8 +130,8 @@ User: "How can I edit the monitoring settings?"
         "timeout": 59000,
         "hidden": false,
         "agent_location": ""
-    }
-}
+    \}
+\}
 ```
 ```
 The assistant would modify the monitoring settings accordingly, ensuring the server's availability is continuously tracked.

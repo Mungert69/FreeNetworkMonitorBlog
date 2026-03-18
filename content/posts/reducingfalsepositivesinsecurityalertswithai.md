@@ -32,12 +32,12 @@ Function Call:
 ```json
 ```json
 
-{
+\{
   "name": "functions.get_host_list",
-  "arguments": {
+  "arguments": \{
     "detail_response": true
-  }
-}
+  \}
+\}
 ```
 ```
 After fetching this information, the assistant reviews each host’s configuration. If any are missing AI-driven alert options or have overly sensitive thresholds, the assistant recommends tuning or upgrades.
@@ -52,15 +52,15 @@ Function Call:
 ```json
 ```json
 
-{
+\{
   "name": "functions.edit_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "your-webserver.example.com",
     "enabled": true,
     "timeout": 60000 // Increase timeout (ms) to ignore very short disruptions
-  }
-}
+  \}
+\}
 ```
 ```
 (The assistant confirms and applies machine learning-driven filtering settings that suppress short outages and suspicious but uncorrelated failures.)
@@ -77,15 +77,15 @@ Function Call:
 ```json
 ```json
 
-{
+\{
   "name": "functions.get_host_data",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "your-webserver.example.com",
     "date_start": "2025-05-20T00:00:00",
     "date_end": "2025-05-27T00:00:00"
-  }
-}
+  \}
+\}
 ```
 ```
 The assistant presents a breakdown: critical alerts that reached you, and lists of events the AI dismissed as routine fluctuations.

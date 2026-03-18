@@ -48,39 +48,39 @@ Function calls:
 ```json
 ```json
 
-{
+\{
   "name": "add_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "web01.example.com",
     "endpoint": "http",
     "email": "alex@example.com"
-  }
-}
+  \}
+\}
 ```
 ```json
 
-{
+\{
   "name": "add_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "mail01.example.com",
     "endpoint": "smtp",
     "email": "alex@example.com"
-  }
-}
+  \}
+\}
 ```
 ```json
 
-{
+\{
   "name": "add_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "db01.example.com",
     "endpoint": "icmp",
     "email": "alex@example.com"
-  }
-}
+  \}
+\}
 ```
 ```
 With just a few API calls, Alex’s servers are added to active monitoring—no GUIs, no manual typing into web forms.
@@ -97,36 +97,36 @@ Function call:
 ```json
 ```json
 
-{
+\{
   "name": "get_host_data",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "dataset_id": 0,
     "address": "web01.example.com"
-  }
-}
+  \}
+\}
 ```
 ```json
 
-{
+\{
   "name": "get_host_data",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "dataset_id": 0,
     "address": "mail01.example.com"
-  }
-}
+  \}
+\}
 ```
 ```json
 
-{
+\{
   "name": "get_host_data",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "dataset_id": 0,
     "address": "db01.example.com"
-  }
-}
+  \}
+\}
 ```
 ```
 The monitoring assistant collates results in moments, presenting up-to-date availability and latency numbers. Traditionally, Alex would search dashboard tables or run CLI scripts to gather the same info.
@@ -143,14 +143,14 @@ Function call:
 ```json
 ```json
 
-{
+\{
   "name": "edit_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "db01.example.com",
     "timeout": 30000
-  }
-}
+  \}
+\}
 ```
 ```
 A single conversational command does what would likely require multiple steps and page visits in a traditional tool.

@@ -27,7 +27,7 @@ To begin, you need to select an agent location for executing our assessments. Le
 ```json
 ```json
 
-{"name":"get_agents","parameters":{"detail_response":false}}
+\{"name":"get_agents","parameters":\{"detail_response":false\}\}
 ```
 
 **Assistant**: Let me fetch the available agents. 
@@ -55,7 +55,7 @@ Next, we’ll perform a more comprehensive security assessment using Nmap. This 
 ```json
 ```json
 
-{"name":"call_security_expert","parameters":{"message":"Conduct a vulnerability scan for the domain example.com on port 443 using Nmap. Identify any potential security weaknesses.","agent_location":"Agent XYZ"}}
+\{"name":"call_security_expert","parameters":\{"message":"Conduct a vulnerability scan for the domain example.com on port 443 using Nmap. Identify any potential security weaknesses.","agent_location":"Agent XYZ"\}\}
 ```
 
 **Assistant**: I’m now sending a request for a vulnerability scan on port 443 for example.com using Nmap through Agent XYZ.

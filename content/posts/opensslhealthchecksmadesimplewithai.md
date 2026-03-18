@@ -39,13 +39,13 @@ Assistant calls the function:
 ```json
 ```json
 
-{
+\{
   "name": "call_security_expert",
-  "arguments": {
+  "arguments": \{
     "message": "Run an OpenSSL health check for the SSL/TLS certificate on mydomain.com. Include checks for protocol support, certificate validity, chain of trust, and weak cipher suites. Explain detected issues and provide recommendations. I am authorized to perform this action.",
     "agent_location": "USA - Scanner"
-  }
-}
+  \}
+\}
 ```
 ```
 Here, the assistant sends a detailed request for an OpenSSL scan to the security expert, specifying the target (mydomain.com), what to examine, and instructing the expert to both analyze and clearly explain any issues found.

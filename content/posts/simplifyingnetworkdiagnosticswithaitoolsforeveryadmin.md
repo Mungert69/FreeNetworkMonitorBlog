@@ -55,12 +55,12 @@ As more administrators turn to AI to streamline their network management, the [Q
 **Assistant**: You can use the `ifconfig` command to display the details of all network interfaces. I can run that for you now as well.
 
 ```json
-{
+\{
   "command": "ifconfig",
   "agent_location": "local_agent_id",
   "number_lines": 10,
   "page": 1
-}
+\}
 ```
 ```
 

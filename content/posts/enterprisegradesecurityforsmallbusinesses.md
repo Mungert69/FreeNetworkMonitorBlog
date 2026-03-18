@@ -39,15 +39,15 @@ Great choice! Continuous monitoring helps you spot disruptions or attacks early.
 ```json
 ```json
 
-{
+\{
   "name": "functions.add_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "sarahcpa.com",
     "endpoint": "http",
     "email": "sarah@cpa.com"
-  }
-}
+  \}
+\}
 ```
 ```
 The add_host function lets us quickly set up checks, sending alerts if your site goes down or responds strangely. The Assistant shows Sarah results, including confirmation her website is now under watchdog protection.
@@ -65,13 +65,13 @@ Let’s run an automated security assessment using enterprise-grade scanning too
 ```json
 ```json
 
-{
+\{
   "name": "functions.call_security_expert",
-  "arguments": {
+  "arguments": \{
     "message": "Perform an Nmap vulnerability scan of mail.sarahcpa.com to detect open ports, weak configurations, and known exposure points. Authorized by owner.",
     "agent_location": "Scanner - EU"
-  }
-}
+  \}
+\}
 ```
 ```
 After a short time, the Assistant provides Sarah with a detailed security report—previously only available to big companies’ IT departments.
@@ -89,15 +89,15 @@ Absolutely! I can watch over your HTTPS endpoint, automatically alerting you of 
 ```json
 ```json
 
-{
+\{
   "name": "functions.add_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "sarahcpa.com",
     "endpoint": "https",
     "email": "sarah@cpa.com"
-  }
-}
+  \}
+\}
 ```
 ```
 With this setup, Sarah receives timely reminders—no more scrambling or panic when browsers throw up security warnings.
@@ -124,13 +124,13 @@ Let’s ask our Quantum Security Expert to run cutting-edge algorithm and port t
 ```json
 ```json
 
-{
+\{
   "name": "functions.call_quantum_expert",
-  "arguments": {
+  "arguments": \{
     "message": "Scan sarahcpa.com:443 for quantum-vulnerable services and test for Kyber512 and Dilithium2 support.",
     "agent_location": "Scanner - EU"
-  }
-}
+  \}
+\}
 ```
 ```
 Conclusion: Enterprise Security for All
