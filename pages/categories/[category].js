@@ -59,7 +59,7 @@ export const getStaticProps = ({ params }) => {
   const allPosts = getSinglePage(`content/${blog_folder}`);
   const filterPosts = allPosts.filter((post) =>
     post.frontmatter.categories.find((category) =>
-      slugify(category).includes(params.category)
+      slugify(category) === params.category
     )
   );
   const posts = toPostCardDataList(allPosts);
