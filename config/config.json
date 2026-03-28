@@ -3,8 +3,8 @@
     "title": "Quantum Ready Monitor Blog",
     "base_url": "https://blog.readyforquantum.com",
     "favicon": "/images/logo-square.jpg",
-    "logo": "/img/logo.png",
-    "logo_white": "/img/logo.png",
+    "logo": "/images/logo.png",
+    "logo_white": "/images/logo-light.png",
     "logo_width": "41",
     "logo_height": "27",
     "logo_text": "Quantum Ready Monitor Logo"
@@ -23,7 +23,7 @@
   },
   "metadata": {
     "meta_author": "Mahadeva",
-    "meta_image": "/img/logo.png",
+    "meta_image": "/images/logo.png",
     "meta_description": "Quantum Ready Monitor Blog"
   },
   "widgets": {
