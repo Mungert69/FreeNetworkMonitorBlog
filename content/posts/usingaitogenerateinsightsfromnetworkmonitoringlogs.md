@@ -46,10 +46,10 @@ Let's dive into a hypothetical scenario where a user wants to analyze their netw
 **Assistant**: I’ve pulled up the monitoring data for your network. Now, let's analyze this data to look for potential vulnerabilities or performance issues. Since we want actionable insights, I’ll craft a message to our AI analysis tool requesting a thorough interpretation of the logs.
 
 ```json
-{
+\{
   "message": "Analyze the monitoring logs for user@example.com. Identify any potential security vulnerabilities and performance issues, and provide actionable recommendations based on the findings.",
   "agent_location": "local"
-}
+\}
 ```
 ```
 

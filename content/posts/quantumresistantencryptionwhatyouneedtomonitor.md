@@ -33,15 +33,15 @@ To begin, I’ll add your website example.com for quantum endpoint monitoring:
 ```json
 ```json
 
-{
+\{
   "name": "functions.add_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "example.com",
     "endpoint": "quantum",
     "email": "your@email.com"
-  }
-}
+  \}
+\}
 ```
 ```
 
@@ -56,15 +56,15 @@ Assistant: I'll fetch the most recent quantum security data recorded for your si
 ```json
 ```json
 
-{
+\{
   "name": "functions.get_host_data",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "dataset_id": 0,
     "address": "example.com",
     "endpoint": "quantum"
-  }
-}
+  \}
+\}
 ```
 ```
 
@@ -97,14 +97,14 @@ If you ever need to pause or modify your monitoring, you can do so easily:
 ```json
 ```json
 
-{
+\{
   "name": "functions.edit_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "example.com",
     "enabled": false
-  }
-}
+  \}
+\}
 ```
 ```
 

@@ -35,30 +35,30 @@ To begin, I’ll add both servers so we can monitor their HTTPS endpoints and en
 ```json
 ```json
 
-{
+\{
   "name": "functions.add_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "healthcare-app.example.com",
     "endpoint": "https",
     "email": "admin@yourcompany.com"
-  }
-}
+  \}
+\}
 ```
 ```
 
 ```json
 ```json
 
-{
+\{
   "name": "functions.add_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "payment-gateway.example.com",
     "endpoint": "https",
     "email": "admin@yourcompany.com"
-  }
-}
+  \}
+\}
 ```
 ```
 
@@ -77,12 +77,12 @@ First, we’ll choose a monitoring agent location (to perform scans from the rel
 ```json
 ```json
 
-{
+\{
   "name": "functions.get_agents",
-  "arguments": {
+  "arguments": \{
     "detail_response": false
-  }
-}
+  \}
+\}
 ```
 ```
 
@@ -91,13 +91,13 @@ Once you select your desired agent, we’ll instruct the security expert to asse
 ```json
 ```json
 
-{
+\{
   "name": "functions.call_security_expert",
-  "arguments": {
+  "arguments": \{
     "message": "Perform a PCI DSS and HIPAA-compliant SSL/TLS assessment of healthcare-app.example.com. Confirm strong cipher suites, disable deprecated protocols, and verify certificate validity. I am authorized for this scan.",
     "agent_location": "Scanner - US"
-  }
-}
+  \}
+\}
 ```
 ```
 
@@ -114,14 +114,14 @@ Easy! The Assistant can retrieve the current status of monitored hosts at any ti
 ```json
 ```json
 
-{
+\{
   "name": "functions.get_host_data",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "healthcare-app.example.com",
     "dataset_id": 0
-  }
-}
+  \}
+\}
 ```
 ```
 
@@ -138,16 +138,16 @@ Of course! You can add, adjust, or remove endpoints and customize the type or fr
 ```json
 ```json
 
-{
+\{
   "name": "functions.edit_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "id": 123,
     "enabled": true,
     "endpoint": "https",
     "timeout": 30000
-  }
-}
+  \}
+\}
 ```
 ```
 

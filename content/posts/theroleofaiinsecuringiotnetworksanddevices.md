@@ -66,7 +66,7 @@ Could you provide that information?
 **Assistant:** Great! I’ll proceed to add the smart thermostat for monitoring. Here’s the function call I’ll use:
 
 ```json
-{
+\{
   "detail_response": false,
   "address": "192.168.1.40",
   "endpoint": "http",
@@ -74,7 +74,7 @@ Could you provide that information?
   "timeout": 59000,
   "email": "user@example.com",
   "agent_location": "HomeAgent"
-}
+\}
 ```
 ```
 
@@ -134,10 +134,10 @@ Given this information, would you like me to take any security measures to addre
 **Assistant:** I’ll communicate with our security expert to perform a vulnerability assessment on Device C. Here’s the information I’ll use:
 
 ```json
-{
+\{
   "message": "Please perform a vulnerability scan on Device C, IP 192.168.1.30, to check for unauthorized access attempts and overall security integrity.",
   "agent_location": "HomeAgent"
-}
+\}
 ```
 ```
 

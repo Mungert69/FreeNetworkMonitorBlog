@@ -60,10 +60,10 @@ Once your hosts are being monitored, it's essential to assess their security sta
 
 **Function Call:**
 ```json
-{
+\{
   "message": "Please perform a vulnerability scan on example.com using Nmap to check for potential security weaknesses.",
   "agent_location": "default"
-}
+\}
 ```
 ```
 
@@ -113,7 +113,7 @@ As your network evolves, you might need to adjust monitoring configurations or d
 
 **Function Call:**
 ```json
-{
+\{
   "detail_response": false,
   "auth_key": "your_auth_key",
   "id": 1,
@@ -124,7 +124,7 @@ As your network evolves, you might need to adjust monitoring configurations or d
   "timeout": 59000,
   "hidden": false,
   "agent_location": "default"
-}
+\}
 ```
 ```
 

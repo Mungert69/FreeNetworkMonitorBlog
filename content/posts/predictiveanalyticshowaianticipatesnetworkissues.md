@@ -32,15 +32,15 @@ Assistant Function Call:
 ```json
 ```json
 
-{
+\{
   "name": "functions.add_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "yourcompany.com",
     "endpoint": "https",
     "email": "user@email.com"
-  }
-}
+  \}
+\}
 ```
 ```
 Here, we used add_host to start monitoring yourcompany.com with HTTPS. This not only watches for outages, but also trends in SSL response times and certificate health. The assistant will echo back the details, including a host ID needed for more in-depth analytics.
@@ -55,14 +55,14 @@ Assistant Function Call:
 ```json
 ```json
 
-{
+\{
   "name": "functions.get_host_data",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "dataset_id": 0,
     "address": "yourcompany.com"
-  }
-}
+  \}
+\}
 ```
 ```
 This call pulls the latest, detailed monitoring data. The assistant then interprets trends—say, average response times rising over several days, or a greater frequency of slow responses at certain hours.
@@ -77,15 +77,15 @@ Assistant Function Call:
 ```json
 ```json
 
-{
+\{
   "name": "functions.get_host_data",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "yourcompany.com",
     "date_start": "2025-05-06T00:00:00",
     "date_end": "2025-05-13T00:05:03"
-  }
-}
+  \}
+\}
 ```
 ```
 With this historical data, the assistant can spot slow, ongoing degradations—often missed by instant-only alerts.

@@ -58,10 +58,10 @@ Now that your host is being monitored, you can tailor specific scans. Suppose yo
 
 **Function Call:**
 ```json
-{
+\{
   "message": "Please run a Nmap vulnerability scan on the host example.com.",
   "agent_location": "US-based agent"
-}
+\}
 ```
 ```
 
@@ -94,10 +94,10 @@ Let’s say you have another host that’s an email server, and you need to cond
 
 **Function Call:**
 ```json
-{
+\{
   "message": "Please perform an SSL/TLS configuration check on mail.example.com.",
   "agent_location": "EU-based agent"
-}
+\}
 ```
 ```
 

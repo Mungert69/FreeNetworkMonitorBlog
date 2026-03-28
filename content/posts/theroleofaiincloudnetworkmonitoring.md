@@ -35,17 +35,17 @@ Let’s add an AWS application endpoint for uptime and SSL certificate monitorin
 ```json
 ```json
 
-{
+\{
   "name": "functions.add_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "my-aws-app.example.com",
     "endpoint": "https",
     "port": 443,
     "timeout": 59000,
     "email": "user@email.com"
-  }
-}
+  \}
+\}
 ```
 ```
 
@@ -56,17 +56,17 @@ Now, let’s do the same for your Azure service.
 ```json
 ```json
 
-{
+\{
   "name": "functions.add_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "azure-service.example.net",
     "endpoint": "http",
     "port": 80,
     "timeout": 59000,
     "email": "user@email.com"
-  }
-}
+  \}
+\}
 ```
 ```
 
@@ -75,16 +75,16 @@ And for your on-premises server, suppose you want to track basic connectivity.
 ```json
 ```json
 
-{
+\{
   "name": "functions.add_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "192.168.100.10",
     "endpoint": "icmp",
     "timeout": 3000,
     "email": "user@email.com"
-  }
-}
+  \}
+\}
 ```
 ```
 
@@ -101,14 +101,14 @@ Let me fetch the current status and alert summaries for all your monitored hosts
 ```json
 ```json
 
-{
+\{
   "name": "functions.get_host_data",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "dataset_id": 0,
     "email": "user@email.com"
-  }
-}
+  \}
+\}
 ```
 ```
 
@@ -127,12 +127,12 @@ Let’s review available agent locations:
 ```json
 ```json
 
-{
+\{
   "name": "functions.get_agents",
-  "arguments": {
+  "arguments": \{
     "detail_response": true
-  }
-}
+  \}
+\}
 ```
 ```
 
@@ -141,14 +141,14 @@ Once you know your available agents, you can reassign monitoring for any host as
 ```json
 ```json
 
-{
+\{
   "name": "functions.edit_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "id": 2,
     "agent_location": "Frankfurt - EU"
-  }
-}
+  \}
+\}
 ```
 ```
 

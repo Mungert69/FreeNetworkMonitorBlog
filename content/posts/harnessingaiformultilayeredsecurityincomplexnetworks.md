@@ -44,9 +44,9 @@ In today's digital landscape, ensuring robust security across complex enterprise
 **Assistant**: I'll initiate a vulnerability scan for all the monitored hosts. This will inform us of any potential weaknesses in your network. For this, I need to select an agent to perform the scan. Let me check the available agents.
 
 ```json
-{
+\{
   "detail_response": false
-}
+\}
 ```
 ```
 
@@ -71,10 +71,10 @@ In today's digital landscape, ensuring robust security across complex enterprise
 **Assistant**: I will now send requests for SSL/TLS configuration checks on all HTTPS endpoints.
 
 ```json
-{
+\{
   "message": "Please conduct SSL configuration checks on all monitored HTTPS hosts.",
   "agent_location": "Local Agent 1"
-}
+\}
 ```
 ```
 
@@ -102,10 +102,10 @@ In today's digital landscape, ensuring robust security across complex enterprise
 **Assistant**: Typically, the vulnerability scan may take a few minutes depending on the number of hosts, while SSL checks are generally quicker. I'll check the status now to keep you updated.
 
 ```json
-{
+\{
   "message_id": "vulner_scan_request_id",
   "auto_check_interval_seconds": 30
-}
+\}
 ```
 ```
 

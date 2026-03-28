@@ -50,10 +50,10 @@ When troubleshooting a server, timely and accurate diagnostics can pinpoint issu
 **Assistant**: It usually takes a minute or so. Let me check if the Nmap function has completed.
 
 ```json
-{
+\{
   "message_id": "xyz123",
   "auto_check_interval_seconds": 30
-}
+\}
 ```
 ```
 
@@ -104,10 +104,10 @@ You can see that ports 80 and 443 are open, indicating web services are working.
 **Assistant**: We'll run an OpenSSL test against your server to check its SSL/TLS version and cipher suites.
 
 ```json
-{
+\{
   "message": "Please perform an OpenSSL test on 192.168.1.100 using the latest protocol and ciphers.",
   "agent_location": "LocalAgent"
-}
+\}
 ```
 ```
 
@@ -132,11 +132,11 @@ You can see that ports 80 and 443 are open, indicating web services are working.
 **Assistant**: The OpenSSL test is complete! Let’s retrieve the results.
 
 ```json
-{
+\{
   "detaiь_response": true,
   "message": "SSL/TLS check for 192.168.1.100",
   "agent_location": "LocalAgent"
-}
+\}
 ```
 ```
 

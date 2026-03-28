@@ -35,7 +35,7 @@ To accomplish this, the Assistant would make the following function calls:
 ```json
 ```json
 
-{"name": "functions.add_host", "arguments": {"detail_response": true, "address": "fw-clientA.example.com", "endpoint": "icmp", "email": "msp-alerts@provider.com"}}
+\{"name": "functions.add_host", "arguments": \{"detail_response": true, "address": "fw-clientA.example.com", "endpoint": "icmp", "email": "msp-alerts@provider.com"\}\}
 ```
 ```json
 ```json
@@ -45,7 +45,7 @@ To accomplish this, the Assistant would make the following function calls:
 ```json
 ```json
 
-{"name": "functions.add_host", "arguments": {"detail_response": true, "address": "appA.example.com", "endpoint": "https", "email": "msp-alerts@provider.com"}}
+\{"name": "functions.add_host", "arguments": \{"detail_response": true, "address": "appA.example.com", "endpoint": "https", "email": "msp-alerts@provider.com"\}\}
 ```
 
 Each call uses add_host to register the necessary network device for AI-driven monitoring, specifying the protocol suited to the target (ICMP for ping, HTTPS for web health, etc.). The email parameter ensures any detected anomaly or downtime triggers an alert directly to the MSP’s ticketing system.
@@ -70,7 +70,7 @@ Here’s how the Assistant would proceed:
 ```json
 ```json
 
-{"name": "functions.call_security_expert", "arguments": {"message": "Perform an Nmap vulnerability assessment for fw-clientA.example.com to verify its external security posture. This action is authorized by the MSP.", "agent_location": "Scanner - EU"}}
+\{"name": "functions.call_security_expert", "arguments": \{"message": "Perform an Nmap vulnerability assessment for fw-clientA.example.com to verify its external security posture. This action is authorized by the MSP.", "agent_location": "Scanner - EU"\}\}
 ```
 
 This approach leverages edit_host to fine-tune what’s being monitored on the application site, and call_security_expert to instruct the AI to use best-practice Nmap scanning on the firewall.
@@ -96,7 +96,7 @@ Assistant: I’ll temporarily disable monitoring and re-enable it after your mai
 ```json
 ```json
 
-{"name": "functions.edit_host", "arguments": {"detail_response": true, "address": "router-branch1.example.com", "enabled": false}}
+\{"name": "functions.edit_host", "arguments": \{"detail_response": true, "address": "router-branch1.example.com", "enabled": false\}\}
 ```
 
 This edit_host call disables checks on the branch router—no more noisy alerts while maintenance is in progress.

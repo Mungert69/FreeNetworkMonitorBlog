@@ -141,7 +141,7 @@ Function call
 ```
 
 How we use the response
-- Example results: open_ports: [{port: 443, service: "https", product: "nginx 1.25"}, {port: 22, service: "ssh", product: "OpenSSH 9.x"}], last_check: "2026-03-14T03:06:10Z".
+- Example results: open_ports: [\{port: 443, service: "https", product: "nginx 1.25"\}, \{port: 22, service: "ssh", product: "OpenSSH 9.x"\}], last_check: "2026-03-14T03:06:10Z".
 - The assistant summarizes the discovered services.
 
 Assistant: The scan found 443/tcp (HTTPS: nginx 1.25) and 22/tcp (SSH: OpenSSH 9.x). Do you want to keep it on Nmap, or return to HTTPS monitoring?
@@ -212,7 +212,7 @@ Function call
 ```
 
 How we use the response
-- Example output: [{id: 1042, address: "api.acme.com", endpoint: "https", port: 443, enabled: true, agent_location: "Scanner - US-East"}].
+- Example output: [\{id: 1042, address: "api.acme.com", endpoint: "https", port: 443, enabled: true, agent_location: "Scanner - US-East"\}].
 - The assistant presents this as a tidy confirmation.
 
 Assistant: Here’s the current configuration—api.acme.com, endpoint https, port 443, enabled true, agent Scanner - US-East.

@@ -38,13 +38,13 @@ Function Call:
 ```json
 ```json
 
-{
+\{
   "name": "functions.get_host_data",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "dataset_id": 0
-  }
-}
+  \}
+\}
 ```
 ```
 We used get_host_data with detail_response set to true, allowing us to view comprehensive stats—like response times, alert statuses, agent locations, and more.
@@ -85,15 +85,15 @@ Function Call:
 ```json
 ```json
 
-{
+\{
   "name": "functions.edit_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "website.com",
     "timeout": 1000,
     "enabled": true
-  }
-}
+  \}
+\}
 ```
 ```
 Here, we’ve updated website.com’s monitoring configuration to increase scrutiny and ensure alerts are triggered if things worsen.

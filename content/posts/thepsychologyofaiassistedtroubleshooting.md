@@ -37,13 +37,13 @@ Behind the scenes, the Assistant might call:
 ```json
 ```json
 
-{
+\{
   "name": "functions.get_host_list",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "endpoint": "http"
-  }
-}
+  \}
+\}
 ```
 ```
 
@@ -60,14 +60,14 @@ Applying natural language processing, the Assistant triggers a monitoring data r
 ```json
 ```json
 
-{
+\{
   "name": "functions.get_host_data",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "dataset_id": 0,
     "address": "web01.example.com"
-  }
-}
+  \}
+\}
 ```
 ```
 
@@ -84,15 +84,15 @@ The Assistant promptly queues up another targeted check:
 ```json
 ```json
 
-{
+\{
   "name": "functions.add_host",
-  "arguments": {
+  "arguments": \{
     "detail_response": true,
     "address": "web01.example.com",
     "endpoint": "dns",
     "email": "alex@email.com"
-  }
-}
+  \}
+\}
 ```
 ```
 
