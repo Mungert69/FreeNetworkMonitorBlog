@@ -1,7 +1,7 @@
 {
-  "name": "Free Network Monitor Blogs",
-  "description": "a nextjs and tailwindcss boilerplate by themefisher.com",
-  "version": "1.2.0",
+  "name": "Ready For Quantum Blogs",
+  "description": "Ready For Quantum Blogs",
+  "version": "1.3.1",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
