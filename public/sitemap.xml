@@ -19,6 +19,9 @@
   <loc>https://blog.readyforquantum.com/posts/advanceddiagnosticsforremoteserverswithmobileagents/</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/posts/advancedhostconfigurationtuningportstimeoutsandendpointsviatheassistant/</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/posts/advancednmapscriptingcustomizingyournetworkscans/</loc>
 </url>
 <url>
@@ -100,6 +103,9 @@
   <loc>https://blog.readyforquantum.com/posts/automatingcompliancecheckswithai/</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/posts/automatingnetworkcompliancecreatingscheduledreportswiththeassistant/</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/posts/automatingnetworkcompliancereporting/</loc>
 </url>
 <url>
@@ -151,6 +157,9 @@
   <loc>https://blog.readyforquantum.com/posts/continuousmonitoringwithcustomagents/</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/posts/creatinganddeployingcustomcommandprocessorswiththeassistant/</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/posts/customizingaimonitoringforyouruniqueneeds/</loc>
 </url>
 <url>
@@ -164,6 +173,9 @@
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/posts/cybersecuritybestpracticesstayingaheadofevolvingthreats/</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/posts/debuggingwiththeassistantrunningeditingandretrievingcustomprocessorlogs/</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/posts/deployingaifornetworkthreatdetectionandresponse/</loc>
@@ -202,6 +214,9 @@
   <loc>https://blog.readyforquantum.com/posts/honeypotsandainextgennetworkdeceptiontechniques/</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/posts/hostdowndiagnosingoutagesinrealtimewiththeassistant/</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/posts/howaipredictsnetworkanomaliesbeforetheyimpactusers/</loc>
 </url>
 <url>
@@ -215,6 +230,9 @@
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/posts/howtomonitorssltlsvulnerabilitiesautomatically/</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/posts/howtoretrievevisualizeandanalyzemonitoringdatawiththeassistant/</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/posts/implementingaistrategiesforenhanceddatabasesecurity/</loc>
@@ -433,6 +451,9 @@
   <loc>https://blog.readyforquantum.com/posts/streamliningnetworkmonitoringwithaiastepbystepguide/</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/posts/switchingagentsrunningtestsfromlondonberlinoryourlocalnetwork/</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/posts/the2025guidetoautomatedpenetrationtesting/</loc>
 </url>
 <url>
@@ -550,6 +571,12 @@
   <loc>https://blog.readyforquantum.com/categories/diagnostics/</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/categories/configuration/</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/categories/host-management/</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/categories/web-crawling/</loc>
 </url>
 <url>
@@ -601,6 +628,9 @@
   <loc>https://blog.readyforquantum.com/categories/nmap/</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/categories/reporting/</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/categories/documentation/</loc>
 </url>
 <url>
@@ -628,10 +658,22 @@
   <loc>https://blog.readyforquantum.com/categories/monitoring/</loc>
 </url>
 <url>
+  <loc>https://blog.readyforquantum.com/categories/custom-automation/</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/categories/devops/</loc>
+</url>
+<url>
   <loc>https://blog.readyforquantum.com/categories/customization/</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/custom-security-solutions/</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/categories/debugging/</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/categories/custom-processors/</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/threat-detection/</loc>
@@ -667,10 +709,10 @@
   <loc>https://blog.readyforquantum.com/categories/advanced-security/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/categories/quantum-computing/</loc>
+  <loc>https://blog.readyforquantum.com/categories/incident-response/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/categories/host-management/</loc>
+  <loc>https://blog.readyforquantum.com/categories/quantum-computing/</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/website/</loc>
@@ -706,9 +748,6 @@
   <loc>https://blog.readyforquantum.com/categories/security-automation/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/categories/incident-response/</loc>
-</url>
-<url>
   <loc>https://blog.readyforquantum.com/categories/security-scanning/</loc>
 </url>
 <url>
@@ -716,6 +755,9 @@
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/ssl-tls-security/</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/categories/network-coverage/</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/machine-learning/</loc>
@@ -842,5 +884,8 @@
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/page/30/</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/page/31/</loc>
 </url>
 </urlset>
