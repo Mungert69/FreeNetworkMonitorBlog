@@ -84,7 +84,7 @@ We use call_cmd_processor_expert to retrieve help/documentation for a specific p
 Interpreting the response
 Typical output includes:
 - Description: Ships lines from a local log to an endpoint.
-- Usage: LogShip --source <path> [--since <duration>] [--dry-run] [--verbose]
+- Usage: LogShip --source &lt;path&gt; [--since &lt;duration&gt;] [--dry-run] [--verbose]
 - Examples: LogShip --source /var/log/app.log --since 15m --dry-run
 
 Assistant
@@ -232,7 +232,7 @@ Expect entries like:
 - [Info] 02:59:03Z: Run completed in 1.2s
 
 Assistant
-If you ever forget supported flags or want usage details, ask the Assistant to “Show help/usage for <processor>” as we did earlier. For code-level issues:
+If you ever forget supported flags or want usage details, ask the Assistant to “Show help/usage for &lt;processor&gt;” as we did earlier. For code-level issues:
 - Show source code to locate the problem.
 - Update with a focused patch and request a rebuild.
 - Re-run with --dry-run and --verbose to validate behavior.

@@ -52,7 +52,7 @@ vi.mock('@lib/utils/postPayload', () => ({
 const postSingleMock = vi.hoisted(() => ({ fn: vi.fn(() => null) }));
 vi.mock('@layouts/PostSingle', () => ({ default: postSingleMock.fn }));
 
-import Article, { getStaticPaths, getStaticProps } from '../../pages/posts/[single].js';
+import Article, { getStaticPaths, getStaticProps } from '../../pages/posts/[single].jsx';
 
 describe('pages/posts/[single]', () => {
   it('builds static paths from post slugs', () => {
@@ -96,7 +96,7 @@ describe('pages/posts/[single]', () => {
     });
 
     expect(element.type).toBe(postSingleMock.fn);
-    expect(element.props.canonical).toBe('https://example.com/posts/alpha-post');
+    expect(element.props.canonical).toBe('https://example.com/posts/alpha-post/');
     expect(element.props.slug).toBe('alpha-post');
     expect(element.props.relatedPosts).toHaveLength(1);
     expect(element.props.allCategories).toHaveLength(1);

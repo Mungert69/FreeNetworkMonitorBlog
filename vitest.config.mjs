@@ -3,17 +3,22 @@ import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  plugins: [react()],
+  oxc: {
+    include: /\.[cm]?[jt]sx?$/,
+    exclude: [],
+    jsx: {
+      runtime: 'automatic',
+    },
+  },
+  plugins: [
+    react({
+      include: /\.[jt]sx?$/,
+    }),
+  ],
   test: {
     environment: 'jsdom',
     setupFiles: ['./tests/setup-ui.js'],
     include: ['tests/ui/**/*.test.{js,jsx}'],
-  },
-  esbuild: {
-    loader: 'jsx',
-    include: /.*\.jsx?$/,
-    exclude: [],
-    jsx: 'automatic',
   },
   resolve: {
     alias: {
