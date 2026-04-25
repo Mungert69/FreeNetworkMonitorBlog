@@ -7,19 +7,34 @@ const SearchModal = ({ searchModal, setSearchModal }) => {
   const [input, setInput] = useState("");
 
   useEffect(() => {
-    if (searchModal) {
-      document.getElementById("searchModal").focus();
-      document.addEventListener("keydown", (e) => {
-        if (e.key === "Enter") {
-          router.push({ pathname: "/search", query: { key: input } });
-          setSearchModal(false);
-        }
-        if (e.key === "Escape") {
-          setSearchModal(false);
-        }
-      });
-    }
-  });
+    if (!searchModal) return undefined;
+
+    document.getElementById("searchModal")?.focus();
+
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape") {
+        setSearchModal(false);
+        return;
+      }
+
+      if (e.key !== "Enter") return;
+      if (document.activeElement?.id !== "searchModal") return;
+
+      const trimmedInput = input.trim();
+      if (!trimmedInput) {
+        setSearchModal(false);
+        return;
+      }
+
+      router.push({ pathname: "/search", query: { key: trimmedInput } });
+      setSearchModal(false);
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [input, router, searchModal, setSearchModal]);
   return (
     <div className={`search-modal ${searchModal ? "open" : ""}`}>
       <button onClick={() => setSearchModal(false)} className="search-close">
