@@ -7,7 +7,6 @@ import { MDXRemote } from "next-mdx-remote";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
-import Head from "next/head";
 import { FaRegCalendar, FaUserAlt } from "react-icons/fa";
 import Post from "./partials/Post";
 import Sidebar from "./partials/Sidebar";
@@ -26,48 +25,13 @@ const PostSingle = ({
   allCategories,
   relatedPosts,
 }) => {
-  // DEBUG: Log the frontmatter to check for questions/answers
-  if (typeof window !== "undefined") {
-    console.log("Frontmatter in PostSingle:", frontmatter);
-  }
   let { description, title, date, image, categories } = frontmatter;
   description = description ? description : content.slice(0, 120);
 
   const { theme } = useTheme();
 
-  // Generate JSON-LD FAQ schema if Q&A present
-  let faqJsonLd = null;
-  if (
-    Array.isArray(frontmatter.questions) &&
-    Array.isArray(frontmatter.answers) &&
-    frontmatter.questions.length === frontmatter.answers.length &&
-    frontmatter.questions.length > 0
-  ) {
-    const mainEntity = frontmatter.questions.map((q, i) => ({
-      "@type": "Question",
-      "name": q,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": frontmatter.answers[i]
-      }
-    }));
-    faqJsonLd = {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      mainEntity
-    };
-  }
-
   return (
     <Base title={title} description={description} canonical={canonical}>
-      {faqJsonLd && (
-        <Head>
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-          />
-        </Head>
-      )}
       <section className="section single-blog mt-6">
         <div className="container">
           <div className="row">
