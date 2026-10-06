@@ -12,7 +12,7 @@ import CategorySearch from "@layouts/components/CategorySearch";
 
 const Categories = ({ categories, posts }) => {
   return (
-    <Base title={"categories"} canonical={`${base_url}/categories/`}>
+    <Base title="Browse article topics | Ready for Quantum" description="Browse practical articles about quantum readiness, network monitoring, security and AI by topic." canonical={`${base_url}/categories/`}>
       <CategorySearch posts={posts} />
       <section className="section pt-0">
         {markdownify(
@@ -28,11 +28,11 @@ const Categories = ({ categories, posts }) => {
                 className="mt-4 block lg:col-4 xl:col-3"
               >
                 <Link
-                  href={`/categories/${category.name}`}
+                  href={`/categories/${category.name}/`}
                   className="flex w-full items-center justify-center rounded-lg bg-theme-light px-4 py-4 font-bold text-dark transition hover:bg-primary hover:text-white  dark:bg-darkmode-theme-dark dark:text-darkmode-light dark:hover:bg-primary dark:hover:text-white"
                 >
                   <FaFolder className="mr-1.5" />
-                  {humanize(category.name)} ({category.posts})
+                  {category.label || humanize(category.name)} ({category.posts})
                 </Link>
               </li>
             ))}
@@ -58,6 +58,7 @@ export const getStaticProps = () => {
       );
       return {
         name: category,
+        label: filteredPosts.flatMap(post => post.frontmatter.categories).find(label => slugify(label) === category) || humanize(category),
         posts: filteredPosts.length,
       };
     })

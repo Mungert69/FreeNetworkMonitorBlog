@@ -1,3 +1,4 @@
+import { slugify } from "@lib/utils/textConverter";
 import config from "@config/config.json";
 import social from "@config/social.json";
 import ImageFallback from "@layouts/components/ImageFallback";
@@ -19,6 +20,8 @@ const Sidebar = ({ posts, categories, className }) => {
   const validPosts = Array.isArray(posts)
     ? posts.filter((post) => post && post.frontmatter)
     : [];
+  const categoryLabels = Object.fromEntries(validPosts.flatMap(post =>
+    (post.frontmatter.categories || []).map(label => [slugify(label), label])));
   const sortPostByDate = sortByDate(validPosts);
   const featuredPosts = sortPostByDate.filter(
     (post) => post.frontmatter && post.frontmatter.featured
@@ -77,8 +80,8 @@ const Sidebar = ({ posts, categories, className }) => {
                     fill="#2ba283"
                   />
                 </svg>
-                <Link className="py-2" href={`/categories/${category.name}`}>
-                  {category.name.replace("-", " ")}
+                <Link className="py-2" href={`/categories/${category.name}/`}>
+                  {categoryLabels[category.name] || category.name.replaceAll("-", " ")}
                   <span className="absolute top-1/2 right-0 -translate-y-1/2 text-[10px] text-gray-500">
                     {category.posts}
                   </span>

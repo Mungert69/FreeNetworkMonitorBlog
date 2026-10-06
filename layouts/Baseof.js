@@ -1,3 +1,4 @@
+import { serializeJsonLd } from "@lib/utils/article-schema.cjs";
 import config from "@config/config.json";
 import { plainify } from "@lib/utils/textConverter";
 import Footer from "@partials/Footer";
@@ -34,6 +35,7 @@ const Base = ({
   image,
   noindex,
   canonical,
+  structuredData,
   children,
 }) => {
   const { meta_image, meta_author, meta_description } = config.metadata;
@@ -47,6 +49,7 @@ const Base = ({
   return (
     <>
       <Head>
+        {structuredData && <script key="structured-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(structuredData) }} />}
         {/* title */}
         <title>
           {plainify(
@@ -86,7 +89,7 @@ const Base = ({
           property="og:description"
           content={plainify(description ? description : meta_description)}
         />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content={structuredData?.["@type"] === "BlogPosting" ? "article" : "website"} />
         <meta
           property="og:url"
           content={resolvedCanonical}

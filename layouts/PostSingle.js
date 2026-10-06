@@ -1,7 +1,8 @@
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import dateFormat from "@lib/utils/dateFormat";
-import { markdownify } from "@lib/utils/textConverter";
+import { articleSchema } from "@lib/utils/article-schema.cjs";
+import { markdownify, plainify } from "@lib/utils/textConverter";
 import { DiscussionEmbed } from "disqus-react";
 import { MDXRemote } from "next-mdx-remote";
 import { useTheme } from "next-themes";
@@ -26,12 +27,16 @@ const PostSingle = ({
   relatedPosts,
 }) => {
   let { description, title, date, image, categories } = frontmatter;
-  description = description ? description : content.slice(0, 120);
+  description = description || plainify(content.replace(/^#{1,6}\s+/gm, "").replace(/\s+/g, " ")).slice(0, 160);
 
   const { theme } = useTheme();
 
   return (
-    <Base title={title} description={description} canonical={canonical}>
+    <Base title={title} description={description} canonical={canonical} structuredData={articleSchema({
+      title: plainify(title), description: plainify(description), date,
+      modified: frontmatter.lastmod || frontmatter.dateModified, image, canonical,
+      author: meta_author, siteName: config.site.title, baseUrl: config.site.base_url,
+    })}>
       <section className="section single-blog mt-6">
         <div className="container">
           <div className="row">

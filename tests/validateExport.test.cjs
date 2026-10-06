@@ -5,6 +5,7 @@ const os = require('node:os');
 const path = require('node:path');
 
 const {
+  validatePublicationArtifacts,
   resolveExpectedSlug,
   validateExportArtifacts,
 } = require('../lib/validate-export');
@@ -55,4 +56,31 @@ test('validateExportArtifacts fails when slug page is missing', () => {
     () => validateExportArtifacts({ outDirectory: outDir, expectedSlug: 'missing-slug' }),
     /Missing expected export artifact/
   );
+});
+
+
+test('validateExportArtifacts rejects category URLs without an exported route', () => {
+  const outDir = makeTempDir();
+  fs.mkdirSync(path.join(outDir, 'posts', 'latest-post'), {recursive: true});
+  fs.writeFileSync(path.join(outDir, 'posts', 'latest-post', 'index.html'), '<html/>');
+  fs.writeFileSync(path.join(outDir, 'posts', 'index.html'), '<html/>');
+  fs.writeFileSync(path.join(outDir, 'sitemap.xml'), '<urlset><url><loc>https://example.com/categories/ssl-tls/</loc></url></urlset>');
+  assert.throws(() => validateExportArtifacts({outDirectory: outDir, expectedSlug: 'latest-post'}), /Sitemap category has no exported page/);
+  fs.mkdirSync(path.join(outDir, 'categories', 'ssltls'), {recursive: true});
+  fs.writeFileSync(path.join(outDir, 'categories', 'ssltls', 'index.html'), '<html/>');
+  fs.writeFileSync(path.join(outDir, 'sitemap.xml'), '<urlset><url><loc>https://example.com/categories/ssltls/</loc></url></urlset>');
+  assert.doesNotThrow(() => validateExportArtifacts({outDirectory: outDir, expectedSlug: 'latest-post'}));
+});
+
+
+test('publication validation rejects template routes and public index entries', () => {
+  const outDir = makeTempDir();
+  fs.mkdirSync(path.join(outDir, 'posts', 'default1'), {recursive: true});
+  fs.writeFileSync(path.join(outDir, 'blog-index.json'), '[]');
+  assert.throws(() => validatePublicationArtifacts({outDirectory: outDir}), /Placeholder post was exported/);
+  fs.rmSync(path.join(outDir, 'posts', 'default1'), {recursive: true});
+  fs.writeFileSync(path.join(outDir, 'blog-index.json'), '[{"slug":"default1"}]');
+  assert.throws(() => validatePublicationArtifacts({outDirectory: outDir}), /Placeholder appears in blog index/);
+  fs.writeFileSync(path.join(outDir, 'blog-index.json'), '[{"slug":"legitimate-test-article"}]');
+  assert.doesNotThrow(() => validatePublicationArtifacts({outDirectory: outDir}));
 });

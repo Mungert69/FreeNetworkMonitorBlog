@@ -10,15 +10,15 @@ const { blog_folder } = config.settings;
 const { base_url } = config.site;
 
 // category page
-const Category = ({ postsByCategories, category, posts, categories }) => {
+const Category = ({ postsByCategories, category, categoryLabel, posts, categories }) => {
   return (
-    <Base title={category} canonical={`${base_url}/categories/${category}/`}>
+    <Base title={`${categoryLabel} articles | Ready for Quantum`} description={`Explore ${postsByCategories.length} articles about ${categoryLabel}, including ${postsByCategories.slice(0, 2).map(post => post.frontmatter.title).join(" and ")}. Guides from Ready for Quantum.`} canonical={`${base_url}/categories/${category}/`}>
       <div className="section mt-16">
         <div className="container">
           <h1 className="h2 mb-12">
-            Showing posts from
+            Articles about{" "}
             <span className="section-title ml-1 inline-block capitalize">
-              {category.replace("-", " ")}
+              {categoryLabel}
             </span>
           </h1>
           <div className="row">
@@ -85,6 +85,7 @@ export const getStaticProps = ({ params }) => {
       posts,
       postsByCategories,
       category: params.category,
+      categoryLabel: filterPosts.flatMap(post => post.frontmatter.categories).find(label => slugify(label) === params.category) || params.category,
       categories: categoriesWithPostsCount,
     },
   };

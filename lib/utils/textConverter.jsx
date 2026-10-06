@@ -1,12 +1,5 @@
-import { slug } from "github-slugger";
+export { slugify } from "./slug.cjs";
 import { marked } from "marked";
-
-// slugify
-export const slugify = (content) => {
-  if (!content) return null;
-
-  return slug(content);
-};
 
 // markdownify
 export const markdownify = (content, tag, className) => {

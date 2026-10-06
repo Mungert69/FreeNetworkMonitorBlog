@@ -155,3 +155,31 @@ test('resolveStaticPages keeps only existing content pages plus root', () => {
   const resolved = resolveStaticPages(['', 'about', 'contact'], { cwd: root });
   assert.deepEqual(resolved, ['', 'contact']);
 });
+
+
+test('sitemap category slugs agree with the shared route slugger, including punctuation', () => {
+  const { slugify } = require('../lib/utils/slug.cjs');
+  const labels = ['SSL/TLS', 'SSL/TLS Security', 'AI & ML', 'C++', 'Café', ' Security '];
+  for (const label of labels) assert.equal(toCategorySlug(label), slugify(label));
+  const categories = getAllCategories([{frontmatter: {categories: labels}}]);
+  const urls = buildUrls({baseUrl: 'https://example.com', posts: [], categories, postsPerPage: 10});
+  assert.ok(urls.includes('https://example.com/categories/ssltls/'));
+  assert.ok(urls.includes('https://example.com/categories/ssltls-security/'));
+  assert.ok(!urls.includes('https://example.com/categories/ssl-tls/'));
+  assert.ok(!urls.includes('https://example.com/categories/ssl-tls-security/'));
+});
+
+
+test('sitemap generation keeps robots rules and one current sitemap declaration', () => {
+  const root = makeTempDir();
+  fs.mkdirSync(path.join(root, 'content', 'posts'), {recursive:true});
+  fs.mkdirSync(path.join(root, 'public'));
+  const robots = path.join(root, 'public', 'robots.txt');
+  fs.writeFileSync(robots, 'User-agent: *\nDisallow: /api/*\nSitemap: https://old.example/sitemap.xml\n');
+  const options = {cwd:root,outputPath:path.join(root,'public','sitemap.xml'),cfg:{site:{base_url:'https://example.com'},settings:{blog_folder:'posts',pagination:6}}};
+  generateSitemap(options);generateSitemap(options);
+  const result=fs.readFileSync(robots,'utf8');
+  assert.ok(result.includes('Disallow: /api/*'));
+  assert.equal((result.match(/^Sitemap:/gm)||[]).length,1);
+  assert.ok(result.includes('Sitemap: https://example.com/sitemap.xml'));
+});
