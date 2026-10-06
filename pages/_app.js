@@ -70,7 +70,7 @@ const App = ({ Component, pageProps }) => {
           content="width=device-width, initial-scale=1, maximum-scale=5"
         />
       </Head>
-      <ThemeProvider attribute="class" defaultTheme={default_theme}>
+      <ThemeProvider attribute="class" storageKey="networkmonitor-appearance" defaultTheme={default_theme}>
         <Component {...pageProps} />
       </ThemeProvider>
     </>

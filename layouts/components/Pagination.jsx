@@ -51,7 +51,7 @@ const Pagination = ({ section, currentPage, totalPages }) => {
     <>
       {totalPages > 1 && (
         <nav
-          className="item-center mb-4 flex justify-center space-x-1 lg:space-x-2"
+          className="mb-4 flex flex-wrap items-center justify-center gap-1 lg:gap-2"
           aria-label="Pagination"
         >
           {/* previous */}
@@ -122,7 +122,7 @@ const Pagination = ({ section, currentPage, totalPages }) => {
           {hasNextPage ? (
             <Link
               href={`${section ? "/" + section : ""}/page/${currentPage + 1}`}
-              className="ml-4 flex items-center rounded-full px-2 py-1 text-3xl font-bold leading-none text-dark dark:text-darkmode-light"
+              className="flex items-center rounded-full px-2 py-1 text-3xl font-bold leading-none text-dark dark:text-darkmode-light"
             >
               <>
                 <span className="mr-3 text-lg">Next</span>
@@ -130,7 +130,7 @@ const Pagination = ({ section, currentPage, totalPages }) => {
               </>
             </Link>
           ) : (
-            <span className="ml-4 flex items-center rounded-full px-2 py-1 text-3xl font-bold text-dark dark:text-darkmode-light">
+            <span className="flex items-center rounded-full px-2 py-1 text-3xl font-bold text-dark dark:text-darkmode-light">
               <>
                 <span className="mr-3 text-lg">Next</span>
                 <BsArrowRightShort />
