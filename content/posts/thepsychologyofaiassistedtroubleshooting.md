@@ -2,7 +2,7 @@
 title: The Psychology Of AI-Assisted Troubleshooting
 date: 2025-06-07T09:00:00
 image: /blogpics/apipicgen/ThePsychologyOfAIAssistedTroubleshooting-WOPX3U3SIL.jpg
-categories: ["AI", "UX"]
+categories: ["AI and Automation", "Troubleshooting"]
 featured: false
 draft: false
 questions:

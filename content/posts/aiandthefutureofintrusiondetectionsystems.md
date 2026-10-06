@@ -18,7 +18,7 @@ answers:
   - "Yes, the assistant can conduct vulnerability scans using AI tools to identify potential risks, such as outdated software or other medium to critical vulnerabilities, and provide actionable insights to improve your network security."
   - "You can start by clicking the assistant icon located at the bottom right of your screen, then follow the prompts to add hosts, enable AI-based anomaly detection, retrieve monitoring data, or run security assessments."
 ---
-In today's rapidly evolving digital landscape, the importance of robust security measures cannot be overstated. Intrusion Detection Systems (IDS) play a crucial role in safeguarding networks from unauthorized access and potential threats. With the advent of Artificial Intelligence (AI), the capabilities of IDS are being transformed, making them more efficient and effective. The Network Monitor Assistant can help you leverage these advancements in AI for your intrusion detection needs. Click the assistant icon at the bottom right to try it out!
+In today's rapidly evolving digital landscape, the importance of robust security measures cannot be overstated. Intrusion Detection Systems (IDS) play a crucial role in safeguarding networks from unauthorized access and potential threats. With the advent of Artificial Intelligence (AI), the capabilities of IDS are being transformed, making them more efficient and effective. The [Network Monitor Assistant](https://readyforquantum.com/?assistant=open) can help you leverage these advancements in AI for your intrusion detection needs. Click the assistant icon at the bottom right to try it out!
 
 ## Use Case 1: Setting Up an AI-Enhanced Intrusion Detection System
 

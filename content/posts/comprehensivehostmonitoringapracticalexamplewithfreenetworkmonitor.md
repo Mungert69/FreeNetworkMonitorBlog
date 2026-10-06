@@ -2,7 +2,7 @@
 title: Comprehensive Host Monitoring A Practical Example With Quantum Network Monitor
 date: 2025-01-15T23:50:00
 image: /blogpics/apipicgen/ComprehensiveHostMonitoringAPracticalExampleWithFreeNetworkMonitor-UMNAWLCT68.jpg
-categories: ["Host Monitoring"]
+categories: ["Network Monitoring"]
 featured: false
 draft: false
 questions:

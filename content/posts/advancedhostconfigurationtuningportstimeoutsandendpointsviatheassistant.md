@@ -2,7 +2,7 @@
 title: Advanced Host Configuration Tuning Ports Timeouts And Endpoints Via The Assistant
 date: 2025-11-17T09:00:00
 image: /blogpics/apipicgen/advancedhostconfigurationtuningportstimeoutsandendpointsviatheassistant-Q4GTG4L8JG.jpg
-categories: ["Configuration", "Host Management"]
+categories: ["Network Configuration", "Network Monitoring"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "The post recommends using get_host_list to confirm the saved configuration, such as endpoint, port, timeout, enabled state, and agent location. Then use get_host_data to inspect the latest monitoring result, including status, response time, and alert indicators."
   - "Disabling a host stops checks and alerts temporarily while keeping the monitor active and configurable. Hiding a host is a soft-delete that removes it from active lists but retains its history for auditing and reference."
 ---
-If you’ve ever wished you could fine-tune your monitors without hunting through dashboards—think custom ports, timeouts, endpoints, credentials, and even which agent runs your checks—this walkthrough shows how to do it all inside a natural, chat-style flow with the Quantum Network Monitor Assistant. We’ll deep dive into advanced host configuration using the assistant’s EditHostGPTAuth capability (the edit_host API under the hood), and show how each property shapes the monitor. Along the way, we’ll simulate real assistant calls with JSON examples and describe how the results guide the next step.
+If you’ve ever wished you could fine-tune your monitors without hunting through dashboards—think custom ports, timeouts, endpoints, credentials, and even which agent runs your checks—this walkthrough shows how to do it all inside a natural, chat-style flow with the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open). We’ll deep dive into advanced host configuration using the assistant’s EditHostGPTAuth capability (the edit_host API under the hood), and show how each property shapes the monitor. Along the way, we’ll simulate real assistant calls with JSON examples and describe how the results guide the next step.
 
 Scene: A DevOps engineer wants to harden and optimize monitors for several services (web, SMTP, quantum checks), and do it quickly via chat.
 

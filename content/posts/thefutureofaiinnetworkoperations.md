@@ -2,7 +2,7 @@
 title: The Future Of AI In Network Operations
 date: 2025-08-09T09:00:00
 image: /blogpics/apipicgen/thefutureofaiinnetworkoperations-KLT21FQ0FB.jpg
-categories: ["AI", "Future Tech"]
+categories: ["AI and Automation"]
 featured: false
 draft: false
 questions:

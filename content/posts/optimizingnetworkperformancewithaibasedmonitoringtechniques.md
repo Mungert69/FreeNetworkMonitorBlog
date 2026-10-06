@@ -18,7 +18,7 @@ answers:
   - "Nmap scans identify open ports and services running on your network devices, which helps you manage bandwidth and resources more effectively by making informed decisions about resource allocation and network configuration."
   - "You can access the Network Monitor Assistant by clicking the assistant icon located at the bottom right of the interface or webpage."
 ---
-In today's fast-paced digital landscape, optimizing network performance is crucial for businesses and organizations. With the advent of AI-based monitoring techniques, network administrators can leverage advanced tools to enhance their network's efficiency and reliability. The Network Monitor Assistant is a powerful tool that can help you implement these techniques effectively. Click the assistant icon at the bottom right to try it out!
+In today's fast-paced digital landscape, optimizing network performance is crucial for businesses and organizations. With the advent of AI-based monitoring techniques, network administrators can leverage advanced tools to enhance their network's efficiency and reliability. The [Network Monitor Assistant](https://readyforquantum.com/?assistant=open) is a powerful tool that can help you implement these techniques effectively. Click the assistant icon at the bottom right to try it out!
 
 ### Use Case 1: Adding and Monitoring Hosts
 

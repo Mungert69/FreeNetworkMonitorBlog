@@ -2,7 +2,7 @@
 title: Post-Quantum Cryptography Implementation Roadmap
 date: 2025-05-19T17:30:00
 image: /blogpics/apipicgen/PostQuantumCryptographyImplementationRoadmap-ZP2GOJQUDR.jpg
-categories: ["Quantum Computing", "Best Practices"]
+categories: ["Post-Quantum Security", "Best Practices"]
 featured: false
 draft: false
 questions:

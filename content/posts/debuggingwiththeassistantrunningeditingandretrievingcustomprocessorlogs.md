@@ -2,7 +2,7 @@
 title: Debugging With The Assistant Running Editing And Retrieving Custom Processor Logs
 date: 2025-11-21T09:00:00
 image: /blogpics/apipicgen/debuggingwiththeassistantrunningeditingandretrievingcustomprocessorlogs-2EQ5GBNLKD.jpg
-categories: ["Debugging", "Custom Processors"]
+categories: ["Troubleshooting", "Custom Development"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "The fix added a guard in ShipBatchAsync to return early when batch is null, batch.Lines is null, or the line count is zero. It also added clearer logging so empty batches are reported as a normal skip instead of causing a NullReferenceException."
   - "Re-run the processor with the same arguments in --dry-run mode and confirm that stderr is empty and the exit code is 0. Then optionally run it without --dry-run to confirm real behavior, and pull the latest logs to verify successful execution and timing."
 ---
-If you’ve built custom .NET command processors to automate network checks or data handling, the Quantum Network Monitor Assistant can help you test runs, pull logs, and even hot‑patch your code—without leaving chat. Below is a realistic, step‑by‑step conversation that shows how to use the Assistant’s API-style function calls to list processors, run them with test flags, retrieve detailed logs, view and update source code, and re-run to verify the fix. Throughout, I’ll explain each function and how we interpret its output so you can apply the same approach to your own environment. You can try all of this yourself via Quantum Network Monitor Assistant.
+If you’ve built custom .NET command processors to automate network checks or data handling, the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) can help you test runs, pull logs, and even hot‑patch your code—without leaving chat. Below is a realistic, step‑by‑step conversation that shows how to use the Assistant’s API-style function calls to list processors, run them with test flags, retrieve detailed logs, view and update source code, and re-run to verify the fix. Throughout, I’ll explain each function and how we interpret its output so you can apply the same approach to your own environment. You can try all of this yourself via Quantum Network Monitor Assistant.
 
 User
 I have a custom processor named LogShip that occasionally fails when the source file is empty. Can you help me run it in dry-run mode, grab the logs, and if needed, patch it?

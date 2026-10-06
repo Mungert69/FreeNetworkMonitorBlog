@@ -2,7 +2,7 @@
 title: Metasploit Automation Via Natural Language Commands
 date: 2025-04-11T09:00:00
 image: /blogpics/apipicgen/MetasploitForWebApplicationTestingBeyondNetworkExploits-OAYG3SE6QT.jpg
-categories: ["Metasploit", "AI"]
+categories: ["Penetration Testing", "AI and Automation"]
 featured: false
 draft: false
 questions:

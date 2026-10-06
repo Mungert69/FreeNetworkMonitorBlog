@@ -2,7 +2,7 @@
 title: Responding To Security Threats With Real-Time AI Insights
 date: 2024-12-11T03:53:51
 image: /blogpics/apipicgen/RespondingToSecurityThreatsWithRealTimeAIInsights-4YJ5LWW78O.jpg
-categories: ["Incident Response"]
+categories: ["Alerts and Incident Response"]
 featured: false
 draft: false
 questions:

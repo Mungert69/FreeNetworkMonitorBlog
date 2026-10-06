@@ -18,7 +18,7 @@ answers:
   - "You can request the latest data by asking the assistant something like 'Show me the latest data for the host example.com.' The assistant will then provide metrics such as response time and status."
   - "You can access the Network Monitor Assistant by clicking the assistant icon located at the bottom right of your screen."
 ---
-In today's digital landscape, network monitoring is crucial for maintaining optimal performance and security. With the help of the Network Monitor Assistant, you can leverage AI to streamline your monitoring tasks, ensuring that your network runs smoothly and efficiently. Click the assistant icon at the bottom right to try it out!
+In today's digital landscape, network monitoring is crucial for maintaining optimal performance and security. With the help of the [Network Monitor Assistant](https://readyforquantum.com/?assistant=open), you can leverage AI to streamline your monitoring tasks, ensuring that your network runs smoothly and efficiently. Click the assistant icon at the bottom right to try it out!
 
 ## Use Case 1: Adding and Monitoring Hosts
 

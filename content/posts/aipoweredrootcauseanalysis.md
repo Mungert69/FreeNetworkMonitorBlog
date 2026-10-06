@@ -2,7 +2,7 @@
 title: AI-Powered Root Cause Analysis
 date: 2025-06-13T09:00:00
 image: /blogpics/apipicgen/AIPoweredRootCauseAnalysis-UHJ3WMQFON.jpg
-categories: ["Troubleshooting", "AI"]
+categories: ["Troubleshooting", "AI and Automation"]
 featured: false
 draft: false
 questions:

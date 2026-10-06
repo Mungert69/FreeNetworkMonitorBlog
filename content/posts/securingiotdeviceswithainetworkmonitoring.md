@@ -2,7 +2,7 @@
 title: Securing Iot Devices With AI Network Monitoring
 date: 2025-04-20T09:00:00
 image: /blogpics/apipicgen/ProactiveCyberDefenseWithAIDrivenSecurityProtocols-Z74V67YJGA.jpg
-categories: ["IoT Security", "AI"]
+categories: ["IoT and Cloud Security", "AI and Automation"]
 featured: false
 draft: false
 questions:

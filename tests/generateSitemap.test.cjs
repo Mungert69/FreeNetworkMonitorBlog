@@ -44,7 +44,7 @@ test('helpers extract posts and categories correctly', () => {
   writeMarkdown(path.join(postsDir, 'custom.md'), {
     title: 'Custom URL',
     url: '/custom-url/',
-    categories: ['AI', 'Ops'],
+    categories: ['AI', 'DevOps'],
   });
   writeMarkdown(path.join(postsDir, 'draft.md'), {
     title: 'Draft',
@@ -75,7 +75,7 @@ test('helpers extract posts and categories correctly', () => {
   );
 
   const categories = getAllCategories(posts);
-  assert.deepEqual(categories.sort(), ['ai', 'ops', 'security']);
+  assert.deepEqual(categories.sort(), ['ai-and-automation', 'cybersecurity', 'devops']);
 });
 
 test('url and xml builders include static, post, category, and pagination urls', () => {
@@ -111,8 +111,8 @@ test('generateSitemap writes sitemap.xml with expected urls', () => {
   fs.mkdirSync(publicDir, { recursive: true });
 
   writeMarkdown(path.join(postsDir, 'one.md'), { title: 'One', categories: ['AI'] });
-  writeMarkdown(path.join(postsDir, 'two.md'), { title: 'Two', categories: ['Ops'] });
-  writeMarkdown(path.join(postsDir, 'three.md'), { title: 'Three', categories: ['Ops'] });
+  writeMarkdown(path.join(postsDir, 'two.md'), { title: 'Two', categories: ['DevOps'] });
+  writeMarkdown(path.join(postsDir, 'three.md'), { title: 'Three', categories: ['DevOps'] });
 
   const outputPath = path.join(publicDir, 'sitemap.xml');
   const cfg = {
@@ -131,7 +131,7 @@ test('generateSitemap writes sitemap.xml with expected urls', () => {
 
   const xml = fs.readFileSync(outputPath, 'utf-8');
   assert.match(xml, /https:\/\/example.com\/posts\/one\//);
-  assert.match(xml, /https:\/\/example.com\/categories\/ai\//);
+  assert.match(xml, /https:\/\/example.com\/categories\/ai-and-automation\//);
   assert.match(xml, /https:\/\/example.com\/page\/2\//);
 
   assert.deepEqual(getPaginatedPages(3, 2), ['page/2']);
@@ -161,10 +161,10 @@ test('sitemap category slugs agree with the shared route slugger, including punc
   const { slugify } = require('../lib/utils/slug.cjs');
   const labels = ['SSL/TLS', 'SSL/TLS Security', 'AI & ML', 'C++', 'Café', ' Security '];
   for (const label of labels) assert.equal(toCategorySlug(label), slugify(label));
-  const categories = getAllCategories([{frontmatter: {categories: labels}}]);
+  const categories = getAllCategories([{frontmatter: {categories: ['SSL/TLS', 'SSL/TLS Security', 'Security']}}]);
   const urls = buildUrls({baseUrl: 'https://example.com', posts: [], categories, postsPerPage: 10});
-  assert.ok(urls.includes('https://example.com/categories/ssltls/'));
-  assert.ok(urls.includes('https://example.com/categories/ssltls-security/'));
+  assert.ok(urls.includes('https://example.com/categories/tls-and-encryption/'));
+  assert.ok(urls.includes('https://example.com/categories/cybersecurity/'));
   assert.ok(!urls.includes('https://example.com/categories/ssl-tls/'));
   assert.ok(!urls.includes('https://example.com/categories/ssl-tls-security/'));
 });

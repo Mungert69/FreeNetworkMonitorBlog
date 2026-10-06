@@ -2,7 +2,7 @@
 title: Building Automated Security Playbooks With The Assistant
 date: 2025-12-01T09:00:00
 image: /blogpics/apipicgen/buildingautomatedsecurityplaybookswiththeassistant-KP7QU8LZRE.jpg
-categories: ["Security Automation", "Best Practices"]
+categories: ["Alerts and Incident Response", "Best Practices"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "You can verify configuration with get_host_list using the target address, and then retrieve current status data with get_host_data. The configuration view shows the registered endpoints, scan arguments, and agent locations, while the data view shows the latest uptime, certificate status, DNS results, quantum findings, open services, and any active alerts."
   - "After remediation, re-enable the monitor if it was temporarily paused, then call reset_alerts for that monitor’s host ID. This clears the current alert state so the next scheduled run can validate the fix. If the problem is truly resolved, the alert stays cleared; if not, it will trigger again on the next check."
 ---
-In this guided walkthrough, we’ll build an automated security playbook using the Quantum Network Monitor Assistant to chain API calls for continuous compliance, scanning, and alerting. Our user wants a repeatable workflow that continuously:
+In this guided walkthrough, we’ll build an automated security playbook using the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to chain API calls for continuous compliance, scanning, and alerting. Our user wants a repeatable workflow that continuously:
 - validates uptime and DNS,
 - checks TLS/SSL hygiene (including quantum readiness),
 - runs periodic vulnerability scans,

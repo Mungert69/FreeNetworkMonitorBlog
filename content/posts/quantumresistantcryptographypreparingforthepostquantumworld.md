@@ -2,7 +2,7 @@
 title: Quantum-Resistant Cryptography Preparing For The Post-Quantum World
 date: 2024-10-20T17:30:00
 image: /blogpics/apipicgen/QuantumResistantCryptographyPreparingForThePostQuantumWorld-BPUQHWR1IA.jpg
-categories: ["Quantum Computing"]
+categories: ["Post-Quantum Security"]
 featured: false
 draft: false
 questions:

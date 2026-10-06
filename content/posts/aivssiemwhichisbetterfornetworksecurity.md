@@ -2,7 +2,7 @@
 title: AI Vs. SIEM Which Is Better For Network Security
 date: 2025-05-27T17:30:00
 image: /blogpics/apipicgen/AIVsSIEMWhichIsBetterForNetworkSecurity-RPYZSS6S0R.jpg
-categories: ["AI", "Cybersecurity"]
+categories: ["AI and Automation", "Cybersecurity"]
 featured: false
 draft: false
 questions:

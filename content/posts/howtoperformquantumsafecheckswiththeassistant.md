@@ -2,7 +2,7 @@
 title: How To Perform Quantum-Safe Checks With The Assistant
 date: 2025-11-25T09:00:00
 image: /blogpics/apipicgen/howtoperformquantumsafecheckswiththeassistant-TFW5466KTX.jpg
-categories: ["Quantum Security", "Compliance"]
+categories: ["Post-Quantum Security", "Compliance and Governance"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "Not necessarily. The post explains that many sites today still present classical certificates, so this often results in an advisory rather than a hard alert. A site may still be partially prepared if it supports hybrid KEMs in the TLS handshake, while certificate modernization is handled as a phased transition."
   - "Alerts should be reset after you confirm that remediation worked, such as verifying that hybrid KEM negotiation now succeeds and there are no active alert flags. Resetting alerts at that point helps keep the dashboard clean so future issues are easier to spot."
 ---
-Many teams want to answer a simple question: “Is my public-facing infrastructure on track for a post-quantum world?” In this walkthrough, we’ll show a realistic, multi-turn conversation where a user leverages the Quantum Network Monitor Assistant to add quantum-focused monitors, validate cryptographic readiness, and iterate with agent-powered checks. You’ll see the exact JSON function calls the assistant would make and how the results inform next steps.
+Many teams want to answer a simple question: “Is my public-facing infrastructure on track for a post-quantum world?” In this walkthrough, we’ll show a realistic, multi-turn conversation where a user leverages the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to add quantum-focused monitors, validate cryptographic readiness, and iterate with agent-powered checks. You’ll see the exact JSON function calls the assistant would make and how the results inform next steps.
 
 Scenario overview
 - Goal: Validate quantum-safe readiness for a couple of public endpoints.
@@ -46,7 +46,7 @@ Function call (get_agents)
 ```
 How we use the response
 - The assistant presents “Scanner - US”, “Scanner - EU”, and any user-specific local agents (if installed).
-- The user chooses “Scanner - EU” to test from Europe’s vantage point. If a local agent is needed for inside-the-firewall tests, the assistant would point to the installer: https://freenetworkmonitor.click/download
+- The user chooses “Scanner - EU” to test from Europe’s vantage point. If a local agent is needed for inside-the-firewall tests, the assistant would point to the installer: https://readyforquantum.com/download
 
 Step 2 — Add the quantum TLS handshake monitors (quantum endpoint)
 Assistant: Since you’re not logged in, please provide an email for alerting and ownership of these monitors.

@@ -2,7 +2,7 @@
 title: SSLTLS Insights Testing HTTPS Port Security With Quantum Network Monitor
 date: 2025-01-17T23:54:00
 image: /blogpics/apipicgen/SSLTLSInsightsTestingHTTPSPortSecurityWithFreeNetworkMonitor-0XP8F6591M.jpg
-categories: ["SSL/TLS Security", "Network Security"]
+categories: ["TLS and Encryption", "Cybersecurity"]
 featured: false
 draft: false
 questions:

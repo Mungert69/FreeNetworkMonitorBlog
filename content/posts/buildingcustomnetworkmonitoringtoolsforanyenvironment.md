@@ -1,8 +1,8 @@
 ---
 title: Building Custom Network Monitoring Tools For Any Environment
 date: 2025-01-18T23:59:00
-image: 
-categories: ["Custom Solutions", "Network Monitoring"]
+image: /blogpics/NetworkMonitoring/NetworkMonitoring_B1WHZOWJ.jpeg
+categories: ["Custom Development", "Network Monitoring"]
 featured: false
 draft: false
 questions: []

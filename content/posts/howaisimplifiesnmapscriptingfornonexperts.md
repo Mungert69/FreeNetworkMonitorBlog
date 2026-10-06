@@ -2,7 +2,7 @@
 title: How AI Simplifies Nmap Scripting For Non-Experts
 date: 2025-04-27T17:30:00
 image: /blogpics/apipicgen/HowAISimplifiesNmapScriptingForNonExperts-00N73D670B.jpg
-categories: ["AI", "Cybersecurity"]
+categories: ["AI and Automation", "Cybersecurity"]
 featured: false
 draft: false
 questions:

@@ -2,7 +2,7 @@
 title: The Role Of AI In Managing And Securing Iot Devices
 date: 2024-11-01T17:30:00
 image: /blogpics/apipicgen/TheRoleOfAIInManagingAndSecuringIotDevices-FSRU7KPGOF.jpg
-categories: ["IoT Security"]
+categories: ["IoT and Cloud Security"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "It can perform penetration testing on IoT devices and networks to identify weaknesses that could be exploited by attackers."
   - "Users can start by clicking the assistant icon at the bottom right of the interface to access its functionalities for monitoring, security assessments, and penetration testing."
 ---
-In today's interconnected world, the Internet of Things (IoT) has become a vital part of our daily lives, from smart home devices to industrial sensors. However, with the proliferation of IoT devices comes the challenge of managing and securing them effectively. This is where AI plays a crucial role. The Network Monitor Assistant can help you leverage AI to monitor, manage, and secure your IoT devices efficiently. Click the assistant icon at the bottom right to try it out!
+In today's interconnected world, the Internet of Things (IoT) has become a vital part of our daily lives, from smart home devices to industrial sensors. However, with the proliferation of IoT devices comes the challenge of managing and securing them effectively. This is where AI plays a crucial role. The [Network Monitor Assistant](https://readyforquantum.com/?assistant=open) can help you leverage AI to monitor, manage, and secure your IoT devices efficiently. Click the assistant icon at the bottom right to try it out!
 
 ### Use Case 1: Monitoring IoT Devices
 

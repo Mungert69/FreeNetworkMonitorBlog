@@ -18,7 +18,7 @@ answers:
   - "Yes, the assistant can conduct security assessments by running vulnerability scans using external tools like Nmap or OpenSSL to detect potential weaknesses in your network."
   - "The assistant can help respond to threats by performing penetration tests using specific exploits to assess the impact of a potential breach, allowing you to understand the severity and take appropriate mitigation actions."
 ---
-In today's digital landscape, the need for robust network security is more critical than ever. With the rise of sophisticated cyber threats, deploying AI for network threat detection and response can significantly enhance your security posture. The Network Monitor Assistant is a powerful tool that can help you leverage AI capabilities to monitor your network, detect anomalies, and respond to potential threats effectively. Click the assistant icon at the bottom right to try it out!
+In today's digital landscape, the need for robust network security is more critical than ever. With the rise of sophisticated cyber threats, deploying AI for network threat detection and response can significantly enhance your security posture. The [Network Monitor Assistant](https://readyforquantum.com/?assistant=open) is a powerful tool that can help you leverage AI capabilities to monitor your network, detect anomalies, and respond to potential threats effectively. Click the assistant icon at the bottom right to try it out!
 
 ### Use Case 1: Setting Up Network Monitoring
 

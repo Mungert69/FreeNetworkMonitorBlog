@@ -2,7 +2,7 @@
 title: Quantum Key Distribution QKD What You Need To Monitor
 date: 2025-05-11T17:30:00
 image: /blogpics/apipicgen/QuantumKeyDistributionQKDWhatYouNeedToMonitor-JD9UBT6I8V.jpg
-categories: ["Quantum Computing", "Network Monitoring"]
+categories: ["Post-Quantum Security", "Network Monitoring"]
 featured: false
 draft: false
 questions:

@@ -2,7 +2,7 @@
 title: Proactive Security With AI Scheduling And Automating Scans
 date: 2024-12-05T03:53:51
 image: /blogpics/apipicgen/ProactiveSecurityWithAISchedulingAndAutomatingScans-22DHP8AU4S.jpg
-categories: ["Security Automation"]
+categories: ["Alerts and Incident Response"]
 featured: false
 draft: false
 questions:

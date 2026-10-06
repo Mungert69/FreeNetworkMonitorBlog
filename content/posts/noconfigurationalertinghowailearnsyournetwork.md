@@ -2,7 +2,7 @@
 title: No-Configuration Alerting How AI Learns Your Network
 date: 2025-04-08T09:00:00
 image: /blogpics/apipicgen/NmapVs.ZenmapChoosingTheRightNetworkMappingTool-D9HYMN11UR.jpg
-categories: ["AI", "Best Practices"]
+categories: ["AI and Automation", "Best Practices"]
 featured: false
 draft: false
 questions:

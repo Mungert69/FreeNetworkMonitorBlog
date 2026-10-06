@@ -2,7 +2,7 @@
 title: How AI Predicts Network Anomalies Before They Impact Users
 date: 2025-05-13T17:30:00
 image: /blogpics/apipicgen/HowAIPredictsNetworkAnomaliesBeforeTheyImpactUsers-3VO0BUC8YJ.jpg
-categories: ["AI", "Network Monitoring"]
+categories: ["AI and Automation", "Network Monitoring"]
 featured: false
 draft: false
 questions:

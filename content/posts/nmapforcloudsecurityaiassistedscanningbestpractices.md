@@ -2,7 +2,7 @@
 title: Nmap For Cloud Security AI-Assisted Scanning Best Practices
 date: 2025-05-09T17:30:00
 image: /blogpics/apipicgen/NmapForCloudSecurityAIAssistedScanningBestPractices-GU1HZTNURO.jpg
-categories: ["Cybersecurity", "AI"]
+categories: ["Cybersecurity", "AI and Automation"]
 featured: false
 draft: false
 questions:

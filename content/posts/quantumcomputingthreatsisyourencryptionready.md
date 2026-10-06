@@ -2,7 +2,7 @@
 title: Quantum Computing Threats Is Your Encryption Ready
 date: 2025-04-09T17:30:00
 image: /blogpics/apipicgen/SimplifyingPenetrationTestingWithAIAndMetasploit-LVPAEEQES7.jpg
-categories: ["Quantum Computing", "Cybersecurity"]
+categories: ["Post-Quantum Security", "Cybersecurity"]
 featured: false
 draft: false
 questions:

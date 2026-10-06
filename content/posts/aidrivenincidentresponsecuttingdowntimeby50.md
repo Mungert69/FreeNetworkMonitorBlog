@@ -2,7 +2,7 @@
 title: AI-Driven Incident Response Cutting Downtime By 50
 date: 2025-05-07T17:30:00
 image: /blogpics/apipicgen/AIDrivenIncidentResponseCuttingDowntimeBy50-T09S796H2V.jpg
-categories: ["AI", "Cybersecurity"]
+categories: ["AI and Automation", "Cybersecurity"]
 featured: false
 draft: false
 questions:

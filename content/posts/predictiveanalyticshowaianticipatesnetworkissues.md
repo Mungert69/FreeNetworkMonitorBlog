@@ -2,7 +2,7 @@
 title: Predictive Analytics How AI Anticipates Network Issues
 date: 2025-04-26T09:00:00
 image: /blogpics/apipicgen/TheRoleOfAIInManagingAndSecuringIotDevices-FSRU7KPGOF.jpg
-categories: ["Predictive Analytics", "AI"]
+categories: ["AI and Automation"]
 featured: false
 draft: false
 questions:

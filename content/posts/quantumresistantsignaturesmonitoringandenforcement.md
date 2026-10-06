@@ -2,7 +2,7 @@
 title: Quantum-Resistant Signatures Monitoring And Enforcement
 date: 2025-05-25T17:30:00
 image: /blogpics/apipicgen/QuantumResistantSignaturesMonitoringAndEnforcement-PAM6XH6FOP.jpg
-categories: ["Quantum Computing", "Network Monitoring"]
+categories: ["Post-Quantum Security", "Network Monitoring"]
 featured: false
 draft: false
 questions:

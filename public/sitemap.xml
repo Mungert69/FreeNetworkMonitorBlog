@@ -544,9 +544,6 @@
   <loc>https://blog.readyforquantum.com/posts/timeseriesnetworkanalyticspredictingoutagesbeforetheyhappen/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/posts/titleintegrationtestblogfocusautomatedtesting/</loc>
-</url>
-<url>
   <loc>https://blog.readyforquantum.com/posts/troubleshootingaserverrealtimediagnosticswithnmapandopenssl/</loc>
 </url>
 <url>
@@ -583,250 +580,58 @@
   <loc>https://blog.readyforquantum.com/categories/cybersecurity/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/categories/mobile-agents/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/diagnostics/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/configuration/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/host-management/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/web-crawling/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/compliance/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/capacity-planning/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/ai/</loc>
+  <loc>https://blog.readyforquantum.com/categories/agents-and-edge-monitoring/</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/troubleshooting/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/categories/distributed-networks/</loc>
+  <loc>https://blog.readyforquantum.com/categories/network-configuration/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/categories/msp/</loc>
+  <loc>https://blog.readyforquantum.com/categories/websites-and-web-data/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/categories/configuration-management/</loc>
+  <loc>https://blog.readyforquantum.com/categories/compliance-and-governance/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/categories/security/</loc>
+  <loc>https://blog.readyforquantum.com/categories/performance-and-capacity/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/categories/network-mapping/</loc>
+  <loc>https://blog.readyforquantum.com/categories/ai-and-automation/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/categories/remote-work-security/</loc>
+  <loc>https://blog.readyforquantum.com/categories/nmap-and-network-scanning/</loc>
+</url>
+<url>
+  <loc>https://blog.readyforquantum.com/categories/iot-and-cloud-security/</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/penetration-testing/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/categories/web-data/</loc>
-</url>
-<url>
   <loc>https://blog.readyforquantum.com/categories/best-practices/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/categories/alerts/</loc>
+  <loc>https://blog.readyforquantum.com/categories/alerts-and-incident-response/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/categories/automation/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/nmap/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/reporting/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/documentation/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/security-audits/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/performance/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/security-best-practices/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/security-automation/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/custom-solutions/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/custom-automation/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/comparison/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/host-monitoring/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/connectivity/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/agents/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/monitoring/</loc>
+  <loc>https://blog.readyforquantum.com/categories/reports-and-data-analysis/</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/devops/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/categories/customization/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/custom-security-solutions/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/debugging/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/custom-processors/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/threat-detection/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/network-security/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/monitoring-tools/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/server-monitoring/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/enterprise-security/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/data-analysis/</loc>
-</url>
-<url>
   <loc>https://blog.readyforquantum.com/categories/custom-development/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/network-insights/</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/categories/getting-started/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/categories/onboarding/</loc>
+  <loc>https://blog.readyforquantum.com/categories/post-quantum-security/</loc>
 </url>
 <url>
-  <loc>https://blog.readyforquantum.com/categories/advanced-security/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/incident-response/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/quantum-computing/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/website/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/quantum-security/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/database-security/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/network-diagnostics/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/metasploit/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/encryption/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/ssltls/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/performance-optimization/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/predictive-analytics/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/planning/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/collaboration/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/security-scanning/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/iot-security/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/ssltls-security/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/network-coverage/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/machine-learning/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/api/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/content-validation/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/power-user/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/roi/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/ethics/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/future-tech/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/ux/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/cloud/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/integration/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/test/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/server-security/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/cloud-security/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/busybox/</loc>
-</url>
-<url>
-  <loc>https://blog.readyforquantum.com/categories/change-management/</loc>
+  <loc>https://blog.readyforquantum.com/categories/tls-and-encryption/</loc>
 </url>
 <url>
   <loc>https://blog.readyforquantum.com/page/2/</loc>

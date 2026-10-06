@@ -2,7 +2,7 @@
 title: Monitoring Quantum-Safe Algorithms
 date: 2025-07-04T09:00:00
 image: /blogpics/apipicgen/MonitoringQuantumSafeAlgorithms-FJ7M0FXPYH.jpg
-categories: ["Quantum Security", "Encryption"]
+categories: ["Post-Quantum Security", "TLS and Encryption"]
 featured: false
 draft: false
 questions:

@@ -2,7 +2,7 @@
 title: Preparing For Post-Quantum Cryptography A Practical Guide
 date: 2025-04-17T17:30:00
 image: /blogpics/apipicgen/TheFutureOfWebsiteSecurityInTheQuantumEra-SGJ8QDT6DW.jpg
-categories: ["Quantum Computing", "Best Practices"]
+categories: ["Post-Quantum Security", "Best Practices"]
 featured: false
 draft: false
 questions:

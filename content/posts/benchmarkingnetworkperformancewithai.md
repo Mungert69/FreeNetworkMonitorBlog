@@ -2,7 +2,7 @@
 title: Benchmarking Network Performance With AI
 date: 2025-06-10T09:00:00
 image: /blogpics/apipicgen/BenchmarkingNetworkPerformanceWithAI-4BC1F000QY.jpg
-categories: ["Performance", "AI"]
+categories: ["Performance and Capacity", "AI and Automation"]
 featured: false
 draft: false
 questions:

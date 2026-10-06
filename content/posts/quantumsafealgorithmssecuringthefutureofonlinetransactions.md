@@ -2,7 +2,7 @@
 title: Quantum-Safe Algorithms Securing The Future Of Online Transactions
 date: 2025-02-02T17:30:00
 image: /blogpics/apipicgen/QuantumSafeAlgorithmsSecuringTheFutureOfOnlineTransactions-5V264818LD.jpg
-categories: ["Quantum Computing"]
+categories: ["Post-Quantum Security"]
 featured: false
 draft: false
 questions:

@@ -2,7 +2,7 @@
 title: Harnessing AI For Multi-Layered Security In Complex Networks
 date: 2024-12-31T03:53:51
 image: /blogpics/apipicgen/HarnessingAIForMultiLayeredSecurityInComplexNetworks-31U6OP85C7.jpg
-categories: ["Advanced Security"]
+categories: ["Cybersecurity"]
 featured: false
 draft: false
 questions:

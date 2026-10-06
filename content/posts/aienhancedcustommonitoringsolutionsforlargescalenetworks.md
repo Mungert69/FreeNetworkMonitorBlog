@@ -18,7 +18,7 @@ answers:
   - "Yes, the assistant can perform security assessments using external tools like Nmap to scan for vulnerabilities and help you identify potential security risks."
   - "You can access the Network Monitor Assistant by clicking the assistant icon located at the bottom right of the interface."
 ---
-In today's fast-paced digital landscape, managing large-scale networks can be a daunting task. With numerous devices and services to monitor, having an efficient and customizable monitoring solution is essential. The Network Monitor Assistant offers AI-enhanced capabilities that allow users to create tailored monitoring solutions for their networks. Click the assistant icon at the bottom right to try it out!
+In today's fast-paced digital landscape, managing large-scale networks can be a daunting task. With numerous devices and services to monitor, having an efficient and customizable monitoring solution is essential. The [Network Monitor Assistant](https://readyforquantum.com/?assistant=open) offers AI-enhanced capabilities that allow users to create tailored monitoring solutions for their networks. Click the assistant icon at the bottom right to try it out!
 
 ## Use Case 1: Adding Hosts for Monitoring
 

@@ -2,7 +2,7 @@
 title: Preparing For Quantum Computing Threats
 date: 2025-07-13T09:00:00
 image: /blogpics/apipicgen/PreparingForQuantumComputingThreats-N8F68BP34B.jpg
-categories: ["Quantum Security", "Planning"]
+categories: ["Post-Quantum Security"]
 featured: false
 draft: false
 questions:

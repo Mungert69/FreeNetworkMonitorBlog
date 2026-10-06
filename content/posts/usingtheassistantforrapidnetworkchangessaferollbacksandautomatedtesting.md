@@ -2,7 +2,7 @@
 title: Using The Assistant For Rapid Network Changes Safe Rollbacks And Automated Testing
 date: 2025-12-05T09:00:00
 image: /blogpics/apipicgen/usingtheassistantforrapidnetworkchangessaferollbacksandautomatedtesting-96RLLFD0XT.jpg
-categories: ["Change Management", "DevOps"]
+categories: ["DevOps"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "The automated runbook packages the entire workflow into a repeatable process: collecting baselines, applying the change, running validation checks in parallel, triggering rollback automatically if needed, and generating a summary report. This reduces manual effort, improves consistency, and makes change windows easier to audit and reuse."
   - "Yes. The post shows that you can tune monitors with edit_host, remove temporary ones by setting hidden=true, reset alerts to clear leftover flags, and take a final data snapshot for audit records. You can also cancel long-running scans during the window if they take too long."
 ---
-Rolling out network changes fast is great—rolling them back safely when something goes sideways is even better. In this guided conversation, we’ll show how the Quantum Network Monitor Assistant helps you automate change windows end-to-end: take a baseline, stage and apply a change, validate with parallel tests, and roll back if needed. We’ll rely on built-in functions for monitoring, diagnostics, and automation, and we’ll point out how each call informs the next step. You can try these steps yourself via the Quantum Network Monitor Assistant.
+Rolling out network changes fast is great—rolling them back safely when something goes sideways is even better. In this guided conversation, we’ll show how the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) helps you automate change windows end-to-end: take a baseline, stage and apply a change, validate with parallel tests, and roll back if needed. We’ll rely on built-in functions for monitoring, diagnostics, and automation, and we’ll point out how each call informs the next step. You can try these steps yourself via the Quantum Network Monitor Assistant.
 
 Scenario
 A network engineer is pushing a firewall ACL and routing change to Data Center 1. They need:

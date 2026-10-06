@@ -2,7 +2,7 @@
 title: The Ethics Of AI Network Monitoring
 date: 2025-06-28T09:00:00
 image: /blogpics/apipicgen/TheEthicsOfAINetworkMonitoring-JNV6HIXGV2.jpg
-categories: ["AI", "Ethics"]
+categories: ["AI and Automation"]
 featured: false
 draft: false
 questions:

@@ -2,7 +2,7 @@
 title: AI-Powered Network Mapping For Complex Environments
 date: 2025-05-14T09:00:00
 image: /blogpics/apipicgen/AIPoweredNetworkMappingForComplexEnvironments-Z276O9I8VT.jpg
-categories: ["Network Mapping", "AI"]
+categories: ["Nmap and Network Scanning", "AI and Automation"]
 featured: false
 draft: false
 questions:

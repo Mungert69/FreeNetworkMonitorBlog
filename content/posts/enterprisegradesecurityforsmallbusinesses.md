@@ -2,7 +2,7 @@
 title: Enterprise-Grade Security For Small Businesses
 date: 2025-04-29T09:00:00
 image: /blogpics/apipicgen/ImplementingAIStrategiesForEnhancedDatabaseSecurity-DGS77XIAZI.jpg
-categories: ["Enterprise Security", "AI"]
+categories: ["Cybersecurity", "AI and Automation"]
 featured: false
 draft: false
 questions:

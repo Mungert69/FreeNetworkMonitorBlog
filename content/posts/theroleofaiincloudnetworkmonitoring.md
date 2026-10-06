@@ -2,7 +2,7 @@
 title: The Role Of AI In Cloud Network Monitoring
 date: 2025-05-20T09:00:00
 image: /blogpics/apipicgen/TheRoleOfAIInCloudNetworkMonitoring-XBVNAAE7R6.jpg
-categories: ["Cloud", "AI"]
+categories: ["Network Monitoring", "AI and Automation"]
 featured: false
 draft: false
 questions:

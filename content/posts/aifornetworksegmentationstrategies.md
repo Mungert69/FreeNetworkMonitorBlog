@@ -2,7 +2,7 @@
 title: AI For Network Segmentation Strategies
 date: 2025-07-01T09:00:00
 image: /blogpics/apipicgen/AIForNetworkSegmentationStrategies-6AMKTYJD8X.jpg
-categories: ["Security", "AI"]
+categories: ["Cybersecurity", "AI and Automation"]
 featured: false
 draft: false
 questions:

@@ -2,7 +2,7 @@
 title: From Data To Action How AI Interprets Network Logs
 date: 2025-05-23T09:00:00
 image: /blogpics/apipicgen/FromDataToActionHowAIInterpretsNetworkLogs-D8RV5KH966.jpg
-categories: ["Data Analysis", "AI"]
+categories: ["Reports and Data Analysis", "AI and Automation"]
 featured: false
 draft: false
 questions:

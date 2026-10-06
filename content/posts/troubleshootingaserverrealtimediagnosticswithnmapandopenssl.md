@@ -2,7 +2,7 @@
 title: Troubleshooting A Server Real-Time Diagnostics With Nmap And Openssl
 date: 2025-01-16T23:52:00
 image: /blogpics/apipicgen/TroubleshootingAServerRealTimeDiagnosticsWithNmapAndOpenssl-HU6FIGVAM1.jpg
-categories: ["Diagnostics", "Server Security"]
+categories: ["Troubleshooting", "Cybersecurity"]
 featured: false
 draft: false
 questions:

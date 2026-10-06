@@ -2,7 +2,7 @@
 title: Conducting Comprehensive Security Audits With AI Assistance
 date: 2024-12-07T03:53:51
 image: /blogpics/apipicgen/ConductingComprehensiveSecurityAuditsWithAIAssistance-7KA6XK45SU.jpg
-categories: ["Security Audits"]
+categories: ["Compliance and Governance"]
 featured: false
 draft: false
 questions:

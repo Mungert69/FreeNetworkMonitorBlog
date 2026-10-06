@@ -18,7 +18,7 @@ answers:
   - "Yes, the assistant can facilitate penetration testing by calling external tools like Metasploit. For example, it can run exploits such as EternalBlue on specified targets to test network resilience against attacks."
   - "To start using the Network Monitor Assistant, click the assistant icon located at the bottom right of your screen. From there, you can interact with the assistant to add hosts, run security assessments, and perform penetration tests."
 ---
-In today's digital landscape, building resilient networks is more crucial than ever. With the rise of cyber threats, organizations must adopt advanced security measures to protect their infrastructure. The Network Monitor Assistant is an AI-powered tool that can help you implement robust security protocols and monitor your network effectively. Click the assistant icon at the bottom right to try it out!
+In today's digital landscape, building resilient networks is more crucial than ever. With the rise of cyber threats, organizations must adopt advanced security measures to protect their infrastructure. The [Network Monitor Assistant](https://readyforquantum.com/?assistant=open) is an AI-powered tool that can help you implement robust security protocols and monitor your network effectively. Click the assistant icon at the bottom right to try it out!
 
 ## Use Case 1: Adding and Monitoring Hosts
 

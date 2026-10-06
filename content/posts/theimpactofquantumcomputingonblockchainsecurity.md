@@ -2,7 +2,7 @@
 title: The Impact Of Quantum Computing On Blockchain Security
 date: 2024-12-01T17:30:00
 image: /blogpics/apipicgen/TheImpactOfQuantumComputingOnBlockchainSecurity-23L04HQYCY.jpg
-categories: ["Quantum Computing"]
+categories: ["Post-Quantum Security"]
 featured: false
 draft: false
 questions:

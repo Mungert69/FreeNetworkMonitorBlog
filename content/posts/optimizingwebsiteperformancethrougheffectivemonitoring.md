@@ -2,7 +2,7 @@
 title: Optimizing Website Performance Through Effective Monitoring
 date: 2024-11-04T17:30:00
 image: /blogpics/apipicgen/OptimizingWebsitePerformanceThroughEffectiveMonitoring-LASIHD3F9O.jpg
-categories: ["Website"]
+categories: ["Websites and Web Data"]
 featured: false
 draft: false
 questions:

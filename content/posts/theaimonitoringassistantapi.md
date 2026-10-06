@@ -2,7 +2,7 @@
 title: The AI Monitoring Assistant API
 date: 2025-07-07T09:00:00
 image: /blogpics/apipicgen/TheAIMonitoringAssistantAPI-ABD9Y68KNP.jpg
-categories: ["API", "AI"]
+categories: ["Custom Development", "AI and Automation"]
 featured: false
 draft: false
 questions:

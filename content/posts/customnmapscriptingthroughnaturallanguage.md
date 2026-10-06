@@ -2,7 +2,7 @@
 title: Custom Nmap Scripting Through Natural Language
 date: 2025-04-23T09:00:00
 image: /blogpics/apipicgen/5CybersecurityTrendsToWatchIn2025-0K5GLYVE0O.jpg
-categories: ["Nmap", "AI"]
+categories: ["Nmap and Network Scanning", "AI and Automation"]
 featured: false
 draft: false
 questions:

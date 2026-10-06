@@ -2,7 +2,7 @@
 title: AI For Msps Scaling Network Monitoring Services
 date: 2025-06-01T09:00:00
 image: /blogpics/apipicgen/AIForMspsScalingNetworkMonitoringServices-MVSGX48UBG.jpg
-categories: ["MSP", "AI"]
+categories: ["Network Monitoring", "AI and Automation"]
 featured: false
 draft: false
 questions:

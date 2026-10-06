@@ -2,7 +2,7 @@
 title: Automating Openssl Checks With AI Reduce Manual Work By 80
 date: 2025-04-19T17:30:00
 image: /blogpics/apipicgen/AIPoweredWebDataExtractionRevolutionizingInformationGathering-TDREMRL97O.jpg
-categories: ["AI", "Cybersecurity"]
+categories: ["AI and Automation", "Cybersecurity"]
 featured: false
 draft: false
 questions:

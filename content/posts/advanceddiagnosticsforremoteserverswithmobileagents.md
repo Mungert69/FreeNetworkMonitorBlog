@@ -1,8 +1,8 @@
 ---
 title: Advanced Diagnostics For Remote Servers With Mobile Agents
 date: 2025-01-20T00:01:00
-image: 
-categories: ["Mobile Agents", "Diagnostics"]
+image: /blogpics/NetworkMonitoring/NetworkMonitoring_62H20WT1.jpeg
+categories: ["Agents and Edge Monitoring", "Troubleshooting"]
 featured: false
 draft: false
 questions: []

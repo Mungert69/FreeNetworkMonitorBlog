@@ -2,7 +2,7 @@
 title: The 2025 Guide To Automated Penetration Testing
 date: 2025-05-15T17:30:00
 image: /blogpics/apipicgen/The2025GuideToAutomatedPenetrationTesting-RCWJMR4PWA.jpg
-categories: ["Cybersecurity", "AI"]
+categories: ["Cybersecurity", "AI and Automation"]
 featured: false
 draft: false
 questions:

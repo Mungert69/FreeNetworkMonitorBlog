@@ -18,7 +18,7 @@ answers:
   - "You can start using the assistant by clicking the assistant icon located at the bottom right of the interface to access its SSL management features."
   - "Effective SSL certificate management ensures secure communications, protects sensitive data, prevents security warnings, and maintains user trust by avoiding expired or misconfigured certificates."
 ---
-In today's digital landscape, managing SSL certificates effectively is crucial for maintaining secure communications and protecting sensitive data. The Network Monitor Assistant can significantly enhance your SSL certificate management process by automating checks, monitoring expiration dates, and ensuring compliance with best practices. Click the assistant icon at the bottom right to try it out!
+In today's digital landscape, managing SSL certificates effectively is crucial for maintaining secure communications and protecting sensitive data. The [Network Monitor Assistant](https://readyforquantum.com/?assistant=open) can significantly enhance your SSL certificate management process by automating checks, monitoring expiration dates, and ensuring compliance with best practices. Click the assistant icon at the bottom right to try it out!
 
 ## Use Case 1: Checking SSL Certificate Validity
 

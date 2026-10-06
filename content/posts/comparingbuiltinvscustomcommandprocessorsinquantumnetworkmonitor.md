@@ -2,7 +2,7 @@
 title: Comparing Built-In Vs Custom Command Processors In Quantum Network Monitor
 date: 2025-11-29T09:00:00
 image: /blogpics/apipicgen/comparingbuiltinvscustomcommandprocessorsinquantumnetworkmonitor-BVCCBMY17Y.jpg
-categories: ["Custom Automation", "Comparison"]
+categories: ["Custom Development"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "The post recommends using the BusyBox runner for fast, ad-hoc diagnostics on a local agent. For example, traceroute can help investigate routing issues when a host responds to ping but times out on HTTP. It is faster for one-off troubleshooting than building a custom processor."
   - "Yes. The post shows disabling an Nmap monitor after collecting a point-in-time service inventory. Using edit_host with enabled set to false stops alerts and data collection while preserving the monitor's history."
 ---
-If you’ve ever wondered when to lean on Quantum Network Monitor’s built‑in “system processors” (like ICMP, HTTP, Nmap, TLS/quantum checks) and when to build your own custom command processors in .NET, this walkthrough shows both paths in a realistic assistant‑guided workflow. You’ll see exactly how the Quantum Network Monitor Assistant orchestrates tasks, which tools it calls, and how results guide the next step—so you can decide quickly which approach fits your job.
+If you’ve ever wondered when to lean on Quantum Network Monitor’s built‑in “system processors” (like ICMP, HTTP, Nmap, TLS/quantum checks) and when to build your own custom command processors in .NET, this walkthrough shows both paths in a realistic assistant‑guided workflow. You’ll see exactly how the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) orchestrates tasks, which tools it calls, and how results guide the next step—so you can decide quickly which approach fits your job.
 
 What we’ll cover
 - Fast wins with system processors (built‑ins) for common checks

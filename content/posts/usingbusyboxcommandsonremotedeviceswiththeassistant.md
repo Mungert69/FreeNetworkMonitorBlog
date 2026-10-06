@@ -2,7 +2,7 @@
 title: Using Busybox Commands On Remote Devices With The Assistant
 date: 2025-11-09T09:00:00
 image: /blogpics/apipicgen/usingbusyboxcommandsonremotedeviceswiththeassistant-M7A5UNMZOX.jpg
-categories: ["Diagnostics", "BusyBox"]
+categories: ["Troubleshooting", "Agents and Edge Monitoring"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "You can switch to equivalent commands that provide similar information. For example, use 'ip neigh show' instead of 'arp -a', or try alternate traceroute modes like ICMP or TCP if standard traceroute is limited."
   - "Parallel diagnostics are helpful when you want faster triage. For example, running a gateway ping and a traceroute at the same time lets you quickly compare local gateway health with upstream path behavior, which helps determine whether the problem is local or farther out in the network."
 ---
-When you need quick, low-level visibility into what’s happening on a remote network segment, the Quantum Network Monitor Assistant makes it easy to run BusyBox-style diagnostics (ip/ifconfig, ping, traceroute, nslookup, arp, route) through an agent near the target. Below is a realistic, multi-turn walkthrough showing exactly how to do this, with the live function calls you’d use and how to interpret the results.
+When you need quick, low-level visibility into what’s happening on a remote network segment, the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) makes it easy to run BusyBox-style diagnostics (ip/ifconfig, ping, traceroute, nslookup, arp, route) through an agent near the target. Below is a realistic, multi-turn walkthrough showing exactly how to do this, with the live function calls you’d use and how to interpret the results.
 
 Scenario
 You want to:
@@ -46,7 +46,7 @@ Function Call (get_agents)
 }
 ```
 
-Assistant (after function): The Assistant lists internet-based agents like “Scanner - EU” and “Scanner - US,” plus your local/self-hosted agents if you’ve installed them (entries often contain your email). If you don’t see a local agent, you can install one from https://freenetworkmonitor.click/download. For this demo, we’ll use “Branch-Office-Pi” (a Raspberry Pi sitting in the branch network).
+Assistant (after function): The Assistant lists internet-based agents like “Scanner - EU” and “Scanner - US,” plus your local/self-hosted agents if you’ve installed them (entries often contain your email). If you don’t see a local agent, you can install one from https://readyforquantum.com/download. For this demo, we’ll use “Branch-Office-Pi” (a Raspberry Pi sitting in the branch network).
 
 Step 2: Check interface status quickly
 We’ll use a concise interface overview first; ip -br addr gives a clean, single-line-per-interface snapshot.
@@ -260,7 +260,7 @@ Step 10: Safety and best practices
 - Avoid using BusyBox to connect to untrusted services.
 - Prefer short, bounded commands (e.g., ping -c 4, traceroute -m 8) to keep outputs concise.
 - If a command isn’t available on the agent, switch to an equivalent (ip neigh vs arp, nslookup vs dig).
-- If you don’t have a nearby agent, deploy one from https://freenetworkmonitor.click/download for accurate, local vantage points.
+- If you don’t have a nearby agent, deploy one from https://readyforquantum.com/download for accurate, local vantage points.
 
 Wrap-up
 With the Quantum Network Monitor Assistant, you can run fast, surgical diagnostics from the right place in your network:

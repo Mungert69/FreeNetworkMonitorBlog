@@ -2,7 +2,7 @@
 title: Host Down Diagnosing Outages In Real-Time With The Assistant
 date: 2025-11-23T09:00:00
 image: /blogpics/apipicgen/hostdowndiagnosingoutagesinrealtimewiththeassistant-YDI8KHYXMT.jpg
-categories: ["Incident Response", "Diagnostics"]
+categories: ["Alerts and Incident Response", "Troubleshooting"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "It can add targeted monitors, such as an HTTPS monitor on port 443 to detect certificate and TLS issues earlier, or an Nmap service check to catch filtered or closed ports and service drift. These extra monitors provide more specific alerts before a full outage occurs."
   - "The assistant rechecks the affected endpoint, such as HTTPS, using fresh host data to confirm the service is healthy again. Once the recovery is verified, it can reset the active alerts so the dashboard clears and the incident is marked resolved."
 ---
-When a production host goes down, minutes matter. Here’s a realistic, step-by-step conversation showing how the Quantum Network Monitor Assistant can automatically pivot from an alert to root-cause diagnostics using built-in monitoring, security scans, and network tools—so you can restore service fast. You can follow along or try it yourself via the Quantum Network Monitor Assistant.
+When a production host goes down, minutes matter. Here’s a realistic, step-by-step conversation showing how the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) can automatically pivot from an alert to root-cause diagnostics using built-in monitoring, security scans, and network tools—so you can restore service fast. You can follow along or try it yourself via the Quantum Network Monitor Assistant.
 
 User: I just got an alert that api.example.com is down. What happened?
 

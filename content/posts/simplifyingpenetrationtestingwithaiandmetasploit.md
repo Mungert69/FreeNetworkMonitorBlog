@@ -20,7 +20,7 @@ answers:
 ---
 ## Introduction
 
-Penetration testing is a crucial aspect of network security, allowing organizations to identify vulnerabilities before malicious actors can exploit them. With the advent of AI and tools like Metasploit, this process has become more efficient and accessible. The Network Monitor Assistant can help streamline penetration testing tasks, making it easier for users to perform security assessments. Click the assistant icon at the bottom right to try it out!
+Penetration testing is a crucial aspect of network security, allowing organizations to identify vulnerabilities before malicious actors can exploit them. With the advent of AI and tools like Metasploit, this process has become more efficient and accessible. The [Network Monitor Assistant](https://readyforquantum.com/?assistant=open) can help streamline penetration testing tasks, making it easier for users to perform security assessments. Click the assistant icon at the bottom right to try it out!
 
 ## Use Case 1: Performing a Basic Penetration Test
 

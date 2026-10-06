@@ -2,7 +2,7 @@
 title: Preparing Your Website For The Quantum Threat
 date: 2024-12-16T17:30:00
 image: /blogpics/apipicgen/PreparingYourWebsiteForTheQuantumThreat-OX1FYQNEW4.jpg
-categories: ["Website"]
+categories: ["Websites and Web Data"]
 featured: false
 draft: false
 questions:

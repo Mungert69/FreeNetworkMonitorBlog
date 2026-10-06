@@ -2,7 +2,7 @@
 title: How To Retrieve Visualize And Analyze Monitoring Data With The Assistant
 date: 2025-11-11T09:00:00
 image: /blogpics/apipicgen/howtoretrievevisualizeandanalyzemonitoringdatawiththeassistant-8CDHQNQ7N6.jpg
-categories: ["Data Analysis", "Monitoring"]
+categories: ["Reports and Data Analysis", "Network Monitoring"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "Call get_host_data with alert_flag set to true and dataset_id = 0. That returns the latest data points only for hosts that are currently alerting, helping you quickly identify what needs triage."
   - "Use reset_alerts for the affected host, such as by passing its address. This clears the current alert flag so that fresh incidents stand out clearly after remediation."
 ---
-In this walkthrough, we’ll play out a realistic conversation between a user and the Quantum Network Monitor Assistant to retrieve live and historical data, visualize short-term trends, and troubleshoot an incident. Along the way, you’ll see the exact function calls the assistant makes and how their results drive the next step. You can try these flows yourself using the Quantum Network Monitor Assistant at https://readyforquantum.com/?assistant=open.
+In this walkthrough, we’ll play out a realistic conversation between a user and the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to retrieve live and historical data, visualize short-term trends, and troubleshoot an incident. Along the way, you’ll see the exact function calls the assistant makes and how their results drive the next step. You can try these flows yourself using the Quantum Network Monitor Assistant at https://readyforquantum.com/?assistant=open.
 
 Step 1: Get the lay of the land (which hosts are being monitored?)
 User: I need a quick inventory of my monitored endpoints. What do I have under watch?

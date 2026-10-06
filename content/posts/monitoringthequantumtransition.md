@@ -2,7 +2,7 @@
 title: Monitoring The Quantum Transition
 date: 2025-08-03T09:00:00
 image: /blogpics/apipicgen/monitoringthequantumtransition-P0F0821OOV.jpg
-categories: ["Quantum Security", "Encryption"]
+categories: ["Post-Quantum Security", "TLS and Encryption"]
 featured: false
 draft: false
 questions:

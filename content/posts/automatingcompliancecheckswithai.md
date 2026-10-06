@@ -2,7 +2,7 @@
 title: Automating Compliance Checks With AI
 date: 2025-05-11T09:00:00
 image: /blogpics/apipicgen/AutomatingComplianceChecksWithAI-4TSZXI5PQF.jpg
-categories: ["Compliance", "AI"]
+categories: ["Compliance and Governance", "AI and Automation"]
 featured: false
 draft: false
 questions:

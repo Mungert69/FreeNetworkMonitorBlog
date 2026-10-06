@@ -2,7 +2,7 @@
 title: The Role Of AI In Securing Iot Networks And Devices
 date: 2024-12-29T03:53:51
 image: /blogpics/apipicgen/10EssentialNetworkMonitoringToolsFor2024-UXM3V58GWU.jpg
-categories: ["IoT Security"]
+categories: ["IoT and Cloud Security"]
 featured: false
 draft: false
 questions:

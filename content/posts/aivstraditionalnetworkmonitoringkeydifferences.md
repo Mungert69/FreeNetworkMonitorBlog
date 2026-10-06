@@ -2,7 +2,7 @@
 title: AI Vs. Traditional Network Monitoring Key Differences
 date: 2025-04-15T17:30:00
 image: /blogpics/apipicgen/LeveragingBusyboxForRealTimeNetworkDiagnosticsViaAI-83TZLR7N64.jpg
-categories: ["AI", "Network Monitoring"]
+categories: ["AI and Automation", "Network Monitoring"]
 featured: false
 draft: false
 questions:

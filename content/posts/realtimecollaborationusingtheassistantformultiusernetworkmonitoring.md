@@ -2,7 +2,7 @@
 title: Real-Time Collaboration Using The Assistant For Multi-User Network Monitoring
 date: 2025-11-27T09:00:00
 image: /blogpics/apipicgen/realtimecollaborationusingtheassistantformultiusernetworkmonitoring-YYGZZNCKA4.jpg
-categories: ["Collaboration", "Network Monitoring"]
+categories: ["DevOps", "Network Monitoring"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "They can use get_host_data with alert_flag set to true and filter by the shared notification email. This returns only the monitors that are actively alerting, making it easier during stand-ups or handoffs to focus on current issues instead of searching through all monitor history."
   - "For planned work, the team can temporarily disable a monitor with edit_host by setting enabled to false, then turn it back on later. If a monitor should be removed permanently, they can safely delete it by setting hidden to true with edit_host, which avoids leaving duplicate or outdated checks in place."
 ---
-Real-time collaboration on network monitoring works best when everyone can see the same truth, act on alerts quickly, and keep configuration drift under control. In this walkthrough, we’ll show how two teammates coordinate in the Quantum Network Monitor Assistant to add shared hosts, route notifications, triage alerts in real time, and clean up safely. Along the way, we’ll highlight the exact function calls used so you can replicate this in your own org. If you want to try these steps live, open Quantum Network Monitor Assistant in a new tab.
+Real-time collaboration on network monitoring works best when everyone can see the same truth, act on alerts quickly, and keep configuration drift under control. In this walkthrough, we’ll show how two teammates coordinate in the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to add shared hosts, route notifications, triage alerts in real time, and clean up safely. Along the way, we’ll highlight the exact function calls used so you can replicate this in your own org. If you want to try these steps live, open Quantum Network Monitor Assistant in a new tab.
 
 Step 1 — Decide where monitoring runs (picking shared agents)
 User: We’d like all internal checks to run from the NYC office, and public checks from a US-based cloud scanner. What agents are available?

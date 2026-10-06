@@ -2,7 +2,7 @@
 title: Automated Alerts Setting Up And Resetting Notifications With The Assistant
 date: 2025-11-01T09:00:00
 image: /blogpics/apipicgen/automatedalertssettingupandresettingnotificationswiththeassistant-I02EGHJZVM.jpg
-categories: ["Alerts", "Automation"]
+categories: ["Alerts and Incident Response", "AI and Automation"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "A standard alert reset clears the active monitor alert state for a host. A predictive alert reset only clears trend-based or risk-based warning flags by setting alert_type to \"predict\", leaving the normal monitor state unchanged."
   - "First, call get_agents to see the available agent locations. Then use edit_host to update the host's agent_location to the one you want, such as switching from a US agent to an EU agent."
 ---
-In this guide, we walk through a realistic conversation that shows how to use the Quantum Network Monitor Assistant to configure automated alerts, pause/resume monitoring during maintenance, and reset both active and predictive alerts via simple API-style function calls. The goal: use the Assistant to set up alerts once and then manage them confidently whenever incidents or maintenance windows occur. Follow along and try it yourself at the Quantum Network Monitor Assistant.
+In this guide, we walk through a realistic conversation that shows how to use the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to configure automated alerts, pause/resume monitoring during maintenance, and reset both active and predictive alerts via simple API-style function calls. The goal: use the Assistant to set up alerts once and then manage them confidently whenever incidents or maintenance windows occur. Follow along and try it yourself at the Quantum Network Monitor Assistant.
 
 User: I want email alerts if my API goes down. Can you monitor https://api.acme.com from the US and notify ops@acme.com?
 Assistant: Absolutely. We’ll add a new HTTPS monitor with email alerts. Because you’re not logged in, we’ll include your email so alerts are delivered and you’ll receive an auth_key you can use later to edit or reset alerts.

@@ -2,7 +2,7 @@
 title: Quantum Cryptography Monitoring Tools
 date: 2025-07-25T09:00:00
 image: /blogpics/apipicgen/QuantumCryptographyMonitoringTools-CFT4OVRZF6.jpg
-categories: ["Quantum Security", "Encryption"]
+categories: ["Post-Quantum Security", "TLS and Encryption"]
 featured: false
 draft: false
 questions:

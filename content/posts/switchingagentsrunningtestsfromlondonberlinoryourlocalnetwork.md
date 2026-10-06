@@ -2,7 +2,7 @@
 title: Switching Agents Running Tests From London Berlin Or Your Local Network
 date: 2025-11-13T09:00:00
 image: /blogpics/apipicgen/switchingagentsrunningtestsfromlondonberlinoryourlocalnetwork-RAL4ZSCVK1.jpg
-categories: ["Agents", "Network Coverage"]
+categories: ["Agents and Edge Monitoring", "Network Monitoring"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "A local agent can test private IPs and internal services on your LAN that public cloud agents cannot reach. It's useful for monitoring internal app servers, firewall-restricted systems, and other non-public infrastructure."
   - "Use get_host_data with dataset_id set to 0 for the latest data, and include both the address and agent_location. That lets you retrieve metrics such as availability, status code, TLS handshake time, and response time from the exact vantage point you want."
 ---
-In this hands-on walkthrough, we’ll show how a network engineer used the Quantum Network Monitor Assistant to run the same checks from different agent locations—London, Berlin, and their own local network—simply by switching the agent_location parameter in API-style calls. Along the way, we’ll demonstrate the core function calls you’ll use most: listing agents (get_agents), creating monitors (add_host), viewing results (get_host_data), and changing where a monitor runs (edit_host). If you want to try this flow live, open the Quantum Network Monitor Assistant and follow along.
+In this hands-on walkthrough, we’ll show how a network engineer used the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to run the same checks from different agent locations—London, Berlin, and their own local network—simply by switching the agent_location parameter in API-style calls. Along the way, we’ll demonstrate the core function calls you’ll use most: listing agents (get_agents), creating monitors (add_host), viewing results (get_host_data), and changing where a monitor runs (edit_host). If you want to try this flow live, open the Quantum Network Monitor Assistant and follow along.
 
 Step 1: Discover which agents you can use
 User → “Which agents can I run tests from?”

@@ -2,7 +2,7 @@
 title: Preparing Your Network For Post-Quantum Cryptography
 date: 2025-06-04T09:00:00
 image: /blogpics/apipicgen/PreparingYourNetworkForPostQuantumCryptography-XYD1Y9V33B.jpg
-categories: ["Quantum Security", "Encryption"]
+categories: ["Post-Quantum Security", "TLS and Encryption"]
 featured: false
 draft: false
 questions:

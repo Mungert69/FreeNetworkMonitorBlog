@@ -2,7 +2,7 @@
 title: Quantum Supremacy What It Means For Cybersecurity
 date: 2025-01-15T17:30:00
 image: /blogpics/apipicgen/QuantumSupremacyWhatItMeansForCybersecurity-8XWSWHQ3NV.jpg
-categories: ["Quantum Computing"]
+categories: ["Post-Quantum Security"]
 featured: false
 draft: false
 questions:

@@ -18,7 +18,7 @@ answers:
   - "By simulating attacks such as using the EternalBlue exploit, penetration testing helps identify vulnerabilities in the network, allowing organizations to understand weaknesses and take steps to mitigate potential threats before attackers can exploit them."
   - "Users can start using the Network Monitor Assistant by clicking the assistant icon located at the bottom right of the interface, which provides access to its various cybersecurity features."
 ---
-In today's digital landscape, proactive cyber defense is more crucial than ever. With the rise of sophisticated cyber threats, organizations must adopt advanced security protocols to safeguard their networks. The Network Monitor Assistant is a powerful tool that leverages AI-driven capabilities to enhance your cybersecurity posture. By utilizing its various functions, you can monitor your network, assess vulnerabilities, and implement effective security measures. Click the assistant icon at the bottom right to try it out!
+In today's digital landscape, proactive cyber defense is more crucial than ever. With the rise of sophisticated cyber threats, organizations must adopt advanced security protocols to safeguard their networks. The [Network Monitor Assistant](https://readyforquantum.com/?assistant=open) is a powerful tool that leverages AI-driven capabilities to enhance your cybersecurity posture. By utilizing its various functions, you can monitor your network, assess vulnerabilities, and implement effective security measures. Click the assistant icon at the bottom right to try it out!
 
 ### Use Case 1: Monitoring Network Hosts
 

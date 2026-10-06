@@ -2,7 +2,7 @@
 title: Automating Network Compliance Creating Scheduled Reports With The Assistant
 date: 2025-11-15T09:00:00
 image: /blogpics/apipicgen/automatingnetworkcompliancecreatingscheduledreportswiththeassistant-CZAWC5R5Y3.jpg
-categories: ["Compliance", "Reporting"]
+categories: ["Compliance and Governance", "Reports and Data Analysis"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "The assistant uses call_connect_expert to create scheduled Connects that query monitoring data, build HTML and text reports, and email them automatically. In the example, one Connect is scheduled weekly on Mondays at 07:00 UTC, and another is scheduled on weekdays at 07:00 UTC for daily status reporting."
   - "Yes. The walkthrough shows using call_cmd_processor_expert to create a one-off tool called ComplianceReportNow. It generates the report immediately as HTML and plain text files and prints a console summary, letting you review the content and formatting without sending any email."
 ---
-When a security team asks for “a weekly compliance and status report in the inbox every Monday,” the Quantum Network Monitor Assistant can make it happen end to end. Below is a realistic, multi-turn walkthrough showing how a user and the assistant collaborate to set up compliance checks, generate a clean report from monitoring data via the API, and schedule automated email delivery. Along the way you’ll see the assistant “call” ready-made functions such as add_host, get_host_list, get_host_data, and the expert builders for automation (Connects) and one-off commands (Cmd Processors). If you want to try the same flow yourself, open the Quantum Network Monitor Assistant and follow along.
+When a security team asks for “a weekly compliance and status report in the inbox every Monday,” the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) can make it happen end to end. Below is a realistic, multi-turn walkthrough showing how a user and the assistant collaborate to set up compliance checks, generate a clean report from monitoring data via the API, and schedule automated email delivery. Along the way you’ll see the assistant “call” ready-made functions such as add_host, get_host_list, get_host_data, and the expert builders for automation (Connects) and one-off commands (Cmd Processors). If you want to try the same flow yourself, open the Quantum Network Monitor Assistant and follow along.
 
 Use case
 - Goal: Generate and email recurring compliance/status reports to stakeholders

@@ -2,7 +2,7 @@
 title: Running Nmap Scans Through The Quantum Network Monitor Assistant
 date: 2025-11-03T09:00:00
 image: /blogpics/apipicgen/runningnmapscansthroughthequantumnetworkmonitorassistant-Y3IF9WOKNP.jpg
-categories: ["Nmap", "Security Scanning"]
+categories: ["Nmap and Network Scanning"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "Focus on open ports, detected services and versions, unexpected exposures like admin interfaces, TLS or certificate issues, and any changes compared with prior scans. These details help determine whether you need patching, tighter access controls, or deeper investigation."
   - "Resetting alerts clears the current alert state for that monitor after you have triaged or fixed the issue. This keeps the alert signal clean so future changes can trigger fresh alerts again."
 ---
-In this guided walk-through, we’ll show how a security engineer can use the Quantum Network Monitor Assistant to run live Nmap scans, choose the right agent location, and interpret results. We’ll present it as a natural conversation where the user sets up an on-demand scan first, then configures recurring monitoring with richer vulnerability checks. Along the way, we’ll insert the exact function calls the assistant would make, and explain how the results inform next steps.
+In this guided walk-through, we’ll show how a security engineer can use the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to run live Nmap scans, choose the right agent location, and interpret results. We’ll present it as a natural conversation where the user sets up an on-demand scan first, then configures recurring monitoring with richer vulnerability checks. Along the way, we’ll insert the exact function calls the assistant would make, and explain how the results inform next steps.
 
 Step 1: Discover available agent locations to run scans from
 Why: The same target can appear differently from Europe vs. the US due to CDNs, geo-based routing, or firewalls. It’s best practice to scan from a location that mirrors your users—or use multiple agents.

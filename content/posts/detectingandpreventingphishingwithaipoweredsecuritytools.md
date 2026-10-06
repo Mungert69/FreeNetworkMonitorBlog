@@ -2,7 +2,7 @@
 title: Detecting And Preventing Phishing With AI-Powered Security Tools
 date: 2024-12-15T03:53:51
 image: /blogpics/apipicgen/DetectingAndPreventingPhishingWithAIPoweredSecurityTools-W35HQ5WIG8.jpg
-categories: ["Threat Detection"]
+categories: ["Cybersecurity"]
 featured: false
 draft: false
 questions:

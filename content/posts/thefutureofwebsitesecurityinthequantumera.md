@@ -2,7 +2,7 @@
 title: The Future Of Website Security In The Quantum Era
 date: 2024-10-14T17:30:00
 image: /blogpics/apipicgen/TheFutureOfWebsiteSecurityInTheQuantumEra-SGJ8QDT6DW.jpg
-categories: ["Website"]
+categories: ["Websites and Web Data"]
 featured: false
 draft: false
 questions:

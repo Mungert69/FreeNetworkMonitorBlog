@@ -2,7 +2,7 @@
 title: Detecting Network Vulnerabilities With AI-Driven Nmap Scans
 date: 2024-11-25T03:53:51
 image: /blogpics/apipicgen/DetectingNetworkVulnerabilitiesWithAIDrivenNmapScans-XO5399XEH9.jpg
-categories: ["Network Security"]
+categories: ["Cybersecurity"]
 featured: false
 draft: false
 questions:

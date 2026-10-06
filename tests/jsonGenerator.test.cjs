@@ -111,7 +111,7 @@ test('getBlogJson writes posts.json, markdown files, and blog-index.json', async
   const payload = JSON.stringify([
     {
       slug: 'one',
-      frontmatter: { title: 'One', categories: ['Cat'], author: 'Author' },
+      frontmatter: { title: 'One', categories: ['Cybersecurity'], author: 'Author' },
       content: 'Content one',
     },
   ]);

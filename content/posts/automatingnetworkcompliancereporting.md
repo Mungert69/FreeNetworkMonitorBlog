@@ -2,7 +2,7 @@
 title: Automating Network Compliance Reporting
 date: 2025-07-19T09:00:00
 image: /blogpics/apipicgen/AutomatingNetworkComplianceReporting-VKFF6G2CG9.jpg
-categories: ["Compliance", "AI"]
+categories: ["Compliance and Governance", "AI and Automation"]
 featured: false
 draft: false
 questions:

@@ -2,7 +2,7 @@
 title: Continuous Monitoring With Custom Agents
 date: 2025-10-30T09:00:00
 image: /blogpics/apipicgen/continuousmonitoringwithcustomagents-CUT0LBKT2U.jpg
-categories: ["Agents", "Monitoring"]
+categories: ["Agents and Edge Monitoring", "Network Monitoring"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "If a region has naturally higher latency or occasional network variability, a longer timeout can reduce false-positive alerts. In the example, the US East HTTPS timeout was increased from 7000 ms to 10000 ms to better match expected round-trip times while routing was being evaluated."
   - "Resetting alerts clears existing alert states so only new incidents are reported going forward. This is useful after tuning thresholds or timeouts because it gives you a clean baseline for validating whether the updated configuration works as intended."
 ---
-In this guided conversation, we show how a network engineer uses the Quantum Network Monitor Assistant to deploy local and cloud agents for targeted monitoring and compare performance. The goal: set up continuous monitoring from multiple vantage points, validate reachability, and analyze latency and reliability side by side.
+In this guided conversation, we show how a network engineer uses the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to deploy local and cloud agents for targeted monitoring and compare performance. The goal: set up continuous monitoring from multiple vantage points, validate reachability, and analyze latency and reliability side by side.
 
 User: I want to monitor our public API from both our office network and the cloud. Can you help me set up two monitors so I can compare latency and uptime?
 
@@ -34,7 +34,7 @@ Function call
 }
 ```
 How we use the response
-- We receive a compact list of agent locations (e.g., “Office - London (you@company.com)”, “Scanner - US East”, “Scanner - EU”). If no local agent appears, we’ll suggest installing one from https://freenetworkmonitor.click/download so you can monitor internal or geofenced services.
+- We receive a compact list of agent locations (e.g., “Office - London (you@company.com)”, “Scanner - US East”, “Scanner - EU”). If no local agent appears, we’ll suggest installing one from https://readyforquantum.com/download so you can monitor internal or geofenced services.
 
 User: Great—I see “Office - London” as my local agent and “Scanner - US East” in the cloud. Let’s monitor https://api.acme.com from both.
 

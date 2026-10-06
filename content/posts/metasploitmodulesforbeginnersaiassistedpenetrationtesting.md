@@ -2,7 +2,7 @@
 title: Metasploit Modules For Beginners AI-Assisted Penetration Testing
 date: 2025-04-07T17:30:00
 image: /blogpics/apipicgen/AutomatingVulnerabilityScansWithAINextGenCybersecurity-L1RI2S21VP.jpg
-categories: ["Cybersecurity", "AI"]
+categories: ["Cybersecurity", "AI and Automation"]
 featured: false
 draft: false
 questions:

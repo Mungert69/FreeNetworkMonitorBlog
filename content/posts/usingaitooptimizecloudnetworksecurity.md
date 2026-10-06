@@ -2,7 +2,7 @@
 title: Using AI To Optimize Cloud Network Security
 date: 2024-10-23T17:30:00
 image: /blogpics/apipicgen/UsingAIToOptimizeCloudNetworkSecurity-I86JD1C3MI.jpg
-categories: ["Cloud Security"]
+categories: ["IoT and Cloud Security"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "Yes, the assistant can facilitate penetration testing by leveraging external tools like Metasploit. For example, it can run exploits such as EternalBlue on specified targets to test for vulnerabilities."
   - "You can access the Network Monitor Assistant by clicking the assistant icon located at the bottom right of the interface or webpage."
 ---
-In today's digital landscape, cloud network security is more critical than ever. With the increasing reliance on cloud services, organizations must ensure that their networks are secure from potential threats. The Network Monitor Assistant is a powerful tool that leverages AI to help optimize cloud network security. By utilizing its various functions, users can monitor, assess, and enhance their cloud security posture effectively. Click the assistant icon at the bottom right to try it out!
+In today's digital landscape, cloud network security is more critical than ever. With the increasing reliance on cloud services, organizations must ensure that their networks are secure from potential threats. The [Network Monitor Assistant](https://readyforquantum.com/?assistant=open) is a powerful tool that leverages AI to help optimize cloud network security. By utilizing its various functions, users can monitor, assess, and enhance their cloud security posture effectively. Click the assistant icon at the bottom right to try it out!
 
 ## Use Case 1: Monitoring Cloud Hosts
 

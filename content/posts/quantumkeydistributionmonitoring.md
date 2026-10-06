@@ -2,7 +2,7 @@
 title: Quantum Key Distribution Monitoring
 date: 2025-06-22T09:00:00
 image: /blogpics/apipicgen/QuantumKeyDistributionMonitoring-X2VGT3Q7Z8.jpg
-categories: ["Quantum Security", "Encryption"]
+categories: ["Post-Quantum Security", "TLS and Encryption"]
 featured: false
 draft: false
 questions:

@@ -2,7 +2,7 @@
 title: Using AI To Generate Insights From Network Monitoring Logs
 date: 2024-12-27T03:53:51
 image: /blogpics/apipicgen/NetworkBehaviorAnalysisIdentifyingThreatsThroughPatterns-4KZY01IUYS.jpg
-categories: ["Data Analysis"]
+categories: ["Reports and Data Analysis"]
 featured: false
 draft: false
 questions:

@@ -18,7 +18,7 @@ answers:
   - "Penetration testing simulates real-world attacks on your network to identify exploitable vulnerabilities. By using the assistant to run tests like the EternalBlue exploit, you can understand potential attack vectors and strengthen your security measures accordingly."
   - "You can access the Network Monitor Assistant by clicking the assistant icon located at the bottom right of the interface, which allows you to interact with its AI-driven threat intelligence functionalities."
 ---
-In today's rapidly evolving cybersecurity landscape, organizations must stay ahead of potential threats. Integrating AI into threat intelligence processes can significantly enhance the ability to detect, analyze, and respond to threats. The Network Monitor Assistant is a powerful tool that can help you leverage AI for next-level threat intelligence. Click the assistant icon at the bottom right to try it out!
+In today's rapidly evolving cybersecurity landscape, organizations must stay ahead of potential threats. Integrating AI into threat intelligence processes can significantly enhance the ability to detect, analyze, and respond to threats. The [Network Monitor Assistant](https://readyforquantum.com/?assistant=open) is a powerful tool that can help you leverage AI for next-level threat intelligence. Click the assistant icon at the bottom right to try it out!
 
 ## Use Case 1: Adding and Monitoring Hosts
 

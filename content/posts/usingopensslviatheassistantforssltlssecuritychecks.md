@@ -2,7 +2,7 @@
 title: Using Openssl Via The Assistant For SSLTLS Security Checks
 date: 2025-11-05T09:00:00
 image: /blogpics/apipicgen/usingopensslviatheassistantforssltlssecuritychecks-QWB6SAGDNX.jpg
-categories: ["SSL/TLS", "Security"]
+categories: ["TLS and Encryption", "Cybersecurity"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "Yes. The post shows the same OpenSSL checks being run against api.example.com:8443 by specifying the host, port, and server name, so you can assess certificates and TLS settings on non-default ports too."
   - "Ongoing monitoring helps catch regressions early, such as certificates nearing expiration, broken chains, hostname mismatches, or service outages. It turns a one-time audit into continuous visibility with alerts."
 ---
-If you’ve ever wished you could run OpenSSL checks without dropping into a terminal, the Quantum Network Monitor Assistant makes it point-and-click simple—while still giving you the depth you need to assess SSL/TLS encryption health. In this walk-through, we’ll show a realistic, multi-turn conversation that uses the Security Expert via the assistant to run OpenSSL checks, read the results, and follow up with continuous monitoring to catch regressions early.
+If you’ve ever wished you could run OpenSSL checks without dropping into a terminal, the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) makes it point-and-click simple—while still giving you the depth you need to assess SSL/TLS encryption health. In this walk-through, we’ll show a realistic, multi-turn conversation that uses the Security Expert via the assistant to run OpenSSL checks, read the results, and follow up with continuous monitoring to catch regressions early.
 
 What we’re doing and why
 - Goal: Use OpenSSL through the assistant to assess a site’s TLS configuration, certificate chain, protocol versions, cipher acceptance, and OCSP stapling.

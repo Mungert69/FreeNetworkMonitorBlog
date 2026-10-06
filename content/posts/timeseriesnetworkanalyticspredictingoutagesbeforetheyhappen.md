@@ -2,7 +2,7 @@
 title: Time-Series Network Analytics Predicting Outages Before They Happen
 date: 2025-04-21T17:30:00
 image: /blogpics/apipicgen/NetworkPenetrationTestingAComprehensiveGuide-0UCASXHL2G.jpg
-categories: ["Network Monitoring", "AI"]
+categories: ["Network Monitoring", "AI and Automation"]
 featured: false
 draft: false
 questions:

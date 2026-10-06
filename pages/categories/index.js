@@ -18,9 +18,9 @@ const Categories = ({ categories, posts }) => {
         {markdownify(
           "Categories",
           "h1",
-          "h2 mb-16 bg-theme-light dark:bg-darkmode-theme-dark py-12 text-center lg:text-[55px]"
+          "h2 mb-0 bg-theme-light dark:bg-darkmode-theme-dark py-12 text-center lg:text-[55px]"
         )}
-        <div className="container pt-12 text-center">
+        <div className="container pt-8 text-center">
           <ul className="row">
             {categories.map((category, i) => (
               <li
@@ -29,10 +29,11 @@ const Categories = ({ categories, posts }) => {
               >
                 <Link
                   href={`/categories/${category.name}/`}
-                  className="flex w-full items-center justify-center rounded-lg bg-theme-light px-4 py-4 font-bold text-dark transition hover:bg-primary hover:text-white  dark:bg-darkmode-theme-dark dark:text-darkmode-light dark:hover:bg-primary dark:hover:text-white"
+                  className="flex h-full min-h-20 w-full items-center rounded-lg bg-theme-light px-4 py-4 font-bold text-dark transition hover:bg-primary hover:text-white  dark:bg-darkmode-theme-dark dark:text-darkmode-light dark:hover:bg-primary dark:hover:text-white"
                 >
-                  <FaFolder className="mr-1.5" />
-                  {category.label || humanize(category.name)} ({category.posts})
+                  <FaFolder className="mr-3 shrink-0" />
+                  <span className="flex-1 text-left leading-snug">{category.label || humanize(category.name)}</span>
+                  <span className="ml-3 shrink-0 rounded-full bg-black/5 px-2 py-1 text-sm dark:bg-white/10">{category.posts}</span>
                 </Link>
               </li>
             ))}

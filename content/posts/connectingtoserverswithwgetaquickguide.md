@@ -2,7 +2,7 @@
 title: Connecting To Servers With Wget A Quick Guide
 date: 2025-01-18T23:56:00
 image: /blogpics/apipicgen/ConnectingToServersWithWgetAQuickGuide-P64VBCGW2T.jpg
-categories: ["Diagnostics", "Connectivity"]
+categories: ["Troubleshooting", "Network Monitoring"]
 featured: false
 draft: false
 questions:

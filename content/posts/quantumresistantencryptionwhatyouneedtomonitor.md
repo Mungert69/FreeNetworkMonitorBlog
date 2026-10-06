@@ -2,7 +2,7 @@
 title: Quantum-Resistant Encryption What You Need To Monitor
 date: 2025-05-08T09:00:00
 image: /blogpics/apipicgen/QuantumResistantEncryptionWhatYouNeedToMonitor-F1ASV08OYL.jpg
-categories: ["Quantum Security", "Encryption"]
+categories: ["Post-Quantum Security", "TLS and Encryption"]
 featured: false
 draft: false
 questions:

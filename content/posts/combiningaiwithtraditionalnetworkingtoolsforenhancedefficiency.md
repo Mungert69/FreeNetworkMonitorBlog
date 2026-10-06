@@ -18,7 +18,7 @@ answers:
   - "Yes, it can perform penetration testing by leveraging AI to identify and exploit vulnerabilities using specific exploits, such as EternalBlue, automating the testing process and providing results on the success of the exploit."
   - "Users can start using the assistant by clicking the assistant icon located at the bottom right of the interface to access its AI-powered networking tools and capabilities."
 ---
-In today's fast-paced digital landscape, the integration of Artificial Intelligence (AI) with traditional networking tools is revolutionizing how we monitor, manage, and secure networks. The Network Monitor Assistant is a powerful tool that leverages AI to enhance the efficiency of traditional networking tasks. By combining AI capabilities with established networking tools, users can achieve better insights, faster responses, and improved overall network performance. Click the assistant icon at the bottom right to try it out!
+In today's fast-paced digital landscape, the integration of Artificial Intelligence (AI) with traditional networking tools is revolutionizing how we monitor, manage, and secure networks. The [Network Monitor Assistant](https://readyforquantum.com/?assistant=open) is a powerful tool that leverages AI to enhance the efficiency of traditional networking tasks. By combining AI capabilities with established networking tools, users can achieve better insights, faster responses, and improved overall network performance. Click the assistant icon at the bottom right to try it out!
 
 ### Use Case 1: Monitoring Network Hosts with AI Assistance
 

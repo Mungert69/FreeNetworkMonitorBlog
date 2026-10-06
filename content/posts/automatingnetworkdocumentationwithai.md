@@ -2,7 +2,7 @@
 title: Automating Network Documentation With AI
 date: 2025-06-19T09:00:00
 image: /blogpics/apipicgen/AutomatingNetworkDocumentationWithAI-LG4M15AJEB.jpg
-categories: ["Documentation", "AI"]
+categories: ["DevOps", "AI and Automation"]
 featured: false
 draft: false
 questions:

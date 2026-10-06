@@ -2,7 +2,7 @@
 title: Mastering Host Management With AI Adding Monitoring And Optimizing Hosts
 date: 2024-11-23T03:53:51
 image: /blogpics/apipicgen/MasteringHostManagementWithAIAddingMonitoringAndOptimizingHosts-7TTUYWK0O6.jpg
-categories: ["Host Management"]
+categories: ["Network Monitoring"]
 featured: false
 draft: false
 questions:

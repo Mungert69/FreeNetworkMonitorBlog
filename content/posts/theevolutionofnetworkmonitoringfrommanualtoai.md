@@ -2,7 +2,7 @@
 title: The Evolution Of Network Monitoring From Manual To AI
 date: 2025-05-05T09:00:00
 image: /blogpics/apipicgen/TheEvolutionOfNetworkMonitoringFromManualToAI-U8U7ZM19OZ.jpg
-categories: ["Network Monitoring", "AI"]
+categories: ["Network Monitoring", "AI and Automation"]
 featured: false
 draft: false
 questions:

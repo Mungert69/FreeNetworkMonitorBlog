@@ -2,7 +2,7 @@
 title: The 5-Minute Guide To Setting Up AI Network Alerts
 date: 2025-04-29T17:30:00
 image: /blogpics/apipicgen/AIAndTheFutureOfIntrusionDetectionSystems-M67WCVW9PH.jpg
-categories: ["Network Monitoring", "AI"]
+categories: ["Network Monitoring", "AI and Automation"]
 featured: false
 draft: false
 questions:

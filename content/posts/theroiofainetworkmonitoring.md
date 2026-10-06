@@ -2,7 +2,7 @@
 title: The ROI Of AI Network Monitoring
 date: 2025-07-28T09:00:00
 image: /blogpics/apipicgen/TheROIOfAINetworkMonitoring-WE9UHQKLFG.jpg
-categories: ["AI", "ROI"]
+categories: ["AI and Automation", "Reports and Data Analysis"]
 featured: false
 draft: false
 questions:

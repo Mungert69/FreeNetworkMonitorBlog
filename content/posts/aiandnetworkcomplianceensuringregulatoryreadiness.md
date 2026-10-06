@@ -2,7 +2,7 @@
 title: AI And Network Compliance Ensuring Regulatory Readiness
 date: 2024-12-13T03:53:51
 image: /blogpics/apipicgen/AIAndNetworkComplianceEnsuringRegulatoryReadiness-ZQDZS7BWL4.jpg
-categories: ["Compliance"]
+categories: ["Compliance and Governance"]
 featured: false
 draft: false
 questions:

@@ -2,7 +2,7 @@
 title: AI-Powered Network Anomaly Detection
 date: 2025-07-10T09:00:00
 image: /blogpics/apipicgen/AIPoweredNetworkAnomalyDetection-A1MPIN1NGL.jpg
-categories: ["Security", "AI"]
+categories: ["Cybersecurity", "AI and Automation"]
 featured: false
 draft: false
 questions:

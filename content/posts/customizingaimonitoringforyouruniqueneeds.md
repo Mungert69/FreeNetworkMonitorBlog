@@ -2,7 +2,7 @@
 title: Customizing AI Monitoring For Your Unique Needs
 date: 2025-05-26T09:00:00
 image: /blogpics/apipicgen/CustomizingAIMonitoringForYourUniqueNeeds-27BS5YX5NV.jpg
-categories: ["AI", "Customization"]
+categories: ["AI and Automation", "Custom Development"]
 featured: false
 draft: false
 questions:

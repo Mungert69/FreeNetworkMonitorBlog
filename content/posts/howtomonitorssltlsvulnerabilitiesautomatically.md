@@ -2,7 +2,7 @@
 title: How To Monitor SSLTLS Vulnerabilities Automatically
 date: 2025-04-13T17:30:00
 image: /blogpics/apipicgen/MetasploitPayloadGenerationCraftingEffectiveExploits-BLVPMRL29T.jpg
-categories: ["Website", "Network Monitoring"]
+categories: ["Websites and Web Data", "Network Monitoring"]
 featured: false
 draft: false
 questions:

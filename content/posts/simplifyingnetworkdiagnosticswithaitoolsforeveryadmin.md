@@ -2,7 +2,7 @@
 title: Simplifying Network Diagnostics With AI Tools For Every Admin
 date: 2024-12-25T03:53:51
 image: /blogpics/apipicgen/MetasploitForMobileSecurityAddressingVulnerabilitiesInMobileApplications-J461MZKFQ7.jpg
-categories: ["Diagnostics"]
+categories: ["Troubleshooting"]
 featured: false
 draft: false
 questions:

@@ -2,7 +2,7 @@
 title: Quantum Key Distribution The Future Of Secure Communication
 date: 2024-11-16T17:30:00
 image: /blogpics/apipicgen/QuantumKeyDistributionTheFutureOfSecureCommunication-VCC31F3EC7.jpg
-categories: ["Quantum Computing"]
+categories: ["Post-Quantum Security"]
 featured: false
 draft: false
 questions:

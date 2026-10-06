@@ -2,7 +2,7 @@
 title: AI-Powered Network Monitoring For Distributed And Remote Teams
 date: 2024-12-17T03:53:51
 image: /blogpics/apipicgen/AIPoweredNetworkMonitoringForDistributedAndRemoteTeams-5XXZW5K9DP.jpg
-categories: ["Remote Work Security"]
+categories: ["IoT and Cloud Security"]
 featured: false
 draft: false
 questions:

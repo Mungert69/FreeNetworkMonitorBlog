@@ -2,7 +2,7 @@
 title: Openssl Health Checks Made Simple With AI
 date: 2025-04-14T09:00:00
 image: /blogpics/apipicgen/UsingAIToOptimizeCloudNetworkSecurity-I86JD1C3MI.jpg
-categories: ["SSL/TLS", "Automation"]
+categories: ["TLS and Encryption", "AI and Automation"]
 featured: false
 draft: false
 questions:

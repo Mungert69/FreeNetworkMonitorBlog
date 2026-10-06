@@ -2,7 +2,7 @@
 title: The Importance Of SSLTLS Monitoring For Website Security
 date: 2025-02-08T17:30:00
 image: /blogpics/apipicgen/TheImportanceOfSSLTLSMonitoringForWebsiteSecurity-MVBMBL6JE0.jpg
-categories: ["Website"]
+categories: ["Websites and Web Data"]
 featured: false
 draft: false
 questions:

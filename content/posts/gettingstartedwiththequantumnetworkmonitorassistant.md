@@ -2,23 +2,23 @@
 title: Getting Started With The Quantum Network Monitor Assistant
 date: 2025-10-26T09:00:00
 image: /blogpics/apipicgen/gettingstartedwiththequantumnetworkmonitorassistant-4L1I0YYA07.jpg
-categories: ["Getting Started", "Onboarding"]
+categories: ["Getting Started"]
 featured: false
 draft: false
 questions:
-  - "What should I do if I’m not logged in when I start setting up monitoring?"
   - "How do I choose between a public agent and a local agent?"
+  - "What should I do if I’m not logged in when I start setting up monitoring?"
   - "What’s the difference between using the https endpoint and httpfull?"
   - "How can I confirm that my new host is actually being monitored?"
   - "What should I do if I’m not receiving alerts or need to stop monitoring a host?"
 answers:
-  - "Use get_user_info to check your session status. If logged_in is false, click the Login button in the Quantum Network Monitor Assistant, then run get_user_info again. Once logged in, your email is attached automatically to new monitors so alerts and ownership are tied to your account."
   - "Use a public agent like “Scanner - US-East” or “Scanner - EU” for public websites and internet-facing devices. Use a local agent if you want to monitor devices inside your private network, such as 192.168.x.x addresses. If needed, install a local agent from the download link, then check get_agents again to confirm it appears."
+  - "Use get_user_info to check your session status. If logged_in is false, click the Login button in the Quantum Network Monitor Assistant, then run get_user_info again. Once logged in, your email is attached automatically to new monitors so alerts and ownership are tied to your account."
   - "The https endpoint is a lightweight availability and SSL/TLS check, making it a great starting point for website monitoring. The httpfull endpoint loads the full page, including frontend resources and JavaScript, so it gives a better picture of real user experience but may take longer to run."
   - "Call get_host_data with dataset_id set to 0 and the host address. The response should show recent check results such as up/down status, response time, TLS details for HTTPS checks, and which agent performed the test. If no data appears yet, wait a short interval and check again."
   - "If alerts are not arriving, verify that you’re logged in and that email_verified is true. If you added a host without being logged in, include your email in the add_host call. To stop monitoring a host, call edit_host with hidden: true, which archives the host and stops checks."
 ---
-Getting your first monitor running is easiest when you see it in action. Below is a guided, conversation-style walk-through showing how a new user sets up their first agent, authenticates, and adds a host using the Quantum Network Monitor Assistant. You can follow along live at the Quantum Network Monitor Assistant.
+Getting your first monitor running is easiest when you see it in action. Below is a guided, conversation-style walk-through showing how a new user sets up their first agent, authenticates, and adds a host using the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open). You can follow along live at the Quantum Network Monitor Assistant.
 
 What we’ll cover:
 - Confirm your login status so alerts go to the right place
@@ -71,7 +71,7 @@ I’ll list available agents:
 ```
 Interpreting the response:
 - If you see “Scanner - US-East” and “Scanner - EU”, those are ready to use right away for public targets (like your website).
-- If you want to monitor local devices (e.g., 192.168.x.x), install a local agent from https://freenetworkmonitor.click/download. After installation, it will appear in this list with your email in the name (e.g., “Alex Laptop - Local Agent”).
+- If you want to monitor local devices (e.g., 192.168.x.x), install a local agent from https://readyforquantum.com/download. After installation, it will appear in this list with your email in the name (e.g., “Alex Laptop - Local Agent”).
 
 User: Let’s start with a public agent—use “Scanner - US-East.”
 Assistant: Perfect. We’ll use that agent for our first host.
@@ -164,7 +164,7 @@ Interpreting the response:
 - The next checks will originate from the new agent, giving you regional performance insight.
 
 Troubleshooting quick tips
-- I don’t see my local devices: Install a local agent (Windows/macOS/Linux) from https://freenetworkmonitor.click/download, then re-run get_agents to confirm it’s online. Add hosts with agent_location set to your local agent.
+- I don’t see my local devices: Install a local agent (Windows/macOS/Linux) from https://readyforquantum.com/download, then re-run get_agents to confirm it’s online. Add hosts with agent_location set to your local agent.
 - I’m not getting alerts: Confirm you’re logged in (get_user_info) and email_verified is true. If you’re operating without login, include your email when calling add_host.
 - I added a host but no data yet: Fetch latest with get_host_data (dataset_id: 0). New checks may take a short interval to appear.
 - I need to remove a host: Call edit_host with hidden: true.

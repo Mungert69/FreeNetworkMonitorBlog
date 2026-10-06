@@ -2,7 +2,7 @@
 title: Penetration Testing With Metasploit And The Assistant
 date: 2025-11-07T09:00:00
 image: /blogpics/apipicgen/penetrationtestingwithmetasploitandtheassistant-QDXSIP80PA.jpg
-categories: ["Metasploit", "Penetration Testing"]
+categories: ["Penetration Testing"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "Use the returned message_id to check the job status with function_status_with_message_id. If the job is still running and you need to stop, use cancel_functions with that same message_id so the activity ends safely and any partial results can still be noted."
   - "After identifying an issue or validating a fix, you can add the host to periodic monitoring with add_host and later review results with get_host_data. This helps detect service changes, new ports, version drift, or regressions without continuously running Metasploit."
 ---
-In this hands-on walkthrough, we’ll show how a security engineer safely runs Metasploit modules through the Quantum Network Monitor Assistant, keeps tight control of scope and scheduling, and turns results into action. We’ll use a realistic, multi-turn conversation to illustrate how to: pick the right agent, do a non-invasive pre-scan, run safe Metasploit modules, track/cancel jobs, and capture findings for follow-up monitoring. Throughout, we’ll explain each function we use so you can replicate the flow in your own dashboard.
+In this hands-on walkthrough, we’ll show how a security engineer safely runs Metasploit modules through the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open), keeps tight control of scope and scheduling, and turns results into action. We’ll use a realistic, multi-turn conversation to illustrate how to: pick the right agent, do a non-invasive pre-scan, run safe Metasploit modules, track/cancel jobs, and capture findings for follow-up monitoring. Throughout, we’ll explain each function we use so you can replicate the flow in your own dashboard.
 
 User
 We have written authorization from the system owner to test two external servers during our maintenance window (02:00–03:00 US/Eastern). Targets: 203.0.113.25 and 203.0.113.31. I want a safe run—no service disruption. Can you help me choose the right scanner, do a quick service discovery, and then run a few non-invasive Metasploit modules?

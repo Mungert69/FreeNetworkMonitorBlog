@@ -2,7 +2,7 @@
 title: The AI Assistants Learning Process
 date: 2025-07-16T09:00:00
 image: /blogpics/apipicgen/TheAIAssistantsLearningProcess-XKSPH01J0D.jpg
-categories: ["AI", "Machine Learning"]
+categories: ["AI and Automation"]
 featured: false
 draft: false
 questions:

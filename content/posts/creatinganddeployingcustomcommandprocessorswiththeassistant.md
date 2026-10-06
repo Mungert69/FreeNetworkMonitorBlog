@@ -2,7 +2,7 @@
 title: Creating And Deploying Custom Command Processors With The Assistant
 date: 2025-11-19T09:00:00
 image: /blogpics/apipicgen/creatinganddeployingcustomcommandprocessorswiththeassistant-BUZWYB04ON.jpg
-categories: ["Custom Automation", "DevOps"]
+categories: ["Custom Development", "DevOps"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "Yes. The walkthrough shows a call to retrieve the current source for the DiskSpaceCheck processor from the agent, which lets you review it and store it in version control."
   - "Yes. The post demonstrates both updating the processor with new C# source and deleting it entirely. That means you can iterate on functionality over time and remove the processor when it is no longer needed."
 ---
-In this walkthrough, we’ll show how a user and the Quantum Network Monitor Assistant collaborate to create, upload, and test a custom .NET command processor for advanced automation—end to end. Along the way, we’ll demonstrate the relevant function calls, how to interpret responses, and how each step informs the next action. If you want to try these steps yourself, open the Quantum Network Monitor Assistant at https://readyforquantum.com/?assistant=open.
+In this walkthrough, we’ll show how a user and the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) collaborate to create, upload, and test a custom .NET command processor for advanced automation—end to end. Along the way, we’ll demonstrate the relevant function calls, how to interpret responses, and how each step informs the next action. If you want to try these steps yourself, open the Quantum Network Monitor Assistant at https://readyforquantum.com/?assistant=open.
 
 User: I need a custom .NET processor that checks disk space on a Windows server and returns a warning if free space drops below a threshold. Can we build it, upload it, and test it?
 

@@ -2,7 +2,7 @@
 title: Using AI To Investigate Network Anomalies And Resolve Issues
 date: 2024-12-03T03:53:51
 image: /blogpics/apipicgen/UsingAIToInvestigateNetworkAnomaliesAndResolveIssues-7O5AMJYVPW.jpg
-categories: ["Network Diagnostics"]
+categories: ["Troubleshooting"]
 featured: false
 draft: false
 questions:

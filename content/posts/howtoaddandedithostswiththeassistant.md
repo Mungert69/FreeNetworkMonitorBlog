@@ -2,7 +2,7 @@
 title: How To Add And Edit Hosts With The Assistant
 date: 2025-10-28T09:00:00
 image: /blogpics/apipicgen/howtoaddandedithostswiththeassistant-G9GDJNPRRQ.jpg
-categories: ["Host Management", "Automation"]
+categories: ["Network Monitoring", "AI and Automation"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "After updating the agent location with edit_host, the assistant calls get_host_data again to fetch the latest measurement. You can then compare values like response_time_ms before and after the move."
   - "You can use get_host_list with the host address to retrieve its stored configuration, including fields like endpoint, port, enabled status, and agent location."
 ---
-Here’s a practical, end-to-end walkthrough showing how a network engineer can use the Quantum Network Monitor Assistant to add a device, change its monitoring endpoint, and update the agent location—all by having a natural conversation with the assistant. Throughout, we’ll show the exact API-style function calls the assistant makes under the hood and how the results guide the next steps. You can try all of this yourself via the Quantum Network Monitor Assistant: https://readyforquantum.com/?assistant=open
+Here’s a practical, end-to-end walkthrough showing how a network engineer can use the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) to add a device, change its monitoring endpoint, and update the agent location—all by having a natural conversation with the assistant. Throughout, we’ll show the exact API-style function calls the assistant makes under the hood and how the results guide the next steps. You can try all of this yourself via the Quantum Network Monitor Assistant: https://readyforquantum.com/?assistant=open
 
 Scenario overview
 - Goal: Add a new host for monitoring, verify it’s working, switch its endpoint type, and then move it to a different monitoring agent location.

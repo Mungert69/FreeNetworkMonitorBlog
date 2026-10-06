@@ -2,7 +2,7 @@
 title: The Role Of AI In Detecting Advanced Persistent Threats Apts
 date: 2025-04-11T17:30:00
 image: /blogpics/apipicgen/AdvancedNmapScriptingCustomizingYourNetworkScans-YHHOKXAWU4.jpg
-categories: ["AI", "Cybersecurity"]
+categories: ["AI and Automation", "Cybersecurity"]
 featured: false
 draft: false
 questions:

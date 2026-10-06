@@ -3,6 +3,7 @@
 // node scripts/check-category-urls.cjs http://localhost:PORT
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
+const { categoryRedirects } = require('../lib/category-catalog.cjs');
 
 async function check() {
   const base = process.argv[2];
@@ -16,16 +17,16 @@ async function check() {
     assert.equal(response.status, 200, `${url.pathname} must return directly`);
     assert((await response.text()).includes(`<link rel="canonical" href="${url.href}"`), `${url.pathname}: canonical must match sitemap`);
   }
-  for (const [old, target] of [['ssl-tls', 'ssltls'], ['ssl-tls-security', 'ssltls-security']]) {
+  for (const [old, target] of categoryRedirects()) {
     for (const slash of ['', '/']) {
       const response = await fetch(`${base}/categories/${old}${slash}?source=seo-check`, {redirect: 'manual'});
       assert.equal(response.status, 301, old);
       const location = new URL(response.headers.get('location'), base);
-      assert.equal(location.pathname, `/categories/${target}/`);
+      assert.equal(location.pathname, `/categories/${target ? `${target}/` : ''}`);
       assert.equal(location.search, '?source=seo-check');
       assert.equal((await fetch(location)).status, 200);
     }
   }
-  console.log(`Checked ${categories.length} category URLs and both legacy aliases, with query preservation.`);
+  console.log(`Checked ${categories.length} category URLs and all consolidated/legacy aliases, with query preservation.`);
 }
 check().catch(error => { console.error(error); process.exitCode = 1; });

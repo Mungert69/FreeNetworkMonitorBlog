@@ -2,7 +2,7 @@
 title: Automating SSL TLS Audits With AI Ensuring Secure Connections
 date: 2024-11-27T03:53:51
 image: /blogpics/apipicgen/AutomatingSSLTLSAuditsWithAIEnsuringSecureConnections-2WIBRJUD6F.jpg
-categories: ["Security Audits"]
+categories: ["Compliance and Governance"]
 featured: false
 draft: false
 questions:

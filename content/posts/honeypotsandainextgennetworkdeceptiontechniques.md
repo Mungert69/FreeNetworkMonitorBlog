@@ -2,7 +2,7 @@
 title: Honeypots And AI Next-Gen Network Deception Techniques
 date: 2025-04-23T17:30:00
 image: /blogpics/apipicgen/EnhancingSSLCertificateManagementWithAI-1SMKJ67ZM2.jpg
-categories: ["Cybersecurity", "AI"]
+categories: ["Cybersecurity", "AI and Automation"]
 featured: false
 draft: false
 questions:

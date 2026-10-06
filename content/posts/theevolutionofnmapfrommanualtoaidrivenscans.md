@@ -2,7 +2,7 @@
 title: The Evolution Of Nmap From Manual To AI-Driven Scans
 date: 2025-05-23T17:30:00
 image: /blogpics/apipicgen/TheEvolutionOfNmapFromManualToAIDrivenScans-C4YY14DUA3.jpg
-categories: ["Cybersecurity", "AI"]
+categories: ["Cybersecurity", "AI and Automation"]
 featured: false
 draft: false
 questions:

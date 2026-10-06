@@ -29,7 +29,7 @@
   "widgets": {
     "about": {
       "enable": true,
-      "content": "Don't forget to check out our social media channels for even more tech updates and insights! Follow us on Twitter, LinkedIn, and Githit for exclusive content and behind-the-scenes looks at our products. Don't miss out on the conversation - connect with us today!"
+      "content": "Follow us on Twitter, LinkedIn and GitHub for product updates, technical articles and development news."
     },
     "featured_posts": {
       "enable": true,
@@ -43,7 +43,7 @@
     "newsletter": {
       "enable": true,
       "title": "Newsletter",
-      "content": "Join thousands of Quantum Ready Monitor subscribers and get our best articles delivered each week!",
+      "content": "Subscribe to receive new Ready for Quantum articles and product updates by email.",
       "privacy_policy_page": "#",
       "malichipm_url": ""
     }

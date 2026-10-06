@@ -2,7 +2,7 @@
 title: Why Every MSP Needs AI-Powered Network Monitoring
 date: 2025-05-17T17:30:00
 image: /blogpics/apipicgen/WhyEveryMSPNeedsAIPoweredNetworkMonitoring-BIP7SJ1KCN.jpg
-categories: ["Network Monitoring", "AI"]
+categories: ["Network Monitoring", "AI and Automation"]
 featured: false
 draft: false
 questions:

@@ -2,7 +2,7 @@
 title: Customizing AI Security Audits For Specific Hosts And Endpoints
 date: 2024-12-21T03:53:51
 image: /blogpics/apipicgen/CustomizingAISecurityAuditsForSpecificHostsAndEndpoints-MSJKR49JTS.jpg
-categories: ["Custom Security Solutions"]
+categories: ["Custom Development"]
 featured: false
 draft: false
 questions:

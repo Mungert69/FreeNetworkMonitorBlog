@@ -2,7 +2,7 @@
 title: Quantum Readiness Checks Is Your Network Prepared
 date: 2025-04-02T09:00:00
 image: /blogpics/apipicgen/DeployingAIForNetworkThreatDetectionAndResponse-DMC552CV4S.jpg
-categories: ["Quantum Security", "AI"]
+categories: ["Post-Quantum Security", "AI and Automation"]
 featured: false
 draft: false
 questions:

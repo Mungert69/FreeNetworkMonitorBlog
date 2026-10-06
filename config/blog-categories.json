@@ -1,0 +1,125 @@
+{
+  "Network Monitoring": [
+    "Network Monitoring",
+    "Monitoring",
+    "Monitoring Tools",
+    "Server Monitoring",
+    "Host Monitoring",
+    "Host Management",
+    "Distributed Networks",
+    "Network Coverage",
+    "Connectivity",
+    "MSP",
+    "Cloud"
+  ],
+  "AI and Automation": [
+    "AI",
+    "Automation",
+    "Machine Learning",
+    "Predictive Analytics",
+    "Ethics",
+    "Future Tech"
+  ],
+  "Cybersecurity": [
+    "Cybersecurity",
+    "Security",
+    "Network Security",
+    "Advanced Security",
+    "Enterprise Security",
+    "Server Security",
+    "Threat Detection"
+  ],
+  "Post-Quantum Security": [
+    "Quantum Computing",
+    "Quantum Security",
+    "Planning"
+  ],
+  "TLS and Encryption": [
+    "Encryption",
+    "SSL/TLS",
+    "SSL/TLS Security"
+  ],
+  "Agents and Edge Monitoring": [
+    "Agents",
+    "Mobile Agents",
+    "BusyBox"
+  ],
+  "Nmap and Network Scanning": [
+    "Nmap",
+    "Network Mapping",
+    "Security Scanning"
+  ],
+  "Penetration Testing": [
+    "Penetration Testing",
+    "Metasploit"
+  ],
+  "Custom Development": [
+    "Custom Development",
+    "Custom Solutions",
+    "Custom Automation",
+    "Custom Security Solutions",
+    "Customization",
+    "Custom Processors",
+    "API",
+    "Integration",
+    "Comparison",
+    "Power User"
+  ],
+  "Troubleshooting": [
+    "Troubleshooting",
+    "Diagnostics",
+    "Network Diagnostics",
+    "Debugging",
+    "UX"
+  ],
+  "DevOps": [
+    "DevOps",
+    "Change Management",
+    "Collaboration",
+    "Documentation"
+  ],
+  "Compliance and Governance": [
+    "Compliance",
+    "Security Audits"
+  ],
+  "Performance and Capacity": [
+    "Performance",
+    "Performance Optimization",
+    "Capacity Planning"
+  ],
+  "Websites and Web Data": [
+    "Website",
+    "Web Data",
+    "Web Crawling",
+    "Content Validation"
+  ],
+  "Alerts and Incident Response": [
+    "Alerts",
+    "Incident Response",
+    "Security Automation"
+  ],
+  "Reports and Data Analysis": [
+    "Reporting",
+    "Data Analysis",
+    "Network Insights",
+    "ROI"
+  ],
+  "Getting Started": [
+    "Getting Started",
+    "Onboarding"
+  ],
+  "IoT and Cloud Security": [
+    "IoT Security",
+    "Cloud Security",
+    "Database Security",
+    "Remote Work Security"
+  ],
+  "Network Configuration": [
+    "Configuration",
+    "Configuration Management"
+  ],
+  "Best Practices": [
+    "Best Practices",
+    "Security Best Practices"
+  ]
+}

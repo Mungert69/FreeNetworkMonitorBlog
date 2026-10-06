@@ -2,7 +2,7 @@
 title: The AssistantS API Power-User Guide End-To-End Monitoring And Response
 date: 2025-12-03T09:00:00
 image: /blogpics/apipicgen/theassistantsapipoweruserguideendtoendmonitoringandresponse-70I8Y337QJ.jpg
-categories: ["API", "Power User"]
+categories: ["Custom Development"]
 featured: false
 draft: false
 questions:
@@ -18,7 +18,7 @@ answers:
   - "Monitor alerts represent active incidents or current failures detected by checks, while predictive alerts come from anomaly or baseline models that learn normal behavior over time. Resetting monitor alerts clears active incident flags, whereas resetting predictive alerts clears the learned anomaly markers so the system can rebuild its baselines."
   - "External scanners such as \"Scanner - EU\" or \"Scanner - US\" are best for simulating public internet reachability and user-facing paths. Local agents, such as an on-prem or branch agent, are better for diagnosing internal WAN or LAN path issues. Using both can help isolate whether a problem is internet-facing or specific to your internal network."
 ---
-This power-user walkthrough shows how to drive end-to-end monitoring and response with the Quantum Network Monitor Assistant using advanced API patterns, tips, and edge cases. We’ll simulate a realistic conversation, highlight each function’s role, and show how to interpret results so you can reproduce the flow yourself. If you want to try these moves live, open the Quantum Network Monitor Assistant in a new tab.
+This power-user walkthrough shows how to drive end-to-end monitoring and response with the [Quantum Network Monitor Assistant](https://readyforquantum.com/?assistant=open) using advanced API patterns, tips, and edge cases. We’ll simulate a realistic conversation, highlight each function’s role, and show how to interpret results so you can reproduce the flow yourself. If you want to try these moves live, open the Quantum Network Monitor Assistant in a new tab.
 
 Scenario
 An SRE wants continuous coverage for api.acme.io (public API) and www.acme.io (marketing site), plus periodic deep scans, quantum safety checks, and fast incident triage.

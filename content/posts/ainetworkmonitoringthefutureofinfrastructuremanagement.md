@@ -2,7 +2,7 @@
 title: AI Network Monitoring The Future Of Infrastructure Management
 date: 2025-03-30T09:00:00
 image: /blogpics/apipicgen/AINetworkMonitoringTheFutureOfInfrastructureManagement-FH299Q65FG.jpg
-categories: ["AI", "Network Monitoring"]
+categories: ["AI and Automation", "Network Monitoring"]
 featured: false
 draft: false
 questions:

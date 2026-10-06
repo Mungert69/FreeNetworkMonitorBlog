@@ -2,7 +2,7 @@
 title: The Future Of AI In Network Security
 date: 2025-06-16T09:00:00
 image: /blogpics/apipicgen/TheFutureOfAIInNetworkSecurity-C1NKHD4Z82.jpg
-categories: ["AI", "Security"]
+categories: ["AI and Automation", "Cybersecurity"]
 featured: false
 draft: false
 questions:

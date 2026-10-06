@@ -2,7 +2,7 @@
 title: AI For Distributed Network Monitoring
 date: 2025-07-22T09:00:00
 image: /blogpics/apipicgen/AIForDistributedNetworkMonitoring-5N3BVYGS65.jpg
-categories: ["Distributed Networks", "AI"]
+categories: ["Network Monitoring", "AI and Automation"]
 featured: false
 draft: false
 questions:

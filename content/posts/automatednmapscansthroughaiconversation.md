@@ -2,7 +2,7 @@
 title: Automated Nmap Scans Through AI Conversation
 date: 2025-04-05T09:00:00
 image: /blogpics/apipicgen/QuantumResistantCryptographyPreparingForThePostQuantumWorld-BPUQHWR1IA.jpg
-categories: ["Nmap", "Automation"]
+categories: ["Nmap and Network Scanning", "AI and Automation"]
 featured: false
 draft: false
 questions:

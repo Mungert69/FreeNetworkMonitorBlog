@@ -2,7 +2,7 @@
 title: AI-Assisted Capacity Planning
 date: 2025-06-25T09:00:00
 image: /blogpics/apipicgen/AIAssistedCapacityPlanning-A8T24Q7PXR.jpg
-categories: ["Capacity Planning", "AI"]
+categories: ["Performance and Capacity", "AI and Automation"]
 featured: false
 draft: false
 questions:

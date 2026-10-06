@@ -1,50 +1,55 @@
 # Category URL consistency
 
-Category routes, rendered links and sitemap generation share `lib/utils/slug.cjs`,
-which uses the existing github-slugger algorithm. Preserve this algorithm when
-adding categories: `SSL/TLS` becomes `ssltls`, not `ssl-tls`. Article source data
-and existing category URLs remain unchanged.
+The editorial category catalogue lives in `config/blog-categories.json`.
+`lib/category-catalog.cjs` normalizes imported labels into those 20 topics before
+page generation, search indexing and sitemap creation. Unknown labels fail the
+import with an instruction to map them to an existing topic; this prevents new
+one-post archives from appearing accidentally.
 
-Both Apache virtual-host configurations redirect the previously submitted
-`/categories/ssl-tls/` and `/categories/ssl-tls-security/` aliases permanently to
-their existing canonical routes. These redirects run before file/404 handling,
-accept either trailing-slash form, and preserve query strings.
+Routes, rendered links and sitemap generation still share `lib/utils/slug.cjs`.
+Consolidation changes the editorial label first: `SSL/TLS`, for example, becomes
+`TLS and Encryption`, whose canonical slug is `tls-and-encryption`.
 
-Run `npm run test:unit`, `npm run test:ui`, and `npm run export` using the project's
-current Node environment (verified with Node 24). Export validation now rejects a
-sitemap category without a corresponding `out/categories/.../index.html` file.
-To verify deployed HTTP behaviour, serve `out/` in an isolated Apache instance
-using the Directory rules from `default-ssl.conf`, then run:
+`lib/generate-category-redirects.cjs` generates `out/.category-redirects.conf`
+after Next exports the site. Both Apache virtual hosts include these permanent
+redirects before file/404 handling. Old categories and the two historical
+`ssl-tls` aliases redirect directly to the new topic; Test redirects to the
+category index. Both trailing-slash forms and query strings are supported.
+The rules file is denied public HTTP access. Existing article URLs are retained.
+
+Run `npm run test:unit`, `npm run test:ui`, and `npm run export` using Node 24.
+Export checks every category in the sitemap and every redirect destination.
+For an isolated Apache serving `out/` with the production Directory rules:
 
 ```sh
 node scripts/check-category-urls.cjs http://localhost:PORT
 ```
 
-This verifies every sitemap category returns 200 directly with its matching
-canonical, and both incorrect aliases redirect permanently to a working page.
-The generated `public/sitemap.xml` is tracked and should be included with the fix.
-Google's stored 404 results will require a new crawl after deployment to update.
+This checks every category and every alias, including query preservation.
+The generated `public/sitemap.xml` is tracked and should be included with changes.
+Google's stored results require a new crawl after deployment.
 
-## Publication policy
+## Publication and import policy
 
-`lib/publication-policy.cjs` is shared by content/page generation, the sitemap,
-and the public `blog-index.json` builder. Drafts, 404 layouts, and the existing
-placeholder slug pattern (`default`, `defaultN`, or entirely numeric slugs) are
-excluded consistently. Frontmatter URL aliases are resolved identically before
-checking publication. Titles/categories containing “test” are not exclusion
-criteria: genuine testing articles remain published.
+`lib/publication-policy.cjs` excludes drafts, 404 layouts and placeholder slugs
+(`default`, `defaultN`, or entirely numeric slugs) consistently. Genuine testing
+articles are not excluded merely because they mention testing.
 
-The importer still retains the original source content. This policy does not
-change the database, Markdown bodies or frontmatter. Export starts from a clean
-`out/`, so excluded posts have no exported route and receive the existing Apache
-404 response after deployment. Homepage, category, related-post, pagination and
-search data all obtain their posts through the filtered content reader.
+Each successful import treats the Blog API response as authoritative for
+`content/posts/`: old generated Markdown files absent from the response are
+removed, while `_index.md` and other underscore-prefixed configuration files
+remain. Keep manually maintained content outside this generated post folder.
+Failed or malformed imports stop the build; they do not authorize pruning.
 
-`npm run export` also checks that no placeholder route or public index entry was
-exported. Run the unit/UI suites and category HTTP checker, then confirm
-`/posts/default1/` returns 404, normal articles still return 200, and no exported
-HTML links to the removed post. Stored Google indexing results will require a
-fresh crawl; no Search Console deletion request is made by these code changes.
+Archives, category pages and the homepage use the same descending date order,
+with slug as a stable tie-breaker and invalid dates last. Dates without an
+explicit timezone are interpreted as UTC. Duplicate source slugs retain their
+newest version in publication without deleting the database records.
+
+Export starts with a clean `out/`. Removed placeholders have no exported route
+and receive the existing Apache 404 response. Homepage, category, related-post,
+pagination and search data all use the filtered content. No Search Console
+removal request is made by these changes.
 
 ## Article and category metadata
 

@@ -2,7 +2,7 @@
 title: Quantum-Safe Algorithms Every CTO Should Know
 date: 2025-04-25T17:30:00
 image: /blogpics/apipicgen/QuantumSafeAlgorithmsEveryCTOShouldKnow-VN6B389IPS.jpg
-categories: ["Quantum Computing", "Best Practices"]
+categories: ["Post-Quantum Security", "Best Practices"]
 featured: false
 draft: false
 questions:

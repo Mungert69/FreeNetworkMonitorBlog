@@ -2,7 +2,7 @@
 title: Quantum Error Correction Paving The Way For Stable Quantum Computers
 date: 2024-12-28T17:30:00
 image: /blogpics/apipicgen/QuantumErrorCorrectionPavingTheWayForStableQuantumComputers-UI62LIMF0Y.jpg
-categories: ["Quantum Computing"]
+categories: ["Post-Quantum Security"]
 featured: false
 draft: false
 questions:

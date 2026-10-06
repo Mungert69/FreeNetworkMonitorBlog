@@ -2,7 +2,7 @@
 title: AI-Assisted Network Troubleshooting
 date: 2025-08-06T09:00:00
 image: /blogpics/apipicgen/aiassistednetworktroubleshooting-S8PB8IZL81.jpg
-categories: ["Troubleshooting", "AI"]
+categories: ["Troubleshooting", "AI and Automation"]
 featured: false
 draft: false
 questions:

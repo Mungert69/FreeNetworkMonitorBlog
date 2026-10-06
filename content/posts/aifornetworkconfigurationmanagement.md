@@ -2,7 +2,7 @@
 title: AI For Network Configuration Management
 date: 2025-07-31T09:00:00
 image: /blogpics/apipicgen/aifornetworkconfigurationmanagement-RBKQ46EZM9.jpg
-categories: ["Configuration Management", "AI"]
+categories: ["Network Configuration", "AI and Automation"]
 featured: false
 draft: false
 questions:
