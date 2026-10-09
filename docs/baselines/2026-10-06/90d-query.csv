@@ -1,0 +1,320 @@
+query,clicks,impressions,ctr,average_position
+difference between nmap and zenmap,1,51,0.0196078431372549,5.784313725490196
+nmap ai,1,45,0.022222222222222223,8.577777777777778
+nmap vs zenmap,1,282,0.0035460992907801418,7.453900709219858
+"""acme.io"" scheduling",0,13,0,9.307692307692308
+"""api.acme.internal""",0,4,0,3.75
+"""auxiliary/scanner/http/sql_injection"" metasploit",0,5,0,3
+"""freenetworkmonitor.click""",0,2,0,7
+"""freenetworkmonitor.click/download""",0,6,0,3
+"""intense scan"" ""-t4 -a -v"" zenmap",0,1,0,2
+"""slow and stealthy"" ""zenmap""",0,2,0,2
+"""slow comprehensive scan"" zenmap",0,1,0,2
+--defeat-rst-ratelimit,0,1,0,55
+24/7 cloud monitoring services for ecommerce,0,1,0,31
+8.2.8 lab: scan using zenmap,0,1,0,76
+accurate network intelligence,0,2,0,61.5
+advanced persistent threat detection,0,1,0,53
+advanced persistent threat detection tools,0,1,0,75
+ai for network monitoring,0,4,0,41.5
+ai in network monitoring,0,5,0,24
+ai infrastructure monitor,0,1,0,67
+ai infrastructure monitoring,0,57,0,73
+ai machine learning in apt detection,0,21,0,33.23809523809524
+ai network monitoring,0,420,0,22.476190476190474
+ai network monitoring platform,0,4,0,45.75
+ai network monitoring solutions,0,1,0,33
+ai network monitoring tools,0,4,0,23
+ai network scanner,0,2,0,9
+ai network troubleshooting,0,1,0,40
+ai server monitoring,0,58,0,74.67241379310344
+alternatives to nmap,0,1,0,64
+apt attack detection,0,3,0,77.33333333333333
+apt detection,0,1,0,44
+apt detection tools,0,3,0,52.333333333333336
+are traditional methods or ai-powered solutions more accurate for network analytics,0,5,0,34.6
+artificial intelligence network monitoring,0,2,0,38.5
+automated exploitation,0,1,0,58
+benchmarking network performance,0,8,0,14.75
+best ai for detecting advanced persistent threats,0,1,0,9
+bf16,0,1,0,10
+bf16 vs f16 gguf,0,44,0,8.5
+burp suite vs metasploit,0,7,0,8
+can you integrate ai network monitoring with existing infrastructure,0,1,0,49
+cdn monitor,0,3,0,71
+compare ai vs traditional network monitoring,0,17,0,6.9411764705882355
+compare ai vs traditional network monitoring.,0,5,0,8.6
+core impact vs metasploit,0,3,0,7.666666666666667
+core impact vs metasploit pro for penetration testing,0,2,0,6.5
+detect advanced persistent threats,0,132,0,63.97727272727273
+detecting advanced persistent threat,0,15,0,58.333333333333336
+detecting and defending against advanced persistent threats,0,1,0,66
+detecting and responding to advanced persistent threats,0,8,0,38.625
+difference between metasploit and metasploitable,0,1,0,40
+endmap,0,3,0,63
+enterprise-grade security monitoring,0,34,0,15.647058823529411
+enterprise-grade security scanning tools,0,5,0,23
+enterprise-grade security testing for a small security team,0,1,0,7
+exploit framework,0,2,0,96.5
+exploit frameworks,0,15,0,25.866666666666667
+exploitation frameworks,0,16,0,24.5625
+fast nmap scan,0,7,0,47.57142857142857
+faster nmap,0,4,0,43.25
+fastest nmap scan,0,4,0,47.75
+free quantum services,0,1,0,68
+gguf bf16,0,5,0,7.2
+gguf hardware compatibility,0,2,0,23
+ggufs meaning,0,3,0,10.666666666666666
+graphical nmap,0,2,0,28.5
+gui for nmap,0,1,0,43
+gui nmap,0,2,0,30.5
+hhguf,0,2,0,33
+how can security operations teams assess quantum readiness posture today,0,2,0,78.5
+how do traditional and ai-based network service assurance comparesets them apart,0,4,0,31.5
+how does ai benefit an advanced persistent threat,0,9,0,9.11111111111111
+how does ai benefit an advanced persistent threat (apt) attack,0,17,0,9.529411764705882
+how does ai benefit an advanced persistent threat (apt) attack?,0,29,0,9.137931034482758
+how does ai benefit an apt attack,0,9,0,10.222222222222221
+how does ai-enabled network assurance compare to traditional network monitoring tools for reliability and efficiency?,0,1,0,4
+how long will this take,0,1,0,11
+how to make nmap scan faster,0,1,0,30
+how to monitor tls,0,1,0,50
+how to speed up nmap scan,0,2,0,29.5
+how to use zenmap,0,7,0,30.142857142857142
+hugging face gguf,0,3,0,38
+hugofx formation,0,1,0,30
+"if i am a customer, how can i verify if my network service provider is quantum safe",0,14,0,32.285714285714285
+importance of quantum readiness for organizations,0,1,0,74
+importance of real-time detection for apts,0,12,0,21.583333333333332
+infrastructure ai monitoring,0,1,0,29
+infrastructure monitoring ai,0,4,0,63.5
+infrastructure monitoring with ai,0,3,0,68.66666666666667
+integrating apt detection into it security,0,9,0,47.44444444444444
+integration testing jsfocus,0,2,0,47
+integration testingfocus,0,5,0,41.2
+intense scan nmap,0,1,0,46
+iq3,0,1,0,1
+is nmap a vulnerability scanner,0,1,0,39
+is there a solution that monitors ai activity at the device level instead of network layer?,0,3,0,97.33333333333333
+is there a tool that monitors ai activity at the device level instead of network level?,0,23,0,87.52173913043478
+is there a tool that monitors ai interactions before they hit the network?,0,1,0,48
+is there a tool that monitors ai usage before it hits our network?,0,1,0,89
+is zenmap still maintained 2024 windows,0,1,0,2
+is zenmap still maintained 2025,0,3,0,2
+llama.cpp gguf quantization guide,0,2,0,40
+llama.cpp gguf quantization guide 2025,0,1,0,35
+llama.cpp nvfp4 gguf,0,1,0,15
+llama.cpp quantization memory requirements gguf official documentation,0,1,0,9
+metasploit ai,0,1,0,13
+metasploit db_export -f xml command,0,3,0,9.333333333333334
+metasploit db_export -f xml command docs,0,2,0,7
+metasploit db_export -f xml command documentation,0,5,0,8.4
+metasploit db_export -f xml docs,0,9,0,10.555555555555555
+metasploit db_export -f xml documentation,0,6,0,5.166666666666667
+metasploit vs burp suite,0,2,0,10
+metasploit vs metasploit pro,0,1,0,30
+metasploit vs metasploitable,0,1,0,45
+metasploit web application testing,0,5,0,14.6
+metasploit with ai,0,2,0,22.5
+mmproj-bf16.gguf vs mmproj-f16.gguf,0,3,0,5
+monitor cryptography,0,2,0,39.5
+monitor latency in ai networks,0,4,0,86.5
+monitor site performance,0,1,0,68
+monitor web performance,0,1,0,82
+monitoring adapter agent,0,3,0,45.666666666666664
+network dashboard,0,8,0,39.875
+network monitor agent,0,1,0,1
+network monitoring agent,0,1,0,1
+network monitoring ai,0,1,0,23
+nikto vs nmap,0,5,0,40.6
+nmap (zenmap),0,10,0,8.5
+nmap + zenmap,0,17,0,9.647058823529411
+nmap -d decoy,0,1,0,7
+nmap / zenmap,0,47,0,9.425531914893616
+nmap alternative,0,5,0,37.8
+nmap alternatives,0,1,0,45
+nmap and zenmap,0,65,0,9.692307692307692
+nmap and zenmap difference,0,1,0,5
+nmap automation,0,2,0,12
+nmap fast,0,2,0,48
+nmap fast ping scan,0,2,0,58.5
+nmap fast scan,0,18,0,39.55555555555556
+nmap fastest scan,0,2,0,42
+nmap for vulnerability scanning,0,1,0,41
+nmap graphical,0,7,0,24.571428571428573
+nmap graphical interface,0,4,0,23.5
+nmap gui,0,5,0,36.6
+nmap intense scan,0,6,0,36.5
+nmap legality,0,1,0,33
+nmap max rate,0,2,0,30
+nmap max retries,0,2,0,43
+nmap parallel,0,7,0,10
+nmap parallel scan,0,13,0,8.923076923076923
+nmap scan all ports fast,0,1,0,52
+nmap scan for vulnerabilities,0,2,0,51
+nmap scan speed,0,1,0,26
+nmap scan vuln,0,2,0,47
+nmap scan vulnerabilities,0,1,0,39
+nmap slow,0,2,0,30
+nmap slow comprehensive scan,0,5,0,25.2
+nmap slow scan,0,6,0,24.5
+nmap speed,0,2,0,40
+nmap speed up scan,0,2,0,20.5
+nmap t0,0,1,0,25
+nmap t1,0,3,0,34
+nmap t4,0,9,0,18.77777777777778
+nmap time,0,1,0,48
+nmap timing,0,1,0,31
+nmap timing options,0,1,0,21
+nmap timing templates,0,1,0,39
+nmap top ports,0,1,0,86
+nmap topology,0,1,0,21
+nmap vs,0,2,0,27.5
+nmap vs angry ip scanner,0,3,0,53.333333333333336
+nmap vs ping,0,1,0,62
+nmap vs zmap,0,4,0,12
+nmap vulnerabilities,0,2,0,32.5
+nmap vulnerability scan,0,2,0,60.5
+nmap with gui,0,2,0,36
+nmap zenmap,0,129,0,11.782945736434108
+nmap zenmap gui,0,8,0,24.25
+nmap zmap,0,3,0,22.666666666666668
+nmap/zenmap,0,17,0,9.941176470588236
+no none of those,0,1,0,10
+owasp periodic table of vulnerabilities,0,1,0,19
+owasp top 10 web application vulnerabilities,0,1,0,16
+post quantum network security,0,1,0,72
+provide me with ways to test if my network service provider is quantum safe,0,26,0,4.923076923076923
+qqsp-1.9.0 download,0,1,0,75
+quantum address check,0,2,0,33.5
+quantum compliance,0,2,0,40
+quantum computing readiness,0,3,0,70.66666666666667
+quantum cyber threat readiness,0,2,0,85.5
+quantum monitor,0,29,0,21.75862068965517
+quantum network architecture troubleshooting guide,0,4,0,27.5
+quantum preparedness,0,2,0,78.5
+quantum readiness,0,16,0,79.25
+quantum readiness assessment,0,2,0,68
+quantum readiness index,0,2,0,70
+quantum readiness security assessment,0,14,0,65.35714285714286
+quantum ready,0,9,0,73
+quantum-ready cryptography,0,2,0,71.5
+quantum-ready network security,0,5,0,72
+quantumcom.org,0,1,0,92
+quantumserver.exe,0,1,0,10
+ready for quantum,0,4,0,1.75
+ready for testing,0,1,0,41
+readyforquantum searchengage,0,1,0,3
+readyforquantum searchengage cmd processor,0,1,0,1
+readyforquantum searchengage cmd processor help searchengage scanner - eu,0,1,0,2
+readyforquantum.com subscription,0,1,0,1
+retail network uptime,0,1,0,41
+roi of network monitoring tools,0,1,0,3
+role of threat intelligence in apt prevention,0,14,0,64.85714285714286
+searchengage cmd processor help readyforquantum scanner - eu,0,7,0,5.571428571428571
+searchengage cmd processor help scanner - eu readyforquantum,0,4,0,4
+searchengage cmd processor readyforquantum scanner - eu,0,6,0,6.166666666666667
+searchengage cmd processor scanner - eu readyforquantum,0,3,0,6
+site:blog.readyforquantum.com,0,40,0,15.25
+"site:freenetworkmonitor.click ""free ai network monitor""",0,1,0,1
+site:readyforquantum.com,0,6,0,17.666666666666668
+"site:readyforquantum.com ""fill 100k daily""",0,1,0,1
+"site:readyforquantum.com ""free ai network monitor""",0,2,0,1
+"site:readyforquantum.com ""freenetworkmonitor.click""",0,1,0,1
+"site:readyforquantum.com ""local agent"" readyforquantum",0,1,0,1
+"site:readyforquantum.com ""quantum network monitor""",0,2,0,1
+"site:readyforquantum.com ""scanner - eu""",0,5,0,1
+"site:readyforquantum.com ""turbollm tokens""",0,11,0,1
+"site:readyforquantum.com ""turbollm"" tokens",0,2,0,1
+site:readyforquantum.com download desktop agent readyforquantum,0,5,0,1
+site:readyforquantum.com local agent readyforquantum download desktop agent,0,1,0,1
+site:readyforquantum.com quantum network monitor login readyforquantum,0,1,0,1
+site:readyforquantum.com readyforquantum login button top right,0,4,0,1
+site:readyforquantum.com readyforquantum login quantum network monitor,0,2,0,1
+site:readyforquantum.com readyforquantum login top right quantum network monitor,0,2,0,1
+site:readyforquantum.com readyforquantum subscription,0,5,0,1
+site:readyforquantum.com readyforquantum subscription tokens,0,3,0,1
+site:readyforquantum.com subscription ready for quantum,0,1,0,1
+site:readyforquantum.com subscription readyforquantum,0,14,0,1
+site:readyforquantum.com subscription tokens readyforquantum,0,3,0,1
+site:readyforquantum.com subscription turbollm tokens,0,1,0,1
+site:readyforquantum.com turbollm tokens,0,1,0,1
+site:readyforquantum.com turbollm tokens subscription,0,7,0,1
+site:readyforquantum.com turbollm tokens subscription readyforquantum,0,3,0,1
+site:readyforquantum.com/subscription ready for quantum subscription,0,1,0,1
+site:readyforquantum.com/subscription readyforquantum subscription,0,2,0,1
+snmap,0,1,0,1
+speed up nmap scan,0,1,0,28
+ssltls,0,1,0,49
+timing in nmap,0,1,0,25
+tls monitoring,0,3,0,38.333333333333336
+top 10 web application vulnerabilities,0,1,0,7
+top web vulnerabilities,0,1,0,17
+using zenmap,0,6,0,24.5
+vae-bf16.gguf,0,1,0,2
+vulnerability scan nmap,0,1,0,44
+vulnerability scanner nmap,0,2,0,65
+vulnerability scanning nmap,0,1,0,52
+vulnerability scanning with nmap,0,1,0,55
+wake up network,0,2,0,52
+web performance monitoring,0,6,0,83.83333333333333
+website performance monitoring,0,14,0,44.42857142857143
+what about bf16,0,1,0,9
+what are two tasks that can be accomplished with the nmap and zenmap network tools,0,4,0,11.25
+what are two tasks that can be accomplished with the nmap and zenmap network tools? (choose two.),0,8,0,10.25
+what does a ping scan in zenmap do?,0,1,0,48
+what does zenmap do,0,9,0,14.222222222222221
+what is nmap and zenmap,0,4,0,7.25
+what is nmap zenmap gui,0,7,0,8.714285714285715
+what is the difference between nmap and zenmap,0,2,0,4
+what is the role of ai in advanced persistent threats,0,8,0,11
+what is the role of ai in apts,0,2,0,12
+what is tls monitoring,0,1,0,31
+what is zenmap,0,22,0,17.681818181818183
+what is zenmap used for,0,3,0,20.333333333333332
+what is zenmap?,0,1,0,15
+whats the answer,0,1,0,8
+where can i find quantum monitoring platforms?,0,3,0,5.666666666666667
+which threat intelligence solutions are best for detecting apts and ransomware?,0,1,0,1
+why is it important to monitor latency in ai networks,0,1,0,93
+why is nmap so slow,0,1,0,30
+why monitor ssl certificates,0,2,0,70.5
+"why would a security administrator use zenmap's feature to ""save scans and compare them""?",0,1,0,6
+yes,0,2,0,11
+zanmap,0,1,0,32
+zemap,0,1,0,85
+zen map,0,2,0,17.5
+zendmap,0,1,0,45
+zenmao,0,1,0,20
+zenmap,0,237,0,18.172995780590718
+zenmap / nmap,0,1,0,8
+zenmap alternative,0,1,0,27
+zenmap command,0,1,0,25
+zenmap for windows,0,4,0,61
+zenmap gui,0,6,0,27.166666666666668
+zenmap help,0,4,0,14.25
+zenmap interface,0,5,0,10.6
+zenmap logo,0,2,0,23.5
+zenmap mac,0,3,0,52
+zenmap network scan,0,1,0,34
+zenmap network topology,0,6,0,14.166666666666666
+zenmap nmap,0,15,0,10.866666666666667
+zenmap online,0,1,0,52
+zenmap scan,0,4,0,36
+zenmap scan ip range,0,1,0,67
+zenmap scan network,0,4,0,25.25
+zenmap software,0,1,0,18
+zenmap syntax,0,1,0,56
+zenmap target,0,1,0,19
+zenmap tool,0,2,0,10
+zenmap topology,0,10,0,17.1
+zenmap topology map,0,6,0,9.5
+zenmap tutorial,0,3,0,29.666666666666668
+zenmap vs nmap,0,245,0,7.9346938775510205
+zenmap vulnerability scan,0,2,0,46
+zenmap windows,0,3,0,59.666666666666664
+zenmaps,0,1,0,32
+zennmap,0,5,0,24.4
+zmap vs nmap,0,8,0,17.375
+znmap,0,5,0,39.2
+ايهم افضل,0,1,0,7

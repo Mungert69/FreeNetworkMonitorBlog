@@ -1,0 +1,11 @@
+url,profile,performance,accessibility,best-practices,seo,fcp_ms,lcp_ms,tbt_ms,cls,bytes,speed_index_ms
+https://blog.readyforquantum.com/posts/automatingnmapscanswithaiastepbystepguide/,desktop,99,92,92,92,619.2425000000001,619.2425000000001,41.000000000000114,0.0004144830914500552,1838413,926.307445333011
+https://blog.readyforquantum.com/posts/automatingnmapscanswithaiastepbystepguide/,mobile,55,92,92,92,1989.252,5589.252,1059,0.00016209051642984812,1093138,3293.2500143104544
+https://blog.readyforquantum.com/categories/,desktop,99,96,92,100,663.787,663.787,70,0.009743420007055489,1600362,663.787
+https://blog.readyforquantum.com/categories/,mobile,59,96,92,100,1799.35,4706.783,1005,0.010914393618956195,1090039,3198.7037890795573
+https://blog.readyforquantum.com/,desktop,100,96,92,92,626.715,626.715,49.5,0.000786941164418252,1969356,828.8279196973203
+https://blog.readyforquantum.com/,mobile,50,96,92,92,2279.7470000000003,7940.5025000000005,853.5,0.001670667616791238,1585471,4636.03193960557
+https://blog.readyforquantum.com/posts/nmapvs.zenmapchoosingtherightnetworkmappingtool/,desktop,99,92,92,92,627.232,797.232,36,0.0004662925825147445,1870593,1000.0096366979595
+https://blog.readyforquantum.com/posts/nmapvs.zenmapchoosingtherightnetworkmappingtool/,mobile,53,92,92,92,2208.652,7411.404200000001,863.9999999999995,0.002903562125654271,1127190,3053.2030599960863
+https://readyforquantum.com/,desktop,99,77,92,100,658.548,658.548,41.5,0,479183,1224.0607592242932
+https://readyforquantum.com/,mobile,59,87,92,100,2820.4515,5210.4515,541,0,478867,5031.502058575541

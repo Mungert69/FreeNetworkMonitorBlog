@@ -1,0 +1,849 @@
+query,clicks,impressions,ctr,average_position
+nmap ai,11,454,0.024229074889867842,8.469162995594715
+ai network monitoring,8,2916,0.0027434842249657062,37.36488340192044
+provide me with ways to test if my network service provider is quantum safe,5,426,0.011737089201877934,4.154929577464788
+ai nmap,3,69,0.043478260869565216,9.304347826086957
+difference between nmap and zenmap,3,302,0.009933774834437087,6.066225165562914
+ai free network monitor,2,63,0.031746031746031744,2.2698412698412698
+compare ai vs traditional network monitoring,2,314,0.006369426751592357,3.582802547770701
+nmap automation,2,35,0.05714285714285714,10.057142857142857
+nmap vs zenmap,2,1208,0.0016556291390728477,7.961092715231788
+ai metasploit,1,2,0.5,57.5
+how does ai-driven anomaly detection differ from traditional threshold-based monitoring in it?,1,25,0.04,2.44
+metasploit framework architecture,1,3,0.3333333333333333,8.333333333333332
+nmap + zenmap,1,22,0.045454545454545456,9.727272727272727
+zenmap vs nmap,1,1220,0.000819672131147541,8.215573770491805
+"""--min-parallelism"" nmap",0,1,0,11
+"""acme.io"" scheduling",0,13,0,9.307692307692308
+"""api.acme.internal""",0,111,0,3.135135135135135
+"""auxiliary/scanner/http/sql_injection"" metasploit",0,5,0,3
+"""creative security"" cybersecurity trends 2025 or 2026",0,16,0,15.3125
+"""free ai network monitor""",0,29,0,1.0344827586206897
+"""free ai network monitor"" subscription plans",0,8,0,1.625
+"""free ai network monitor"" subscription tokens",0,54,0,1.7592592592592593
+"""free ai network monitor"" tokens subscription",0,22,0,1.4090909090909092
+"""freenetworkmonitor.click""",0,385,0,6.992207792207792
+"""freenetworkmonitor.click"" download",0,14,0,5.857142857142857
+"""freenetworkmonitor.click"" subscription",0,295,0,8.518644067796611
+"""freenetworkmonitor.click/download""",0,360,0,2.6194444444444445
+"""freenetworkmonitor.click/subscription""",0,53,0,1.2830188679245282
+"""https://freenetworkmonitor.click/download""",0,15,0,2.9333333333333336
+"""intense scan"" ""-t4 -a -v"" zenmap",0,1,0,2
+"""nmap --script ssl-enum-ciphers"" example",0,35,0,8.8
+"""nmap -st example.com -p 80""",0,10,0,10.5
+"""nmap -st example.com -p 80"" syntax",0,8,0,7.875
+"""post/android/gather/contacts"" metasploit",0,5,0,2
+"""quantum network monitor"" local agent download",0,12,0,2.416666666666667
+"""readyforquantum.com""",0,18,0,1
+"""readyforquantum.com"" subscription",0,25,0,1.2
+"""readyforquantum.com/subscription""",0,17,0,1.0588235294117647
+"""searchengage"" ""ready for quantum""",0,2,0,10
+"""slow and stealthy"" ""zenmap""",0,2,0,2
+"""slow comprehensive scan"" zenmap",0,1,0,2
+--defeat-rst-ratelimit,0,1,0,55
+.zenmap,0,1,0,5
+24/7 cloud monitoring services for ecommerce,0,6,0,13.166666666666666
+7.2.8 scan for tls vulnerabilities,0,3,0,17.666666666666668
+8.2.8 lab: scan using zenmap,0,1,0,76
+accurate network intelligence,0,8,0,54.125
+acme corp's ai is slow,0,67,0,4.7164179104477615
+active and reactive monitoring,0,2,0,86
+active vs passive network monitoring,0,2,0,96
+advanced penetration testing techniques 2025,0,4,0,18.25
+advanced persistent threat detection,0,1,0,53
+advanced persistent threat detection tools,0,1,0,75
+advanced persistent threat mitigation strategies,0,1,0,64
+advanced persistent threats detection and mitigation techniques,0,2,0,12.5
+advancing cybersecurity with honeypots and deception strategies,0,4,0,28.25
+agent based network monitoring,0,1,0,75
+ai alerting,0,1,0,83
+ai assistant malfunction symptoms,0,1,0,11
+ai based network monitoring,0,3,0,64.33333333333334
+ai capabilities reduce false positive alert fatigue,0,5,0,85.8
+ai configuration management,0,15,0,17.066666666666666
+ai for network monitoring,0,81,0,73.12345679012346
+ai for network security and monitoring,0,8,0,71.25
+ai honeypot,0,5,0,53.4
+ai in network monitoring,0,50,0,69.38
+ai infrastructure monitor,0,1,0,67
+ai infrastructure monitoring,0,117,0,66.61538461538461
+ai machine learning in apt detection,0,26,0,34.76923076923077
+ai network analyzer,0,2,0,8
+ai network automation vs traditional network management tools comparison,0,64,0,3.546875
+ai network monitoring dashboard,0,1,0,10
+ai network monitoring platform,0,4,0,45.75
+ai network monitoring solutions,0,3,0,33.333333333333336
+ai network monitoring tools,0,44,0,83.1590909090909
+ai network scanner,0,13,0,8.23076923076923
+ai network troubleshooting,0,1,0,40
+ai observability vs traditional monitoring,0,1,0,98
+ai powered network configuration,0,4,0,55
+ai recommended network alerts,0,2,0,9
+ai server monitoring,0,100,0,73.06
+ai-assisted network operations,0,1,0,20
+ai-based infrastructure monitoring,0,1,0,71
+ai-driven anomaly detection vs traditional threshold-based monitoring it,0,2,0,12
+ai-enabled network monitoring,0,2,0,78
+ai-enhanced luxury home networks,0,4,0,33.25
+ai-powered monitoring vs traditional monitoring,0,3,0,11.666666666666666
+alternatives to nmap,0,1,0,64
+apt attack detection,0,3,0,77.33333333333333
+apt detection,0,1,0,44
+apt detection tools,0,4,0,53.25
+are traditional methods or ai-powered solutions more accurate for network analytics,0,138,0,10.46376811594203
+artificial intelligence infrastructure monitoring,0,1,0,72
+artificial intelligence network monitoring,0,47,0,73.61702127659575
+assessing organizational readiness for quantum threats,0,2,0,78
+attack surface mapper,0,1,0,58
+automated exploitation,0,1,0,58
+automated network documentation,0,6,0,93.66666666666667
+based on reviews burp suite vs. metasploit,0,4,0,10.25
+baseten monitoring,0,1,0,26
+benchmarking network performance,0,8,0,14.75
+bernini gguf,0,1,0,20
+best ai for detecting advanced persistent threats,0,1,0,9
+best enterprise-grade credential remediation tools,0,2,0,98.5
+best gguf models for 8gb vram llama.cpp 2026,0,1,0,16
+best monitoring tools for vpn infrastructure 2024,0,3,0,7.333333333333333
+best monitoring tools for wireguard servers 2024,0,1,0,16
+best network management tools for hybrid networks 2024,0,1,0,12
+best network monitoring solutions for hybrid networks 2024,0,1,0,12
+best network monitoring tools 2024,0,9,0,6.666666666666667
+best open source network bandwidth monitoring tools 2024,0,1,0,8
+best practices for using automated penetration testing tools 2025 or 2026,0,1,0,10
+bf16,0,1,0,10
+bf16 gguf,0,13,0,10
+bf16 vs f16 gguf,0,114,0,8.342105263157894
+bf16 vs gguf,0,2,0,6.5
+both plz,0,1,0,2
+burp suite vs metasploit,0,28,0,11.535714285714286
+burp suite vs metasploit comparison,0,15,0,10.533333333333333
+business grade products,0,1,0,71
+busybox traceroute,0,3,0,10
+can ai extract data from hidden web?,0,1,0,11
+can you integrate ai network monitoring with existing infrastructure,0,1,0,49
+can you provide scenarios where post-quantum cryptography can significantly fortify network services against attacks,0,1,0,77
+capabilities of metasploit,0,1,0,85
+cdn latency testing tools,0,1,0,87
+cdn monitor,0,3,0,71
+cdn monitoring,0,44,0,80.31818181818181
+cdn performance monitoring,0,20,0,71.75
+compare ai vs traditional network monitoring.,0,25,0,3.36
+comparison of ai network automation vs traditional network management tools,0,132,0,3.977272727272727
+continuous ai detection vs traditional monitoring,0,29,0,4.655172413793103
+conversational interfaces,0,1,0,6
+core impact vs metasploit,0,14,0,19.571428571428573
+core impact vs metasploit pro for penetration testing,0,2,0,6.5
+custom monitoring solutions,0,15,0,62.733333333333334
+dashboard quantum,0,1,0,8
+deceive honeypot,0,2,0,39
+deception honeypot,0,4,0,88
+detect advanced persistent threats,0,132,0,63.97727272727273
+detecting advanced persistent threat,0,16,0,56.5625
+detecting and defending against advanced persistent threats,0,1,0,66
+detecting and responding to advanced persistent threats,0,34,0,63.38235294117647
+difference between metasploit and metasploitable,0,1,0,40
+difference between nmap and nessus,0,1,0,68
+diffusiongemma llama.cpp support gguf,0,2,0,19.5
+does nwn.ai’s ai detect anomalies faster than traditional noc tools?,0,1,0,2
+download quantum,0,1,0,9
+ecommerce uptime monitoring,0,3,0,30.333333333333332
+endmap,0,6,0,61.166666666666664
+enterprise grade,0,2,0,63.5
+enterprise grade security,0,44,0,32.02272727272727
+enterprise-grade it alerting solutions,0,3,0,12
+enterprise-grade mt security,0,2,0,85
+enterprise-grade security,0,14,0,34.857142857142854
+enterprise-grade security measures,0,1,0,39
+enterprise-grade security monitoring,0,76,0,14.907894736842104
+enterprise-grade security scanning tools,0,5,0,23
+enterprise-grade security testing for a small security team,0,1,0,7
+enterprise-grade solutions for small businesses,0,3,0,41
+evaluate quantum metric on website optimization,0,2,0,18
+explain how post-quantum cryptography works in the setting of a network service provider,0,6,0,70.66666666666667
+exploit framework,0,2,0,96.5
+exploit frameworks,0,42,0,38.714285714285715
+exploitation frameworks,0,41,0,36
+extract real-time data from global websites,0,1,0,43
+extract valuable insights from the web,0,2,0,49
+fast nmap scan,0,12,0,49.583333333333336
+faster nmap,0,8,0,46.75
+fastest nmap scan,0,7,0,48.142857142857146
+find me resources to train my team on the basics of post-quantum cryptography for network service,0,1,0,77
+free network dashboard,0,10,0,24
+free quantum services,0,8,0,39.125
+freellm,0,3,0,14.333333333333334
+freenetworkmonitor.click,0,708,0,1.3855932203389831
+freenetworkmonitor.click download,0,19,0,7.421052631578948
+freenetworkmonitor.click download agent,0,3,0,8.666666666666668
+freenetworkmonitor.click download local agent,0,128,0,6.3359375
+freenetworkmonitor.click download local agent readyforquantum,0,18,0,2.5
+freenetworkmonitor.click subscription,0,118,0,6.38135593220339
+freenetworkmonitor.click subscription upgrade plan,0,21,0,4
+freenetworkmonitor.click/download,0,129,0,2.5426356589147288
+gguf,0,8,0,37.875
+gguf alternative,0,2,0,10.5
+gguf base model,0,8,0,10
+gguf bf16,0,7,0,7.714285714285714
+gguf bf16 vs f16,0,20,0,8.3
+gguf compression,0,1,0,19
+gguf explained llama.cpp,0,1,0,8
+gguf file format explained llama.cpp,0,4,0,10
+gguf file format explanation llama.cpp,0,15,0,10.8
+gguf file format llama.cpp description,0,1,0,10
+gguf file format meaning llama.cpp,0,1,0,10
+gguf file format used by llama.cpp,0,13,0,10.384615384615385
+gguf file size vs vram usage llama.cpp,0,3,0,8
+gguf format defined by llama.cpp,0,1,0,9
+gguf format description llama.cpp,0,6,0,10
+gguf format designed for llama.cpp,0,3,0,9
+gguf format explained llama.cpp,0,9,0,9.11111111111111
+gguf format explanation llama.cpp,0,64,0,10.640625
+gguf format explanation llama.cpp gguf,0,9,0,11.11111111111111
+gguf format for llama.cpp,0,4,0,9.75
+gguf format llama.cpp,0,7,0,8.857142857142858
+gguf format llama.cpp compatibility,0,2,0,9
+gguf format llama.cpp definition,0,4,0,9.5
+gguf format llama.cpp description,0,1,0,11
+gguf format llama.cpp docs,0,2,0,10
+gguf format llama.cpp documentation,0,3,0,10.666666666666666
+gguf format llama.cpp documentation gguf,0,1,0,8
+gguf format llama.cpp explained,0,2,0,10
+gguf format llama.cpp quantization,0,2,0,5.5
+gguf format llama.cpp quantized models,0,1,0,11
+gguf format meaning llama.cpp,0,5,0,8.4
+gguf format specification llama.cpp,0,12,0,9.666666666666666
+gguf format specification llama.cpp gguf,0,4,0,9.5
+gguf format used by llama.cpp,0,7,0,10.142857142857142
+gguf format used with llama.cpp,0,3,0,9.666666666666666
+gguf format what is gguf llama.cpp,0,1,0,12
+gguf format what is it llama.cpp,0,1,0,12
+gguf gpu,0,1,0,43
+gguf hardware compatibility,0,9,0,13.11111111111111
+gguf hugging face llama.cpp,0,17,0,9.058823529411764
+gguf llama.cpp format explanation,0,1,0,11
+gguf llama.cpp quantization,0,1,0,9
+gguf llama.cpp quantization format,0,1,0,9
+gguf meaning llama.cpp,0,18,0,9.833333333333334
+gguf mmap llama.cpp,0,11,0,9.181818181818182
+gguf model format llama.cpp,0,5,0,9.4
+gguf models,0,1,0,46
+gguf naming convention,0,4,0,10
+gguf quantization format llama.cpp,0,5,0,10.4
+gguf quantization format llama.cpp documentation,0,1,0,23
+gguf quantization format llama.cpp explanation,0,1,0,7
+gguf quantized format llama.cpp,0,1,0,9
+gguf quantized models on hugging face,0,1,0,10
+gguf runtime,0,3,0,14.666666666666666
+gguf specification llama.cpp,0,6,0,7.666666666666667
+gguf vs bf16,0,1,0,11
+ggufquantizationconfig diffusers,0,1,0,20
+ggufs,0,22,0,9.772727272727273
+ggufs meaning,0,3,0,10.666666666666666
+give me an idea of the timeline for transitioning my network service to a post-quantum cryptography setup,0,1,0,78
+graphical nmap,0,13,0,42.46153846153846
+gui for nmap,0,1,0,43
+gui nmap,0,2,0,30.5
+hhguf,0,2,0,33
+hidden costs of network monitoring,0,8,0,2.25
+hipaa compliant network diagram,0,3,0,37
+honeypot ai,0,5,0,78
+how can i automate the documentation of network assets in an ai-focused data center?,0,1,0,2
+how can security operations teams assess quantum readiness posture today,0,2,0,78.5
+how do traditional and ai-based network service assurance comparesets them apart,0,198,0,6.055555555555555
+how does ai benefit an advanced persistent threat,0,9,0,9.11111111111111
+how does ai benefit an advanced persistent threat (apt) attack,0,17,0,9.529411764705882
+how does ai benefit an advanced persistent threat (apt) attack?,0,29,0,9.137931034482758
+how does ai benefit an apt attack,0,9,0,10.222222222222221
+how does ai-enabled network assurance compare to traditional network monitoring tools for reliability and efficiency?,0,1,0,4
+how does continuous ai detection differ from traditional monitoring?,0,81,0,7.283950617283951
+how does data-driven network intelligence compare to traditional network monitoring tools? (in united states. be sure to reply in english),0,1,0,4
+how does quantum firewall support network segmentation?,0,8,0,6.875
+how long will this take,0,1,0,11
+how to build automated penetration testing tool or framework 2024 or 2025 or 2026,0,9,0,8
+how to build quantum secure network?,0,14,0,60.92857142857143
+how to configure alerts for ai agent attacks,0,7,0,9.571428571428571
+how to ensure the security of network services with post-quantum cryptography,0,22,0,62.68181818181818
+how to implement post-quantum cryptography in a network service provider setup,0,28,0,50.035714285714285
+how to make nmap scan faster,0,1,0,30
+how to monitor cdn performance,0,2,0,80.5
+how to monitor tls,0,1,0,50
+how to predict network issues before they happen,0,3,0,22.666666666666668
+how to speed up nmap scan,0,2,0,29.5
+how to use network analytics to predict network outages,0,20,0,7.35
+how to use zenmap,0,7,0,30.142857142857142
+hugging face gguf,0,5,0,38
+huggingface gguf,0,3,0,35.666666666666664
+hugofx formation,0,1,0,30
+i1 gguf vs gguf,0,4,0,17
+"if i am a customer, how can i verify if my network service provider is quantum safe",0,80,0,15.95
+"if i am a network service provider, what steps should i take to ensure my services are quantum safe",0,17,0,55.64705882352941
+"if i implement post-quantum cryptography, how would it affect my network service's performance",0,2,0,87.5
+importance of network behavior analysis,0,2,0,18.5
+importance of quantum readiness for organizations,0,5,0,66.8
+importance of real-time detection for apts,0,13,0,23
+infrastructure ai monitoring,0,3,0,26
+infrastructure monitoring ai,0,4,0,63.5
+infrastructure monitoring with ai,0,6,0,64.16666666666666
+integrating apt detection into it security,0,15,0,53.46666666666667
+integration testing jsfocus,0,2,0,47
+integration testingfocus,0,8,0,32.375
+intense scan nmap,0,8,0,51.25
+iq3,0,1,0,1
+is nmap a vulnerability scanner,0,1,0,39
+is reactive or proactive better when what's preferable for data center infrastructure monitoring,0,5,0,61.4
+is there a solution that monitors ai activity at the device level instead of network layer?,0,3,0,97.33333333333333
+is there a tool that monitors ai activity at the device level instead of network level?,0,23,0,87.52173913043478
+is there a tool that monitors ai interactions before they hit the network?,0,1,0,48
+is there a tool that monitors ai usage before it hits our network?,0,1,0,89
+is there an easier way,0,1,0,2
+is zenmap still maintained 2024 2025,0,4,0,10.5
+is zenmap still maintained 2024 windows,0,1,0,2
+is zenmap still maintained 2025,0,3,0,2
+jnetmap,0,1,0,12
+leading network compliance tools 2024,0,1,0,58
+llama model compatibility with gguf format,0,3,0,6.333333333333333
+llama-info gguf,0,2,0,9.5
+llama.cpp diffusiongemma support gguf,0,2,0,18.5
+llama.cpp gemma 4 gguf support,0,3,0,19
+llama.cpp gguf,0,2,0,5
+llama.cpp gguf bf16 support,0,4,0,7
+llama.cpp gguf format description,0,9,0,10.555555555555555
+llama.cpp gguf format explained,0,5,0,10
+llama.cpp gguf format explanation,0,30,0,10.566666666666666
+llama.cpp gguf format mmap,0,8,0,8.75
+llama.cpp gguf format support,0,1,0,11
+llama.cpp gguf mmap,0,4,0,8.75
+llama.cpp gguf quantization,0,1,0,25
+llama.cpp gguf quantization cpu gpu,0,2,0,10
+llama.cpp gguf quantization cpu gpu support,0,1,0,9
+llama.cpp gguf quantization documentation,0,1,0,25
+llama.cpp gguf quantization format,0,2,0,10.5
+llama.cpp gguf quantization format documentation,0,1,0,32
+llama.cpp gguf quantization guide,0,17,0,17.705882352941178
+llama.cpp gguf quantization guide 2025,0,1,0,35
+llama.cpp gguf quantization memory requirements,0,6,0,9
+llama.cpp gguf quantization memory requirements official,0,1,0,8
+llama.cpp gguf quantization overview,0,3,0,9.333333333333334
+llama.cpp gguf quantization table,0,1,0,7
+llama.cpp gguf quantization types,0,2,0,13
+llama.cpp gguf quantization types explained,0,4,0,9
+llama.cpp gguf quantization types list,0,1,0,5
+llama.cpp gguf quantization types q4_k_m q5_k_m documentation,0,1,0,43
+llama.cpp gguf quantization workflow,0,1,0,10
+llama.cpp gguf support,0,1,0,8
+llama.cpp memory mapping gguf,0,4,0,6.5
+llama.cpp nvfp4 gguf,0,5,0,11
+llama.cpp nvfp4 gguf support,0,2,0,20
+llama.cpp quantization gguf documentation,0,1,0,18
+llama.cpp quantization gguf guide,0,2,0,8
+llama.cpp quantization memory requirements gguf official documentation,0,1,0,9
+llama.cpp supported model formats gguf,0,14,0,11.214285714285714
+llama.cpp supports gguf,0,2,0,9.5
+llama.cpp supports gguf format,0,5,0,9.8
+lm studio supported model formats gguf,0,1,0,5
+metasploit advantages and disadvantages,0,2,0,62
+metasploit ai,0,3,0,20.333333333333332
+metasploit ai modules,0,6,0,8.166666666666668
+metasploit architecture,0,5,0,18
+metasploit architecture diagram,0,2,0,7.5
+metasploit auxiliary modules,0,2,0,48.5
+metasploit auxiliary/scanner/http/sql_injection module,0,1,0,6
+metasploit database,0,5,0,65.4
+metasploit db,0,3,0,72.66666666666667
+metasploit db_export -f xml command,0,19,0,10.68421052631579
+metasploit db_export -f xml command docs,0,4,0,7.5
+metasploit db_export -f xml command documentation,0,6,0,8.333333333333332
+metasploit db_export -f xml docs,0,19,0,10.631578947368421
+metasploit db_export -f xml documentation,0,6,0,5.166666666666667
+metasploit easy alternatives,0,3,0,4.333333333333334
+metasploit encoder,0,1,0,52
+metasploit exploit database,0,1,0,86
+metasploit exploit/multi/handler usage set payload windows/meterpreter/reverse_tcp,0,1,0,1
+metasploit framework architecture diagram,0,2,0,11
+metasploit modules,0,4,0,58
+metasploit msfconsole set payload command,0,1,0,7
+metasploit payload,0,8,0,45.375
+metasploit payload evasion techniques 2026,0,1,0,18
+metasploit payload generator,0,3,0,55.666666666666664
+metasploit payload types,0,1,0,46
+metasploit payloads,0,5,0,57.8
+metasploit vs,0,2,0,10.5
+metasploit vs burp suite,0,28,0,10.964285714285714
+metasploit vs metasploit pro,0,1,0,30
+metasploit vs metasploitable,0,1,0,45
+metasploit vs nessus,0,2,0,48
+metasploit web application testing,0,5,0,14.6
+metasploit with ai,0,2,0,22.5
+meterpreter payload,0,2,0,61
+meterpreter payloads,0,1,0,100
+ml network monitoring,0,61,0,40.40983606557377
+mmproj-bf16.gguf vs mmproj-f16.gguf,0,8,0,8
+monitor cryptography,0,3,0,44.333333333333336
+monitor latency in ai networks,0,7,0,89.14285714285714
+monitor site performance,0,1,0,68
+monitor web performance,0,1,0,82
+monitoring adapter agent,0,6,0,60.333333333333336
+monitoring cdn performance metrics,0,8,0,28.25
+most reliable network monitoring solution for large corporations 2024,0,1,0,11
+msfconsole sessions -i -1 -c example,0,101,0,5.900990099009901
+msfconsole set payload,0,1,0,9
+msfweb,0,1,0,87
+mxfp4 gguf llama.cpp what is it,0,1,0,9
+mxfp4 quantization llama.cpp gguf,0,2,0,19
+n8n nmap,0,2,0,13
+network behavior analysis,0,188,0,38.27127659574468
+network behaviour analysis,0,1,0,93
+network compliance report,0,10,0,35.7
+network compliance reporting,0,39,0,34.794871794871796
+network dashboard,0,8,0,39.875
+network documentation automation,0,1,0,98
+network management tools with simplified unified dashboards to view network metrics and device status in one place,0,1,0,27
+network monitor agent,0,1,0,1
+network monitoring agent,0,1,0,1
+network monitoring ai,0,16,0,51.6875
+network monitoring london,0,165,0,27.87878787878788
+network ready,0,2,0,8
+network threat behavior analysis,0,12,0,47.25
+network troubleshooting ai,0,1,0,93
+next-generation network monitoring,0,3,0,76
+nikto vs nmap,0,6,0,40.333333333333336
+nist network segmentation benefits performance security controls,0,5,0,4.4
+nmap,0,3,0,6
+nmap (zenmap),0,17,0,9.058823529411764
+nmap --max-parallelism option,0,19,0,10.473684210526315
+nmap --max-parallelism option description,0,3,0,11.666666666666666
+nmap --max-parallelism option documentation,0,1,0,11
+nmap --max-rate option,0,1,0,5
+nmap --max-rate works with -sn host discovery,0,5,0,10.6
+nmap --max-rate works with -sn ping scan,0,1,0,11
+nmap --max-rate works with -st connect scan,0,27,0,8.37037037037037
+nmap --max-rate works with -st tcp connect scan,0,4,0,9.5
+nmap --min-parallelism --max-parallelism options,0,1,0,8
+nmap --min-parallelism option,0,30,0,11.166666666666666
+nmap --min-parallelism option description,0,4,0,11.5
+nmap --scan-delay --max-rate options description,0,1,0,2
+nmap --scan-delay option --max-rate option -t2 timing template,0,9,0,10.777777777777779
+nmap --script ssl-enum-ciphers -p 443,0,1,0,35
+nmap --script ssl-enum-ciphers -p 443 example.com,0,4,0,8.25
+nmap -d decoy,0,2,0,7.5
+nmap -sc default scripts description,0,4,0,6.25
+nmap -sc default scripts option,0,24,0,5.208333333333333
+nmap -sc default scripts option meaning,0,11,0,8.181818181818182
+nmap -sc option meaning default scripts,0,5,0,9.2
+nmap -ss vs -st difference,0,1,0,10
+nmap -st -p 80 example.com syntax,0,19,0,5.2105263157894735
+nmap -st example.com -p 80 syntax,0,29,0,6.551724137931035
+nmap -t2 timing template description,0,10,0,10.9
+nmap -t2 timing template option,0,11,0,10.090909090909092
+nmap -t2 timing template slower,0,8,0,9.5
+nmap / zenmap,0,99,0,8.404040404040405
+nmap advanced scripting,0,1,0,5
+nmap alternative,0,5,0,37.8
+nmap alternatives,0,1,0,45
+nmap and zenmap,0,171,0,11.24561403508772
+nmap and zenmap difference,0,19,0,5.947368421052632
+nmap default --min-parallelism value,0,1,0,11
+nmap fast,0,2,0,48
+nmap fast ping scan,0,2,0,58.5
+nmap fast scan,0,52,0,45.23076923076923
+nmap fastest scan,0,3,0,41.333333333333336
+nmap for vulnerability scanning,0,1,0,41
+nmap graphical,0,36,0,44.916666666666664
+nmap graphical interface,0,7,0,38.285714285714285
+nmap gui,0,5,0,36.6
+nmap intense scan,0,9,0,41.333333333333336
+nmap json output -oj 2025,0,3,0,8
+nmap legality,0,1,0,33
+nmap llm,0,1,0,24
+nmap max rate,0,4,0,24.75
+nmap max retries,0,2,0,43
+nmap network mapper purpose network discovery security auditing,0,1,0,10
+nmap network topology,0,1,0,29
+nmap parallel,0,12,0,15.25
+nmap parallel scan,0,17,0,9.235294117647058
+nmap parallelism,0,5,0,27.8
+nmap performance,0,5,0,12.6
+nmap reference guide -sn -pr -pe -st --max-rate --scan-delay -oa official,0,1,0,10
+nmap reference guide -sn -pr -pe -t2 --max-rate --scan-delay -oa official,0,12,0,11
+nmap reference guide -sn -pr -pe -t2 --max-rate --scan-delay -st -il -oa official,0,12,0,10.166666666666666
+nmap reference guide -sn -pr -pe -t2 --max-rate --scan-delay -st -oa official,0,1,0,11
+nmap scan all ports fast,0,1,0,52
+nmap scan for vulnerabilities,0,6,0,69.66666666666667
+nmap scan speed,0,6,0,23.666666666666668
+nmap scan vuln,0,3,0,55.666666666666664
+nmap scan vulnerabilities,0,1,0,39
+nmap script,0,1,0,93
+nmap scripts for honeypot detection,0,13,0,7.076923076923077
+nmap slow,0,4,0,30.25
+nmap slow comprehensive scan,0,7,0,30.714285714285715
+nmap slow scan,0,18,0,26.166666666666668
+nmap speed,0,8,0,47
+nmap speed up scan,0,2,0,20.5
+nmap ssl-enum-ciphers script usage -p 443,0,11,0,9.909090909090908
+nmap syn scan performance time,0,3,0,11.666666666666666
+nmap t flag,0,1,0,43
+nmap t0,0,3,0,40
+nmap t1,0,6,0,36
+nmap t3,0,2,0,11.5
+nmap t4,0,35,0,25.8
+nmap t5,0,3,0,52.333333333333336
+nmap time,0,1,0,48
+nmap timing,0,5,0,45.2
+nmap timing options,0,9,0,21.11111111111111
+nmap timing template,0,1,0,44
+nmap timing template -t2 description,0,5,0,11
+nmap timing templates,0,2,0,24
+nmap timing templates -t2,0,5,0,10
+nmap timing templates -t2 description,0,2,0,11
+nmap top ports,0,1,0,86
+nmap topology,0,1,0,21
+nmap topology mapping,0,1,0,20
+nmap vs,0,21,0,21.857142857142858
+nmap vs alternatives for network mapping,0,2,0,10
+nmap vs angry ip scanner,0,5,0,51.4
+nmap vs ping,0,1,0,62
+nmap vs zmap,0,14,0,18.428571428571427
+nmap vuln scan,0,2,0,73
+nmap vulnerabilities,0,2,0,32.5
+nmap vulnerability scan,0,51,0,88.31372549019608
+nmap vulnerability scanner,0,1,0,77
+nmap with gui,0,2,0,36
+nmap zenmap,0,245,0,20.069387755102042
+nmap zenmap gui,0,12,0,30.583333333333332
+nmap zmap,0,3,0,22.666666666666668
+nmap/zenmap,0,53,0,9
+no lm runtime found for model format 'gguf',0,8,0,16.875
+no lm runtime found for model format 'gguf'! lm studio,0,2,0,20
+no none of those,0,1,0,10
+nvfp4 gguf,0,1,0,24
+nvfp4 gguf llama.cpp,0,2,0,19.5
+"our existing network testing tools were built for traditional traffic. what's fundamentally different about testing an ai data center network, and why does that matter?",0,1,0,5
+owasp periodic table of vulnerabilities,0,1,0,19
+owasp top 10 web application vulnerabilities,0,2,0,29.5
+payload exploit,0,1,0,39
+payload generation,0,1,0,41
+payload metasploit,0,1,0,44
+payload meterpreter,0,1,0,64
+penetration testing workflow,0,38,0,63.078947368421055
+popular noc monitoring tools 2024,0,9,0,3.7777777777777777
+post quantum network security,0,1,0,72
+post-quantum network security,0,5,0,80.8
+proactive monitoring vs reactive monitoring,0,1,0,43
+proactive network monitoring,0,35,0,81.31428571428572
+pros and cons of metasploit,0,1,0,63
+q4_0 vs q8_0,0,1,0,43
+q6 gguf,0,2,0,24
+qkd components,0,1,0,87
+qkd explained,0,1,0,70
+qkd secure communications,0,1,0,41
+qkd systems,0,1,0,85
+qqsp-1.9.0 download,0,1,0,75
+quant monitor,0,1,0,8
+quanta monitor,0,1,0,4
+quantum address check,0,2,0,33.5
+quantum agent,0,3,0,48
+quantum compliance,0,6,0,34.166666666666664
+quantum computing readiness,0,3,0,70.66666666666667
+quantum cyber threat readiness,0,2,0,85.5
+quantum dashboard,0,6,0,8.5
+quantum firewall check point how does it support network segmentation,0,4,0,8.75
+quantum firewall network segmentation,0,124,0,4.39516129032258
+quantum firewall network segmentation support,0,4,0,7.25
+quantum key distribution for diplomatic purposes,0,1,0,46
+quantum key distribution hardware,0,1,0,77
+quantum key distribution secure communication,0,2,0,24
+quantum monitor,0,119,0,20.789915966386555
+quantum monitoring,0,10,0,19
+quantum network app,0,2,0,31
+quantum network architecture troubleshooting guide,0,4,0,27.5
+quantum preparedness,0,2,0,78.5
+quantum readiness,0,32,0,79.46875
+quantum readiness assessment,0,16,0,73.8125
+quantum readiness index,0,2,0,70
+quantum readiness security assessment,0,14,0,65.35714285714286
+quantum ready,0,21,0,61.285714285714285
+quantum ready security,0,3,0,31.666666666666668
+quantum resistance transition,0,8,0,18.875
+quantum scans website,0,1,0,16
+quantum supremacy useless,0,4,0,24.25
+quantum web dashboard,0,8,0,9.75
+quantum-cli,0,4,0,33
+quantum-ready cryptography,0,2,0,71.5
+quantum-ready encryption,0,7,0,76.85714285714286
+quantum-ready network security,0,19,0,34.36842105263158
+quantumcom.org,0,1,0,92
+quantumg beta test,0,1,0,8
+quantumscan.com,0,17,0,43.294117647058826
+quantumscan.org,0,1,0,20
+quantumserver.exe,0,1,0,10
+reactive monitoring,0,1,0,89
+reactive versus predictive network management,0,7,0,30.857142857142858
+reactive vs proactive monitoring,0,1,0,44
+ready for quantum,0,4,0,1.75
+ready for testing,0,1,0,41
+readyforquantum cmd processor searchengage,0,10,0,2.8
+readyforquantum freenetworkmonitor.click,0,41,0,1.1219512195121952
+readyforquantum get_user_info current_time logged_in email name account_type email_verified disabled_email_alerts host_limit turbo_llm_tokens,0,3,0,4.666666666666666
+readyforquantum get_user_info disabled_email_alerts host_limit turbo_llm_tokens,0,4,0,2.5
+readyforquantum local agent download,0,59,0,1.2542372881355932
+readyforquantum network monitor local agent download,0,97,0,1.0515463917525774
+readyforquantum searchengage,0,35,0,1.1714285714285715
+readyforquantum searchengage cmd processor,0,72,0,2.138888888888889
+readyforquantum searchengage cmd processor help,0,142,0,5.429577464788732
+readyforquantum searchengage cmd processor help searchengage,0,3,0,7.333333333333333
+readyforquantum searchengage cmd processor help searchengage scanner - eu,0,55,0,1.8181818181818183
+readyforquantum subscription,0,76,0,2.855263157894737
+readyforquantum.com,0,10,0,2.9
+readyforquantum.com freenetworkmonitor.click,0,32,0,1.0625
+readyforquantum.com local agent download,0,6,0,1.3333333333333333
+readyforquantum.com login button top right,0,5,0,1
+readyforquantum.com network monitor agent download,0,6,0,1
+readyforquantum.com network monitor local agent download,0,19,0,1
+readyforquantum.com quantum network monitor,0,48,0,1
+readyforquantum.com quantum network monitor freenetworkmonitor.click,0,47,0,1.0851063829787233
+readyforquantum.com quantum network monitor local agent download,0,4,0,1
+readyforquantum.com subscription,0,232,0,1.2327586206896552
+readyforquantum.com/subscription,0,51,0,1.0196078431372548
+readygo,0,1,0,2
+readymonitor,0,2,0,9
+real-time ssl health checks,0,2,0,65.5
+reality tls scanner online,0,1,0,49
+recommend partners for quantum computing cyber security readiness,0,1,0,11
+remote agent monitoring,0,1,0,81
+retail network uptime,0,2,0,28.5
+roi of network monitoring tools,0,3,0,7
+role of threat intelligence in apt prevention,0,17,0,61.23529411764706
+sam3 gguf,0,5,0,5.4
+scalable deception networks,0,1,0,26
+searchengage cmd processor help readyforquantum,0,27,0,1.1111111111111112
+searchengage cmd processor help readyforquantum scanner - eu,0,64,0,4.75
+searchengage cmd processor help readyforquantum searchengage,0,1,0,1
+searchengage cmd processor help scanner - eu readyforquantum,0,25,0,5.56
+searchengage cmd processor readyforquantum,0,30,0,2.1333333333333333
+searchengage cmd processor readyforquantum help file,0,5,0,3.6
+searchengage cmd processor readyforquantum help searchengage,0,3,0,7.666666666666667
+searchengage cmd processor readyforquantum scanner - eu,0,74,0,6.121621621621622
+searchengage cmd processor readyforquantum scanner - eu help,0,4,0,6.5
+searchengage cmd processor readyforquantum searchengage,0,16,0,2.5
+searchengage cmd processor readyforquantum searchengage help,0,92,0,4.641304347826087
+searchengage cmd processor scanner - eu readyforquantum,0,26,0,5.423076923076923
+searchengage readyforquantum cmd processor,0,5,0,2.8
+searchengage readyforquantum cmd processor help,0,54,0,1.8888888888888888
+searchengage readyforquantum cmd processor searchengage,0,1,0,4
+siem vs ai-native security tools,0,2,0,23.5
+"site:.click ""amazon"" ""login"" -site:amazon.com -site:amazon.co.uk -site:amazon.de -site:amazon.ca -site:amazon.in -site:amazon.co.jp -site:amazon.com.au -site:amazon.fr -site:amazon.it -site:amazon.es -site:aboutamazon.com -site:amazonaws.com -site:smile.amazon.com -site:primevideo.com -site:bestbuy.com -site:target.com -site:walmart.com -site:costco.com -site:samsclub.com -site:kroger.com -site:walgreens.com -site:cvs.com",0,8,0,9.25
+site:blog.readyforquantum.com,0,40,0,15.25
+site:freenetworkmonitor.click,0,5,0,1
+"site:freenetworkmonitor.click ""download""",0,46,0,1.1739130434782608
+"site:freenetworkmonitor.click ""free ai network monitor""",0,3,0,1
+site:freenetworkmonitor.click download,0,112,0,1.0446428571428572
+"site:freenetworkmonitor.click download ""local agent""",0,9,0,1
+site:freenetworkmonitor.click download desktop agent,0,7,0,1
+site:freenetworkmonitor.click download local agent,0,98,0,1
+site:freenetworkmonitor.click download local agent network monitor,0,18,0,1
+site:freenetworkmonitor.click download local agent readyforquantum,0,32,0,1
+site:freenetworkmonitor.click subscription,0,261,0,1
+site:freenetworkmonitor.click/download free network monitor download,0,22,0,1
+site:readyforquantum.com,0,6,0,17.666666666666668
+"site:readyforquantum.com ""daily top-up"" ""turbollm""",0,19,0,1
+"site:readyforquantum.com ""daily top-up"" turbollm tokens",0,44,0,1
+"site:readyforquantum.com ""desktop agent"" ""free ai network monitor""",0,2,0,1
+"site:readyforquantum.com ""desktop agent"" readyforquantum",0,17,0,1
+"site:readyforquantum.com ""download our desktop agent""",0,50,0,1
+"site:readyforquantum.com ""email_verified"" readyforquantum",0,6,0,1
+"site:readyforquantum.com ""fill 100k daily""",0,4,0,1
+"site:readyforquantum.com ""free ai network monitor""",0,106,0,1
+"site:readyforquantum.com ""freenetworkmonitor.click""",0,10,0,1
+"site:readyforquantum.com ""local agent"" ""readyforquantum""",0,15,0,1
+"site:readyforquantum.com ""local agent"" readyforquantum",0,63,0,1
+"site:readyforquantum.com ""local agents"" readyforquantum",0,48,0,1
+"site:readyforquantum.com ""login"" ""readyforquantum""",0,15,0,1
+"site:readyforquantum.com ""quantum network monitor""",0,107,0,1
+"site:readyforquantum.com ""quantum network monitor"" login",0,3,0,1
+"site:readyforquantum.com ""scanner - apac""",0,1,0,1
+"site:readyforquantum.com ""scanner - eu""",0,193,0,1
+"site:readyforquantum.com ""scanner - eu"" readyforquantum",0,40,0,1
+"site:readyforquantum.com ""scanner - eu"" readyforquantum agents",0,32,0,1
+"site:readyforquantum.com ""scanner - us""",0,9,0,1
+"site:readyforquantum.com ""turbollm tokens""",0,84,0,1
+"site:readyforquantum.com ""turbollm""",0,8,0,1
+"site:readyforquantum.com ""turbollm"" tokens",0,38,0,1
+site:readyforquantum.com download desktop agent readyforquantum,0,84,0,1
+site:readyforquantum.com freenetworkmonitor.click,0,7,0,1
+site:readyforquantum.com local agent download,0,30,0,1
+site:readyforquantum.com local agent readyforquantum download desktop agent,0,41,0,1
+site:readyforquantum.com quantum network monitor,0,27,0,1
+site:readyforquantum.com quantum network monitor local agent download,0,5,0,1
+site:readyforquantum.com quantum network monitor login,0,22,0,1
+site:readyforquantum.com quantum network monitor login readyforquantum,0,17,0,1
+site:readyforquantum.com quantum network monitor login readyforquantum assistant,0,7,0,1
+site:readyforquantum.com readyforquantum login,0,30,0,1
+site:readyforquantum.com readyforquantum login button top right,0,156,0,1
+site:readyforquantum.com readyforquantum login button top right quantum network monitor,0,24,0,1
+site:readyforquantum.com readyforquantum login quantum network monitor,0,172,0,1
+site:readyforquantum.com readyforquantum login top right,0,51,0,1
+site:readyforquantum.com readyforquantum login top right quantum network monitor,0,60,0,1
+site:readyforquantum.com readyforquantum subscription,0,186,0,1
+site:readyforquantum.com readyforquantum subscription tokens,0,34,0,1
+site:readyforquantum.com readyforquantum subscription turbollm tokens,0,18,0,1
+site:readyforquantum.com searchengage,0,2,0,1
+site:readyforquantum.com searchengage readyforquantum,0,2,0,1
+site:readyforquantum.com subscription ready for quantum,0,25,0,1
+site:readyforquantum.com subscription readyforquantum,0,375,0,1
+site:readyforquantum.com subscription readyforquantum turbollm tokens,0,16,0,1
+site:readyforquantum.com subscription tokens readyforquantum,0,19,0,1
+site:readyforquantum.com subscription turbollm tokens,0,23,0,1
+site:readyforquantum.com subscription turbollm tokens daily top-up readyforquantum,0,43,0,1
+site:readyforquantum.com turbollm tokens,0,12,0,1
+site:readyforquantum.com turbollm tokens daily top-up,0,72,0,1
+site:readyforquantum.com turbollm tokens readyforquantum,0,3,0,1
+site:readyforquantum.com turbollm tokens subscription,0,46,0,1
+site:readyforquantum.com turbollm tokens subscription readyforquantum,0,32,0,1
+site:readyforquantum.com/subscription ready for quantum subscription,0,7,0,1
+site:readyforquantum.com/subscription readyforquantum subscription,0,104,0,1
+snmap,0,1,0,1
+speed up nmap,0,2,0,12
+speed up nmap scan,0,1,0,28
+ssl vulnerability scanner,0,3,0,90.66666666666667
+ssltls,0,1,0,49
+streamlined network diagnostics,0,3,0,20
+t4 nmap,0,1,0,45
+tengo una rx 6600,0,1,0,12
+timing in nmap,0,1,0,25
+tips for preparing for post quantum cryptography,0,7,0,46.857142857142854
+tls monitoring,0,3,0,38.333333333333336
+tls scanner,0,1,0,97
+top 10 vulnerable machines,0,1,0,53
+top 10 web application vulnerabilities,0,1,0,7
+top cloud monitoring tools 2024,0,1,0,95
+top network monitoring platforms 2024,0,1,0,32
+top network monitoring tools 2024,0,7,0,29.714285714285715
+top qoe monitoring platforms telecom 2024,0,1,0,10
+top qoe monitoring solutions in telecom 2024,0,11,0,7.181818181818182
+top qoe monitoring solutions telecom 2024,0,20,0,5.7
+top web vulnerabilities,0,1,0,17
+traffic analytics development kit,0,2,0,76.5
+types of payloads,0,2,0,48.5
+uptime monitoring for ecommerce,0,6,0,41.5
+using zenmap,0,6,0,24.5
+vae-bf16.gguf,0,1,0,2
+visual nmap,0,1,0,25
+vs,0,1,0,6
+vuln scan nmap,0,2,0,79
+vulnerability scan nmap,0,1,0,44
+vulnerability scanner nmap,0,2,0,65
+vulnerability scanning nmap,0,1,0,52
+vulnerability scanning with nmap,0,3,0,69.66666666666667
+wake up network,0,2,0,52
+wan22enhancednsfwsvicamera_nsfwfastmovev2q8l.gguf,0,1,0,8
+web performance monitoring,0,6,0,83.83333333333333
+website performance monitoring,0,14,0,44.42857142857143
+wget test connection,0,1,0,8
+what about bf16,0,1,0,9
+what are ggufs,0,1,0,11
+what are self-contained payloads called?,0,1,0,19
+what are the best quantum monitoring platforms?,0,1,0,7
+what are the main features of zenmap?,0,13,0,7.538461538461538
+what are two exploitation frameworks? (choose two.),0,4,0,15.5
+what are two tasks that can be accomplished with the nmap and zenmap network tools,0,19,0,11.157894736842104
+what are two tasks that can be accomplished with the nmap and zenmap network tools? (choose two.),0,45,0,10.266666666666667
+what does a ping scan in zenmap do?,0,1,0,48
+what does zenmap do,0,23,0,13.347826086956522
+what is ai-powered network monitoring,0,3,0,35.333333333333336
+what is enterprise grade security,0,1,0,42
+what is gguf file format llama.cpp,0,2,0,16.5
+what is gguf format in llama.cpp,0,1,0,16
+what is gguf format llama.cpp,0,7,0,15.285714285714286
+what is gguf model format llama.cpp,0,1,0,13
+what is ggufs,0,1,0,8
+what is iq1_s quantization gguf,0,1,0,10
+what is network behavior analysis,0,33,0,32.54545454545455
+what is nmap and zenmap,0,6,0,8.5
+what is nmap zenmap gui,0,16,0,11.8125
+what is qkd,0,2,0,88
+what is quantum readiness,0,23,0,67.91304347826087
+what is reactive monitoring,0,1,0,77
+what is the difference between nmap and zenmap,0,5,0,8.6
+what is the maximum gpu memory supported by the gguf format?,0,7,0,10.142857142857142
+what is the maximum size of a gguf file?,0,5,0,9
+what is the memory usage of the gguf format?,0,1,0,11
+what is the minimum vram requirement for gguf?,0,1,0,11
+what is the process for a network service provider to become quantum safe,0,29,0,74.44827586206897
+what is the role of ai in advanced persistent threats,0,8,0,11
+what is the role of ai in apts,0,2,0,12
+what is the size of a gguf file?,0,1,0,11
+what is tls monitoring,0,1,0,31
+what is zenmap,0,151,0,17.655629139072847
+what is zenmap used for,0,12,0,20.75
+what is zenmap?,0,71,0,8.802816901408452
+what testing tool is available for network administrators who need a gui version of nmap?,0,7,0,8.142857142857142
+whats the answer,0,1,0,8
+when was nmap created,0,1,0,11
+where can i find quantum monitoring platforms?,0,40,0,6.75
+where is post-quantum cryptography generally tested before deployment in a network service provider scenario,0,3,0,37
+which gguf model to use,0,2,0,8.5
+which is better: burp suite vs. metasploit,0,10,0,11.7
+"which nmap scan combines a service version scan, an os detection scan, a traceroute, and custom scripts?",0,19,0,12.210526315789474
+which threat intelligence solutions are best for detecting apts and ransomware?,0,1,0,1
+why is it important to monitor latency in ai networks,0,1,0,93
+why is nmap so slow,0,1,0,30
+why monitor ssl certificates,0,2,0,70.5
+why multiple .gguf files different sizes huggingface llama.cpp,0,27,0,6.2592592592592595
+"why would a security administrator use zenmap's feature to ""save scans and compare them""?",0,1,0,6
+workflow penetration testing,0,3,0,59
+yes,0,5,0,6.4
+zanmap,0,1,0,32
+zemap,0,1,0,85
+zen map,0,3,0,13.666666666666666
+zen nmap,0,5,0,10.4
+zendmap,0,1,0,45
+zenmao,0,3,0,31.666666666666668
+zenmap,0,471,0,33.14437367303609
+zenmap (nmap),0,1,0,8
+zenmap / nmap,0,1,0,8
+zenmap alternative,0,1,0,27
+zenmap and nmap,0,33,0,10.969696969696969
+zenmap command,0,1,0,25
+zenmap for windows,0,4,0,61
+zenmap gui,0,6,0,27.166666666666668
+zenmap guide,0,1,0,26
+zenmap help,0,5,0,15.8
+zenmap interface,0,7,0,12.428571428571429
+zenmap is the graphical user interface for which tool?,0,1,0,13
+zenmap logo,0,2,0,23.5
+zenmap mac,0,3,0,52
+zenmap network scan,0,7,0,50
+zenmap network topology,0,39,0,13.461538461538462
+zenmap network topology map,0,1,0,10
+zenmap nmap,0,37,0,19.7027027027027
+zenmap online,0,1,0,52
+"zenmap profile ""service version detection""",0,5,0,3
+zenmap scan,0,4,0,36
+zenmap scan ip range,0,1,0,67
+zenmap scan network,0,31,0,47.193548387096776
+zenmap scan range,0,1,0,42
+zenmap software,0,1,0,18
+zenmap syntax,0,1,0,56
+zenmap target,0,2,0,14.5
+zenmap tool,0,3,0,22.333333333333332
+zenmap topology,0,25,0,17.56
+zenmap topology map,0,7,0,9.571428571428571
+zenmap topology view nmap,0,1,0,10
+zenmap tutorial,0,3,0,29.666666666666668
+zenmap use,0,1,0,81
+zenmap vulnerability scan,0,3,0,47.666666666666664
+zenmap windows,0,3,0,59.666666666666664
+zenmap windows 11 support 2025,0,2,0,3
+zenmaps,0,1,0,32
+zennmap,0,7,0,25.857142857142858
+zero false positive alerts,0,8,0,92.875
+zmap vs nmap,0,20,0,25.3
+znamp,0,1,0,17
+znmap,0,7,0,36.714285714285715
+ايهم افضل,0,1,0,7
+ネットワークモニタ,0,1,0,7
+工具推薦,0,1,0,6
+网络监控,0,3,0,27.666666666666668
+量子网络,0,1,0,49
+需要,0,1,0,8

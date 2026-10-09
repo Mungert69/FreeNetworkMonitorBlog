@@ -1,0 +1,123 @@
+{
+  "selection": "Posts with clicks in 90-day baseline ending 2026-10-04",
+  "posts": [
+    {
+      "page": "https://blog.readyforquantum.com/posts/automatingnmapscanswithaiastepbystepguide/",
+      "clicks": "14",
+      "impressions": "800",
+      "ctr": "0.0175",
+      "average_position": "7.4925",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://readyforquantum.com",
+          "text": "Main Site",
+          "in_article": false
+        }
+      ],
+      "source_links": []
+    },
+    {
+      "page": "https://blog.readyforquantum.com/posts/nmapvs.zenmapchoosingtherightnetworkmappingtool/",
+      "clicks": "7",
+      "impressions": "3200",
+      "ctr": "0.0021875",
+      "average_position": "13.3740625",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://readyforquantum.com",
+          "text": "Main Site",
+          "in_article": false
+        }
+      ],
+      "source_links": []
+    },
+    {
+      "page": "https://blog.readyforquantum.com/posts/nmapandhoneypotsenhancingnetworkdeceptiontechniques/",
+      "clicks": "5",
+      "impressions": "134",
+      "ctr": "0.03731343283582089",
+      "average_position": "6.41044776119403",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://readyforquantum.com",
+          "text": "Main Site",
+          "in_article": false
+        }
+      ],
+      "source_links": []
+    },
+    {
+      "page": "https://blog.readyforquantum.com/posts/metasploitandowasptop10addressingwebapplicationvulnerabilities/",
+      "clicks": "3",
+      "impressions": "97",
+      "ctr": "0.030927835051546393",
+      "average_position": "8.154639175257731",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://readyforquantum.com",
+          "text": "Main Site",
+          "in_article": false
+        }
+      ],
+      "source_links": []
+    },
+    {
+      "page": "https://blog.readyforquantum.com/posts/metasploitvs.otherexploitationframeworksacomparativeanalysis/",
+      "clicks": "2",
+      "impressions": "293",
+      "ctr": "0.006825938566552901",
+      "average_position": "16.829351535836178",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://readyforquantum.com",
+          "text": "Main Site",
+          "in_article": false
+        }
+      ],
+      "source_links": []
+    },
+    {
+      "page": "https://blog.readyforquantum.com/posts/nmapandcomplianceusingnetworkmappingforregulatoryrequirements/",
+      "clicks": "1",
+      "impressions": "15",
+      "ctr": "0.06666666666666667",
+      "average_position": "16",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://readyforquantum.com",
+          "text": "Main Site",
+          "in_article": false
+        }
+      ],
+      "source_links": []
+    },
+    {
+      "page": "https://blog.readyforquantum.com/posts/nmapperformancetuningoptimizingscansforlargenetworks/",
+      "clicks": "1",
+      "impressions": "975",
+      "ctr": "0.0010256410256410256",
+      "average_position": "18.69025641025641",
+      "status": 200,
+      "links": [
+        {
+          "url": "https://readyforquantum.com",
+          "text": "Main Site",
+          "in_article": false
+        }
+      ],
+      "source_links": []
+    }
+  ],
+  "destinations": {
+    "https://readyforquantum.com": {
+      "status": 200,
+      "final_url": "https://readyforquantum.com/"
+    }
+  }
+}
